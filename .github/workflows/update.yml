@@ -2,8 +2,9 @@ name: Update SP500 Signals
 
 on:
   schedule:
-    # Every 6 hours. EDGAR processing delay is < 1s for submissions, < 1m for XBRL.
-    - cron: '15 */6 * * *'
+    # Every 8 hours. Pipeline now does Form 4 + 8-K + NT + 13D/G + XBRL financials,
+    # which is more API calls per company. 8 hours gives plenty of headroom.
+    - cron: '15 */8 * * *'
   workflow_dispatch:
     inputs:
       max_companies:
@@ -14,6 +15,11 @@ on:
         description: 'Years of Form 4 history to backfill on first run'
         required: false
         default: '1'
+      skip_13dg:
+        description: 'Skip 13D/G fetching (much faster; recommended for first run)'
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -27,36 +33,34 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 350  # 5h50m - just under the 6h hard cap
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip'
-
       - name: Install deps
         run: pip install -r requirements.txt
-
       - name: Run pipeline
         env:
-          # SEC requires a User-Agent with your name + email. Set this as a
-          # repository secret named EDGAR_USER_AGENT, e.g. "Kumar Srinivasan kumar@example.com"
           EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
         run: |
           MAX_COMPANIES="${{ github.event.inputs.max_companies || '0' }}"
           BACKFILL_YEARS="${{ github.event.inputs.backfill_years || '1' }}"
+          SKIP_13DG_FLAG=""
+          if [ "${{ github.event.inputs.skip_13dg }}" = "true" ] || [ -z "${{ github.event.inputs.skip_13dg }}" ]; then
+            SKIP_13DG_FLAG="--skip-13dg"
+          fi
           python -m src.pipeline \
             --max-companies "$MAX_COMPANIES" \
-            --backfill-years "$BACKFILL_YEARS"
-
+            --backfill-years "$BACKFILL_YEARS" \
+            $SKIP_13DG_FLAG
       - name: Copy data into dashboard dir for Pages
         run: |
           cp data/companies.json dashboard/companies.json
           cp data/universe.json dashboard/universe.json || true
-
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
@@ -68,7 +72,6 @@ jobs:
             git commit -m "data: scheduled update $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -84,3 +87,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+Update workflow to v2
