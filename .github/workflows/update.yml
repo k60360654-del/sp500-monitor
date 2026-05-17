@@ -2,7 +2,7 @@ name: Update SP500 Signals
 
 on:
   schedule:
-    # Every 8 hours. Pipeline now does Form 4 + 8-K + NT + 13D/G + XBRL financials,
+    # Every 8 hours. Pipeline now does Form 4 + 8-K + NT + 13D/G + XBRL financials, 
     # which is more API calls per company. 8 hours gives plenty of headroom.
     - cron: '15 */8 * * *'
   workflow_dispatch:
