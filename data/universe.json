@@ -1,0 +1,3527 @@
+{
+  "updated_at": "2026-05-17",
+  "current_members": [
+    {
+      "ticker": "MMM",
+      "name": "3M",
+      "cik": 66740,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AOS",
+      "name": "A. O. Smith",
+      "cik": 91142,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott Laboratories",
+      "cik": 1800,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "cik": 1551152,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "cik": 1467373,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "cik": 796343,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "cik": 2488,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AES",
+      "name": "AES Corporation",
+      "cik": 874761,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AFL",
+      "name": "Aflac",
+      "cik": 4977,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "A",
+      "name": "Agilent Technologies",
+      "cik": 1090872,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "APD",
+      "name": "Air Products",
+      "cik": 2969,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "cik": 1559720,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies",
+      "cik": 1086222,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle Corporation",
+      "cik": 915913,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "cik": 1035443,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ALGN",
+      "name": "Align Technology",
+      "cik": 1097149,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ALLE",
+      "name": "Allegion",
+      "cik": 1579241,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LNT",
+      "name": "Alliant Energy",
+      "cik": 352541,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ALL",
+      "name": "Allstate",
+      "cik": 899051,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.(Class A)",
+      "cik": 1652044,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.(Class C)",
+      "cik": 1652044,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria",
+      "cik": 764180,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "cik": 1018724,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AMCR",
+      "name": "Amcor",
+      "cik": 1748790,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AEE",
+      "name": "Ameren",
+      "cik": 1002910,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AEP",
+      "name": "American Electric Power",
+      "cik": 4904,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "cik": 4962,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AIG",
+      "name": "American International Group",
+      "cik": 5272,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AMT",
+      "name": "American Tower",
+      "cik": 1053507,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AWK",
+      "name": "American Water Works",
+      "cik": 1410636,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AMP",
+      "name": "Ameriprise Financial",
+      "cik": 820027,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AME",
+      "name": "Ametek",
+      "cik": 1037868,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "cik": 318154,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "APH",
+      "name": "Amphenol",
+      "cik": 820313,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "cik": 6281,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AON",
+      "name": "Aon plc",
+      "cik": 315293,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "cik": 1841666,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "APO",
+      "name": "Apollo Global Management",
+      "cik": 1858681,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "cik": 320193,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "cik": 6951,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "cik": 1751008,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv",
+      "cik": 1521332,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ACGL",
+      "name": "Arch Capital Group",
+      "cik": 947484,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ADM",
+      "name": "Archer Daniels Midland",
+      "cik": 7084,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ARES",
+      "name": "Ares Management",
+      "cik": 1176948,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "cik": 1596532,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "cik": 354190,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AIZ",
+      "name": "Assurant",
+      "cik": 1267238,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "T",
+      "name": "AT&T",
+      "cik": 732717,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy",
+      "cik": 731802,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "cik": 769397,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ADP",
+      "name": "Automatic Data Processing",
+      "cik": 8670,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AZO",
+      "name": "AutoZone",
+      "cik": 866787,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AVB",
+      "name": "AvalonBay Communities",
+      "cik": 915912,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AVY",
+      "name": "Avery Dennison",
+      "cik": 8818,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "cik": 1069183,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BKR",
+      "name": "Baker Hughes",
+      "cik": 1701605,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BALL",
+      "name": "Ball Corporation",
+      "cik": 9389,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "cik": 70858,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BAX",
+      "name": "Baxter International",
+      "cik": 10456,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BDX",
+      "name": "Becton Dickinson",
+      "cik": 10795,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "cik": 1067983,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BBY",
+      "name": "Best Buy",
+      "cik": 764478,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne",
+      "cik": 842023,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "cik": 875045,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "cik": 2012383,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BX",
+      "name": "Blackstone Inc.",
+      "cik": 1393818,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "XYZ",
+      "name": "Block, Inc.",
+      "cik": 1512673,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BK",
+      "name": "BNY Mellon",
+      "cik": 1390777,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "cik": 12927,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings",
+      "cik": 1075531,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific",
+      "cik": 885725,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol Myers Squibb",
+      "cik": 14272,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "cik": 1730168,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BR",
+      "name": "Broadridge Financial Solutions",
+      "cik": 1383312,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BRO",
+      "name": "Brown & Brown",
+      "cik": 79282,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BF-B",
+      "name": "Brown\u2013Forman",
+      "cik": 14693,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "cik": 1316835,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Global",
+      "cik": 1996862,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BXP",
+      "name": "BXP, Inc.",
+      "cik": 1037540,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CHRW",
+      "name": "C.H. Robinson",
+      "cik": 1043277,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems",
+      "cik": 813672,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CPT",
+      "name": "Camden Property Trust",
+      "cik": 906345,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CPB",
+      "name": "Campbell's Company (The)",
+      "cik": 16732,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One",
+      "cik": 927628,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CAH",
+      "name": "Cardinal Health",
+      "cik": 721371,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival Corporation",
+      "cik": 815097,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CARR",
+      "name": "Carrier Global",
+      "cik": 1783180,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
+      "cik": 1690820,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CASY",
+      "name": "Casey's",
+      "cik": 726958,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar Inc.",
+      "cik": 18230,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CBOE",
+      "name": "Cboe Global Markets",
+      "cik": 1374310,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CBRE",
+      "name": "CBRE Group",
+      "cik": 1138118,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "cik": 1402057,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "COR",
+      "name": "Cencora",
+      "cik": 1140859,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CNC",
+      "name": "Centene Corporation",
+      "cik": 1071739,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CNP",
+      "name": "CenterPoint Energy",
+      "cik": 1130310,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "cik": 1324404,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CRL",
+      "name": "Charles River Laboratories",
+      "cik": 1100682,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab Corporation",
+      "cik": 316709,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "cik": 1091667,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "cik": 93410,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "cik": 1058090,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CB",
+      "name": "Chubb Limited",
+      "cik": 896159,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CHD",
+      "name": "Church & Dwight",
+      "cik": 313927,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CIEN",
+      "name": "Ciena",
+      "cik": 936395,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CI",
+      "name": "Cigna",
+      "cik": 1739940,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CINF",
+      "name": "Cincinnati Financial",
+      "cik": 20286,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CTAS",
+      "name": "Cintas",
+      "cik": 723254,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "cik": 858877,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "cik": 831001,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CFG",
+      "name": "Citizens Financial Group",
+      "cik": 759944,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CLX",
+      "name": "Clorox",
+      "cik": 21076,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CME",
+      "name": "CME Group",
+      "cik": 1156375,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CMS",
+      "name": "CMS Energy",
+      "cik": 811156,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KO",
+      "name": "Coca-Cola Company (The)",
+      "cik": 21344,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CTSH",
+      "name": "Cognizant",
+      "cik": 1058290,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "cik": 820318,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "cik": 1679788,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CL",
+      "name": "Colgate-Palmolive",
+      "cik": 21665,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CMCSA",
+      "name": "Comcast",
+      "cik": 1166691,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA",
+      "cik": 1035983,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CAG",
+      "name": "Conagra Brands",
+      "cik": 23217,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "cik": 1163165,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ED",
+      "name": "Consolidated Edison",
+      "cik": 1047862,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "STZ",
+      "name": "Constellation Brands",
+      "cik": 16918,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "cik": 1868275,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "COO",
+      "name": "Cooper Companies (The)",
+      "cik": 711404,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CPRT",
+      "name": "Copart",
+      "cik": 900075,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Inc.",
+      "cik": 24741,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CPAY",
+      "name": "Corpay",
+      "cik": 1175454,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "cik": 1755672,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "cik": 1057352,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "cik": 909832,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CRH",
+      "name": "CRH plc",
+      "cik": 849395,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "cik": 1535527,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CCI",
+      "name": "Crown Castle",
+      "cik": 1051470,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX Corporation",
+      "cik": 277948,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CMI",
+      "name": "Cummins",
+      "cik": 26172,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "cik": 64803,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher Corporation",
+      "cik": 313616,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DRI",
+      "name": "Darden Restaurants",
+      "cik": 940944,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "cik": 1561550,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DVA",
+      "name": "DaVita",
+      "cik": 927066,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DECK",
+      "name": "Deckers Brands",
+      "cik": 910521,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "cik": 315189,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "cik": 1571996,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "cik": 27904,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DVN",
+      "name": "Devon Energy",
+      "cik": 1090012,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DXCM",
+      "name": "Dexcom",
+      "cik": 1093557,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "cik": 1539838,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty",
+      "cik": 1297996,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DG",
+      "name": "Dollar General",
+      "cik": 29534,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "cik": 935703,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "D",
+      "name": "Dominion Energy",
+      "cik": 715957,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DPZ",
+      "name": "Domino's",
+      "cik": 1286681,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DASH",
+      "name": "DoorDash",
+      "cik": 1792789,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DOV",
+      "name": "Dover Corporation",
+      "cik": 29905,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow Inc.",
+      "cik": 1751788,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DHI",
+      "name": "D. R. Horton",
+      "cik": 882184,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DTE",
+      "name": "DTE Energy",
+      "cik": 936340,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "cik": 1326160,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DD",
+      "name": "DuPont",
+      "cik": 1666700,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
+      "cik": 1551182,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
+      "cik": 1065088,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SATS",
+      "name": "EchoStar",
+      "cik": 1415404,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab",
+      "cik": 31462,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EIX",
+      "name": "Edison International",
+      "cik": 827052,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EW",
+      "name": "Edwards Lifesciences",
+      "cik": 1099800,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EA",
+      "name": "Electronic Arts",
+      "cik": 712515,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "cik": 1156039,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EME",
+      "name": "Emcor",
+      "cik": 105634,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EMR",
+      "name": "Emerson Electric",
+      "cik": 32604,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ETR",
+      "name": "Entergy",
+      "cik": 65984,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources",
+      "cik": 821189,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EPAM",
+      "name": "EPAM Systems",
+      "cik": 1352010,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EQT",
+      "name": "EQT Corporation",
+      "cik": 33213,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EFX",
+      "name": "Equifax",
+      "cik": 33185,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EQIX",
+      "name": "Equinix",
+      "cik": 1101239,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EQR",
+      "name": "Equity Residential",
+      "cik": 906107,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ERIE",
+      "name": "Erie Indemnity",
+      "cik": 922621,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ESS",
+      "name": "Essex Property Trust",
+      "cik": 920522,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EL",
+      "name": "Est\u00e9e Lauder Companies (The)",
+      "cik": 1001250,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EG",
+      "name": "Everest Group",
+      "cik": 1095073,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EVRG",
+      "name": "Evergy",
+      "cik": 1711269,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ES",
+      "name": "Eversource Energy",
+      "cik": 72741,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EXC",
+      "name": "Exelon",
+      "cik": 1109357,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy",
+      "cik": 895126,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EXPE",
+      "name": "Expedia Group",
+      "cik": 1324424,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EXPD",
+      "name": "Expeditors International",
+      "cik": 746515,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "EXR",
+      "name": "Extra Space Storage",
+      "cik": 1289490,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "XOM",
+      "name": "ExxonMobil",
+      "cik": 34088,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FFIV",
+      "name": "F5, Inc.",
+      "cik": 1048695,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FDS",
+      "name": "FactSet",
+      "cik": 1013237,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FICO",
+      "name": "Fair Isaac",
+      "cik": 814547,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal",
+      "cik": 815556,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FRT",
+      "name": "Federal Realty Investment Trust",
+      "cik": 34903,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FDX",
+      "name": "FedEx",
+      "cik": 1048911,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FIS",
+      "name": "Fidelity National Information Services",
+      "cik": 1136893,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FITB",
+      "name": "Fifth Third Bancorp",
+      "cik": 35527,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "cik": 1274494,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FE",
+      "name": "FirstEnergy",
+      "cik": 1031296,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "cik": 798354,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "F",
+      "name": "Ford Motor Company",
+      "cik": 37996,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "cik": 1262039,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FTV",
+      "name": "Fortive",
+      "cik": 1659166,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FOXA",
+      "name": "Fox Corporation(Class A)",
+      "cik": 1754301,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FOX",
+      "name": "Fox Corporation(Class B)",
+      "cik": 1754301,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "BEN",
+      "name": "Franklin Resources",
+      "cik": 38777,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
+      "cik": 831259,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GRMN",
+      "name": "Garmin",
+      "cik": 1121788,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IT",
+      "name": "Gartner",
+      "cik": 749251,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "cik": 40545,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare",
+      "cik": 1932393,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "cik": 1996810,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "cik": 849399,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GNRC",
+      "name": "Generac",
+      "cik": 1474735,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "cik": 40533,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GIS",
+      "name": "General Mills",
+      "cik": 40704,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GM",
+      "name": "General Motors",
+      "cik": 1467858,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GPC",
+      "name": "Genuine Parts Company",
+      "cik": 40987,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences",
+      "cik": 882095,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "cik": 1123360,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GL",
+      "name": "Globe Life",
+      "cik": 320335,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "cik": 1609711,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "cik": 886982,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton",
+      "cik": 45012,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HIG",
+      "name": "Hartford (The)",
+      "cik": 874766,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HAS",
+      "name": "Hasbro",
+      "cik": 46080,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HCA",
+      "name": "HCA Healthcare",
+      "cik": 860730,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DOC",
+      "name": "Healthpeak Properties",
+      "cik": 765880,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HSIC",
+      "name": "Henry Schein",
+      "cik": 1000228,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HSY",
+      "name": "Hershey Company (The)",
+      "cik": 47111,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "cik": 1645590,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HLT",
+      "name": "Hilton Worldwide",
+      "cik": 1585689,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HD",
+      "name": "Home Depot (The)",
+      "cik": 354950,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HON",
+      "name": "Honeywell",
+      "cik": 773840,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HRL",
+      "name": "Hormel Foods",
+      "cik": 48465,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts",
+      "cik": 1070750,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace",
+      "cik": 4281,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "cik": 47217,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HUBB",
+      "name": "Hubbell Incorporated",
+      "cik": 48898,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HUM",
+      "name": "Humana",
+      "cik": 49071,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HBAN",
+      "name": "Huntington Bancshares",
+      "cik": 49196,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HII",
+      "name": "Huntington Ingalls Industries",
+      "cik": 1501585,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IBM",
+      "name": "IBM",
+      "cik": 51143,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IEX",
+      "name": "IDEX Corporation",
+      "cik": 832101,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IDXX",
+      "name": "Idexx Laboratories",
+      "cik": 874716,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ITW",
+      "name": "Illinois Tool Works",
+      "cik": 49826,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "INCY",
+      "name": "Incyte",
+      "cik": 879169,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IR",
+      "name": "Ingersoll Rand",
+      "cik": 1699150,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "cik": 1145197,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "cik": 50863,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers",
+      "cik": 1381197,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ICE",
+      "name": "Intercontinental Exchange",
+      "cik": 1571949,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IFF",
+      "name": "International Flavors & Fragrances",
+      "cik": 51253,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IP",
+      "name": "International Paper",
+      "cik": 51434,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit",
+      "cik": 896878,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "cik": 1035267,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IVZ",
+      "name": "Invesco",
+      "cik": 914208,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "INVH",
+      "name": "Invitation Homes",
+      "cik": 1687229,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA",
+      "cik": 1478242,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "IRM",
+      "name": "Iron Mountain",
+      "cik": 1020569,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "JBHT",
+      "name": "J.B. Hunt",
+      "cik": 728535,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "JBL",
+      "name": "Jabil",
+      "cik": 898293,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "JKHY",
+      "name": "Jack Henry & Associates",
+      "cik": 779152,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "J",
+      "name": "Jacobs Solutions",
+      "cik": 52988,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "cik": 200406,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "JCI",
+      "name": "Johnson Controls",
+      "cik": 833444,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "cik": 19617,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KVUE",
+      "name": "Kenvue",
+      "cik": 1944048,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KDP",
+      "name": "Keurig Dr Pepper",
+      "cik": 1418135,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KEY",
+      "name": "KeyCorp",
+      "cik": 91576,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies",
+      "cik": 1601046,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KMB",
+      "name": "Kimberly-Clark",
+      "cik": 55785,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KIM",
+      "name": "Kimco Realty",
+      "cik": 879101,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KMI",
+      "name": "Kinder Morgan",
+      "cik": 1506307,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KKR",
+      "name": "KKR & Co.",
+      "cik": 1404912,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "cik": 319201,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KHC",
+      "name": "Kraft Heinz",
+      "cik": 1637459,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "KR",
+      "name": "Kroger",
+      "cik": 56873,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LHX",
+      "name": "L3Harris",
+      "cik": 202058,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LH",
+      "name": "Labcorp",
+      "cik": 920148,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "cik": 707549,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LVS",
+      "name": "Las Vegas Sands",
+      "cik": 1300514,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "cik": 1336920,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LEN",
+      "name": "Lennar",
+      "cik": 920760,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International",
+      "cik": 1069202,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LLY",
+      "name": "Lilly (Eli)",
+      "cik": 59478,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "cik": 1707925,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LYV",
+      "name": "Live Nation Entertainment",
+      "cik": 1335258,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "cik": 936468,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "L",
+      "name": "Loews Corporation",
+      "cik": 60086,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's",
+      "cik": 60667,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LULU",
+      "name": "Lululemon Athletica",
+      "cik": 1397187,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "cik": 1633978,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LYB",
+      "name": "LyondellBasell",
+      "cik": 1489393,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MTB",
+      "name": "M&T Bank",
+      "cik": 36270,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "cik": 1510295,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "cik": 1048286,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MRSH",
+      "name": "Marsh McLennan",
+      "cik": 62709,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MLM",
+      "name": "Martin Marietta Materials",
+      "cik": 916076,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MAS",
+      "name": "Masco",
+      "cik": 62996,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "cik": 1141391,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MKC",
+      "name": "McCormick & Company",
+      "cik": 63754,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MCD",
+      "name": "McDonald's",
+      "cik": 63908,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MCK",
+      "name": "McKesson Corporation",
+      "cik": 927653,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "cik": 1613103,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co.",
+      "cik": 310158,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "cik": 1326801,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife",
+      "cik": 1099219,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MTD",
+      "name": "Mettler Toledo",
+      "cik": 1037646,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MGM",
+      "name": "MGM Resorts",
+      "cik": 789570,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "cik": 827054,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "cik": 723125,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "cik": 789019,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MAA",
+      "name": "Mid-America Apartment Communities",
+      "cik": 912595,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "cik": 1682852,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TAP",
+      "name": "Molson Coors Beverage Company",
+      "cik": 24545,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MDLZ",
+      "name": "Mondelez International",
+      "cik": 1103982,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems",
+      "cik": 1280452,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage",
+      "cik": 865752,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MCO",
+      "name": "Moody's Corporation",
+      "cik": 1059556,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "cik": 895421,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "cik": 1285785,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions",
+      "cik": 68505,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "MSCI",
+      "name": "MSCI Inc.",
+      "cik": 1408198,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "cik": 1120193,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NTAP",
+      "name": "NetApp",
+      "cik": 1002047,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "cik": 1065280,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont",
+      "cik": 1164727,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NWSA",
+      "name": "News Corp(Class A)",
+      "cik": 1564708,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NWS",
+      "name": "News Corp(Class B)",
+      "cik": 1564708,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "cik": 753308,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "cik": 320187,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NI",
+      "name": "NiSource",
+      "cik": 1111711,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NDSN",
+      "name": "Nordson Corporation",
+      "cik": 72331,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NSC",
+      "name": "Norfolk Southern",
+      "cik": 702165,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "cik": 73124,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "cik": 1133421,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "cik": 1513761,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy",
+      "cik": 1013871,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "cik": 73309,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "cik": 1045810,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NVR",
+      "name": "NVR, Inc.",
+      "cik": 906163,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors",
+      "cik": 1413447,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ORLY",
+      "name": "O\u2019Reilly Automotive",
+      "cik": 898173,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "cik": 797468,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ODFL",
+      "name": "Old Dominion",
+      "cik": 878927,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "OMC",
+      "name": "Omnicom Group",
+      "cik": 29989,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ON",
+      "name": "ON Semiconductor",
+      "cik": 1097864,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "OKE",
+      "name": "Oneok",
+      "cik": 1039684,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "cik": 1341439,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "OTIS",
+      "name": "Otis Worldwide",
+      "cik": 1781335,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PCAR",
+      "name": "Paccar",
+      "cik": 75362,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PKG",
+      "name": "Packaging Corporation of America",
+      "cik": 75677,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "cik": 1321655,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "cik": 1327567,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "cik": 2041610,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PH",
+      "name": "Parker Hannifin",
+      "cik": 76334,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PAYX",
+      "name": "Paychex",
+      "cik": 723531,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PYPL",
+      "name": "PayPal",
+      "cik": 1633917,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PNR",
+      "name": "Pentair",
+      "cik": 77360,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo",
+      "cik": 77476,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "cik": 78003,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E Corporation",
+      "cik": 1004980,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris International",
+      "cik": 1413329,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "cik": 1534701,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PNW",
+      "name": "Pinnacle West Capital",
+      "cik": 764622,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial Services",
+      "cik": 713676,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "POOL",
+      "name": "Pool Corporation",
+      "cik": 945841,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PPG",
+      "name": "PPG Industries",
+      "cik": 79879,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PPL",
+      "name": "PPL Corporation",
+      "cik": 922224,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PFG",
+      "name": "Principal Financial Group",
+      "cik": 1126328,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "cik": 80424,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PGR",
+      "name": "Progressive Corporation",
+      "cik": 80661,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PLD",
+      "name": "Prologis",
+      "cik": 1045609,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PRU",
+      "name": "Prudential Financial",
+      "cik": 1137774,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PEG",
+      "name": "Public Service Enterprise Group",
+      "cik": 788784,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PTC",
+      "name": "PTC Inc.",
+      "cik": 857005,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PSA",
+      "name": "Public Storage",
+      "cik": 1393311,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PHM",
+      "name": "PulteGroup",
+      "cik": 822416,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "cik": 1050915,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "cik": 804328,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DGX",
+      "name": "Quest Diagnostics",
+      "cik": 1022079,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "Q",
+      "name": "Qnity Electronics",
+      "cik": 2058873,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RL",
+      "name": "Ralph Lauren Corporation",
+      "cik": 1037038,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RJF",
+      "name": "Raymond James Financial",
+      "cik": 720005,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "cik": 101829,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "O",
+      "name": "Realty Income",
+      "cik": 726728,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "REG",
+      "name": "Regency Centers",
+      "cik": 910606,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "cik": 872589,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RF",
+      "name": "Regions Financial Corporation",
+      "cik": 1281761,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RSG",
+      "name": "Republic Services",
+      "cik": 1060391,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "cik": 943819,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RVTY",
+      "name": "Revvity",
+      "cik": 31791,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Robinhood Markets",
+      "cik": 1783879,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ROK",
+      "name": "Rockwell Automation",
+      "cik": 1024478,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ROL",
+      "name": "Rollins, Inc.",
+      "cik": 84839,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ROP",
+      "name": "Roper Technologies",
+      "cik": 882835,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ROST",
+      "name": "Ross Stores",
+      "cik": 745732,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RCL",
+      "name": "Royal Caribbean Group",
+      "cik": 884887,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SPGI",
+      "name": "S&P Global",
+      "cik": 64040,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "cik": 1108524,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "cik": 2023554,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SBAC",
+      "name": "SBA Communications",
+      "cik": 1034054,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "cik": 87347,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "cik": 1137789,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SRE",
+      "name": "Sempra",
+      "cik": 1032208,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "cik": 1373715,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SHW",
+      "name": "Sherwin-Williams",
+      "cik": 89800,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SPG",
+      "name": "Simon Property Group",
+      "cik": 1063761,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks Solutions",
+      "cik": 4127,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SJM",
+      "name": "J.M. Smucker Company (The)",
+      "cik": 91419,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SW",
+      "name": "Smurfit Westrock",
+      "cik": 2005951,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SNA",
+      "name": "Snap-on",
+      "cik": 91440,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SOLV",
+      "name": "Solventum",
+      "cik": 1964738,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company",
+      "cik": 92122,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "LUV",
+      "name": "Southwest Airlines",
+      "cik": 92380,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SWK",
+      "name": "Stanley Black & Decker",
+      "cik": 93556,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SBUX",
+      "name": "Starbucks",
+      "cik": 829224,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street Corporation",
+      "cik": 93751,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics",
+      "cik": 1022671,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "STE",
+      "name": "Steris",
+      "cik": 1757898,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SYK",
+      "name": "Stryker Corporation",
+      "cik": 310764,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Supermicro",
+      "cik": 1375365,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SYF",
+      "name": "Synchrony Financial",
+      "cik": 1601712,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "cik": 883241,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SYY",
+      "name": "Sysco",
+      "cik": 96021,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US",
+      "cik": 1283699,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TROW",
+      "name": "T. Rowe Price",
+      "cik": 1113169,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive",
+      "cik": 946581,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "cik": 1116132,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TRGP",
+      "name": "Targa Resources",
+      "cik": 1389170,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corporation",
+      "cik": 27419,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TEL",
+      "name": "TE Connectivity",
+      "cik": 1385157,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TDY",
+      "name": "Teledyne Technologies",
+      "cik": 1094285,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne",
+      "cik": 97210,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "cik": 1318605,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "cik": 97476,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "cik": 1811074,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TXT",
+      "name": "Textron",
+      "cik": 217346,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "cik": 97745,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies",
+      "cik": 109198,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TKO",
+      "name": "TKO Group Holdings",
+      "cik": 1973266,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TTD",
+      "name": "Trade Desk (The)",
+      "cik": 1671933,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TSCO",
+      "name": "Tractor Supply",
+      "cik": 916365,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TT",
+      "name": "Trane Technologies",
+      "cik": 1466258,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TDG",
+      "name": "TransDigm Group",
+      "cik": 1260221,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TRV",
+      "name": "Travelers Companies (The)",
+      "cik": 86312,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TRMB",
+      "name": "Trimble Inc.",
+      "cik": 864749,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TFC",
+      "name": "Truist Financial",
+      "cik": 92230,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TYL",
+      "name": "Tyler Technologies",
+      "cik": 860731,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "TSN",
+      "name": "Tyson Foods",
+      "cik": 100493,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "cik": 36104,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber",
+      "cik": 1543151,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "UDR",
+      "name": "UDR, Inc.",
+      "cik": 74208,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ULTA",
+      "name": "Ulta Beauty",
+      "cik": 1403568,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "cik": 100885,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines Holdings",
+      "cik": 100517,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "UPS",
+      "name": "United Parcel Service",
+      "cik": 1090727,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "URI",
+      "name": "United Rentals",
+      "cik": 1067701,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group",
+      "cik": 731766,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "UHS",
+      "name": "Universal Health Services",
+      "cik": 352915,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "cik": 1035002,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VEEV",
+      "name": "Veeva Systems",
+      "cik": 1393052,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VTR",
+      "name": "Ventas",
+      "cik": 740260,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VLTO",
+      "name": "Veralto",
+      "cik": 1967680,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VRSN",
+      "name": "Verisign",
+      "cik": 1014473,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics",
+      "cik": 1442145,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VZ",
+      "name": "Verizon",
+      "cik": 732712,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "cik": 875320,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "cik": 1674101,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VTRS",
+      "name": "Viatris",
+      "cik": 1792044,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VICI",
+      "name": "Vici Properties",
+      "cik": 1705696,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "cik": 1403161,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "cik": 1692819,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "VMC",
+      "name": "Vulcan Materials Company",
+      "cik": 1396009,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WRB",
+      "name": "W. R. Berkley Corporation",
+      "cik": 11544,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "GWW",
+      "name": "W. W. Grainger",
+      "cik": 277135,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WAB",
+      "name": "Wabtec",
+      "cik": 943452,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart",
+      "cik": 104169,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "DIS",
+      "name": "Walt Disney Company (The)",
+      "cik": 1744489,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WBD",
+      "name": "Warner Bros. Discovery",
+      "cik": 1437107,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WM",
+      "name": "Waste Management",
+      "cik": 823768,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "cik": 1000697,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WEC",
+      "name": "WEC Energy Group",
+      "cik": 783325,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "cik": 72971,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower",
+      "cik": 766704,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WST",
+      "name": "West Pharmaceutical Services",
+      "cik": 105770,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "cik": 106040,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WY",
+      "name": "Weyerhaeuser",
+      "cik": 106535,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WSM",
+      "name": "Williams-Sonoma, Inc.",
+      "cik": 719955,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WMB",
+      "name": "Williams Companies",
+      "cik": 107263,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WTW",
+      "name": "Willis Towers Watson",
+      "cik": 1140536,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WDAY",
+      "name": "Workday, Inc.",
+      "cik": 1327811,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "WYNN",
+      "name": "Wynn Resorts",
+      "cik": 1174922,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "XEL",
+      "name": "Xcel Energy",
+      "cik": 72903,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "XYL",
+      "name": "Xylem Inc.",
+      "cik": 1524472,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "YUM",
+      "name": "Yum! Brands",
+      "cik": 1041061,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies",
+      "cik": 877212,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ZBH",
+      "name": "Zimmer Biomet",
+      "cik": 1136869,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ZTS",
+      "name": "Zoetis",
+      "cik": 1555280,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    }
+  ],
+  "removed_members": []
+}
