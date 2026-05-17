@@ -1,0 +1,86 @@
+name: Update SP500 Signals
+
+on:
+  schedule:
+    # Every 6 hours. EDGAR processing delay is < 1s for submissions, < 1m for XBRL.
+    - cron: '15 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      max_companies:
+        description: 'Limit universe size (0 = full S&P 500)'
+        required: false
+        default: '0'
+      backfill_years:
+        description: 'Years of Form 4 history to backfill on first run'
+        required: false
+        default: '1'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "sp500-monitor"
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          # SEC requires a User-Agent with your name + email. Set this as a
+          # repository secret named EDGAR_USER_AGENT, e.g. "Kumar Srinivasan kumar@example.com"
+          EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+        run: |
+          MAX_COMPANIES="${{ github.event.inputs.max_companies || '0' }}"
+          BACKFILL_YEARS="${{ github.event.inputs.backfill_years || '1' }}"
+          python -m src.pipeline \
+            --max-companies "$MAX_COMPANIES" \
+            --backfill-years "$BACKFILL_YEARS"
+
+      - name: Copy data into dashboard dir for Pages
+        run: |
+          cp data/companies.json dashboard/companies.json
+          cp data/universe.json dashboard/universe.json || true
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ dashboard/companies.json dashboard/universe.json || true
+          if git diff --staged --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "data: scheduled update $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
