@@ -1,12 +1,10 @@
 """Main pipeline orchestrator.
 
-Run with:
-    python -m src.pipeline
-
-Or with options:
-    python -m src.pipeline --max-companies 50           # limit universe (for testing)
-    python -m src.pipeline --insider-lookback-days 180  # override window
-    python -m src.pipeline --skip-universe-refresh      # skip Wikipedia fetch
+Usage:
+    python -m src.pipeline                              # full S&P 500
+    python -m src.pipeline --max-companies 50           # smoke test
+    python -m src.pipeline --skip-13dg                  # disable expensive 13D/G fetching
+    python -m src.pipeline --insider-lookback-days 180  # widen window
 """
 from __future__ import annotations
 
@@ -18,51 +16,42 @@ from dataclasses import asdict
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import edgar, universe, form4, shares, scoring
+from . import edgar, universe, form4, shares, eightk, thirteendg, financials, scoring
 
 log = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 UNIVERSE_PATH = DATA_DIR / "universe.json"
-TRANSACTIONS_PATH = DATA_DIR / "transactions.json"  # cached raw transactions
-SHARE_COUNTS_PATH = DATA_DIR / "share_counts.json"  # cached share count series
-OUTPUT_PATH = DATA_DIR / "companies.json"           # consumed by the dashboard
-META_PATH = DATA_DIR / "meta.json"                  # last-run metadata
+TRANSACTIONS_PATH = DATA_DIR / "transactions.json"
+SHARE_COUNTS_PATH = DATA_DIR / "share_counts.json"
+OUTPUT_PATH = DATA_DIR / "companies.json"
+META_PATH = DATA_DIR / "meta.json"
 
 
 def setup_logging():
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
-        stream=sys.stdout,
-    )
+    logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+                        stream=sys.stdout)
 
 
-def load_json(path: Path, default):
+def load_json(path, default):
     if not path.exists():
         return default
     return json.loads(path.read_text())
 
 
-def save_json(path: Path, obj) -> None:
+def save_json(path, obj):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(obj, indent=2, default=str))
 
 
-def update_form4_for_company(cik: int, *, since_date: str,
-                              transactions_cache: dict) -> list[form4.Transaction]:
-    """Update the cached transactions for a CIK.
-
-    transactions_cache is keyed by str(cik) -> list of transaction dicts.
-    Returns the full current list of Transaction objects for the CIK.
-    """
+def update_form4_for_company(cik, since_date, transactions_cache):
     cik_key = str(cik)
     existing = transactions_cache.get(cik_key, [])
     known_accessions = {t["accession"] for t in existing}
-
     recent_filings = form4.list_recent_form4_accessions(cik, since_date=since_date)
-    new_transactions: list[form4.Transaction] = []
+    new_transactions = []
     for filing in recent_filings:
         if filing["accession"] in known_accessions:
             continue
@@ -72,40 +61,31 @@ def update_form4_for_company(cik: int, *, since_date: str,
             log.warning("Form 4 parse failed cik=%s acc=%s: %s", cik, filing["accession"], e)
             continue
         new_transactions.extend(txs)
-
-    # Convert to dict for caching
     merged = list(existing) + [asdict(t) for t in new_transactions]
     transactions_cache[cik_key] = merged
-    # Rebuild as Transaction objects for downstream use
     return [form4.Transaction(**t) for t in merged]
 
 
-def update_share_counts_for_company(cik: int, share_cache: dict) -> list[shares.QuarterlyShareCount]:
-    """Refresh quarterly share counts for a CIK and update cache."""
+def update_share_counts_for_company(cik, share_cache):
     cik_key = str(cik)
     observations = shares.get_quarterly_share_counts(cik)
     share_cache[cik_key] = [
-        {
-            "period_end": o.period_end,
-            "value": o.value,
-            "accession": o.accession,
-            "form": o.form,
-            "filed_date": o.filed_date,
-        }
+        {"period_end": o.period_end, "value": o.value,
+         "accession": o.accession, "form": o.form, "filed_date": o.filed_date}
         for o in observations
     ]
     return observations
 
 
-def run(*, max_companies: int = 0, skip_universe_refresh: bool = False,
-         weights: scoring.ScoreWeights = None,
-         backfill_years: int = 1) -> None:
+def run(*, max_companies=0, skip_universe_refresh=False, skip_13dg=False,
+         weights=None, backfill_years=1):
     weights = weights or scoring.ScoreWeights()
     today = date.today()
     insider_since = (today - timedelta(days=weights.insider_lookback_days)).isoformat()
+    eightk_since = (today - timedelta(days=weights.eightk_lookback_days)).isoformat()
     backfill_since = (today - timedelta(days=365 * backfill_years)).isoformat()
+    thirteendg_since = (today - timedelta(days=365 * 2)).isoformat()
 
-    # 1. Universe
     if skip_universe_refresh and UNIVERSE_PATH.exists():
         u = json.loads(UNIVERSE_PATH.read_text())
         members = u["current_members"]
@@ -119,11 +99,9 @@ def run(*, max_companies: int = 0, skip_universe_refresh: bool = False,
     if max_companies > 0:
         members = members[:max_companies]
 
-    # 2. Load caches
     transactions_cache = load_json(TRANSACTIONS_PATH, {})
     share_cache = load_json(SHARE_COUNTS_PATH, {})
 
-    # 3. Per-company: refresh data and score
     company_scores = []
     for i, m in enumerate(members):
         cik = m.get("cik")
@@ -132,32 +110,82 @@ def run(*, max_companies: int = 0, skip_universe_refresh: bool = False,
             log.warning("Skipping %s - no CIK", ticker)
             continue
         log.info("[%d/%d] %s (CIK %s)", i + 1, len(members), ticker, cik)
+
+        # Form 4 (insider transactions)
         try:
-            txs = update_form4_for_company(cik, since_date=backfill_since,
-                                            transactions_cache=transactions_cache)
-            obs = update_share_counts_for_company(cik, share_cache)
+            txs = update_form4_for_company(cik, backfill_since, transactions_cache)
         except Exception as e:
-            log.warning("Update failed for %s: %s", ticker, e)
-            continue
+            log.warning("Form 4 update failed for %s: %s", ticker, e)
+            txs = []
+        # Share count
+        try:
+            share_obs = update_share_counts_for_company(cik, share_cache)
+        except Exception as e:
+            log.warning("Share count update failed for %s: %s", ticker, e)
+            share_obs = []
+        # 8-K events
+        try:
+            eightk_events = eightk.fetch_recent_8k_events(cik, since_date=eightk_since)
+        except Exception as e:
+            log.warning("8-K fetch failed for %s: %s", ticker, e)
+            eightk_events = []
+        # NT-10K / NT-10Q
+        try:
+            late_filings = eightk.fetch_recent_late_filings(cik, since_date=eightk_since)
+        except Exception as e:
+            log.warning("NT-filing fetch failed for %s: %s", ticker, e)
+            late_filings = []
+        # 13D / 13G (optional, expensive)
+        thirteendg_signal = None
+        if not skip_13dg:
+            try:
+                thirteendg_signal = thirteendg.compute_13dg_signal(
+                    cik, since_date=thirteendg_since, max_filings=10)
+            except Exception as e:
+                log.warning("13D/G fetch failed for %s: %s", ticker, e)
+        # Financial signals
+        try:
+            fin_signals = financials.compute_financial_signals(cik)
+        except Exception as e:
+            log.warning("Financial signals failed for %s: %s", ticker, e)
+            fin_signals = None
 
         summary = form4.summarize_transactions(txs, since_date=insider_since)
-        qoq = shares.latest_qoq_change(obs)
+        qoq = shares.latest_qoq_change(share_obs)
+
         cs = scoring.score_company(
             ticker=ticker, cik=cik, name=m["name"],
-            insider_summary=summary, qoq=qoq, weights=weights,
+            insider_summary=summary, qoq=qoq,
+            eightk_events=eightk_events, late_filings=late_filings,
+            thirteendg_signal=thirteendg_signal, financial_signals=fin_signals,
+            weights=weights,
         )
+
+        # Attach recent transactions for dashboard drill-down
+        recent = [t for t in txs if t.filed_date >= insider_since]
+        recent.sort(key=lambda t: (t.transaction_date, t.filed_date), reverse=True)
+        cs.recent_transactions = [
+            {"transaction_date": t.transaction_date, "filed_date": t.filed_date,
+             "accession": t.accession, "transaction_code": t.transaction_code,
+             "acquired_disposed": t.acquired_disposed, "shares": t.shares,
+             "price": t.price_per_share, "value": t.value,
+             "insider_name": t.insider_name, "officer_title": t.officer_title,
+             "is_director": t.is_director, "is_officer": t.is_officer,
+             "is_ten_percent_owner": t.is_ten_percent_owner,
+             "is_10b5_1": t.is_10b5_1,
+             "counted_as_buy": t.is_discretionary_buy,
+             "counted_as_sell": t.is_discretionary_sell}
+            for t in recent[:60]
+        ]
         company_scores.append(cs)
 
-        # Periodic save so a crash doesn't lose progress
         if (i + 1) % 25 == 0:
             save_json(TRANSACTIONS_PATH, transactions_cache)
             save_json(SHARE_COUNTS_PATH, share_cache)
 
-    # 4. Final save
     save_json(TRANSACTIONS_PATH, transactions_cache)
     save_json(SHARE_COUNTS_PATH, share_cache)
 
-    # 5. Sort & export
     company_scores.sort(key=lambda c: c.composite_score, reverse=True)
     output = {
         "generated_at": today.isoformat(),
@@ -170,42 +198,30 @@ def run(*, max_companies: int = 0, skip_universe_refresh: bool = False,
         },
     }
     save_json(OUTPUT_PATH, output)
-    save_json(META_PATH, {
-        "last_run": today.isoformat(),
-        "companies_scored": len(company_scores),
-    })
-    log.info("Done. %d companies scored. Output -> %s", len(company_scores), OUTPUT_PATH)
+    save_json(META_PATH, {"last_run": today.isoformat(),
+                          "companies_scored": len(company_scores)})
+    log.info("Done. %d companies scored.", len(company_scores))
 
 
 def main():
     setup_logging()
     p = argparse.ArgumentParser()
-    p.add_argument("--max-companies", type=int, default=0,
-                   help="Limit universe size (0 = no limit)")
+    p.add_argument("--max-companies", type=int, default=0)
     p.add_argument("--skip-universe-refresh", action="store_true")
+    p.add_argument("--skip-13dg", action="store_true",
+                   help="Skip the expensive 13D/G EFTS search (recommended for first runs)")
     p.add_argument("--insider-lookback-days", type=int, default=90)
+    p.add_argument("--eightk-lookback-days", type=int, default=180)
     p.add_argument("--backfill-years", type=int, default=1)
-    p.add_argument("--insider-buy-weight", type=float, default=1.0)
-    p.add_argument("--insider-sell-weight", type=float, default=-1.0)
-    p.add_argument("--share-count-decrease-weight", type=float, default=1.0)
-    p.add_argument("--share-count-increase-weight", type=float, default=-1.0)
-    p.add_argument("--share-count-pct-threshold", type=float, default=1.0)
     args = p.parse_args()
-
     weights = scoring.ScoreWeights(
-        insider_buy=args.insider_buy_weight,
-        insider_sell=args.insider_sell_weight,
-        share_count_decrease=args.share_count_decrease_weight,
-        share_count_increase=args.share_count_increase_weight,
-        share_count_pct_threshold=args.share_count_pct_threshold,
         insider_lookback_days=args.insider_lookback_days,
+        eightk_lookback_days=args.eightk_lookback_days,
     )
-    run(
-        max_companies=args.max_companies,
+    run(max_companies=args.max_companies,
         skip_universe_refresh=args.skip_universe_refresh,
-        weights=weights,
-        backfill_years=args.backfill_years,
-    )
+        skip_13dg=args.skip_13dg, weights=weights,
+        backfill_years=args.backfill_years)
 
 
 if __name__ == "__main__":

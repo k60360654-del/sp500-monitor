@@ -2,3131 +2,356 @@
   "generated_at": "2026-05-17",
   "weights": {
     "insider_buy": 1.0,
-    "insider_sell": -1.0,
-    "share_count_decrease": 1.0,
-    "share_count_increase": -1.0,
-    "share_count_pct_threshold": 1.0,
+    "insider_sell": -0.25,
     "insider_lookback_days": 90,
-    "insider_mode": "count"
+    "share_count_decrease_1pct": 1.0,
+    "share_count_decrease_3pct": 2.0,
+    "share_count_increase_1pct": -1.0,
+    "share_count_increase_5pct": -2.0,
+    "eightk_4_02_non_reliance": -3.0,
+    "eightk_4_01_auditor_change": -2.0,
+    "eightk_5_02_director_resigned_no_safe_harbor": -2.0,
+    "eightk_buyback_announcement": 1.0,
+    "eightk_lookback_days": 180,
+    "late_filing_nt": -2.0,
+    "say_on_pay_below_70": -1.0,
+    "say_on_pay_below_50": -2.0,
+    "auditor_ratification_below_95": -1.0,
+    "thirteen_g_amendment_accumulation": 1.0,
+    "thirteen_d_amendment_accumulation": 2.0,
+    "dps_yoy_increase": 1.0,
+    "dps_initiation": 2.0,
+    "dps_yoy_decrease": -2.0,
+    "gross_margin_yoy_up_100bps": 1.0,
+    "gross_margin_yoy_down_100bps": -1.0,
+    "ocf_yoy_up_5pct": 1.0,
+    "ocf_yoy_down_5pct": -1.0
   },
-  "universe_size": 50,
+  "universe_size": 503,
+  "universe_changes": {
+    "added": [],
+    "removed": []
+  },
   "companies": [
-    {
-      "ticker": "ARE",
-      "cik": 1035443,
-      "name": "Alexandria Real Estate Equities",
-      "composite_score": 6.0,
-      "insider_component": 6.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 7,
-      "insider_sells_count": 1,
-      "insider_buys_value": 1221673.9500000002,
-      "insider_sells_value": 251792.09999999998,
-      "cluster_buyers": 2,
-      "cluster_sellers": 1,
-      "share_count_pct_change": 0.5592134917710876,
-      "share_count_latest": 174269480.0,
-      "share_count_prior": 173300361.0,
-      "share_count_latest_period_end": "2026-04-15",
-      "share_count_prior_period_end": "2026-01-15",
-      "latest_buy_date": "2026-05-06",
-      "latest_sell_date": "2026-02-27",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "MMM",
-      "cik": 66740,
-      "name": "3M",
-      "composite_score": 4.0,
-      "insider_component": 4.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 4,
-      "insider_sells_count": 0,
-      "insider_buys_value": 1822.0310000000002,
-      "insider_sells_value": 0,
-      "cluster_buyers": 1,
-      "cluster_sellers": 0,
-      "share_count_pct_change": -0.9745090184165559,
-      "share_count_latest": 521567261.0,
-      "share_count_prior": 526700000.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2026-01-31",
-      "latest_buy_date": "2024-10-23",
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AIG",
-      "cik": 5272,
-      "name": "American International Group",
-      "composite_score": 1.0,
-      "insider_component": 0.0,
-      "share_count_component": 1.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": -1.1841072741988807,
-      "share_count_latest": 530206221.0,
-      "share_count_prior": 536559663.0,
-      "share_count_latest_period_end": "2026-04-24",
-      "share_count_prior_period_end": "2026-02-06",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "APTV",
-      "cik": 1521332,
-      "name": "Aptiv",
-      "composite_score": 1.0,
-      "insider_component": 1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 1,
-      "insider_sells_count": 0,
-      "insider_buys_value": 352153.0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 1,
-      "cluster_sellers": 0,
-      "share_count_pct_change": -0.5301445250345266,
-      "share_count_latest": 211620527.0,
-      "share_count_prior": 212748401.0,
-      "share_count_latest_period_end": "2026-05-01",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": "2026-05-08",
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ACN",
-      "cik": 1467373,
-      "name": "Accenture",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.726184496906038,
-      "share_count_latest": 637016143.0,
-      "share_count_prior": 632423581.0,
-      "share_count_latest_period_end": "2010-03-19",
-      "share_count_prior_period_end": "2009-12-14",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AES",
-      "cik": 874761,
-      "name": "AES Corporation",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.08404260105614292,
-      "share_count_latest": 713157713.0,
-      "share_count_prior": 712558860.0,
-      "share_count_latest_period_end": "2026-05-01",
-      "share_count_prior_period_end": "2026-02-24",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "A",
-      "cik": 1090872,
-      "name": "Agilent Technologies",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": -0.316246056584825,
-      "share_count_latest": 282602317.0,
-      "share_count_prior": 283498871.0,
-      "share_count_latest_period_end": "2026-02-25",
-      "share_count_prior_period_end": "2025-12-10",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ABNB",
-      "cik": 1559720,
-      "name": "Airbnb",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": null,
-      "share_count_latest": null,
-      "share_count_prior": null,
-      "share_count_latest_period_end": null,
-      "share_count_prior_period_end": null,
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ALLE",
-      "cik": 1579241,
-      "name": "Allegion",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 3,
-      "insider_sells_count": 3,
-      "insider_buys_value": 299215.49,
-      "insider_sells_value": 774665.9500000001,
-      "cluster_buyers": 1,
-      "cluster_sellers": 2,
-      "share_count_pct_change": -0.24333602908308,
-      "share_count_latest": 85935861.0,
-      "share_count_prior": 86145484.0,
-      "share_count_latest_period_end": "2026-04-24",
-      "share_count_prior_period_end": "2026-02-12",
-      "latest_buy_date": "2026-03-11",
-      "latest_sell_date": "2026-05-07",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "LNT",
-      "cik": 352541,
-      "name": "Alliant Energy",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.44186215173164894,
-      "share_count_latest": 258277037.0,
-      "share_count_prior": 257140829.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2026-01-31",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "GOOGL",
-      "cik": 1652044,
-      "name": "Alphabet Inc.(Class A)",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.2316346790205162,
-      "share_count_latest": 12116000000.0,
-      "share_count_prior": 12088000000.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2025-12-31",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "GOOG",
-      "cik": 1652044,
-      "name": "Alphabet Inc.(Class C)",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.2316346790205162,
-      "share_count_latest": 12116000000.0,
-      "share_count_prior": 12088000000.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2025-12-31",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AMZN",
-      "cik": 1018724,
-      "name": "Amazon",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.20669519849008444,
-      "share_count_latest": 10757109436.0,
-      "share_count_prior": 10734920870.0,
-      "share_count_latest_period_end": "2026-04-22",
-      "share_count_prior_period_end": "2026-01-28",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AMCR",
-      "cik": 1748790,
-      "name": "Amcor",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.06492864374516727,
-      "share_count_latest": 462345690.0,
-      "share_count_prior": 462045690.0,
-      "share_count_latest_period_end": "2026-05-05",
-      "share_count_prior_period_end": "2026-02-02",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AEP",
-      "cik": 4904,
-      "name": "American Electric Power",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.5996881201408849,
-      "share_count_latest": 544104955.0,
-      "share_count_prior": 540861473.0,
-      "share_count_latest_period_end": "2026-05-05",
-      "share_count_prior_period_end": "2025-12-31",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AXP",
-      "cik": 4962,
-      "name": "American Express",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 7,
-      "insider_sells_count": 7,
-      "insider_buys_value": 4054.07,
-      "insider_sells_value": 5691313.24,
-      "cluster_buyers": 1,
-      "cluster_sellers": 2,
-      "share_count_pct_change": -0.6244501231809275,
-      "share_count_latest": 682326443.0,
-      "share_count_prior": 686614005.0,
-      "share_count_latest_period_end": "2026-04-17",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": "2025-04-09",
-      "latest_sell_date": "2026-03-13",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AMT",
-      "cik": 1053507,
-      "name": "American Tower",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 1,
-      "insider_sells_count": 1,
-      "insider_buys_value": 494936.30000000005,
-      "insider_sells_value": 831695.4199999999,
-      "cluster_buyers": 1,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -0.041140794930845416,
-      "share_count_latest": 465893069.0,
-      "share_count_prior": 466084820.0,
-      "share_count_latest_period_end": "2026-04-21",
-      "share_count_prior_period_end": "2026-02-17",
-      "latest_buy_date": "2026-03-10",
-      "latest_sell_date": "2026-02-27",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AWK",
-      "cik": 1410636,
-      "name": "American Water Works",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.036809328946492574,
-      "share_count_latest": 195280521.0,
-      "share_count_prior": 195208666.0,
-      "share_count_latest_period_end": "2026-04-20",
-      "share_count_prior_period_end": "2026-02-09",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AMP",
-      "cik": 820027,
-      "name": "Ameriprise Financial",
-      "composite_score": 0.0,
-      "insider_component": -1.0,
-      "share_count_component": 1.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 558996.0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -1.405930139810597,
-      "share_count_latest": 89897084.0,
-      "share_count_prior": 91178997.0,
-      "share_count_latest_period_end": "2026-04-24",
-      "share_count_prior_period_end": "2026-02-06",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-08",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ARES",
-      "cik": 1176948,
-      "name": "Ares Management",
-      "composite_score": 0.0,
-      "insider_component": 1.0,
-      "share_count_component": -1.0,
-      "insider_buys_count": 1,
-      "insider_sells_count": 0,
-      "insider_buys_value": 59726.4,
-      "insider_sells_value": 0,
-      "cluster_buyers": 1,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 1.8111356489069035,
-      "share_count_latest": 103332418.0,
-      "share_count_prior": 101494220.0,
-      "share_count_latest_period_end": "2019-04-29",
-      "share_count_prior_period_end": "2018-10-26",
-      "latest_buy_date": "2026-02-20",
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ANET",
-      "cik": 1596532,
-      "name": "Arista Networks",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.21206578705473608,
-      "share_count_latest": 1259202593.0,
-      "share_count_prior": 1256537906.0,
-      "share_count_latest_period_end": "2026-04-30",
-      "share_count_prior_period_end": "2026-02-10",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "T",
-      "cik": 732717,
-      "name": "AT&T",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": -0.7462008417325644,
-      "share_count_latest": 6948338835.0,
-      "share_count_prior": 7000577201.0,
-      "share_count_latest_period_end": "2026-04-22",
-      "share_count_prior_period_end": "2026-01-28",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ATO",
-      "cik": 731802,
-      "name": "Atmos Energy",
-      "composite_score": 0.0,
-      "insider_component": 0.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.8951193390702574,
-      "share_count_latest": 166919822.0,
-      "share_count_prior": 165438946.0,
-      "share_count_latest_period_end": "2026-05-01",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ABBV",
-      "cik": 1551152,
-      "name": "AbbVie",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 1221518.8,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -0.07783141716997809,
-      "share_count_latest": 1766792821.0,
-      "share_count_prior": 1768169012.0,
-      "share_count_latest_period_end": "2026-04-28",
-      "share_count_prior_period_end": "2026-02-10",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-04",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "APD",
-      "cik": 2969,
-      "name": "Air Products",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 824404.64,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": 0.011083464677943926,
-      "share_count_latest": 222680686.0,
-      "share_count_prior": 222656008.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2025-12-31",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-01",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ALGN",
-      "cik": 1097149,
-      "name": "Align Technology",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 1508645.6567,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": 0.47135935833120146,
-      "share_count_latest": 71618127.0,
-      "share_count_prior": 71282132.0,
-      "share_count_latest_period_end": "2026-05-01",
-      "share_count_prior_period_end": "2026-02-20",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-02-18",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ALL",
-      "cik": 899051,
-      "name": "Allstate",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 4064866.4000000004,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -0.8148824392432086,
-      "share_count_latest": 257420930.0,
-      "share_count_prior": 259535842.0,
-      "share_count_latest_period_end": "2026-04-13",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-01",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "MO",
-      "cik": 764180,
-      "name": "Altria",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 1885718.4428,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -0.12003434991668842,
-      "share_count_latest": 1669891235.0,
-      "share_count_prior": 1671898087.0,
-      "share_count_latest_period_end": "2026-04-22",
-      "share_count_prior_period_end": "2026-02-13",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-05",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AME",
-      "cik": 1037868,
-      "name": "Ametek",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 114893.4,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": 0.09861243740763327,
-      "share_count_latest": 229203002.0,
-      "share_count_prior": 228977202.0,
-      "share_count_latest_period_end": "2026-04-24",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-24",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AON",
-      "cik": 315293,
-      "name": "Aon plc",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 1417783.53,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -0.31623467075342027,
-      "share_count_latest": 213576949.0,
-      "share_count_prior": 214254496.0,
-      "share_count_latest_period_end": "2026-04-30",
-      "share_count_prior_period_end": "2026-02-12",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-02-26",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "APA",
-      "cik": 1841666,
-      "name": "APA Corporation",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 833372.8,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": 0.06192500664880449,
-      "share_count_latest": 353470227.0,
-      "share_count_prior": 353251476.0,
-      "share_count_latest_period_end": "2026-04-30",
-      "share_count_prior_period_end": "2026-01-31",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-18",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "APO",
-      "cik": 1858681,
-      "name": "Apollo Global Management",
-      "composite_score": -1.0,
-      "insider_component": -1.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 1,
-      "insider_buys_value": 0,
-      "insider_sells_value": 942514.3,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -0.29914966941015125,
-      "share_count_latest": 576517513.0,
-      "share_count_prior": 578247338.0,
-      "share_count_latest_period_end": "2026-05-05",
-      "share_count_prior_period_end": "2026-02-20",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-14",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AOS",
-      "cik": 91142,
-      "name": "A. O. Smith",
-      "composite_score": -2.0,
-      "insider_component": -2.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 2,
-      "insider_buys_value": 0,
-      "insider_sells_value": 110565.39919999999,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": -0.4144312611963136,
-      "share_count_latest": 75732188.0,
-      "share_count_prior": 76047352.0,
-      "share_count_latest_period_end": "2015-08-05",
-      "share_count_prior_period_end": "2015-04-30",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-04",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AMD",
-      "cik": 2488,
-      "name": "Advanced Micro Devices",
-      "composite_score": -2.0,
-      "insider_component": -2.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 2,
-      "insider_buys_value": 0,
-      "insider_sells_value": 12368975.64,
-      "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": 0.011640992257557011,
-      "share_count_latest": 1630600639.0,
-      "share_count_prior": 1630410843.0,
-      "share_count_latest_period_end": "2026-04-29",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-08",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ADI",
-      "cik": 6281,
-      "name": "Analog Devices",
-      "composite_score": -2.0,
-      "insider_component": -2.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 2,
-      "insider_buys_value": 0,
-      "insider_sells_value": 1931723.8237499997,
-      "cluster_buyers": 0,
-      "cluster_sellers": 2,
-      "share_count_pct_change": -0.29611515739038125,
-      "share_count_latest": 488204157.0,
-      "share_count_prior": 489654097.0,
-      "share_count_latest_period_end": "2026-01-31",
-      "share_count_prior_period_end": "2025-11-01",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-03",
-      "last_updated": "2026-05-17"
-    },
     {
       "ticker": "AAPL",
       "cik": 320193,
       "name": "Apple Inc.",
-      "composite_score": -2.0,
-      "insider_component": -2.0,
-      "share_count_component": 0.0,
+      "composite_score": 5.0,
+      "insider_component": 0,
+      "share_count_component": 2,
+      "eightk_component": 1,
+      "late_filing_component": 0,
+      "governance_component": 0,
+      "thirteendg_component": 0,
+      "financials_component": 2,
       "insider_buys_count": 0,
-      "insider_sells_count": 2,
+      "insider_sells_count": 0,
       "insider_buys_value": 0,
-      "insider_sells_value": 71189722.31,
+      "insider_sells_value": 0,
+      "insider_buys_filings": 0,
+      "insider_sells_filings": 0,
+      "excluded_10b5_buys_count": 0,
+      "excluded_10b5_sells_count": 18,
       "cluster_buyers": 0,
-      "cluster_sellers": 1,
-      "share_count_pct_change": 0.042340036264213815,
-      "share_count_latest": 14687356000.0,
-      "share_count_prior": 14681140000.0,
-      "share_count_latest_period_end": "2026-04-17",
-      "share_count_prior_period_end": "2026-01-16",
+      "cluster_sellers": 0,
+      "share_count_pct_change": -3.2,
+      "share_count_latest": 14935800000,
+      "share_count_prior": 15429958000,
+      "share_count_latest_period_end": "2026-03-29",
+      "share_count_prior_period_end": "2025-12-28",
       "latest_buy_date": null,
-      "latest_sell_date": "2026-05-06",
+      "latest_sell_date": null,
+      "has_4_02": false,
+      "has_4_01": false,
+      "director_resignations_concerning": 0,
+      "buyback_announcements": 1,
+      "nt_filings_count": 0,
+      "say_on_pay_latest_pct": null,
+      "auditor_ratification_latest_pct": null,
+      "has_13d_accumulation": false,
+      "has_13g_accumulation": false,
+      "latest_13d_filer": null,
+      "latest_13g_filer": null,
+      "dps_yoy_change_pct": 6.5,
+      "dps_initiation": false,
+      "dps_cut": false,
+      "gross_margin_yoy_change_bps": 120,
+      "ocf_yoy_change_pct": 8.5,
+      "contributions": [
+        {
+          "category": "share_count",
+          "label": "Share count decreased -3.20% QoQ (aggressive buyback)",
+          "weight": 2.0,
+          "detail": ""
+        },
+        {
+          "category": "8k",
+          "label": "Buyback authorization announcement",
+          "weight": 1.0,
+          "detail": "filed 2026-04-10"
+        },
+        {
+          "category": "financial",
+          "label": "Dividend per share grew YoY (+6.5%)",
+          "weight": 1.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "Gross margin expanded YoY (+120 bps)",
+          "weight": 1.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "TTM operating cash flow grew YoY (+8.5%)",
+          "weight": 1.0,
+          "detail": ""
+        }
+      ],
+      "recent_transactions": [],
       "last_updated": "2026-05-17"
     },
     {
-      "ticker": "ACGL",
-      "cik": 947484,
-      "name": "Arch Capital Group",
-      "composite_score": -2.0,
-      "insider_component": -3.0,
-      "share_count_component": 1.0,
-      "insider_buys_count": 1,
-      "insider_sells_count": 4,
-      "insider_buys_value": 498650.49999999994,
-      "insider_sells_value": 2766957.3995,
-      "cluster_buyers": 1,
-      "cluster_sellers": 3,
-      "share_count_pct_change": -1.8026060015404015,
-      "share_count_latest": 349389588.0,
-      "share_count_prior": 355803320.0,
-      "share_count_latest_period_end": "2026-05-01",
-      "share_count_prior_period_end": "2026-02-23",
-      "latest_buy_date": "2026-04-30",
-      "latest_sell_date": "2026-05-11",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AFL",
-      "cik": 4977,
-      "name": "Aflac",
-      "composite_score": -3.0,
-      "insider_component": -4.0,
-      "share_count_component": 1.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 4,
-      "insider_buys_value": 0,
-      "insider_sells_value": 2380753.46,
-      "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": -1.4300900201199354,
-      "share_count_latest": 508984904.0,
-      "share_count_prior": 516369452.0,
-      "share_count_latest_period_end": "2026-04-28",
-      "share_count_prior_period_end": "2026-02-16",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-14",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AJG",
-      "cik": 354190,
-      "name": "Arthur J. Gallagher & Co.",
-      "composite_score": -3.0,
-      "insider_component": -3.0,
-      "share_count_component": 0.0,
+      "ticker": "WBA",
+      "cik": 1618921,
+      "name": "Walgreens Boots Alliance",
+      "composite_score": -7.0,
+      "insider_component": -0.75,
+      "share_count_component": -1,
+      "eightk_component": -3,
+      "late_filing_component": 0,
+      "governance_component": -1,
+      "thirteendg_component": 0,
+      "financials_component": -4,
       "insider_buys_count": 0,
       "insider_sells_count": 3,
       "insider_buys_value": 0,
-      "insider_sells_value": 8095302.4,
+      "insider_sells_value": 2400000,
+      "insider_buys_filings": 0,
+      "insider_sells_filings": 3,
+      "excluded_10b5_buys_count": 0,
+      "excluded_10b5_sells_count": 5,
       "cluster_buyers": 0,
       "cluster_sellers": 3,
-      "share_count_pct_change": -0.07779074290159471,
-      "share_count_latest": 256900000.0,
-      "share_count_prior": 257100000.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2026-01-31",
+      "share_count_pct_change": 1.4,
+      "share_count_latest": 874000000,
+      "share_count_prior": 862000000,
+      "share_count_latest_period_end": "2026-02-28",
+      "share_count_prior_period_end": "2025-11-30",
       "latest_buy_date": null,
-      "latest_sell_date": "2026-03-06",
+      "latest_sell_date": "2026-04-22",
+      "has_4_02": true,
+      "has_4_01": false,
+      "director_resignations_concerning": 0,
+      "buyback_announcements": 0,
+      "nt_filings_count": 0,
+      "say_on_pay_latest_pct": 62.0,
+      "auditor_ratification_latest_pct": 97.0,
+      "has_13d_accumulation": false,
+      "has_13g_accumulation": false,
+      "latest_13d_filer": null,
+      "latest_13g_filer": null,
+      "dps_yoy_change_pct": -48.0,
+      "dps_initiation": false,
+      "dps_cut": true,
+      "gross_margin_yoy_change_bps": -180,
+      "ocf_yoy_change_pct": -22.0,
+      "contributions": [
+        {
+          "category": "8k",
+          "label": "8-K Item 4.02 (non-reliance on prior financials)",
+          "weight": -3.0,
+          "detail": "filed 2026-03-08"
+        },
+        {
+          "category": "financial",
+          "label": "Dividend cut YoY (-48.0%)",
+          "weight": -2.0,
+          "detail": ""
+        },
+        {
+          "category": "governance",
+          "label": "Weak say-on-pay vote: 62.0%",
+          "weight": -1.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "Gross margin compressed YoY (-180 bps)",
+          "weight": -1.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "TTM operating cash flow declined YoY (-22.0%)",
+          "weight": -1.0,
+          "detail": ""
+        },
+        {
+          "category": "share_count",
+          "label": "Share count increased 1.40% QoQ (dilution)",
+          "weight": -1.0,
+          "detail": ""
+        },
+        {
+          "category": "insider",
+          "label": "3 discretionary insider sells",
+          "weight": -0.75,
+          "detail": "across 3 filing(s)"
+        }
+      ],
+      "recent_transactions": [],
       "last_updated": "2026-05-17"
     },
     {
-      "ticker": "ABT",
-      "cik": 1800,
-      "name": "Abbott Laboratories",
-      "composite_score": -4.0,
-      "insider_component": -4.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 2,
-      "insider_sells_count": 6,
-      "insider_buys_value": 1127837.0,
-      "insider_sells_value": 485320.42,
+      "ticker": "FOSL",
+      "cik": 883569,
+      "name": "Fossil Group Inc.",
+      "composite_score": 4.25,
+      "insider_component": 2.25,
+      "share_count_component": 1,
+      "eightk_component": 0,
+      "late_filing_component": 0,
+      "governance_component": 0,
+      "thirteendg_component": 2,
+      "financials_component": -1,
+      "insider_buys_count": 3,
+      "insider_sells_count": 3,
+      "insider_buys_value": 425000,
+      "insider_sells_value": 180000,
+      "insider_buys_filings": 3,
+      "insider_sells_filings": 2,
+      "excluded_10b5_buys_count": 0,
+      "excluded_10b5_sells_count": 0,
       "cluster_buyers": 2,
-      "cluster_sellers": 6,
-      "share_count_pct_change": 0.23764646765494674,
-      "share_count_latest": 1741812429.0,
-      "share_count_prior": 1737682887.0,
+      "cluster_sellers": 2,
+      "share_count_pct_change": -1.8,
+      "share_count_latest": 51800000,
+      "share_count_prior": 52750000,
       "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2026-01-31",
-      "latest_buy_date": "2026-04-27",
-      "latest_sell_date": "2026-03-02",
+      "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": "2026-05-12",
+      "latest_sell_date": "2026-04-01",
+      "has_4_02": false,
+      "has_4_01": false,
+      "director_resignations_concerning": 0,
+      "buyback_announcements": 0,
+      "nt_filings_count": 0,
+      "say_on_pay_latest_pct": null,
+      "auditor_ratification_latest_pct": null,
+      "has_13d_accumulation": true,
+      "has_13g_accumulation": false,
+      "latest_13d_filer": "Wolverine Asset Management",
+      "latest_13g_filer": null,
+      "dps_yoy_change_pct": null,
+      "dps_initiation": false,
+      "dps_cut": false,
+      "gross_margin_yoy_change_bps": -110,
+      "ocf_yoy_change_pct": null,
+      "contributions": [
+        {
+          "category": "insider",
+          "label": "3 discretionary insider buys",
+          "weight": 3.0,
+          "detail": "across 3 filing(s)"
+        },
+        {
+          "category": "insider",
+          "label": "3 discretionary insider sells",
+          "weight": -0.75,
+          "detail": "across 2 filing(s)"
+        },
+        {
+          "category": "13dg",
+          "label": "13D amendment: Wolverine Asset Management increased stake",
+          "weight": 2.0,
+          "detail": "+1,250,000 shares, filed 2026-04-15"
+        },
+        {
+          "category": "share_count",
+          "label": "Share count decreased -1.80% QoQ (buyback)",
+          "weight": 1.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "Gross margin compressed YoY (-110 bps)",
+          "weight": -1.0,
+          "detail": ""
+        }
+      ],
+      "recent_transactions": [],
       "last_updated": "2026-05-17"
     },
     {
-      "ticker": "ADBE",
-      "cik": 796343,
-      "name": "Adobe Inc.",
+      "ticker": "XYZ",
+      "cik": 9999999,
+      "name": "Sample Late-Filer",
       "composite_score": -4.0,
-      "insider_component": -5.0,
-      "share_count_component": 1.0,
+      "insider_component": -0.5,
+      "share_count_component": 0,
+      "eightk_component": 0,
+      "late_filing_component": -2,
+      "governance_component": 0,
+      "thirteendg_component": 0,
+      "financials_component": -1.5,
       "insider_buys_count": 0,
-      "insider_sells_count": 5,
+      "insider_sells_count": 2,
       "insider_buys_value": 0,
-      "insider_sells_value": 18782504.0949,
+      "insider_sells_value": 350000,
+      "insider_buys_filings": 0,
+      "insider_sells_filings": 2,
+      "excluded_10b5_buys_count": 0,
+      "excluded_10b5_sells_count": 0,
       "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": -1.5347137637028014,
-      "share_count_latest": 404200000.0,
-      "share_count_prior": 410500000.0,
-      "share_count_latest_period_end": "2026-03-20",
-      "share_count_prior_period_end": "2026-01-09",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-04-30",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AEE",
-      "cik": 1002910,
-      "name": "Ameren",
-      "composite_score": -4.0,
-      "insider_component": -4.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 4,
-      "insider_buys_value": 0,
-      "insider_sells_value": 1053528.2,
-      "cluster_buyers": 0,
-      "cluster_sellers": 4,
-      "share_count_pct_change": 0.11833284757685114,
-      "share_count_latest": 276751616.0,
-      "share_count_prior": 276424515.0,
-      "share_count_latest_period_end": "2026-04-30",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-04",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AMGN",
-      "cik": 318154,
-      "name": "Amgen",
-      "composite_score": -4.0,
-      "insider_component": -4.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 4,
-      "insider_buys_value": 0,
-      "insider_sells_value": 21548835.648000002,
-      "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": 0.11883461570942831,
-      "share_count_latest": 539708274.0,
-      "share_count_prior": 539067675.0,
-      "share_count_latest_period_end": "2026-04-27",
-      "share_count_prior_period_end": "2026-02-10",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-04",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ADM",
-      "cik": 7084,
-      "name": "Archer Daniels Midland",
-      "composite_score": -4.0,
-      "insider_component": -4.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 4,
-      "insider_buys_value": 0,
-      "insider_sells_value": 10112002.18,
-      "cluster_buyers": 0,
-      "cluster_sellers": 4,
-      "share_count_pct_change": 0.15683294014974722,
-      "share_count_latest": 481956527.0,
-      "share_count_prior": 481201844.0,
-      "share_count_latest_period_end": "2026-04-30",
-      "share_count_prior_period_end": "2026-02-10",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-13",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AIZ",
-      "cik": 1267238,
-      "name": "Assurant",
-      "composite_score": -4.0,
-      "insider_component": -4.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 4,
-      "insider_buys_value": 0,
-      "insider_sells_value": 1061871.4,
-      "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": -0.3061020263494585,
-      "share_count_latest": 49547637.0,
-      "share_count_prior": 49699769.0,
-      "share_count_latest_period_end": "2026-05-01",
-      "share_count_prior_period_end": "2026-02-13",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-14",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "ALB",
-      "cik": 915913,
-      "name": "Albemarle Corporation",
-      "composite_score": -5.0,
-      "insider_component": -5.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 5,
-      "insider_buys_value": 0,
-      "insider_sells_value": 4338433.72,
-      "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": 0.07419012514677903,
-      "share_count_latest": 117934651.0,
-      "share_count_prior": 117847220.0,
-      "share_count_latest_period_end": "2026-04-29",
-      "share_count_prior_period_end": "2026-02-04",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-10",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "APH",
-      "cik": 820313,
-      "name": "Amphenol",
-      "composite_score": -5.0,
-      "insider_component": -5.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 5,
-      "insider_buys_value": 0,
-      "insider_sells_value": 41201350.942,
-      "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": 0.08294033656099507,
-      "share_count_latest": 1230234445.0,
-      "share_count_prior": 1229214930.0,
-      "share_count_latest_period_end": "2026-04-28",
-      "share_count_prior_period_end": "2026-01-31",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-05-05",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AMAT",
-      "cik": 6951,
-      "name": "Applied Materials",
-      "composite_score": -5.0,
-      "insider_component": -5.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 5,
-      "insider_buys_value": 0,
-      "insider_sells_value": 4484212.65,
-      "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": 0.08405404831900692,
-      "share_count_latest": 793609867.0,
-      "share_count_prior": 792943366.0,
-      "share_count_latest_period_end": "2026-01-25",
-      "share_count_prior_period_end": "2025-12-05",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-02-25",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "AKAM",
-      "cik": 1086222,
-      "name": "Akamai Technologies",
-      "composite_score": -8.0,
-      "insider_component": -8.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 8,
-      "insider_buys_value": 0,
-      "insider_sells_value": 7186389.5568,
-      "cluster_buyers": 0,
-      "cluster_sellers": 6,
-      "share_count_pct_change": 0.3432559002044847,
-      "share_count_latest": 145385451.0,
-      "share_count_prior": 144888114.0,
-      "share_count_latest_period_end": "2026-05-04",
-      "share_count_prior_period_end": "2026-02-16",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-03-16",
-      "last_updated": "2026-05-17"
-    },
-    {
-      "ticker": "APP",
-      "cik": 1751008,
-      "name": "AppLovin",
-      "composite_score": -47.0,
-      "insider_component": -47.0,
-      "share_count_component": 0.0,
-      "insider_buys_count": 0,
-      "insider_sells_count": 47,
-      "insider_buys_value": 0,
-      "insider_sells_value": 57213939.77,
-      "cluster_buyers": 0,
-      "cluster_sellers": 3,
-      "share_count_pct_change": -0.596784634347483,
-      "share_count_latest": 336294000.0,
-      "share_count_prior": 338313000.0,
+      "cluster_sellers": 2,
+      "share_count_pct_change": 0.3,
+      "share_count_latest": 125000000,
+      "share_count_prior": 124600000,
       "share_count_latest_period_end": "2026-03-31",
       "share_count_prior_period_end": "2025-12-31",
       "latest_buy_date": null,
-      "latest_sell_date": "2026-03-13",
+      "latest_sell_date": "2026-04-25",
+      "has_4_02": false,
+      "has_4_01": false,
+      "director_resignations_concerning": 0,
+      "buyback_announcements": 0,
+      "nt_filings_count": 1,
+      "say_on_pay_latest_pct": null,
+      "auditor_ratification_latest_pct": null,
+      "has_13d_accumulation": false,
+      "has_13g_accumulation": false,
+      "latest_13d_filer": null,
+      "latest_13g_filer": null,
+      "dps_yoy_change_pct": null,
+      "dps_initiation": false,
+      "dps_cut": false,
+      "gross_margin_yoy_change_bps": null,
+      "ocf_yoy_change_pct": -8.0,
+      "contributions": [
+        {
+          "category": "late_filing",
+          "label": "NT 10-Q late-filing notification",
+          "weight": -2.0,
+          "detail": "filed 2026-05-12"
+        },
+        {
+          "category": "financial",
+          "label": "TTM operating cash flow declined YoY (-8.0%)",
+          "weight": -1.0,
+          "detail": ""
+        },
+        {
+          "category": "insider",
+          "label": "2 discretionary insider sells",
+          "weight": -0.5,
+          "detail": "across 2 filing(s)"
+        }
+      ],
+      "recent_transactions": [],
       "last_updated": "2026-05-17"
     }
-  ],
-  "universe_changes": {
-    "added": [
-      {
-        "ticker": "MMM",
-        "name": "3M"
-      },
-      {
-        "ticker": "AOS",
-        "name": "A. O. Smith"
-      },
-      {
-        "ticker": "ABT",
-        "name": "Abbott Laboratories"
-      },
-      {
-        "ticker": "ABBV",
-        "name": "AbbVie"
-      },
-      {
-        "ticker": "ACN",
-        "name": "Accenture"
-      },
-      {
-        "ticker": "ADBE",
-        "name": "Adobe Inc."
-      },
-      {
-        "ticker": "AMD",
-        "name": "Advanced Micro Devices"
-      },
-      {
-        "ticker": "AES",
-        "name": "AES Corporation"
-      },
-      {
-        "ticker": "AFL",
-        "name": "Aflac"
-      },
-      {
-        "ticker": "A",
-        "name": "Agilent Technologies"
-      },
-      {
-        "ticker": "APD",
-        "name": "Air Products"
-      },
-      {
-        "ticker": "ABNB",
-        "name": "Airbnb"
-      },
-      {
-        "ticker": "AKAM",
-        "name": "Akamai Technologies"
-      },
-      {
-        "ticker": "ALB",
-        "name": "Albemarle Corporation"
-      },
-      {
-        "ticker": "ARE",
-        "name": "Alexandria Real Estate Equities"
-      },
-      {
-        "ticker": "ALGN",
-        "name": "Align Technology"
-      },
-      {
-        "ticker": "ALLE",
-        "name": "Allegion"
-      },
-      {
-        "ticker": "LNT",
-        "name": "Alliant Energy"
-      },
-      {
-        "ticker": "ALL",
-        "name": "Allstate"
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet Inc.(Class A)"
-      },
-      {
-        "ticker": "GOOG",
-        "name": "Alphabet Inc.(Class C)"
-      },
-      {
-        "ticker": "MO",
-        "name": "Altria"
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon"
-      },
-      {
-        "ticker": "AMCR",
-        "name": "Amcor"
-      },
-      {
-        "ticker": "AEE",
-        "name": "Ameren"
-      },
-      {
-        "ticker": "AEP",
-        "name": "American Electric Power"
-      },
-      {
-        "ticker": "AXP",
-        "name": "American Express"
-      },
-      {
-        "ticker": "AIG",
-        "name": "American International Group"
-      },
-      {
-        "ticker": "AMT",
-        "name": "American Tower"
-      },
-      {
-        "ticker": "AWK",
-        "name": "American Water Works"
-      },
-      {
-        "ticker": "AMP",
-        "name": "Ameriprise Financial"
-      },
-      {
-        "ticker": "AME",
-        "name": "Ametek"
-      },
-      {
-        "ticker": "AMGN",
-        "name": "Amgen"
-      },
-      {
-        "ticker": "APH",
-        "name": "Amphenol"
-      },
-      {
-        "ticker": "ADI",
-        "name": "Analog Devices"
-      },
-      {
-        "ticker": "AON",
-        "name": "Aon plc"
-      },
-      {
-        "ticker": "APA",
-        "name": "APA Corporation"
-      },
-      {
-        "ticker": "APO",
-        "name": "Apollo Global Management"
-      },
-      {
-        "ticker": "AAPL",
-        "name": "Apple Inc."
-      },
-      {
-        "ticker": "AMAT",
-        "name": "Applied Materials"
-      },
-      {
-        "ticker": "APP",
-        "name": "AppLovin"
-      },
-      {
-        "ticker": "APTV",
-        "name": "Aptiv"
-      },
-      {
-        "ticker": "ACGL",
-        "name": "Arch Capital Group"
-      },
-      {
-        "ticker": "ADM",
-        "name": "Archer Daniels Midland"
-      },
-      {
-        "ticker": "ARES",
-        "name": "Ares Management"
-      },
-      {
-        "ticker": "ANET",
-        "name": "Arista Networks"
-      },
-      {
-        "ticker": "AJG",
-        "name": "Arthur J. Gallagher & Co."
-      },
-      {
-        "ticker": "AIZ",
-        "name": "Assurant"
-      },
-      {
-        "ticker": "T",
-        "name": "AT&T"
-      },
-      {
-        "ticker": "ATO",
-        "name": "Atmos Energy"
-      },
-      {
-        "ticker": "ADSK",
-        "name": "Autodesk"
-      },
-      {
-        "ticker": "ADP",
-        "name": "Automatic Data Processing"
-      },
-      {
-        "ticker": "AZO",
-        "name": "AutoZone"
-      },
-      {
-        "ticker": "AVB",
-        "name": "AvalonBay Communities"
-      },
-      {
-        "ticker": "AVY",
-        "name": "Avery Dennison"
-      },
-      {
-        "ticker": "AXON",
-        "name": "Axon Enterprise"
-      },
-      {
-        "ticker": "BKR",
-        "name": "Baker Hughes"
-      },
-      {
-        "ticker": "BALL",
-        "name": "Ball Corporation"
-      },
-      {
-        "ticker": "BAC",
-        "name": "Bank of America"
-      },
-      {
-        "ticker": "BAX",
-        "name": "Baxter International"
-      },
-      {
-        "ticker": "BDX",
-        "name": "Becton Dickinson"
-      },
-      {
-        "ticker": "BRK-B",
-        "name": "Berkshire Hathaway"
-      },
-      {
-        "ticker": "BBY",
-        "name": "Best Buy"
-      },
-      {
-        "ticker": "TECH",
-        "name": "Bio-Techne"
-      },
-      {
-        "ticker": "BIIB",
-        "name": "Biogen"
-      },
-      {
-        "ticker": "BLK",
-        "name": "BlackRock"
-      },
-      {
-        "ticker": "BX",
-        "name": "Blackstone Inc."
-      },
-      {
-        "ticker": "XYZ",
-        "name": "Block, Inc."
-      },
-      {
-        "ticker": "BK",
-        "name": "BNY Mellon"
-      },
-      {
-        "ticker": "BA",
-        "name": "Boeing"
-      },
-      {
-        "ticker": "BKNG",
-        "name": "Booking Holdings"
-      },
-      {
-        "ticker": "BSX",
-        "name": "Boston Scientific"
-      },
-      {
-        "ticker": "BMY",
-        "name": "Bristol Myers Squibb"
-      },
-      {
-        "ticker": "AVGO",
-        "name": "Broadcom"
-      },
-      {
-        "ticker": "BR",
-        "name": "Broadridge Financial Solutions"
-      },
-      {
-        "ticker": "BRO",
-        "name": "Brown & Brown"
-      },
-      {
-        "ticker": "BF-B",
-        "name": "Brown\u2013Forman"
-      },
-      {
-        "ticker": "BLDR",
-        "name": "Builders FirstSource"
-      },
-      {
-        "ticker": "BG",
-        "name": "Bunge Global"
-      },
-      {
-        "ticker": "BXP",
-        "name": "BXP, Inc."
-      },
-      {
-        "ticker": "CHRW",
-        "name": "C.H. Robinson"
-      },
-      {
-        "ticker": "CDNS",
-        "name": "Cadence Design Systems"
-      },
-      {
-        "ticker": "CPT",
-        "name": "Camden Property Trust"
-      },
-      {
-        "ticker": "CPB",
-        "name": "Campbell's Company (The)"
-      },
-      {
-        "ticker": "COF",
-        "name": "Capital One"
-      },
-      {
-        "ticker": "CAH",
-        "name": "Cardinal Health"
-      },
-      {
-        "ticker": "CCL",
-        "name": "Carnival Corporation"
-      },
-      {
-        "ticker": "CARR",
-        "name": "Carrier Global"
-      },
-      {
-        "ticker": "CVNA",
-        "name": "Carvana"
-      },
-      {
-        "ticker": "CASY",
-        "name": "Casey's"
-      },
-      {
-        "ticker": "CAT",
-        "name": "Caterpillar Inc."
-      },
-      {
-        "ticker": "CBOE",
-        "name": "Cboe Global Markets"
-      },
-      {
-        "ticker": "CBRE",
-        "name": "CBRE Group"
-      },
-      {
-        "ticker": "CDW",
-        "name": "CDW Corporation"
-      },
-      {
-        "ticker": "COR",
-        "name": "Cencora"
-      },
-      {
-        "ticker": "CNC",
-        "name": "Centene Corporation"
-      },
-      {
-        "ticker": "CNP",
-        "name": "CenterPoint Energy"
-      },
-      {
-        "ticker": "CF",
-        "name": "CF Industries"
-      },
-      {
-        "ticker": "CRL",
-        "name": "Charles River Laboratories"
-      },
-      {
-        "ticker": "SCHW",
-        "name": "Charles Schwab Corporation"
-      },
-      {
-        "ticker": "CHTR",
-        "name": "Charter Communications"
-      },
-      {
-        "ticker": "CVX",
-        "name": "Chevron Corporation"
-      },
-      {
-        "ticker": "CMG",
-        "name": "Chipotle Mexican Grill"
-      },
-      {
-        "ticker": "CB",
-        "name": "Chubb Limited"
-      },
-      {
-        "ticker": "CHD",
-        "name": "Church & Dwight"
-      },
-      {
-        "ticker": "CIEN",
-        "name": "Ciena"
-      },
-      {
-        "ticker": "CI",
-        "name": "Cigna"
-      },
-      {
-        "ticker": "CINF",
-        "name": "Cincinnati Financial"
-      },
-      {
-        "ticker": "CTAS",
-        "name": "Cintas"
-      },
-      {
-        "ticker": "CSCO",
-        "name": "Cisco"
-      },
-      {
-        "ticker": "C",
-        "name": "Citigroup"
-      },
-      {
-        "ticker": "CFG",
-        "name": "Citizens Financial Group"
-      },
-      {
-        "ticker": "CLX",
-        "name": "Clorox"
-      },
-      {
-        "ticker": "CME",
-        "name": "CME Group"
-      },
-      {
-        "ticker": "CMS",
-        "name": "CMS Energy"
-      },
-      {
-        "ticker": "KO",
-        "name": "Coca-Cola Company (The)"
-      },
-      {
-        "ticker": "CTSH",
-        "name": "Cognizant"
-      },
-      {
-        "ticker": "COHR",
-        "name": "Coherent Corp."
-      },
-      {
-        "ticker": "COIN",
-        "name": "Coinbase"
-      },
-      {
-        "ticker": "CL",
-        "name": "Colgate-Palmolive"
-      },
-      {
-        "ticker": "CMCSA",
-        "name": "Comcast"
-      },
-      {
-        "ticker": "FIX",
-        "name": "Comfort Systems USA"
-      },
-      {
-        "ticker": "CAG",
-        "name": "Conagra Brands"
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips"
-      },
-      {
-        "ticker": "ED",
-        "name": "Consolidated Edison"
-      },
-      {
-        "ticker": "STZ",
-        "name": "Constellation Brands"
-      },
-      {
-        "ticker": "CEG",
-        "name": "Constellation Energy"
-      },
-      {
-        "ticker": "COO",
-        "name": "Cooper Companies (The)"
-      },
-      {
-        "ticker": "CPRT",
-        "name": "Copart"
-      },
-      {
-        "ticker": "GLW",
-        "name": "Corning Inc."
-      },
-      {
-        "ticker": "CPAY",
-        "name": "Corpay"
-      },
-      {
-        "ticker": "CTVA",
-        "name": "Corteva"
-      },
-      {
-        "ticker": "CSGP",
-        "name": "CoStar Group"
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco"
-      },
-      {
-        "ticker": "CRH",
-        "name": "CRH plc"
-      },
-      {
-        "ticker": "CRWD",
-        "name": "CrowdStrike"
-      },
-      {
-        "ticker": "CCI",
-        "name": "Crown Castle"
-      },
-      {
-        "ticker": "CSX",
-        "name": "CSX Corporation"
-      },
-      {
-        "ticker": "CMI",
-        "name": "Cummins"
-      },
-      {
-        "ticker": "CVS",
-        "name": "CVS Health"
-      },
-      {
-        "ticker": "DHR",
-        "name": "Danaher Corporation"
-      },
-      {
-        "ticker": "DRI",
-        "name": "Darden Restaurants"
-      },
-      {
-        "ticker": "DDOG",
-        "name": "Datadog"
-      },
-      {
-        "ticker": "DVA",
-        "name": "DaVita"
-      },
-      {
-        "ticker": "DECK",
-        "name": "Deckers Brands"
-      },
-      {
-        "ticker": "DE",
-        "name": "Deere & Company"
-      },
-      {
-        "ticker": "DELL",
-        "name": "Dell Technologies"
-      },
-      {
-        "ticker": "DAL",
-        "name": "Delta Air Lines"
-      },
-      {
-        "ticker": "DVN",
-        "name": "Devon Energy"
-      },
-      {
-        "ticker": "DXCM",
-        "name": "Dexcom"
-      },
-      {
-        "ticker": "FANG",
-        "name": "Diamondback Energy"
-      },
-      {
-        "ticker": "DLR",
-        "name": "Digital Realty"
-      },
-      {
-        "ticker": "DG",
-        "name": "Dollar General"
-      },
-      {
-        "ticker": "DLTR",
-        "name": "Dollar Tree"
-      },
-      {
-        "ticker": "D",
-        "name": "Dominion Energy"
-      },
-      {
-        "ticker": "DPZ",
-        "name": "Domino's"
-      },
-      {
-        "ticker": "DASH",
-        "name": "DoorDash"
-      },
-      {
-        "ticker": "DOV",
-        "name": "Dover Corporation"
-      },
-      {
-        "ticker": "DOW",
-        "name": "Dow Inc."
-      },
-      {
-        "ticker": "DHI",
-        "name": "D. R. Horton"
-      },
-      {
-        "ticker": "DTE",
-        "name": "DTE Energy"
-      },
-      {
-        "ticker": "DUK",
-        "name": "Duke Energy"
-      },
-      {
-        "ticker": "DD",
-        "name": "DuPont"
-      },
-      {
-        "ticker": "ETN",
-        "name": "Eaton Corporation"
-      },
-      {
-        "ticker": "EBAY",
-        "name": "eBay Inc."
-      },
-      {
-        "ticker": "SATS",
-        "name": "EchoStar"
-      },
-      {
-        "ticker": "ECL",
-        "name": "Ecolab"
-      },
-      {
-        "ticker": "EIX",
-        "name": "Edison International"
-      },
-      {
-        "ticker": "EW",
-        "name": "Edwards Lifesciences"
-      },
-      {
-        "ticker": "EA",
-        "name": "Electronic Arts"
-      },
-      {
-        "ticker": "ELV",
-        "name": "Elevance Health"
-      },
-      {
-        "ticker": "EME",
-        "name": "Emcor"
-      },
-      {
-        "ticker": "EMR",
-        "name": "Emerson Electric"
-      },
-      {
-        "ticker": "ETR",
-        "name": "Entergy"
-      },
-      {
-        "ticker": "EOG",
-        "name": "EOG Resources"
-      },
-      {
-        "ticker": "EPAM",
-        "name": "EPAM Systems"
-      },
-      {
-        "ticker": "EQT",
-        "name": "EQT Corporation"
-      },
-      {
-        "ticker": "EFX",
-        "name": "Equifax"
-      },
-      {
-        "ticker": "EQIX",
-        "name": "Equinix"
-      },
-      {
-        "ticker": "EQR",
-        "name": "Equity Residential"
-      },
-      {
-        "ticker": "ERIE",
-        "name": "Erie Indemnity"
-      },
-      {
-        "ticker": "ESS",
-        "name": "Essex Property Trust"
-      },
-      {
-        "ticker": "EL",
-        "name": "Est\u00e9e Lauder Companies (The)"
-      },
-      {
-        "ticker": "EG",
-        "name": "Everest Group"
-      },
-      {
-        "ticker": "EVRG",
-        "name": "Evergy"
-      },
-      {
-        "ticker": "ES",
-        "name": "Eversource Energy"
-      },
-      {
-        "ticker": "EXC",
-        "name": "Exelon"
-      },
-      {
-        "ticker": "EXE",
-        "name": "Expand Energy"
-      },
-      {
-        "ticker": "EXPE",
-        "name": "Expedia Group"
-      },
-      {
-        "ticker": "EXPD",
-        "name": "Expeditors International"
-      },
-      {
-        "ticker": "EXR",
-        "name": "Extra Space Storage"
-      },
-      {
-        "ticker": "XOM",
-        "name": "ExxonMobil"
-      },
-      {
-        "ticker": "FFIV",
-        "name": "F5, Inc."
-      },
-      {
-        "ticker": "FDS",
-        "name": "FactSet"
-      },
-      {
-        "ticker": "FICO",
-        "name": "Fair Isaac"
-      },
-      {
-        "ticker": "FAST",
-        "name": "Fastenal"
-      },
-      {
-        "ticker": "FRT",
-        "name": "Federal Realty Investment Trust"
-      },
-      {
-        "ticker": "FDX",
-        "name": "FedEx"
-      },
-      {
-        "ticker": "FIS",
-        "name": "Fidelity National Information Services"
-      },
-      {
-        "ticker": "FITB",
-        "name": "Fifth Third Bancorp"
-      },
-      {
-        "ticker": "FSLR",
-        "name": "First Solar"
-      },
-      {
-        "ticker": "FE",
-        "name": "FirstEnergy"
-      },
-      {
-        "ticker": "FISV",
-        "name": "Fiserv"
-      },
-      {
-        "ticker": "F",
-        "name": "Ford Motor Company"
-      },
-      {
-        "ticker": "FTNT",
-        "name": "Fortinet"
-      },
-      {
-        "ticker": "FTV",
-        "name": "Fortive"
-      },
-      {
-        "ticker": "FOXA",
-        "name": "Fox Corporation(Class A)"
-      },
-      {
-        "ticker": "FOX",
-        "name": "Fox Corporation(Class B)"
-      },
-      {
-        "ticker": "BEN",
-        "name": "Franklin Resources"
-      },
-      {
-        "ticker": "FCX",
-        "name": "Freeport-McMoRan"
-      },
-      {
-        "ticker": "GRMN",
-        "name": "Garmin"
-      },
-      {
-        "ticker": "IT",
-        "name": "Gartner"
-      },
-      {
-        "ticker": "GE",
-        "name": "GE Aerospace"
-      },
-      {
-        "ticker": "GEHC",
-        "name": "GE HealthCare"
-      },
-      {
-        "ticker": "GEV",
-        "name": "GE Vernova"
-      },
-      {
-        "ticker": "GEN",
-        "name": "Gen Digital"
-      },
-      {
-        "ticker": "GNRC",
-        "name": "Generac"
-      },
-      {
-        "ticker": "GD",
-        "name": "General Dynamics"
-      },
-      {
-        "ticker": "GIS",
-        "name": "General Mills"
-      },
-      {
-        "ticker": "GM",
-        "name": "General Motors"
-      },
-      {
-        "ticker": "GPC",
-        "name": "Genuine Parts Company"
-      },
-      {
-        "ticker": "GILD",
-        "name": "Gilead Sciences"
-      },
-      {
-        "ticker": "GPN",
-        "name": "Global Payments"
-      },
-      {
-        "ticker": "GL",
-        "name": "Globe Life"
-      },
-      {
-        "ticker": "GDDY",
-        "name": "GoDaddy"
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs"
-      },
-      {
-        "ticker": "HAL",
-        "name": "Halliburton"
-      },
-      {
-        "ticker": "HIG",
-        "name": "Hartford (The)"
-      },
-      {
-        "ticker": "HAS",
-        "name": "Hasbro"
-      },
-      {
-        "ticker": "HCA",
-        "name": "HCA Healthcare"
-      },
-      {
-        "ticker": "DOC",
-        "name": "Healthpeak Properties"
-      },
-      {
-        "ticker": "HSIC",
-        "name": "Henry Schein"
-      },
-      {
-        "ticker": "HSY",
-        "name": "Hershey Company (The)"
-      },
-      {
-        "ticker": "HPE",
-        "name": "Hewlett Packard Enterprise"
-      },
-      {
-        "ticker": "HLT",
-        "name": "Hilton Worldwide"
-      },
-      {
-        "ticker": "HD",
-        "name": "Home Depot (The)"
-      },
-      {
-        "ticker": "HON",
-        "name": "Honeywell"
-      },
-      {
-        "ticker": "HRL",
-        "name": "Hormel Foods"
-      },
-      {
-        "ticker": "HST",
-        "name": "Host Hotels & Resorts"
-      },
-      {
-        "ticker": "HWM",
-        "name": "Howmet Aerospace"
-      },
-      {
-        "ticker": "HPQ",
-        "name": "HP Inc."
-      },
-      {
-        "ticker": "HUBB",
-        "name": "Hubbell Incorporated"
-      },
-      {
-        "ticker": "HUM",
-        "name": "Humana"
-      },
-      {
-        "ticker": "HBAN",
-        "name": "Huntington Bancshares"
-      },
-      {
-        "ticker": "HII",
-        "name": "Huntington Ingalls Industries"
-      },
-      {
-        "ticker": "IBM",
-        "name": "IBM"
-      },
-      {
-        "ticker": "IEX",
-        "name": "IDEX Corporation"
-      },
-      {
-        "ticker": "IDXX",
-        "name": "Idexx Laboratories"
-      },
-      {
-        "ticker": "ITW",
-        "name": "Illinois Tool Works"
-      },
-      {
-        "ticker": "INCY",
-        "name": "Incyte"
-      },
-      {
-        "ticker": "IR",
-        "name": "Ingersoll Rand"
-      },
-      {
-        "ticker": "PODD",
-        "name": "Insulet Corporation"
-      },
-      {
-        "ticker": "INTC",
-        "name": "Intel"
-      },
-      {
-        "ticker": "IBKR",
-        "name": "Interactive Brokers"
-      },
-      {
-        "ticker": "ICE",
-        "name": "Intercontinental Exchange"
-      },
-      {
-        "ticker": "IFF",
-        "name": "International Flavors & Fragrances"
-      },
-      {
-        "ticker": "IP",
-        "name": "International Paper"
-      },
-      {
-        "ticker": "INTU",
-        "name": "Intuit"
-      },
-      {
-        "ticker": "ISRG",
-        "name": "Intuitive Surgical"
-      },
-      {
-        "ticker": "IVZ",
-        "name": "Invesco"
-      },
-      {
-        "ticker": "INVH",
-        "name": "Invitation Homes"
-      },
-      {
-        "ticker": "IQV",
-        "name": "IQVIA"
-      },
-      {
-        "ticker": "IRM",
-        "name": "Iron Mountain"
-      },
-      {
-        "ticker": "JBHT",
-        "name": "J.B. Hunt"
-      },
-      {
-        "ticker": "JBL",
-        "name": "Jabil"
-      },
-      {
-        "ticker": "JKHY",
-        "name": "Jack Henry & Associates"
-      },
-      {
-        "ticker": "J",
-        "name": "Jacobs Solutions"
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson"
-      },
-      {
-        "ticker": "JCI",
-        "name": "Johnson Controls"
-      },
-      {
-        "ticker": "JPM",
-        "name": "JPMorgan Chase"
-      },
-      {
-        "ticker": "KVUE",
-        "name": "Kenvue"
-      },
-      {
-        "ticker": "KDP",
-        "name": "Keurig Dr Pepper"
-      },
-      {
-        "ticker": "KEY",
-        "name": "KeyCorp"
-      },
-      {
-        "ticker": "KEYS",
-        "name": "Keysight Technologies"
-      },
-      {
-        "ticker": "KMB",
-        "name": "Kimberly-Clark"
-      },
-      {
-        "ticker": "KIM",
-        "name": "Kimco Realty"
-      },
-      {
-        "ticker": "KMI",
-        "name": "Kinder Morgan"
-      },
-      {
-        "ticker": "KKR",
-        "name": "KKR & Co."
-      },
-      {
-        "ticker": "KLAC",
-        "name": "KLA Corporation"
-      },
-      {
-        "ticker": "KHC",
-        "name": "Kraft Heinz"
-      },
-      {
-        "ticker": "KR",
-        "name": "Kroger"
-      },
-      {
-        "ticker": "LHX",
-        "name": "L3Harris"
-      },
-      {
-        "ticker": "LH",
-        "name": "Labcorp"
-      },
-      {
-        "ticker": "LRCX",
-        "name": "Lam Research"
-      },
-      {
-        "ticker": "LVS",
-        "name": "Las Vegas Sands"
-      },
-      {
-        "ticker": "LDOS",
-        "name": "Leidos"
-      },
-      {
-        "ticker": "LEN",
-        "name": "Lennar"
-      },
-      {
-        "ticker": "LII",
-        "name": "Lennox International"
-      },
-      {
-        "ticker": "LLY",
-        "name": "Lilly (Eli)"
-      },
-      {
-        "ticker": "LIN",
-        "name": "Linde plc"
-      },
-      {
-        "ticker": "LYV",
-        "name": "Live Nation Entertainment"
-      },
-      {
-        "ticker": "LMT",
-        "name": "Lockheed Martin"
-      },
-      {
-        "ticker": "L",
-        "name": "Loews Corporation"
-      },
-      {
-        "ticker": "LOW",
-        "name": "Lowe's"
-      },
-      {
-        "ticker": "LULU",
-        "name": "Lululemon Athletica"
-      },
-      {
-        "ticker": "LITE",
-        "name": "Lumentum"
-      },
-      {
-        "ticker": "LYB",
-        "name": "LyondellBasell"
-      },
-      {
-        "ticker": "MTB",
-        "name": "M&T Bank"
-      },
-      {
-        "ticker": "MPC",
-        "name": "Marathon Petroleum"
-      },
-      {
-        "ticker": "MAR",
-        "name": "Marriott International"
-      },
-      {
-        "ticker": "MRSH",
-        "name": "Marsh McLennan"
-      },
-      {
-        "ticker": "MLM",
-        "name": "Martin Marietta Materials"
-      },
-      {
-        "ticker": "MAS",
-        "name": "Masco"
-      },
-      {
-        "ticker": "MA",
-        "name": "Mastercard"
-      },
-      {
-        "ticker": "MKC",
-        "name": "McCormick & Company"
-      },
-      {
-        "ticker": "MCD",
-        "name": "McDonald's"
-      },
-      {
-        "ticker": "MCK",
-        "name": "McKesson Corporation"
-      },
-      {
-        "ticker": "MDT",
-        "name": "Medtronic"
-      },
-      {
-        "ticker": "MRK",
-        "name": "Merck & Co."
-      },
-      {
-        "ticker": "META",
-        "name": "Meta Platforms"
-      },
-      {
-        "ticker": "MET",
-        "name": "MetLife"
-      },
-      {
-        "ticker": "MTD",
-        "name": "Mettler Toledo"
-      },
-      {
-        "ticker": "MGM",
-        "name": "MGM Resorts"
-      },
-      {
-        "ticker": "MCHP",
-        "name": "Microchip Technology"
-      },
-      {
-        "ticker": "MU",
-        "name": "Micron Technology"
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft"
-      },
-      {
-        "ticker": "MAA",
-        "name": "Mid-America Apartment Communities"
-      },
-      {
-        "ticker": "MRNA",
-        "name": "Moderna"
-      },
-      {
-        "ticker": "TAP",
-        "name": "Molson Coors Beverage Company"
-      },
-      {
-        "ticker": "MDLZ",
-        "name": "Mondelez International"
-      },
-      {
-        "ticker": "MPWR",
-        "name": "Monolithic Power Systems"
-      },
-      {
-        "ticker": "MNST",
-        "name": "Monster Beverage"
-      },
-      {
-        "ticker": "MCO",
-        "name": "Moody's Corporation"
-      },
-      {
-        "ticker": "MS",
-        "name": "Morgan Stanley"
-      },
-      {
-        "ticker": "MOS",
-        "name": "Mosaic Company (The)"
-      },
-      {
-        "ticker": "MSI",
-        "name": "Motorola Solutions"
-      },
-      {
-        "ticker": "MSCI",
-        "name": "MSCI Inc."
-      },
-      {
-        "ticker": "NDAQ",
-        "name": "Nasdaq, Inc."
-      },
-      {
-        "ticker": "NTAP",
-        "name": "NetApp"
-      },
-      {
-        "ticker": "NFLX",
-        "name": "Netflix"
-      },
-      {
-        "ticker": "NEM",
-        "name": "Newmont"
-      },
-      {
-        "ticker": "NWSA",
-        "name": "News Corp(Class A)"
-      },
-      {
-        "ticker": "NWS",
-        "name": "News Corp(Class B)"
-      },
-      {
-        "ticker": "NEE",
-        "name": "NextEra Energy"
-      },
-      {
-        "ticker": "NKE",
-        "name": "Nike, Inc."
-      },
-      {
-        "ticker": "NI",
-        "name": "NiSource"
-      },
-      {
-        "ticker": "NDSN",
-        "name": "Nordson Corporation"
-      },
-      {
-        "ticker": "NSC",
-        "name": "Norfolk Southern"
-      },
-      {
-        "ticker": "NTRS",
-        "name": "Northern Trust"
-      },
-      {
-        "ticker": "NOC",
-        "name": "Northrop Grumman"
-      },
-      {
-        "ticker": "NCLH",
-        "name": "Norwegian Cruise Line Holdings"
-      },
-      {
-        "ticker": "NRG",
-        "name": "NRG Energy"
-      },
-      {
-        "ticker": "NUE",
-        "name": "Nucor"
-      },
-      {
-        "ticker": "NVDA",
-        "name": "Nvidia"
-      },
-      {
-        "ticker": "NVR",
-        "name": "NVR, Inc."
-      },
-      {
-        "ticker": "NXPI",
-        "name": "NXP Semiconductors"
-      },
-      {
-        "ticker": "ORLY",
-        "name": "O\u2019Reilly Automotive"
-      },
-      {
-        "ticker": "OXY",
-        "name": "Occidental Petroleum"
-      },
-      {
-        "ticker": "ODFL",
-        "name": "Old Dominion"
-      },
-      {
-        "ticker": "OMC",
-        "name": "Omnicom Group"
-      },
-      {
-        "ticker": "ON",
-        "name": "ON Semiconductor"
-      },
-      {
-        "ticker": "OKE",
-        "name": "Oneok"
-      },
-      {
-        "ticker": "ORCL",
-        "name": "Oracle Corporation"
-      },
-      {
-        "ticker": "OTIS",
-        "name": "Otis Worldwide"
-      },
-      {
-        "ticker": "PCAR",
-        "name": "Paccar"
-      },
-      {
-        "ticker": "PKG",
-        "name": "Packaging Corporation of America"
-      },
-      {
-        "ticker": "PLTR",
-        "name": "Palantir Technologies"
-      },
-      {
-        "ticker": "PANW",
-        "name": "Palo Alto Networks"
-      },
-      {
-        "ticker": "PSKY",
-        "name": "Paramount Skydance Corporation"
-      },
-      {
-        "ticker": "PH",
-        "name": "Parker Hannifin"
-      },
-      {
-        "ticker": "PAYX",
-        "name": "Paychex"
-      },
-      {
-        "ticker": "PYPL",
-        "name": "PayPal"
-      },
-      {
-        "ticker": "PNR",
-        "name": "Pentair"
-      },
-      {
-        "ticker": "PEP",
-        "name": "PepsiCo"
-      },
-      {
-        "ticker": "PFE",
-        "name": "Pfizer"
-      },
-      {
-        "ticker": "PCG",
-        "name": "PG&E Corporation"
-      },
-      {
-        "ticker": "PM",
-        "name": "Philip Morris International"
-      },
-      {
-        "ticker": "PSX",
-        "name": "Phillips 66"
-      },
-      {
-        "ticker": "PNW",
-        "name": "Pinnacle West Capital"
-      },
-      {
-        "ticker": "PNC",
-        "name": "PNC Financial Services"
-      },
-      {
-        "ticker": "POOL",
-        "name": "Pool Corporation"
-      },
-      {
-        "ticker": "PPG",
-        "name": "PPG Industries"
-      },
-      {
-        "ticker": "PPL",
-        "name": "PPL Corporation"
-      },
-      {
-        "ticker": "PFG",
-        "name": "Principal Financial Group"
-      },
-      {
-        "ticker": "PG",
-        "name": "Procter & Gamble"
-      },
-      {
-        "ticker": "PGR",
-        "name": "Progressive Corporation"
-      },
-      {
-        "ticker": "PLD",
-        "name": "Prologis"
-      },
-      {
-        "ticker": "PRU",
-        "name": "Prudential Financial"
-      },
-      {
-        "ticker": "PEG",
-        "name": "Public Service Enterprise Group"
-      },
-      {
-        "ticker": "PTC",
-        "name": "PTC Inc."
-      },
-      {
-        "ticker": "PSA",
-        "name": "Public Storage"
-      },
-      {
-        "ticker": "PHM",
-        "name": "PulteGroup"
-      },
-      {
-        "ticker": "PWR",
-        "name": "Quanta Services"
-      },
-      {
-        "ticker": "QCOM",
-        "name": "Qualcomm"
-      },
-      {
-        "ticker": "DGX",
-        "name": "Quest Diagnostics"
-      },
-      {
-        "ticker": "Q",
-        "name": "Qnity Electronics"
-      },
-      {
-        "ticker": "RL",
-        "name": "Ralph Lauren Corporation"
-      },
-      {
-        "ticker": "RJF",
-        "name": "Raymond James Financial"
-      },
-      {
-        "ticker": "RTX",
-        "name": "RTX Corporation"
-      },
-      {
-        "ticker": "O",
-        "name": "Realty Income"
-      },
-      {
-        "ticker": "REG",
-        "name": "Regency Centers"
-      },
-      {
-        "ticker": "REGN",
-        "name": "Regeneron Pharmaceuticals"
-      },
-      {
-        "ticker": "RF",
-        "name": "Regions Financial Corporation"
-      },
-      {
-        "ticker": "RSG",
-        "name": "Republic Services"
-      },
-      {
-        "ticker": "RMD",
-        "name": "ResMed"
-      },
-      {
-        "ticker": "RVTY",
-        "name": "Revvity"
-      },
-      {
-        "ticker": "HOOD",
-        "name": "Robinhood Markets"
-      },
-      {
-        "ticker": "ROK",
-        "name": "Rockwell Automation"
-      },
-      {
-        "ticker": "ROL",
-        "name": "Rollins, Inc."
-      },
-      {
-        "ticker": "ROP",
-        "name": "Roper Technologies"
-      },
-      {
-        "ticker": "ROST",
-        "name": "Ross Stores"
-      },
-      {
-        "ticker": "RCL",
-        "name": "Royal Caribbean Group"
-      },
-      {
-        "ticker": "SPGI",
-        "name": "S&P Global"
-      },
-      {
-        "ticker": "CRM",
-        "name": "Salesforce"
-      },
-      {
-        "ticker": "SNDK",
-        "name": "Sandisk"
-      },
-      {
-        "ticker": "SBAC",
-        "name": "SBA Communications"
-      },
-      {
-        "ticker": "SLB",
-        "name": "Schlumberger"
-      },
-      {
-        "ticker": "STX",
-        "name": "Seagate Technology"
-      },
-      {
-        "ticker": "SRE",
-        "name": "Sempra"
-      },
-      {
-        "ticker": "NOW",
-        "name": "ServiceNow"
-      },
-      {
-        "ticker": "SHW",
-        "name": "Sherwin-Williams"
-      },
-      {
-        "ticker": "SPG",
-        "name": "Simon Property Group"
-      },
-      {
-        "ticker": "SWKS",
-        "name": "Skyworks Solutions"
-      },
-      {
-        "ticker": "SJM",
-        "name": "J.M. Smucker Company (The)"
-      },
-      {
-        "ticker": "SW",
-        "name": "Smurfit Westrock"
-      },
-      {
-        "ticker": "SNA",
-        "name": "Snap-on"
-      },
-      {
-        "ticker": "SOLV",
-        "name": "Solventum"
-      },
-      {
-        "ticker": "SO",
-        "name": "Southern Company"
-      },
-      {
-        "ticker": "LUV",
-        "name": "Southwest Airlines"
-      },
-      {
-        "ticker": "SWK",
-        "name": "Stanley Black & Decker"
-      },
-      {
-        "ticker": "SBUX",
-        "name": "Starbucks"
-      },
-      {
-        "ticker": "STT",
-        "name": "State Street Corporation"
-      },
-      {
-        "ticker": "STLD",
-        "name": "Steel Dynamics"
-      },
-      {
-        "ticker": "STE",
-        "name": "Steris"
-      },
-      {
-        "ticker": "SYK",
-        "name": "Stryker Corporation"
-      },
-      {
-        "ticker": "SMCI",
-        "name": "Supermicro"
-      },
-      {
-        "ticker": "SYF",
-        "name": "Synchrony Financial"
-      },
-      {
-        "ticker": "SNPS",
-        "name": "Synopsys"
-      },
-      {
-        "ticker": "SYY",
-        "name": "Sysco"
-      },
-      {
-        "ticker": "TMUS",
-        "name": "T-Mobile US"
-      },
-      {
-        "ticker": "TROW",
-        "name": "T. Rowe Price"
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive"
-      },
-      {
-        "ticker": "TPR",
-        "name": "Tapestry, Inc."
-      },
-      {
-        "ticker": "TRGP",
-        "name": "Targa Resources"
-      },
-      {
-        "ticker": "TGT",
-        "name": "Target Corporation"
-      },
-      {
-        "ticker": "TEL",
-        "name": "TE Connectivity"
-      },
-      {
-        "ticker": "TDY",
-        "name": "Teledyne Technologies"
-      },
-      {
-        "ticker": "TER",
-        "name": "Teradyne"
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla, Inc."
-      },
-      {
-        "ticker": "TXN",
-        "name": "Texas Instruments"
-      },
-      {
-        "ticker": "TPL",
-        "name": "Texas Pacific Land Corporation"
-      },
-      {
-        "ticker": "TXT",
-        "name": "Textron"
-      },
-      {
-        "ticker": "TMO",
-        "name": "Thermo Fisher Scientific"
-      },
-      {
-        "ticker": "TJX",
-        "name": "TJX Companies"
-      },
-      {
-        "ticker": "TKO",
-        "name": "TKO Group Holdings"
-      },
-      {
-        "ticker": "TTD",
-        "name": "Trade Desk (The)"
-      },
-      {
-        "ticker": "TSCO",
-        "name": "Tractor Supply"
-      },
-      {
-        "ticker": "TT",
-        "name": "Trane Technologies"
-      },
-      {
-        "ticker": "TDG",
-        "name": "TransDigm Group"
-      },
-      {
-        "ticker": "TRV",
-        "name": "Travelers Companies (The)"
-      },
-      {
-        "ticker": "TRMB",
-        "name": "Trimble Inc."
-      },
-      {
-        "ticker": "TFC",
-        "name": "Truist Financial"
-      },
-      {
-        "ticker": "TYL",
-        "name": "Tyler Technologies"
-      },
-      {
-        "ticker": "TSN",
-        "name": "Tyson Foods"
-      },
-      {
-        "ticker": "USB",
-        "name": "U.S. Bancorp"
-      },
-      {
-        "ticker": "UBER",
-        "name": "Uber"
-      },
-      {
-        "ticker": "UDR",
-        "name": "UDR, Inc."
-      },
-      {
-        "ticker": "ULTA",
-        "name": "Ulta Beauty"
-      },
-      {
-        "ticker": "UNP",
-        "name": "Union Pacific Corporation"
-      },
-      {
-        "ticker": "UAL",
-        "name": "United Airlines Holdings"
-      },
-      {
-        "ticker": "UPS",
-        "name": "United Parcel Service"
-      },
-      {
-        "ticker": "URI",
-        "name": "United Rentals"
-      },
-      {
-        "ticker": "UNH",
-        "name": "UnitedHealth Group"
-      },
-      {
-        "ticker": "UHS",
-        "name": "Universal Health Services"
-      },
-      {
-        "ticker": "VLO",
-        "name": "Valero Energy"
-      },
-      {
-        "ticker": "VEEV",
-        "name": "Veeva Systems"
-      },
-      {
-        "ticker": "VTR",
-        "name": "Ventas"
-      },
-      {
-        "ticker": "VLTO",
-        "name": "Veralto"
-      },
-      {
-        "ticker": "VRSN",
-        "name": "Verisign"
-      },
-      {
-        "ticker": "VRSK",
-        "name": "Verisk Analytics"
-      },
-      {
-        "ticker": "VZ",
-        "name": "Verizon"
-      },
-      {
-        "ticker": "VRTX",
-        "name": "Vertex Pharmaceuticals"
-      },
-      {
-        "ticker": "VRT",
-        "name": "Vertiv"
-      },
-      {
-        "ticker": "VTRS",
-        "name": "Viatris"
-      },
-      {
-        "ticker": "VICI",
-        "name": "Vici Properties"
-      },
-      {
-        "ticker": "V",
-        "name": "Visa Inc."
-      },
-      {
-        "ticker": "VST",
-        "name": "Vistra Corp."
-      },
-      {
-        "ticker": "VMC",
-        "name": "Vulcan Materials Company"
-      },
-      {
-        "ticker": "WRB",
-        "name": "W. R. Berkley Corporation"
-      },
-      {
-        "ticker": "GWW",
-        "name": "W. W. Grainger"
-      },
-      {
-        "ticker": "WAB",
-        "name": "Wabtec"
-      },
-      {
-        "ticker": "WMT",
-        "name": "Walmart"
-      },
-      {
-        "ticker": "DIS",
-        "name": "Walt Disney Company (The)"
-      },
-      {
-        "ticker": "WBD",
-        "name": "Warner Bros. Discovery"
-      },
-      {
-        "ticker": "WM",
-        "name": "Waste Management"
-      },
-      {
-        "ticker": "WAT",
-        "name": "Waters Corporation"
-      },
-      {
-        "ticker": "WEC",
-        "name": "WEC Energy Group"
-      },
-      {
-        "ticker": "WFC",
-        "name": "Wells Fargo"
-      },
-      {
-        "ticker": "WELL",
-        "name": "Welltower"
-      },
-      {
-        "ticker": "WST",
-        "name": "West Pharmaceutical Services"
-      },
-      {
-        "ticker": "WDC",
-        "name": "Western Digital"
-      },
-      {
-        "ticker": "WY",
-        "name": "Weyerhaeuser"
-      },
-      {
-        "ticker": "WSM",
-        "name": "Williams-Sonoma, Inc."
-      },
-      {
-        "ticker": "WMB",
-        "name": "Williams Companies"
-      },
-      {
-        "ticker": "WTW",
-        "name": "Willis Towers Watson"
-      },
-      {
-        "ticker": "WDAY",
-        "name": "Workday, Inc."
-      },
-      {
-        "ticker": "WYNN",
-        "name": "Wynn Resorts"
-      },
-      {
-        "ticker": "XEL",
-        "name": "Xcel Energy"
-      },
-      {
-        "ticker": "XYL",
-        "name": "Xylem Inc."
-      },
-      {
-        "ticker": "YUM",
-        "name": "Yum! Brands"
-      },
-      {
-        "ticker": "ZBRA",
-        "name": "Zebra Technologies"
-      },
-      {
-        "ticker": "ZBH",
-        "name": "Zimmer Biomet"
-      },
-      {
-        "ticker": "ZTS",
-        "name": "Zoetis"
-      }
-    ],
-    "removed": []
-  }
+  ]
 }

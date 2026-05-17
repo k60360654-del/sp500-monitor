@@ -55,11 +55,11 @@ class Transaction:
     is_discretionary_sell: bool
 
 
-def list_recent_form4_accessions(cik: int, *, since_date: Optional[str] = None,
-                                  limit: int = 200) -> list[dict]:
-    """Returns list of {accession, filed_date, primary_document} for Form 4 filings.
-
-    since_date filters to filings on or after the given ISO date (inclusive).
+def list_recent_filings(cik: int, *, form_types: set[str],
+                         since_date: Optional[str] = None,
+                         limit: int = 500) -> list[dict]:
+    """Returns list of {accession, filed_date, primary_document, items, form}
+    for filings matching any of form_types.
     """
     data = edgar.fetch_json(edgar.submissions_url(cik), accept_404=True)
     if data is None:
@@ -69,21 +69,31 @@ def list_recent_form4_accessions(cik: int, *, since_date: Optional[str] = None,
     dates = recent.get("filingDate", [])
     accessions = recent.get("accessionNumber", [])
     primary_docs = recent.get("primaryDocument", [])
+    items_arr = recent.get("items", [])
 
     out = []
-    for form, dt, acc, doc in zip(forms, dates, accessions, primary_docs):
-        if form != "4":
+    for i, form in enumerate(forms):
+        if form not in form_types:
             continue
+        dt = dates[i] if i < len(dates) else ""
         if since_date and dt < since_date:
             continue
         out.append({
-            "accession": acc,
+            "accession": accessions[i] if i < len(accessions) else "",
             "filed_date": dt,
-            "primary_document": doc,
+            "primary_document": primary_docs[i] if i < len(primary_docs) else "",
+            "items": items_arr[i] if i < len(items_arr) else "",
+            "form": form,
         })
         if len(out) >= limit:
             break
     return out
+
+
+def list_recent_form4_accessions(cik: int, *, since_date: Optional[str] = None,
+                                  limit: int = 200) -> list[dict]:
+    """Backwards-compatible wrapper for Form 4 only."""
+    return list_recent_filings(cik, form_types={"4"}, since_date=since_date, limit=limit)
 
 
 def _text(el, xpath_expr: str) -> Optional[str]:
@@ -207,28 +217,32 @@ def parse_form4_xml(xml_bytes: bytes, cik: int, accession: str,
 def find_form4_xml_filename(cik: int, accession: str) -> Optional[str]:
     """Look in the filing's index.json to find the Form 4 XML filename.
 
-    The submissions API gives us a 'primaryDocument' which is usually the
-    human-readable HTML wrapper. The actual structured XML is a separate file,
-    typically ending in .xml.
+    Slower fallback: only called when the fast path (primary_doc.xml) 404s.
     """
     idx = edgar.fetch_json(edgar.filing_index_url(cik, accession), accept_404=True)
     if idx is None:
         return None
     for item in idx.get("directory", {}).get("item", []):
         name = item.get("name", "")
-        if name.endswith(".xml") and not name.startswith("primary_doc"):
-            # Skip metadata files
+        if name == "primary_doc.xml":
+            return name
+        if name.endswith(".xml"):
             if name in ("Financial_Report.xlsx", "MetaLinks.json"):
                 continue
-            return name
-        # primary_doc.xml is the modern Form 4 XML filename
-        if name == "primary_doc.xml":
             return name
     return None
 
 
 def fetch_and_parse_form4(cik: int, accession: str, filed_date: str) -> list[Transaction]:
-    """High-level helper: locate the XML, fetch it, parse it."""
+    """Fetch + parse a Form 4. Fast path: try primary_doc.xml directly.
+    Fall back to index.json lookup only if that 404s.
+    """
+    # Fast path: modern Form 4s use this standard filename
+    fast_url = edgar.filing_doc_url(cik, accession, "primary_doc.xml")
+    raw = edgar.fetch(fast_url, accept_404=True)
+    if raw is not None:
+        return parse_form4_xml(raw, cik, accession, filed_date)
+    # Slow path: lookup via index.json (older or non-standard filings)
     xml_name = find_form4_xml_filename(cik, accession)
     if xml_name is None:
         log.warning("Could not locate Form 4 XML for %s/%s", cik, accession)
@@ -245,6 +259,8 @@ def summarize_transactions(transactions: Iterable[Transaction],
     """Aggregate transactions since a given date into summary signals."""
     buys = []
     sells = []
+    excluded_10b5_buys = []
+    excluded_10b5_sells = []
     for tx in transactions:
         if tx.filed_date < since_date:
             continue
@@ -252,15 +268,25 @@ def summarize_transactions(transactions: Iterable[Transaction],
             buys.append(tx)
         elif tx.is_discretionary_sell:
             sells.append(tx)
+        elif tx.transaction_code == "P" and tx.acquired_disposed == "A" and tx.is_10b5_1:
+            excluded_10b5_buys.append(tx)
+        elif tx.transaction_code == "S" and tx.acquired_disposed == "D" and tx.is_10b5_1:
+            excluded_10b5_sells.append(tx)
     return {
         "discretionary_buys_count": len(buys),
         "discretionary_buys_value": sum(t.value for t in buys),
         "discretionary_buys_shares": sum(t.shares for t in buys),
+        "discretionary_buys_filings": len({t.accession for t in buys}),
         "discretionary_sells_count": len(sells),
         "discretionary_sells_value": sum(t.value for t in sells),
         "discretionary_sells_shares": sum(t.shares for t in sells),
+        "discretionary_sells_filings": len({t.accession for t in sells}),
         "cluster_buyers": len({t.insider_name for t in buys}),
         "cluster_sellers": len({t.insider_name for t in sells}),
         "latest_buy_date": max((t.transaction_date for t in buys), default=None),
         "latest_sell_date": max((t.transaction_date for t in sells), default=None),
+        "excluded_10b5_buys_count": len(excluded_10b5_buys),
+        "excluded_10b5_sells_count": len(excluded_10b5_sells),
+        "excluded_10b5_buys_filings": len({t.accession for t in excluded_10b5_buys}),
+        "excluded_10b5_sells_filings": len({t.accession for t in excluded_10b5_sells}),
     }

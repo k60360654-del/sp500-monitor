@@ -1,61 +1,61 @@
 # S&P 500 Signal Monitor
 
-An automated dashboard that scores every S&P 500 company on two signals derived
-from SEC EDGAR filings: **discretionary insider transactions** (Form 4) and
-**quarterly share count changes** (XBRL companyfacts).
+Automated forensic-style dashboard that scores every S&P 500 company across
+**12 signal categories** derived from SEC EDGAR filings.
 
-Built to run for free on GitHub Actions + GitHub Pages. No server, no database,
+Built to run free on GitHub Actions + GitHub Pages. No server, no database,
 no monthly cost.
 
 ---
 
-## What it does
+## Signal Model
 
-On a schedule (default: every 6 hours), the pipeline:
+| Category | Signal | Weight |
+|---|---|---|
+| **Insider** | Discretionary buy (non-10b5-1, code P) | **+1 each** |
+| | Discretionary sell (non-10b5-1, code S) | **-0.25 each** |
+| **Share Count** | QoQ decrease >1% (buyback) | **+1** |
+| | QoQ decrease >3% (aggressive buyback) | **+2** (replaces +1) |
+| | QoQ increase >1% (dilution) | **-1** |
+| | QoQ increase >5% (major dilution) | **-2** (replaces -1) |
+| **8-K Events** | Item 4.02 non-reliance on prior financials | **-3** |
+| | Item 4.01 auditor change | **-2** |
+| | Director resignation w/o "no disagreement" language | **-2** |
+| | Buyback authorization announcement | **+1** |
+| **Late Filings** | NT-10K / NT-10Q late-filing notification | **-2 each** |
+| **Governance** | Say-on-pay vote <70% | **-1** |
+| | Say-on-pay vote <50% | **-2** (replaces -1) |
+| | Auditor ratification vote <95% | **-1** |
+| | Any individual director withhold vote >20% | **-1** |
+| **13D / 13G** | 13G amendment showing increased stake | **+1** |
+| | 13D amendment showing increased stake (activist) | **+2** |
+| **Financials (TTM YoY)** | Dividend per share increase | **+1** |
+| | Dividend initiation ($0 → positive) | **+2** |
+| | Dividend cut | **-2** |
+| | Gross margin expansion >100 bps | **+1** |
+| | Gross margin compression >100 bps | **-1** |
+| | Operating cash flow growth >5% | **+1** |
+| | Operating cash flow decline >5% | **-1** |
 
-1. Pulls the current S&P 500 constituent list from Wikipedia and diffs it
-   against the prior run to detect additions/removals.
-2. For each company, fetches new Form 4 filings since the last run, parses
-   the XML, and identifies **discretionary** insider transactions
-   (transaction code `P` for buys, `S` for sells, with 10b5-1 plan trades
-   filtered out).
-3. For each company, fetches the XBRL companyfacts JSON and extracts the
-   `EntityCommonStockSharesOutstanding` time series to compute quarter-over-
-   quarter share count changes.
-4. Applies your weights to compute a composite score per company.
-5. Writes `data/companies.json`, which the static dashboard loads.
-6. Commits and pushes the updated JSON. GitHub Pages serves the dashboard.
+The asymmetric insider weighting (+1 buy vs. -0.25 sell) reflects academic findings that insider buys are far more predictive than sells — sells happen for many non-informational reasons (diversification, taxes, divorce, mansion), while buys mainly happen when the insider thinks the stock is going up.
 
-## Default scoring
+## What clean signals look like
 
-```
-Insider discretionary buy (last 90 days)       +1 each
-Insider discretionary sell (last 90 days)      -1 each
-Share count QoQ decrease > 1%                  +1
-Share count QoQ increase > 1%                  -1
-```
-
-All weights are configurable on the command line (see `--help` on the pipeline).
-
----
+- **Quality compounder**: typically +3 to +6 (modest buybacks + growing dividend + expanding margins + OCF growth)
+- **Activist target**: +3 to +6 (insider buys + 13D accumulation)
+- **Distress / accounting issue**: -5 to -12 (4.02 + dividend cut + margin compression + insider sells)
+- **Forensic outlier**: -10+ (multiple red flags compounding)
 
 ## Setup
 
-### 1. Fork or create the repo
+### 1. Push to GitHub (public repo for free Pages hosting)
 
-Push this codebase to a new GitHub repo. **Private repos work too** — GitHub
-Actions and Pages both support private repos under the free tier limits.
-
-### 2. Set the `EDGAR_USER_AGENT` secret
-
-SEC EDGAR requires a User-Agent header identifying you. Go to:
+### 2. Set `EDGAR_USER_AGENT` secret
 
 `Settings → Secrets and variables → Actions → New repository secret`
 
 Name: `EDGAR_USER_AGENT`
-Value: e.g. `Kumar Srinivasan kumar@example.com`
-
-This is mandatory. EDGAR will reject requests without it.
+Value: `Your Name your@email.com` (SEC requires a real contact email)
 
 ### 3. Enable GitHub Pages
 
@@ -65,119 +65,68 @@ This is mandatory. EDGAR will reject requests without it.
 
 `Actions → Update SP500 Signals → Run workflow`
 
-For the first run, you can leave the defaults (full S&P 500, 1 year of
-Form 4 backfill). This will take 30-60 minutes.
+**For the first run**:
+- Set `max_companies` to `20` for a quick smoke test (~10 min)
+- Keep `skip_13dg` **true** for the first few runs (13D/G fetching adds 30-60 min)
+- Set `backfill_years` to `1`
 
-For testing, set `max_companies` to `20` to run a quick first pass.
+Once that works, re-run with `max_companies=0` for the full S&P 500. Expect 60-90 minutes with skip_13dg, or 3-4 hours with 13D/G enabled. Subsequent runs are much faster thanks to incremental caching.
 
-After the run completes, your dashboard will be at:
+### 5. Open the dashboard
 
-`https://<your-github-username>.github.io/<repo-name>/`
+`https://<your-username>.github.io/<repo-name>/`
 
-### 5. (Optional) Adjust the schedule
+## Dashboard Features
 
-In `.github/workflows/update.yml`, change the cron expression. Default is
-`15 */6 * * *` (every 6 hours at :15). Form 4s have a 2-business-day filing
-deadline so this is more than fast enough.
+- **Sortable table** with all 7 score components per row, plus a flags column highlighting concerning (4.02, NT filing, director resignation, dividend cut) and bullish items (13D accumulation, dividend initiation, buyback announcement)
+- **Filter pills**: All / Positive / Negative / Insider Buys / 4.02-4.01 / Late Filings / 13D Activist / Div ↑ / Div ↓ / Buybacks
+- **Click any row** to expand a drill-down with:
+  - Insider activity (buys/sells, $ values, 10b5-1 filtered counts)
+  - Share count history and QoQ change
+  - 8-K events and late filings
+  - Governance vote tallies
+  - 13D/G activity
+  - Financial signal values
+  - **Score contributions list** — every signal that fired with its weight
+  - **Recent Form 4 transactions table** — every transaction in the 90d lookback with its classification (counted buy, counted sell, 10b5-1 filtered, or noise), and a direct link to the filing on SEC.gov
+  - EDGAR drill-down links
 
----
+## Methodology Notes
 
-## Running locally
+**Why insider buys are weighted 4x sells**: Academic research (Jeng-Metrick-Zeckhauser 2003, Cohen-Malloy-Pomorski 2012) consistently finds insider purchases predict future returns much more strongly than insider sales. Sales happen for many non-informational reasons; purchases mainly happen when the insider thinks the stock will go up.
 
-```bash
-pip install -r requirements.txt
-export EDGAR_USER_AGENT="Your Name your@email.com"
+**Why 10b5-1 transactions are filtered out**: 10b5-1 plans are pre-scheduled trades that by definition aren't discretionary — the trade was set before any new information. The parser checks both the form-level `<aff10b5One>` flag and per-transaction footnote references.
 
-# First run — full universe, full backfill
-python -m src.pipeline
+**Why share count uses XBRL, not 8-K announcements**: The 8-K signal captures when a buyback *program is authorized*. The XBRL signal captures actual share count *changes*. Companies announce programs they don't execute, and execute (offset by stock-based comp) without headlines.
 
-# Quick test — 20 companies
-python -m src.pipeline --max-companies 20
+**Why dividends use per-share TTM, not total dollars**: Total dividends grow mechanically with share count (M&A, secondaries). DPS-TTM reflects board capital-allocation decisions. Initiation is bonus-weighted because it signals a major shift in capital strategy.
 
-# Custom weights
-python -m src.pipeline \
-  --insider-lookback-days 180 \
-  --share-count-pct-threshold 0.5 \
-  --insider-buy-weight 2.0
-```
+## Limitations
 
-Then serve `dashboard/` over any local HTTP server, e.g.:
-
-```bash
-cp data/companies.json dashboard/
-cd dashboard && python -m http.server 8000
-# open http://localhost:8000
-```
-
----
+- **Gross margin for financials**: Banks/insurers don't report "gross profit" in the traditional sense. Their scores skip this signal rather than fire spuriously. NIM and combined ratio would be the meaningful substitutes — not yet implemented.
+- **8-K 5.02 text parsing**: Director resignation detection uses regex matching. False positives possible. Cross-check the underlying filing.
+- **13D/G is expensive**: The EFTS full-text search adds significant runtime. Recommend `--skip-13dg` until the rest of the system is stable.
+- **EDGAR rate limit**: 10 req/sec. Client targets 8 req/sec. First full run with all signals takes 2-4 hours.
 
 ## Architecture
 
 ```
 src/
-├── edgar.py       # Rate-limited HTTP client + URL builders
-├── universe.py    # Wikipedia + SEC ticker→CIK mapping; add/remove tracking
-├── form4.py       # Form 4 XML parsing, discretionary-transaction logic
-├── shares.py      # XBRL companyfacts → quarterly share count series
-├── scoring.py     # Composite score with configurable weights
-└── pipeline.py    # Orchestrator + JSON export
-
-data/              # Generated; checked into repo so dashboard can read it
-├── universe.json       # S&P 500 membership state
-├── transactions.json   # Cached Form 4 transactions (incremental updates)
-├── share_counts.json   # Cached share count time series
-└── companies.json      # The output file the dashboard reads
-
-dashboard/         # Static site for GitHub Pages
-└── index.html     # Single-file dashboard
+├── edgar.py        # Rate-limited HTTP client
+├── universe.py     # S&P 500 membership tracking
+├── form4.py        # Form 4 XML parsing + 10b5-1 filtering
+├── shares.py       # XBRL share count
+├── eightk.py       # 8-K item parsing + NT filings
+├── thirteendg.py   # 13D/G EFTS search
+├── financials.py   # XBRL TTM dividends, margins, OCF
+├── scoring.py      # Composite scoring with contribution breakdown
+└── pipeline.py     # Orchestrator
 ```
 
-## How "discretionary" is determined
+## Customization
 
-A Form 4 transaction is counted as a discretionary buy or sell only if all
-of these are true:
+**Change weights**: edit `ScoreWeights` defaults in `src/scoring.py`.
 
-- Transaction code is `P` (buy) or `S` (sell). Codes `A` (grant), `M`
-  (option exercise), `F` (tax withholding), `D` (disposition to issuer),
-  `G` (gift), `X` (option exercise), and `C` (conversion) are excluded.
-- Acquired/disposed code matches (`A` for buys, `D` for sells).
-- The filing does **not** have the `<aff10b5One>` flag set, **and** no
-  footnote references 10b5-1.
+**Track a different universe**: replace `fetch_sp500_from_wikipedia()` in `src/universe.py` with your own ticker list (Russell 1000, your portfolio).
 
-10b5-1 plans are pre-scheduled trades and don't carry the same signal value
-as actively-decided open market transactions.
-
-## Notes & limitations
-
-- Share count from `dei:EntityCommonStockSharesOutstanding` is the cover-page
-  "as of" count. For ~5% of filers this field is missing or stale; the code
-  falls back to `us-gaap:CommonStockSharesOutstanding`.
-- The "QoQ" change uses adjacent reported periods. For most companies these
-  are calendar quarters, but some (e.g. Walmart, Cisco) have offset fiscal
-  calendars — the comparison is still period-over-period and meaningful.
-- GitHub Actions has a 6-hour job timeout. Even a full backfill of 500
-  companies × 1 year stays well under that.
-- EDGAR rate limit is 10 req/sec. The client targets ~8 req/sec to stay safely
-  under it.
-- GitHub Pages free tier: 100GB/month bandwidth, 1GB site size. This project
-  uses < 1MB of bandwidth per day. Not a concern.
-
-## Customizing
-
-Common changes:
-
-**Track a different universe** — replace `fetch_sp500_from_wikipedia()` in
-`src/universe.py` with your own ticker list (Russell 1000, your portfolio,
-etc.).
-
-**Add a new signal** — e.g. 13D/G activist filings, or 10-Q restatements.
-Add a parser module, add a component in `scoring.py`, expose it in the
-dashboard.
-
-**Change scoring math** — `src/scoring.py` accepts a `ScoreWeights` dataclass.
-The `insider_mode` parameter switches between `count`, `net_count`, and
-`net_value` modes.
-
-**Send a daily email** — add a step in the workflow that diffs the new
-`companies.json` against the prior commit and pipes top movers to a
-mail-action like `dawidd6/action-send-mail`.
+**Add a signal**: write a parser module, add a component function to `scoring.py`, wire through `pipeline.py`, surface in the dashboard.

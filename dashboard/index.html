@@ -22,7 +22,8 @@
     --green-dim: #2f5e4d;
     --red: #e8807c;
     --red-dim: #6e3936;
-    --neutral: #6c6c75;
+    --orange: #d4a857;
+    --orange-dim: #3a2e1a;
     --serif: "IBM Plex Serif", Georgia, serif;
     --sans: "IBM Plex Sans", system-ui, sans-serif;
     --mono: "IBM Plex Mono", ui-monospace, monospace;
@@ -30,263 +31,199 @@
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--sans);
-    font-size: 14px;
-    line-height: 1.5;
+    background: var(--bg); color: var(--text); font-family: var(--sans);
+    font-size: 14px; line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  /* Header */
   header.masthead {
     border-bottom: 1px solid var(--border);
     padding: 28px 36px 22px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 24px;
+    display: flex; align-items: baseline; justify-content: space-between; gap: 24px;
   }
-  .masthead-title {
-    font-family: var(--serif);
-    font-weight: 500;
-    font-size: 22px;
-    letter-spacing: -0.01em;
-  }
+  .masthead-title { font-family: var(--serif); font-weight: 500; font-size: 22px; letter-spacing: -0.01em; }
   .masthead-title .accent { color: var(--accent); }
+  .masthead-sub {
+    font-family: var(--mono); font-size: 11px; color: var(--text-dim);
+    margin-top: 4px; letter-spacing: 0.04em;
+  }
   .masthead-meta {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    text-align: right;
+    font-family: var(--mono); font-size: 11px; color: var(--text-dim);
+    text-transform: uppercase; letter-spacing: 0.08em; text-align: right;
   }
   .masthead-meta span { display: block; }
   .masthead-meta .stat-val { color: var(--text); }
 
-  /* Controls bar */
   .controls {
-    padding: 18px 36px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
-    background: var(--bg);
+    padding: 18px 36px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
   }
   .controls input[type="search"] {
-    background: var(--bg-elev);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 8px 12px;
-    font-family: var(--mono);
-    font-size: 12px;
-    width: 280px;
-    border-radius: 2px;
-    outline: none;
+    background: var(--bg-elev); border: 1px solid var(--border); color: var(--text);
+    padding: 8px 12px; font-family: var(--mono); font-size: 12px;
+    width: 240px; border-radius: 2px; outline: none;
   }
   .controls input[type="search"]:focus { border-color: var(--accent); }
   .controls input[type="search"]::placeholder { color: var(--text-faint); }
   .filter-pill {
-    background: transparent;
-    border: 1px solid var(--border);
-    color: var(--text-dim);
-    padding: 6px 12px;
-    font-family: var(--mono);
-    font-size: 11px;
-    cursor: pointer;
-    border-radius: 2px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    background: transparent; border: 1px solid var(--border); color: var(--text-dim);
+    padding: 6px 10px; font-family: var(--mono); font-size: 10px; cursor: pointer;
+    border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em;
     transition: all 0.12s ease;
   }
   .filter-pill:hover { color: var(--text); border-color: var(--text-dim); }
-  .filter-pill.active {
-    color: var(--bg);
-    background: var(--accent);
-    border-color: var(--accent);
-  }
+  .filter-pill.active { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+  .filter-pill.danger.active { background: var(--red); border-color: var(--red); }
   .count-display {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--text-dim);
-    margin-left: auto;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    font-family: var(--mono); font-size: 11px; color: var(--text-dim);
+    margin-left: auto; text-transform: uppercase; letter-spacing: 0.08em;
   }
   .count-display .num { color: var(--text); }
 
-  /* Universe-changes strip */
   .universe-strip {
-    padding: 10px 36px;
-    border-bottom: 1px solid var(--border-soft);
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--text-dim);
-    background: var(--bg-elev);
-    display: flex;
-    gap: 32px;
+    padding: 10px 36px; border-bottom: 1px solid var(--border-soft);
+    font-family: var(--mono); font-size: 11px; color: var(--text-dim);
+    background: var(--bg-elev); display: flex; gap: 32px;
   }
   .universe-strip .label { color: var(--text-faint); margin-right: 6px; }
   .universe-strip .added { color: var(--green); }
   .universe-strip .removed { color: var(--red); }
 
-  /* Table */
-  .table-wrap { padding: 0 36px 36px; }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: var(--sans);
-    font-size: 13px;
-    margin-top: 0;
-  }
+  .table-wrap { padding: 0 36px 36px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 13px; }
   thead th {
-    text-align: left;
-    font-family: var(--mono);
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--text-dim);
-    padding: 14px 12px;
-    border-bottom: 1px solid var(--border);
-    cursor: pointer;
-    user-select: none;
-    white-space: nowrap;
+    text-align: left; font-family: var(--mono); font-size: 10px; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim);
+    padding: 14px 10px; border-bottom: 1px solid var(--border);
+    cursor: pointer; user-select: none; white-space: nowrap;
   }
   thead th:hover { color: var(--text); }
   thead th.sorted { color: var(--accent); }
   thead th .arrow { display: inline-block; margin-left: 4px; font-size: 9px; }
   tbody tr {
-    border-bottom: 1px solid var(--border-soft);
-    cursor: pointer;
+    border-bottom: 1px solid var(--border-soft); cursor: pointer;
     transition: background 0.08s ease;
   }
   tbody tr:hover { background: var(--bg-elev); }
   tbody tr.expanded { background: var(--bg-elev-2); }
-  tbody td {
-    padding: 12px;
-    vertical-align: middle;
-  }
+  tbody td { padding: 11px 10px; vertical-align: middle; }
   .ticker {
-    font-family: var(--mono);
-    font-weight: 500;
-    font-size: 13px;
-    color: var(--text);
-    letter-spacing: 0.02em;
+    font-family: var(--mono); font-weight: 500; font-size: 13px;
+    color: var(--text); letter-spacing: 0.02em;
   }
   .company-name {
-    color: var(--text-dim);
-    font-size: 12px;
-    margin-top: 2px;
-    max-width: 280px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    color: var(--text-dim); font-size: 11px; margin-top: 2px; max-width: 220px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
-  .num, .pct, .score {
-    font-family: var(--mono);
-    text-align: right;
-    font-variant-numeric: tabular-nums;
-  }
+  .num, .pct, .score { font-family: var(--mono); text-align: right; font-variant-numeric: tabular-nums; }
   .score { font-weight: 500; font-size: 14px; }
   .score-positive { color: var(--green); }
   .score-negative { color: var(--red); }
   .score-zero { color: var(--text-faint); }
-  .pct-positive { color: var(--red); }   /* dilution = bad */
-  .pct-negative { color: var(--green); } /* buyback = good */
+  .pct-positive { color: var(--red); }
+  .pct-negative { color: var(--green); }
   .pct-zero { color: var(--text-faint); }
 
-  .signal-cell { display: flex; gap: 8px; align-items: center; justify-content: flex-end; }
-  .signal-tag {
-    font-family: var(--mono);
-    font-size: 10px;
-    padding: 2px 6px;
-    border-radius: 2px;
-    letter-spacing: 0.04em;
+  .signal-flags { display: flex; gap: 3px; flex-wrap: wrap; justify-content: flex-end; }
+  .flag {
+    font-family: var(--mono); font-size: 9px; padding: 2px 5px; border-radius: 2px;
+    letter-spacing: 0.04em; white-space: nowrap;
   }
-  .signal-tag.buy { background: var(--green-dim); color: var(--green); }
-  .signal-tag.sell { background: var(--red-dim); color: var(--red); }
-  .signal-tag.muted { background: transparent; color: var(--text-faint); border: 1px solid var(--border); }
+  .flag.green-flag { background: var(--green-dim); color: var(--green); }
+  .flag.red-flag { background: var(--red-dim); color: var(--red); }
+  .flag.orange-flag { background: var(--orange-dim); color: var(--orange); }
+  .flag.muted { background: transparent; color: var(--text-faint); border: 1px solid var(--border); }
 
-  /* Drilldown panel */
-  .drilldown {
-    background: var(--bg-elev-2);
-    border-bottom: 1px solid var(--border);
-  }
+  .drilldown { background: var(--bg-elev-2); border-bottom: 1px solid var(--border); }
   .drilldown-content {
-    padding: 22px 36px 28px 36px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 28px;
+    padding: 22px 36px 28px; display: grid;
+    grid-template-columns: repeat(3, 1fr); gap: 24px;
   }
   .dd-section h4 {
-    font-family: var(--mono);
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--text-dim);
-    margin: 0 0 12px 0;
+    font-family: var(--mono); font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--text-dim); margin: 0 0 10px;
     font-weight: 500;
   }
+  .dd-section h4.subhead { margin-top: 18px; }
   .dd-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 4px 0;
-    font-size: 12px;
-    border-bottom: 1px solid var(--border-soft);
+    display: flex; justify-content: space-between; padding: 4px 0;
+    font-size: 12px; border-bottom: 1px solid var(--border-soft);
   }
   .dd-row .key { color: var(--text-dim); }
-  .dd-row .val {
-    font-family: var(--mono);
-    font-variant-numeric: tabular-nums;
-    color: var(--text);
-  }
+  .dd-row .val { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--text); }
   .dd-row .val.green { color: var(--green); }
   .dd-row .val.red { color: var(--red); }
-  .dd-links {
-    margin-top: 14px;
-    font-family: var(--mono);
-    font-size: 11px;
-  }
-  .dd-links a { display: block; margin-bottom: 4px; }
+  .dd-row .val.orange { color: var(--orange); }
+  .dd-row .val.muted { color: var(--text-faint); }
+  .dd-links { margin-top: 12px; font-family: var(--mono); font-size: 11px; }
+  .dd-links a { display: block; margin-bottom: 3px; }
 
-  /* Empty / loading */
-  .status-msg {
-    padding: 80px 36px;
-    text-align: center;
-    color: var(--text-dim);
-    font-family: var(--mono);
-    font-size: 12px;
-    letter-spacing: 0.05em;
+  .contrib-list {
+    grid-column: 1 / -1; margin-top: 18px;
+    padding-top: 18px; border-top: 1px solid var(--border);
   }
+  .contrib-list h4 {
+    font-family: var(--mono); font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--text-dim); margin: 0 0 10px;
+  }
+  .contrib-row {
+    display: grid; grid-template-columns: 90px 1fr 80px; gap: 10px;
+    padding: 5px 0; font-size: 12px; border-bottom: 1px solid var(--border-soft);
+  }
+  .contrib-cat {
+    font-family: var(--mono); font-size: 9px; color: var(--text-faint);
+    text-transform: uppercase; letter-spacing: 0.06em;
+    padding-top: 2px;
+  }
+  .contrib-label { color: var(--text); }
+  .contrib-detail { color: var(--text-faint); font-size: 11px; margin-top: 2px; font-family: var(--mono); }
+  .contrib-weight { font-family: var(--mono); text-align: right; font-variant-numeric: tabular-nums; font-weight: 500; }
+  .contrib-weight.pos { color: var(--green); }
+  .contrib-weight.neg { color: var(--red); }
 
-  /* Footer */
-  footer {
-    padding: 24px 36px 40px;
+  .tx-section {
+    grid-column: 1 / -1; margin-top: 18px; padding-top: 18px;
     border-top: 1px solid var(--border);
-    font-family: var(--mono);
-    font-size: 10px;
-    color: var(--text-faint);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
   }
+  .tx-section h4 {
+    font-family: var(--mono); font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--text-dim); margin: 0 0 10px;
+  }
+  .tx-table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 11px; }
+  .tx-table th {
+    text-align: left; color: var(--text-faint); font-weight: 400;
+    padding: 6px 8px; border-bottom: 1px solid var(--border);
+    text-transform: uppercase; letter-spacing: 0.05em; font-size: 9px;
+  }
+  .tx-table td {
+    padding: 6px 8px; border-bottom: 1px solid var(--border-soft);
+    color: var(--text); font-variant-numeric: tabular-nums;
+  }
+  .tx-table td.num { text-align: right; }
+  .tx-table tr.counted-buy { background: rgba(94, 193, 156, 0.04); }
+  .tx-table tr.counted-sell { background: rgba(232, 128, 124, 0.04); }
+  .tx-tag {
+    display: inline-block; font-size: 9px; padding: 1px 5px;
+    border-radius: 2px; letter-spacing: 0.04em;
+  }
+  .tx-tag.counted-buy { background: var(--green-dim); color: var(--green); }
+  .tx-tag.counted-sell { background: var(--red-dim); color: var(--red); }
+  .tx-tag.noise { background: transparent; color: var(--text-faint); border: 1px solid var(--border); }
+  .tx-tag.tenb5 { background: var(--orange-dim); color: var(--orange); }
+  .tx-link { color: var(--accent); }
+  .tx-empty { color: var(--text-faint); font-style: italic; padding: 12px 0; }
 
-  /* Weights panel */
-  .weights {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--text-dim);
-    display: flex;
-    gap: 22px;
-    flex-wrap: wrap;
+  .status-msg {
+    padding: 80px 36px; text-align: center; color: var(--text-dim);
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.05em;
   }
-  .weights .w-item .k { color: var(--text-faint); margin-right: 4px; }
-  .weights .w-item .v { color: var(--text); }
+  footer {
+    padding: 24px 36px 40px; border-top: 1px solid var(--border);
+    font-family: var(--mono); font-size: 10px; color: var(--text-faint);
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
 </style>
 </head>
 <body>
@@ -294,7 +231,7 @@
 <header class="masthead">
   <div>
     <div class="masthead-title">S&amp;P 500 <span class="accent">Signal Monitor</span></div>
-    <div class="weights" id="weights-panel"></div>
+    <div class="masthead-sub">forensic signals · insider · share count · 8-K events · 13D/G · financials</div>
   </div>
   <div class="masthead-meta">
     <span>Last Run <span class="stat-val" id="last-run">—</span></span>
@@ -310,9 +247,12 @@
   <button class="filter-pill" data-filter="positive">Positive</button>
   <button class="filter-pill" data-filter="negative">Negative</button>
   <button class="filter-pill" data-filter="buys">Insider Buys</button>
-  <button class="filter-pill" data-filter="sells">Insider Sells</button>
+  <button class="filter-pill danger" data-filter="restatement">4.02 / 4.01</button>
+  <button class="filter-pill danger" data-filter="late">Late Filings</button>
+  <button class="filter-pill" data-filter="13d">13D Activist</button>
+  <button class="filter-pill" data-filter="div-up">Div ↑</button>
+  <button class="filter-pill" data-filter="div-cut">Div ↓</button>
   <button class="filter-pill" data-filter="buyback">Buybacks</button>
-  <button class="filter-pill" data-filter="dilution">Dilution</button>
   <span class="count-display"><span class="num" id="row-count">0</span> shown</span>
 </div>
 
@@ -322,57 +262,56 @@
       <tr>
         <th data-sort="ticker">Ticker</th>
         <th data-sort="composite_score" class="sorted">Score <span class="arrow">↓</span></th>
+        <th>Signal Flags</th>
         <th data-sort="insider_component">Insider</th>
-        <th data-sort="share_count_component">Share Δ</th>
-        <th data-sort="insider_buys_count" class="num">Buys (90d)</th>
-        <th data-sort="insider_sells_count" class="num">Sells (90d)</th>
-        <th data-sort="share_count_pct_change" class="num">Shares QoQ</th>
+        <th data-sort="share_count_component">Shares</th>
+        <th data-sort="eightk_component">8-K</th>
+        <th data-sort="late_filing_component">Late</th>
+        <th data-sort="governance_component">Gov</th>
+        <th data-sort="thirteendg_component">13D/G</th>
+        <th data-sort="financials_component">Fin</th>
         <th data-sort="last_updated">Updated</th>
       </tr>
     </thead>
     <tbody id="tbody">
-      <tr><td colspan="8" class="status-msg">loading data…</td></tr>
+      <tr><td colspan="11" class="status-msg">loading data…</td></tr>
     </tbody>
   </table>
 </div>
 
 <footer>
-  Source: SEC EDGAR · Form 4 + XBRL companyfacts · refresh schedule set by github actions
+  Source: SEC EDGAR · Form 4 · XBRL companyfacts · 8-K items · 13D/G · NT filings
 </footer>
 
 <script>
 const STATE = {
-  data: null,
-  filter: 'all',
-  search: '',
-  sortKey: 'composite_score',
-  sortDir: 'desc',
-  expandedTicker: null,
+  data: null, filter: 'all', search: '', sortKey: 'composite_score', sortDir: 'desc', expandedTicker: null,
 };
 
 async function loadData() {
   try {
-    const url = './companies.json';
-    const r = await fetch(url, { cache: 'no-cache' });
+    const r = await fetch('./companies.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    const j = await r.json();
-    STATE.data = j;
+    STATE.data = await r.json();
     render();
   } catch (e) {
     document.getElementById('tbody').innerHTML =
-      `<tr><td colspan="8" class="status-msg">no data yet — run the pipeline (see README)</td></tr>`;
+      `<tr><td colspan="11" class="status-msg">no data yet — run the pipeline (see README)</td></tr>`;
   }
 }
 
-function fmt(n, opts={}) {
+function fmt(n) {
   if (n == null || isNaN(n)) return '—';
-  const digits = opts.digits ?? 0;
-  return Number(n).toLocaleString('en-US', { maximumFractionDigits: digits, minimumFractionDigits: digits });
+  return Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
 }
-function fmtPct(n) {
+function fmtPct(n, digits) {
+  if (digits == null) digits = 2;
   if (n == null || isNaN(n)) return '—';
-  const sign = n > 0 ? '+' : '';
-  return sign + n.toFixed(2) + '%';
+  return (n > 0 ? '+' : '') + n.toFixed(digits) + '%';
+}
+function fmtBps(n) {
+  if (n == null || isNaN(n)) return '—';
+  return (n > 0 ? '+' : '') + n.toFixed(0) + 'bps';
 }
 function fmtMoney(n) {
   if (n == null || isNaN(n) || n === 0) return '—';
@@ -381,16 +320,38 @@ function fmtMoney(n) {
   if (Math.abs(n) >= 1e3) return '$' + (n/1e3).toFixed(1) + 'K';
   return '$' + n.toFixed(0);
 }
+function fmtSigned(n) {
+  if (n == null || isNaN(n) || n === 0) return '+0';
+  return (n > 0 ? '+' : '') + (Number.isInteger(n) ? n : n.toFixed(2));
+}
 function scoreClass(n) {
   if (n > 0) return 'score-positive';
   if (n < 0) return 'score-negative';
   return 'score-zero';
 }
-function pctClass(n) {
-  if (n == null) return 'pct-zero';
-  if (n > 0.01) return 'pct-positive';
-  if (n < -0.01) return 'pct-negative';
-  return 'pct-zero';
+
+function getFlags(c) {
+  const flags = [];
+  if (c.has_4_02) flags.push({cls:'red-flag', t:'4.02 RESTATE'});
+  if (c.has_4_01) flags.push({cls:'red-flag', t:'4.01 AUDITOR'});
+  if ((c.nt_filings_count||0) > 0) flags.push({cls:'red-flag', t:'NT FILING'});
+  if ((c.director_resignations_concerning||0) > 0) flags.push({cls:'red-flag', t:'DIR RESIGN'});
+  if (c.dps_cut) flags.push({cls:'red-flag', t:'DIV CUT'});
+  if (c.has_13d_accumulation) flags.push({cls:'green-flag', t:'13D ACCUM'});
+  if (c.has_13g_accumulation) flags.push({cls:'green-flag', t:'13G ACCUM'});
+  if (c.dps_initiation) flags.push({cls:'green-flag', t:'DIV INIT'});
+  if ((c.buyback_announcements||0) > 0) flags.push({cls:'green-flag', t:'BUYBACK ANN'});
+  if (c.say_on_pay_latest_pct != null && c.say_on_pay_latest_pct < 70) {
+    flags.push({cls: c.say_on_pay_latest_pct < 50 ? 'red-flag' : 'orange-flag',
+                t: 'SAY-PAY ' + c.say_on_pay_latest_pct.toFixed(0) + '%'});
+  }
+  if (c.auditor_ratification_latest_pct != null && c.auditor_ratification_latest_pct < 95) {
+    flags.push({cls:'orange-flag', t:'AUD-RAT ' + c.auditor_ratification_latest_pct.toFixed(0) + '%'});
+  }
+  if (c.director_max_withhold_latest_pct != null && c.director_max_withhold_latest_pct > 20) {
+    flags.push({cls:'orange-flag', t:'WITHHOLD ' + c.director_max_withhold_latest_pct.toFixed(0) + '%'});
+  }
+  return flags;
 }
 
 function passesFilter(c) {
@@ -402,9 +363,14 @@ function passesFilter(c) {
     case 'positive': return c.composite_score > 0;
     case 'negative': return c.composite_score < 0;
     case 'buys': return c.insider_buys_count > 0;
-    case 'sells': return c.insider_sells_count > 0;
-    case 'buyback': return c.share_count_pct_change != null && c.share_count_pct_change < -1;
-    case 'dilution': return c.share_count_pct_change != null && c.share_count_pct_change > 1;
+    case 'restatement': return c.has_4_02 || c.has_4_01;
+    case 'late': return (c.nt_filings_count||0) > 0;
+    case '13d': return c.has_13d_accumulation;
+    case 'div-up': return (c.dps_yoy_change_pct||0) > 0 || c.dps_initiation;
+    case 'div-cut': return c.dps_cut;
+    case 'buyback':
+      return (c.share_count_pct_change != null && c.share_count_pct_change < -1)
+          || (c.buyback_announcements||0) > 0;
     default: return true;
   }
 }
@@ -422,25 +388,101 @@ function sortCompanies(arr) {
 }
 
 function renderRow(c) {
-  const sc = scoreClass(c.composite_score);
-  const insc = scoreClass(c.insider_component);
-  const shc = scoreClass(c.share_count_component);
-  const pcc = pctClass(c.share_count_pct_change);
+  const flags = getFlags(c);
+  const flagsHtml = flags.length
+    ? `<div class="signal-flags">${flags.map(f => `<span class="flag ${f.cls}">${f.t}</span>`).join('')}</div>`
+    : `<span class="flag muted">—</span>`;
   return `
     <tr data-ticker="${c.ticker}">
       <td>
         <div class="ticker">${c.ticker}</div>
         <div class="company-name">${c.name}</div>
       </td>
-      <td class="score ${sc}">${c.composite_score >= 0 ? '+' : ''}${c.composite_score.toFixed(0)}</td>
-      <td class="num ${insc}">${c.insider_component >= 0 ? '+' : ''}${c.insider_component.toFixed(0)}</td>
-      <td class="num ${shc}">${c.share_count_component >= 0 ? '+' : ''}${c.share_count_component.toFixed(0)}</td>
-      <td class="num">${c.insider_buys_count > 0 ? '<span class="signal-tag buy">'+c.insider_buys_count+'</span>' : '<span class="signal-tag muted">0</span>'}</td>
-      <td class="num">${c.insider_sells_count > 0 ? '<span class="signal-tag sell">'+c.insider_sells_count+'</span>' : '<span class="signal-tag muted">0</span>'}</td>
-      <td class="num ${pcc}">${fmtPct(c.share_count_pct_change)}</td>
+      <td class="score ${scoreClass(c.composite_score)}">${fmtSigned(c.composite_score)}</td>
+      <td>${flagsHtml}</td>
+      <td class="num ${scoreClass(c.insider_component)}">${fmtSigned(c.insider_component)}</td>
+      <td class="num ${scoreClass(c.share_count_component)}">${fmtSigned(c.share_count_component)}</td>
+      <td class="num ${scoreClass(c.eightk_component)}">${fmtSigned(c.eightk_component)}</td>
+      <td class="num ${scoreClass(c.late_filing_component)}">${fmtSigned(c.late_filing_component)}</td>
+      <td class="num ${scoreClass(c.governance_component)}">${fmtSigned(c.governance_component)}</td>
+      <td class="num ${scoreClass(c.thirteendg_component)}">${fmtSigned(c.thirteendg_component)}</td>
+      <td class="num ${scoreClass(c.financials_component)}">${fmtSigned(c.financials_component)}</td>
       <td class="num" style="color:var(--text-faint);font-size:11px">${c.last_updated || '—'}</td>
     </tr>
   `;
+}
+
+function txTag(tx) {
+  if (tx.counted_as_buy) return '<span class="tx-tag counted-buy">COUNTED BUY</span>';
+  if (tx.counted_as_sell) return '<span class="tx-tag counted-sell">COUNTED SELL</span>';
+  if (tx.is_10b5_1 && (tx.transaction_code === 'S' || tx.transaction_code === 'P')) {
+    return '<span class="tx-tag tenb5">10b5-1 (filtered)</span>';
+  }
+  return '<span class="tx-tag noise">noise (' + tx.transaction_code + ')</span>';
+}
+function txRowClass(tx) {
+  if (tx.counted_as_buy) return 'counted-buy';
+  if (tx.counted_as_sell) return 'counted-sell';
+  return '';
+}
+
+function renderTransactionsSection(c) {
+  const txs = c.recent_transactions || [];
+  if (txs.length === 0) {
+    return `<div class="tx-section"><h4>Recent Form 4 Transactions (90d lookback)</h4>
+      <div class="tx-empty">No Form 4 transactions in the lookback window.</div></div>`;
+  }
+  const insiderShort = (n) => (n && n.length > 28 ? n.slice(0,26)+'…' : (n||''));
+  const titleShort = (t) => (t && t.length > 22 ? t.slice(0,20)+'…' : (t||''));
+  const accLink = (cik, acc) => `https://www.sec.gov/Archives/edgar/data/${cik}/${acc.replace(/-/g,'')}/`;
+  const rows = txs.map(tx => `
+    <tr class="${txRowClass(tx)}">
+      <td>${tx.transaction_date}</td>
+      <td>${tx.filed_date}</td>
+      <td>${tx.transaction_code}</td>
+      <td>${tx.acquired_disposed}</td>
+      <td class="num">${fmt(tx.shares)}</td>
+      <td class="num">${tx.price ? '$'+tx.price.toFixed(2) : '—'}</td>
+      <td class="num">${fmtMoney(tx.value)}</td>
+      <td>${insiderShort(tx.insider_name)}</td>
+      <td>${titleShort(tx.officer_title)}</td>
+      <td>${txTag(tx)}</td>
+      <td><a class="tx-link" href="${accLink(c.cik, tx.accession)}" target="_blank" rel="noopener">filing ↗</a></td>
+    </tr>
+  `).join('');
+  return `
+    <div class="tx-section">
+      <h4>Recent Form 4 Transactions (90d lookback) — ${txs.length} shown</h4>
+      <table class="tx-table">
+        <thead><tr>
+          <th>Tx Date</th><th>Filed</th><th>Code</th><th>A/D</th>
+          <th class="num">Shares</th><th class="num">Price</th><th class="num">Value</th>
+          <th>Insider</th><th>Title</th><th>Classification</th><th></th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderContributionsSection(c) {
+  const contribs = c.contributions || [];
+  if (contribs.length === 0) {
+    return `<div class="contrib-list"><h4>Score Contributions</h4>
+      <div class="tx-empty">No signals fired for this company.</div></div>`;
+  }
+  contribs.sort((a, b) => Math.abs(b.weight) - Math.abs(a.weight));
+  const rows = contribs.map(co => `
+    <div class="contrib-row">
+      <div class="contrib-cat">${co.category}</div>
+      <div>
+        <div class="contrib-label">${co.label}</div>
+        ${co.detail ? `<div class="contrib-detail">${co.detail}</div>` : ''}
+      </div>
+      <div class="contrib-weight ${co.weight >= 0 ? 'pos':'neg'}">${fmtSigned(co.weight)}</div>
+    </div>
+  `).join('');
+  return `<div class="contrib-list"><h4>Score Contributions (${contribs.length})</h4>${rows}</div>`;
 }
 
 function renderDrilldown(c) {
@@ -450,42 +492,77 @@ function renderDrilldown(c) {
   const dilutionBad = c.share_count_pct_change != null && c.share_count_pct_change > 1;
   return `
     <tr class="drilldown" data-ticker="${c.ticker}-dd">
-      <td colspan="8">
+      <td colspan="11">
         <div class="drilldown-content">
           <div class="dd-section">
             <h4>Insider Activity (90d)</h4>
-            <div class="dd-row"><span class="key">Discretionary buys</span><span class="val ${buysGood?'green':''}">${c.insider_buys_count}</span></div>
-            <div class="dd-row"><span class="key">Discretionary sells</span><span class="val ${sellsBad?'red':''}">${c.insider_sells_count}</span></div>
+            <div class="dd-row"><span class="key">Discretionary buys</span><span class="val ${buysGood?'green':''}">${c.insider_buys_count}${c.insider_buys_filings ? ' tx / '+c.insider_buys_filings+' filings' : ''}</span></div>
+            <div class="dd-row"><span class="key">Discretionary sells</span><span class="val ${sellsBad?'red':''}">${c.insider_sells_count}${c.insider_sells_filings ? ' tx / '+c.insider_sells_filings+' filings' : ''}</span></div>
+            <div class="dd-row"><span class="key">10b5-1 buys (filtered)</span><span class="val muted">${c.excluded_10b5_buys_count || 0}</span></div>
+            <div class="dd-row"><span class="key">10b5-1 sells (filtered)</span><span class="val muted">${c.excluded_10b5_sells_count || 0}</span></div>
             <div class="dd-row"><span class="key">Buy $ value</span><span class="val">${fmtMoney(c.insider_buys_value)}</span></div>
             <div class="dd-row"><span class="key">Sell $ value</span><span class="val">${fmtMoney(c.insider_sells_value)}</span></div>
-            <div class="dd-row"><span class="key">Unique buyers</span><span class="val">${c.cluster_buyers}</span></div>
-            <div class="dd-row"><span class="key">Unique sellers</span><span class="val">${c.cluster_sellers}</span></div>
-            <div class="dd-row"><span class="key">Last buy</span><span class="val">${c.latest_buy_date || '—'}</span></div>
-            <div class="dd-row"><span class="key">Last sell</span><span class="val">${c.latest_sell_date || '—'}</span></div>
-          </div>
-          <div class="dd-section">
-            <h4>Share Count (QoQ)</h4>
+            <div class="dd-row"><span class="key">Unique buyers / sellers</span><span class="val">${c.cluster_buyers} / ${c.cluster_sellers}</span></div>
+            <div class="dd-row"><span class="key">Last buy / sell</span><span class="val">${c.latest_buy_date || '—'} / ${c.latest_sell_date || '—'}</span></div>
+
+            <h4 class="subhead">Share Count (QoQ)</h4>
             <div class="dd-row"><span class="key">Latest period end</span><span class="val">${c.share_count_latest_period_end || '—'}</span></div>
             <div class="dd-row"><span class="key">Latest shares out</span><span class="val">${fmt(c.share_count_latest)}</span></div>
             <div class="dd-row"><span class="key">Prior period end</span><span class="val">${c.share_count_prior_period_end || '—'}</span></div>
             <div class="dd-row"><span class="key">Prior shares out</span><span class="val">${fmt(c.share_count_prior)}</span></div>
             <div class="dd-row"><span class="key">QoQ change</span><span class="val ${buybackGood?'green':(dilutionBad?'red':'')}">${fmtPct(c.share_count_pct_change)}</span></div>
           </div>
+
           <div class="dd-section">
-            <h4>Links</h4>
+            <h4>8-K Events (180d) &amp; Late Filings</h4>
+            <div class="dd-row"><span class="key">4.02 non-reliance</span><span class="val ${c.has_4_02?'red':'muted'}">${c.has_4_02 ? 'YES' : 'no'}</span></div>
+            <div class="dd-row"><span class="key">4.01 auditor change</span><span class="val ${c.has_4_01?'red':'muted'}">${c.has_4_01 ? 'YES' : 'no'}</span></div>
+            <div class="dd-row"><span class="key">Director resignations (concerning)</span><span class="val ${c.director_resignations_concerning>0?'red':'muted'}">${c.director_resignations_concerning || 0}</span></div>
+            <div class="dd-row"><span class="key">Buyback announcements</span><span class="val ${c.buyback_announcements>0?'green':'muted'}">${c.buyback_announcements || 0}</span></div>
+            <div class="dd-row"><span class="key">NT-10K / NT-10Q filings</span><span class="val ${c.nt_filings_count>0?'red':'muted'}">${c.nt_filings_count || 0}</span></div>
+
+            <h4 class="subhead">Governance (5.07)</h4>
+            <div class="dd-row"><span class="key">Say-on-pay vote</span><span class="val ${c.say_on_pay_latest_pct!=null && c.say_on_pay_latest_pct<70 ? (c.say_on_pay_latest_pct<50?'red':'orange'):''}">${c.say_on_pay_latest_pct != null ? c.say_on_pay_latest_pct.toFixed(1)+'%' : '—'}</span></div>
+            <div class="dd-row"><span class="key">Auditor ratification</span><span class="val ${c.auditor_ratification_latest_pct!=null && c.auditor_ratification_latest_pct<95?'orange':''}">${c.auditor_ratification_latest_pct != null ? c.auditor_ratification_latest_pct.toFixed(1)+'%' : '—'}</span></div>
+            <div class="dd-row"><span class="key">Max director withhold</span><span class="val ${c.director_max_withhold_latest_pct!=null && c.director_max_withhold_latest_pct>20?'orange':''}">${c.director_max_withhold_latest_pct != null ? c.director_max_withhold_latest_pct.toFixed(1)+'%' : '—'}</span></div>
+
+            <h4 class="subhead">13D / 13G Activity</h4>
+            <div class="dd-row"><span class="key">13D accumulation</span><span class="val ${c.has_13d_accumulation?'green':'muted'}">${c.has_13d_accumulation ? 'YES' : 'no'}</span></div>
+            <div class="dd-row"><span class="key">13D filer</span><span class="val">${c.latest_13d_filer || '—'}</span></div>
+            <div class="dd-row"><span class="key">13G accumulation</span><span class="val ${c.has_13g_accumulation?'green':'muted'}">${c.has_13g_accumulation ? 'YES' : 'no'}</span></div>
+            <div class="dd-row"><span class="key">13G filer</span><span class="val">${c.latest_13g_filer || '—'}</span></div>
+          </div>
+
+          <div class="dd-section">
+            <h4>Financial Signals (TTM YoY)</h4>
+            <div class="dd-row"><span class="key">DPS YoY change</span><span class="val ${c.dps_yoy_change_pct>0?'green':(c.dps_yoy_change_pct<0?'red':'')}">${fmtPct(c.dps_yoy_change_pct, 1)}</span></div>
+            <div class="dd-row"><span class="key">Dividend initiation</span><span class="val ${c.dps_initiation?'green':'muted'}">${c.dps_initiation ? 'YES' : 'no'}</span></div>
+            <div class="dd-row"><span class="key">Dividend cut</span><span class="val ${c.dps_cut?'red':'muted'}">${c.dps_cut ? 'YES' : 'no'}</span></div>
+            <div class="dd-row"><span class="key">Gross margin YoY (bps)</span><span class="val ${c.gross_margin_yoy_change_bps>100?'green':(c.gross_margin_yoy_change_bps<-100?'red':'')}">${fmtBps(c.gross_margin_yoy_change_bps)}</span></div>
+            <div class="dd-row"><span class="key">TTM OCF YoY</span><span class="val ${c.ocf_yoy_change_pct>5?'green':(c.ocf_yoy_change_pct<-5?'red':'')}">${fmtPct(c.ocf_yoy_change_pct, 1)}</span></div>
+
+            <h4 class="subhead">Score Components</h4>
+            <div class="dd-row"><span class="key">Insider</span><span class="val ${scoreClass(c.insider_component).replace('score-','')}">${fmtSigned(c.insider_component)}</span></div>
+            <div class="dd-row"><span class="key">Share count</span><span class="val ${scoreClass(c.share_count_component).replace('score-','')}">${fmtSigned(c.share_count_component)}</span></div>
+            <div class="dd-row"><span class="key">8-K events</span><span class="val ${scoreClass(c.eightk_component).replace('score-','')}">${fmtSigned(c.eightk_component)}</span></div>
+            <div class="dd-row"><span class="key">Late filings</span><span class="val ${scoreClass(c.late_filing_component).replace('score-','')}">${fmtSigned(c.late_filing_component)}</span></div>
+            <div class="dd-row"><span class="key">Governance</span><span class="val ${scoreClass(c.governance_component).replace('score-','')}">${fmtSigned(c.governance_component)}</span></div>
+            <div class="dd-row"><span class="key">13D/G</span><span class="val ${scoreClass(c.thirteendg_component).replace('score-','')}">${fmtSigned(c.thirteendg_component)}</span></div>
+            <div class="dd-row"><span class="key">Financials</span><span class="val ${scoreClass(c.financials_component).replace('score-','')}">${fmtSigned(c.financials_component)}</span></div>
+            <div class="dd-row"><span class="key" style="color:var(--text)">Composite</span><span class="val ${scoreClass(c.composite_score).replace('score-','')}" style="font-weight:600">${fmtSigned(c.composite_score)}</span></div>
+
+            <h4 class="subhead">Links</h4>
             <div class="dd-links">
-              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=4&dateb=&owner=include&count=40" target="_blank" rel="noopener">Form 4 filings ↗</a>
-              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=10-Q&dateb=&owner=include&count=40" target="_blank" rel="noopener">10-Q filings ↗</a>
-              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=10-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">10-K filings ↗</a>
-              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">All EDGAR filings ↗</a>
-              <a href="https://finance.yahoo.com/quote/${c.ticker}" target="_blank" rel="noopener">Yahoo Finance ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=4&dateb=&owner=include&count=40" target="_blank" rel="noopener">Form 4 ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=8-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">8-K ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=10-Q&dateb=&owner=include&count=40" target="_blank" rel="noopener">10-Q ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=SC%2013&dateb=&owner=include&count=40" target="_blank" rel="noopener">13D/G ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">All ↗</a>
             </div>
-            <h4 style="margin-top:18px">Score Decomposition</h4>
-            <div class="dd-row"><span class="key">Insider component</span><span class="val ${scoreClass(c.insider_component).replace('score-','')}">${c.insider_component >= 0 ? '+' : ''}${c.insider_component.toFixed(1)}</span></div>
-            <div class="dd-row"><span class="key">Share count component</span><span class="val ${scoreClass(c.share_count_component).replace('score-','')}">${c.share_count_component >= 0 ? '+' : ''}${c.share_count_component.toFixed(1)}</span></div>
-            <div class="dd-row"><span class="key">Composite</span><span class="val ${scoreClass(c.composite_score).replace('score-','')}">${c.composite_score >= 0 ? '+' : ''}${c.composite_score.toFixed(1)}</span></div>
           </div>
         </div>
+        ${renderContributionsSection(c)}
+        ${renderTransactionsSection(c)}
       </td>
     </tr>
   `;
@@ -497,17 +574,6 @@ function render() {
   document.getElementById('last-run').textContent = j.generated_at || '—';
   document.getElementById('universe-size').textContent = j.universe_size || '—';
 
-  // Weights panel
-  const w = j.weights || {};
-  document.getElementById('weights-panel').innerHTML = `
-    <span class="w-item"><span class="k">buy</span><span class="v">${w.insider_buy >= 0 ? '+' : ''}${w.insider_buy}</span></span>
-    <span class="w-item"><span class="k">sell</span><span class="v">${w.insider_sell}</span></span>
-    <span class="w-item"><span class="k">buyback &lt;-${w.share_count_pct_threshold}%</span><span class="v">${w.share_count_decrease >= 0 ? '+' : ''}${w.share_count_decrease}</span></span>
-    <span class="w-item"><span class="k">dilution &gt;+${w.share_count_pct_threshold}%</span><span class="v">${w.share_count_increase}</span></span>
-    <span class="w-item"><span class="k">lookback</span><span class="v">${w.insider_lookback_days}d</span></span>
-  `;
-
-  // Universe changes
   const uc = j.universe_changes || {};
   const added = (uc.added || []).map(a => `<span class="added">+ ${a.ticker}</span>`).join(' ');
   const removed = (uc.removed || []).map(r => `<span class="removed">− ${r.ticker}</span>`).join(' ');
@@ -516,44 +582,35 @@ function render() {
     strip.style.display = 'flex';
     strip.innerHTML = `
       ${added ? `<div><span class="label">Added today:</span>${added}</div>` : ''}
-      ${removed ? `<div><span class="label">Removed today:</span>${removed}</div>` : ''}
-    `;
-  } else {
-    strip.style.display = 'none';
-  }
+      ${removed ? `<div><span class="label">Removed today:</span>${removed}</div>` : ''}`;
+  } else { strip.style.display = 'none'; }
 
-  // Sort header indicators
   document.querySelectorAll('thead th').forEach(th => {
     th.classList.remove('sorted');
-    const arrow = th.querySelector('.arrow');
-    if (arrow) arrow.remove();
+    const a = th.querySelector('.arrow'); if (a) a.remove();
   });
   const activeTh = document.querySelector(`thead th[data-sort="${STATE.sortKey}"]`);
   if (activeTh) {
     activeTh.classList.add('sorted');
-    const arrowSpan = document.createElement('span');
-    arrowSpan.className = 'arrow';
-    arrowSpan.textContent = STATE.sortDir === 'desc' ? '↓' : '↑';
-    activeTh.appendChild(arrowSpan);
+    const a = document.createElement('span');
+    a.className = 'arrow'; a.textContent = STATE.sortDir === 'desc' ? '↓' : '↑';
+    activeTh.appendChild(a);
   }
 
-  // Build rows
   const filtered = (j.companies || []).filter(passesFilter);
   const sorted = sortCompanies(filtered);
   document.getElementById('row-count').textContent = sorted.length;
   if (sorted.length === 0) {
     document.getElementById('tbody').innerHTML =
-      `<tr><td colspan="8" class="status-msg">no matches</td></tr>`;
+      `<tr><td colspan="11" class="status-msg">no matches</td></tr>`;
     return;
   }
-  const html = sorted.map(c => {
+  document.getElementById('tbody').innerHTML = sorted.map(c => {
     let r = renderRow(c);
     if (STATE.expandedTicker === c.ticker) r += renderDrilldown(c);
     return r;
   }).join('');
-  document.getElementById('tbody').innerHTML = html;
 
-  // Wire up row clicks
   document.querySelectorAll('tbody tr[data-ticker]').forEach(tr => {
     if (tr.dataset.ticker.endsWith('-dd')) return;
     tr.addEventListener('click', () => {
@@ -564,7 +621,6 @@ function render() {
   });
 }
 
-// Events
 document.querySelectorAll('.filter-pill').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
@@ -581,12 +637,8 @@ document.getElementById('search').addEventListener('input', e => {
 document.querySelectorAll('thead th[data-sort]').forEach(th => {
   th.addEventListener('click', () => {
     const k = th.dataset.sort;
-    if (STATE.sortKey === k) {
-      STATE.sortDir = STATE.sortDir === 'desc' ? 'asc' : 'desc';
-    } else {
-      STATE.sortKey = k;
-      STATE.sortDir = 'desc';
-    }
+    if (STATE.sortKey === k) STATE.sortDir = STATE.sortDir === 'desc' ? 'asc' : 'desc';
+    else { STATE.sortKey = k; STATE.sortDir = 'desc'; }
     render();
   });
 });
