@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-05-17",
+  "weights": {
+    "insider_buy": 1.0,
+    "insider_sell": -1.0,
+    "share_count_decrease": 1.0,
+    "share_count_increase": -1.0,
+    "share_count_pct_threshold": 1.0,
+    "insider_lookback_days": 90,
+    "insider_mode": "count"
+  },
+  "universe_size": 503,
+  "universe_changes": {
+    "added": [],
+    "removed": []
+  },
+  "companies": [
+    {
+      "ticker": "OXY", "cik": 797468, "name": "Occidental Petroleum",
+      "composite_score": 5.0, "insider_component": 4.0, "share_count_component": 1.0,
+      "insider_buys_count": 4, "insider_sells_count": 0,
+      "insider_buys_value": 12450000, "insider_sells_value": 0,
+      "cluster_buyers": 2, "cluster_sellers": 0,
+      "share_count_pct_change": -1.42, "share_count_latest": 873200000, "share_count_prior": 885762000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": "2026-05-09", "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "AAPL", "cik": 320193, "name": "Apple Inc.",
+      "composite_score": 1.0, "insider_component": 0.0, "share_count_component": 1.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": -1.18, "share_count_latest": 14935800000, "share_count_prior": 15113700000,
+      "share_count_latest_period_end": "2026-03-29", "share_count_prior_period_end": "2025-12-28",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "JPM", "cik": 19617, "name": "JPMorgan Chase & Co.",
+      "composite_score": 1.0, "insider_component": 0.0, "share_count_component": 1.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": -1.05, "share_count_latest": 2782000000, "share_count_prior": 2811500000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "BAC", "cik": 70858, "name": "Bank of America Corp.",
+      "composite_score": 1.0, "insider_component": 1.0, "share_count_component": 0.0,
+      "insider_buys_count": 1, "insider_sells_count": 0,
+      "insider_buys_value": 525000, "insider_sells_value": 0,
+      "cluster_buyers": 1, "cluster_sellers": 0,
+      "share_count_pct_change": -0.62, "share_count_latest": 7795000000, "share_count_prior": 7843500000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": "2026-04-18", "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "MRK", "cik": 310158, "name": "Merck & Co.",
+      "composite_score": 0.0, "insider_component": 0.0, "share_count_component": 0.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": -0.21, "share_count_latest": 2531800000, "share_count_prior": 2537100000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "WMT", "cik": 104169, "name": "Walmart Inc.",
+      "composite_score": 0.0, "insider_component": 0.0, "share_count_component": 0.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": -0.18, "share_count_latest": 8035000000, "share_count_prior": 8049500000,
+      "share_count_latest_period_end": "2026-04-30", "share_count_prior_period_end": "2026-01-31",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "MSFT", "cik": 789019, "name": "Microsoft Corp.",
+      "composite_score": 0.0, "insider_component": 0.0, "share_count_component": 0.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": -0.08, "share_count_latest": 7432600000, "share_count_prior": 7438500000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "GOOGL", "cik": 1652044, "name": "Alphabet Inc.",
+      "composite_score": -1.0, "insider_component": -1.0, "share_count_component": 0.0,
+      "insider_buys_count": 0, "insider_sells_count": 1,
+      "insider_buys_value": 0, "insider_sells_value": 4200000,
+      "cluster_buyers": 0, "cluster_sellers": 1,
+      "share_count_pct_change": -0.31, "share_count_latest": 12128000000, "share_count_prior": 12166100000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": "2026-04-22",
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "AMZN", "cik": 1018724, "name": "Amazon.com Inc.",
+      "composite_score": -2.0, "insider_component": -2.0, "share_count_component": 0.0,
+      "insider_buys_count": 0, "insider_sells_count": 2,
+      "insider_buys_value": 0, "insider_sells_value": 9870000,
+      "cluster_buyers": 0, "cluster_sellers": 2,
+      "share_count_pct_change": 0.04, "share_count_latest": 10719000000, "share_count_prior": 10714700000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": "2026-05-02",
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "META", "cik": 1326801, "name": "Meta Platforms Inc.",
+      "composite_score": -2.0, "insider_component": -3.0, "share_count_component": 1.0,
+      "insider_buys_count": 0, "insider_sells_count": 3,
+      "insider_buys_value": 0, "insider_sells_value": 14500000,
+      "cluster_buyers": 0, "cluster_sellers": 2,
+      "share_count_pct_change": -1.21, "share_count_latest": 2497000000, "share_count_prior": 2527600000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": "2026-05-12",
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "TSLA", "cik": 1318605, "name": "Tesla Inc.",
+      "composite_score": -3.0, "insider_component": -4.0, "share_count_component": 1.0,
+      "insider_buys_count": 0, "insider_sells_count": 4,
+      "insider_buys_value": 0, "insider_sells_value": 22100000,
+      "cluster_buyers": 0, "cluster_sellers": 3,
+      "share_count_pct_change": -1.08, "share_count_latest": 3171200000, "share_count_prior": 3205800000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": "2026-05-08",
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "NVDA", "cik": 1045810, "name": "NVIDIA Corp.",
+      "composite_score": -3.0, "insider_component": -5.0, "share_count_component": 0.0,
+      "insider_buys_count": 0, "insider_sells_count": 5,
+      "insider_buys_value": 0, "insider_sells_value": 38900000,
+      "cluster_buyers": 0, "cluster_sellers": 4,
+      "share_count_pct_change": -0.42, "share_count_latest": 24405000000, "share_count_prior": 24508000000,
+      "share_count_latest_period_end": "2026-04-27", "share_count_prior_period_end": "2026-01-26",
+      "latest_buy_date": null, "latest_sell_date": "2026-05-14",
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "NEM", "cik": 1164727, "name": "Newmont Corp.",
+      "composite_score": 2.0, "insider_component": 2.0, "share_count_component": 0.0,
+      "insider_buys_count": 2, "insider_sells_count": 0,
+      "insider_buys_value": 1850000, "insider_sells_value": 0,
+      "cluster_buyers": 2, "cluster_sellers": 0,
+      "share_count_pct_change": -0.62, "share_count_latest": 1112400000, "share_count_prior": 1119300000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": "2026-05-03", "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "PFE", "cik": 78003, "name": "Pfizer Inc.",
+      "composite_score": -1.0, "insider_component": 0.0, "share_count_component": -1.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": 1.62, "share_count_latest": 5731000000, "share_count_prior": 5640000000,
+      "share_count_latest_period_end": "2026-03-30", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "BA", "cik": 12927, "name": "Boeing Co.",
+      "composite_score": -1.0, "insider_component": 0.0, "share_count_component": -1.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": 3.42, "share_count_latest": 759400000, "share_count_prior": 734300000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "CVS", "cik": 64803, "name": "CVS Health Corp.",
+      "composite_score": 2.0, "insider_component": 2.0, "share_count_component": 0.0,
+      "insider_buys_count": 2, "insider_sells_count": 0,
+      "insider_buys_value": 925000, "insider_sells_value": 0,
+      "cluster_buyers": 2, "cluster_sellers": 0,
+      "share_count_pct_change": -0.21, "share_count_latest": 1257500000, "share_count_prior": 1260100000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": "2026-04-26", "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "F", "cik": 37996, "name": "Ford Motor Co.",
+      "composite_score": 3.0, "insider_component": 3.0, "share_count_component": 0.0,
+      "insider_buys_count": 3, "insider_sells_count": 0,
+      "insider_buys_value": 2740000, "insider_sells_value": 0,
+      "cluster_buyers": 2, "cluster_sellers": 0,
+      "share_count_pct_change": 0.18, "share_count_latest": 3978000000, "share_count_prior": 3970800000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": "2026-05-11", "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    },
+    {
+      "ticker": "GE", "cik": 40545, "name": "GE Aerospace",
+      "composite_score": 1.0, "insider_component": 0.0, "share_count_component": 1.0,
+      "insider_buys_count": 0, "insider_sells_count": 0,
+      "insider_buys_value": 0, "insider_sells_value": 0,
+      "cluster_buyers": 0, "cluster_sellers": 0,
+      "share_count_pct_change": -1.93, "share_count_latest": 1066400000, "share_count_prior": 1087400000,
+      "share_count_latest_period_end": "2026-03-31", "share_count_prior_period_end": "2025-12-31",
+      "latest_buy_date": null, "latest_sell_date": null,
+      "last_updated": "2026-05-17"
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S&amp;P 500 Signal Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0c0c0e;
+    --bg-elev: #14141a;
+    --bg-elev-2: #1a1a22;
+    --border: #24242e;
+    --border-soft: #1e1e26;
+    --text: #ebe9e2;
+    --text-dim: #8c8a82;
+    --text-faint: #54524d;
+    --accent: #d4a857;
+    --green: #5ec19c;
+    --green-dim: #2f5e4d;
+    --red: #e8807c;
+    --red-dim: #6e3936;
+    --neutral: #6c6c75;
+    --serif: "IBM Plex Serif", Georgia, serif;
+    --sans: "IBM Plex Sans", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Header */
+  header.masthead {
+    border-bottom: 1px solid var(--border);
+    padding: 28px 36px 22px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .masthead-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+  }
+  .masthead-title .accent { color: var(--accent); }
+  .masthead-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-align: right;
+  }
+  .masthead-meta span { display: block; }
+  .masthead-meta .stat-val { color: var(--text); }
+
+  /* Controls bar */
+  .controls {
+    padding: 18px 36px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    background: var(--bg);
+  }
+  .controls input[type="search"] {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    font-family: var(--mono);
+    font-size: 12px;
+    width: 280px;
+    border-radius: 2px;
+    outline: none;
+  }
+  .controls input[type="search"]:focus { border-color: var(--accent); }
+  .controls input[type="search"]::placeholder { color: var(--text-faint); }
+  .filter-pill {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 6px 12px;
+    font-family: var(--mono);
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.12s ease;
+  }
+  .filter-pill:hover { color: var(--text); border-color: var(--text-dim); }
+  .filter-pill.active {
+    color: var(--bg);
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .count-display {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-left: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .count-display .num { color: var(--text); }
+
+  /* Universe-changes strip */
+  .universe-strip {
+    padding: 10px 36px;
+    border-bottom: 1px solid var(--border-soft);
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    background: var(--bg-elev);
+    display: flex;
+    gap: 32px;
+  }
+  .universe-strip .label { color: var(--text-faint); margin-right: 6px; }
+  .universe-strip .added { color: var(--green); }
+  .universe-strip .removed { color: var(--red); }
+
+  /* Table */
+  .table-wrap { padding: 0 36px 36px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--sans);
+    font-size: 13px;
+    margin-top: 0;
+  }
+  thead th {
+    text-align: left;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+    padding: 14px 12px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:hover { color: var(--text); }
+  thead th.sorted { color: var(--accent); }
+  thead th .arrow { display: inline-block; margin-left: 4px; font-size: 9px; }
+  tbody tr {
+    border-bottom: 1px solid var(--border-soft);
+    cursor: pointer;
+    transition: background 0.08s ease;
+  }
+  tbody tr:hover { background: var(--bg-elev); }
+  tbody tr.expanded { background: var(--bg-elev-2); }
+  tbody td {
+    padding: 12px;
+    vertical-align: middle;
+  }
+  .ticker {
+    font-family: var(--mono);
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--text);
+    letter-spacing: 0.02em;
+  }
+  .company-name {
+    color: var(--text-dim);
+    font-size: 12px;
+    margin-top: 2px;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .num, .pct, .score {
+    font-family: var(--mono);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .score { font-weight: 500; font-size: 14px; }
+  .score-positive { color: var(--green); }
+  .score-negative { color: var(--red); }
+  .score-zero { color: var(--text-faint); }
+  .pct-positive { color: var(--red); }   /* dilution = bad */
+  .pct-negative { color: var(--green); } /* buyback = good */
+  .pct-zero { color: var(--text-faint); }
+
+  .signal-cell { display: flex; gap: 8px; align-items: center; justify-content: flex-end; }
+  .signal-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    letter-spacing: 0.04em;
+  }
+  .signal-tag.buy { background: var(--green-dim); color: var(--green); }
+  .signal-tag.sell { background: var(--red-dim); color: var(--red); }
+  .signal-tag.muted { background: transparent; color: var(--text-faint); border: 1px solid var(--border); }
+
+  /* Drilldown panel */
+  .drilldown {
+    background: var(--bg-elev-2);
+    border-bottom: 1px solid var(--border);
+  }
+  .drilldown-content {
+    padding: 22px 36px 28px 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+  }
+  .dd-section h4 {
+    font-family: var(--mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+    margin: 0 0 12px 0;
+    font-weight: 500;
+  }
+  .dd-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    font-size: 12px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .dd-row .key { color: var(--text-dim); }
+  .dd-row .val {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+  }
+  .dd-row .val.green { color: var(--green); }
+  .dd-row .val.red { color: var(--red); }
+  .dd-links {
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 11px;
+  }
+  .dd-links a { display: block; margin-bottom: 4px; }
+
+  /* Empty / loading */
+  .status-msg {
+    padding: 80px 36px;
+    text-align: center;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+
+  /* Footer */
+  footer {
+    padding: 24px 36px 40px;
+    border-top: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* Weights panel */
+  .weights {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+  .weights .w-item .k { color: var(--text-faint); margin-right: 4px; }
+  .weights .w-item .v { color: var(--text); }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="masthead-title">S&amp;P 500 <span class="accent">Signal Monitor</span></div>
+    <div class="weights" id="weights-panel"></div>
+  </div>
+  <div class="masthead-meta">
+    <span>Last Run <span class="stat-val" id="last-run">—</span></span>
+    <span>Universe <span class="stat-val" id="universe-size">—</span></span>
+  </div>
+</header>
+
+<div class="universe-strip" id="universe-strip" style="display:none"></div>
+
+<div class="controls">
+  <input type="search" id="search" placeholder="search ticker or company">
+  <button class="filter-pill active" data-filter="all">All</button>
+  <button class="filter-pill" data-filter="positive">Positive</button>
+  <button class="filter-pill" data-filter="negative">Negative</button>
+  <button class="filter-pill" data-filter="buys">Insider Buys</button>
+  <button class="filter-pill" data-filter="sells">Insider Sells</button>
+  <button class="filter-pill" data-filter="buyback">Buybacks</button>
+  <button class="filter-pill" data-filter="dilution">Dilution</button>
+  <span class="count-display"><span class="num" id="row-count">0</span> shown</span>
+</div>
+
+<div class="table-wrap">
+  <table id="tbl">
+    <thead>
+      <tr>
+        <th data-sort="ticker">Ticker</th>
+        <th data-sort="composite_score" class="sorted">Score <span class="arrow">↓</span></th>
+        <th data-sort="insider_component">Insider</th>
+        <th data-sort="share_count_component">Share Δ</th>
+        <th data-sort="insider_buys_count" class="num">Buys (90d)</th>
+        <th data-sort="insider_sells_count" class="num">Sells (90d)</th>
+        <th data-sort="share_count_pct_change" class="num">Shares QoQ</th>
+        <th data-sort="last_updated">Updated</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+      <tr><td colspan="8" class="status-msg">loading data…</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  Source: SEC EDGAR · Form 4 + XBRL companyfacts · refresh schedule set by github actions
+</footer>
+
+<script>
+const STATE = {
+  data: null,
+  filter: 'all',
+  search: '',
+  sortKey: 'composite_score',
+  sortDir: 'desc',
+  expandedTicker: null,
+};
+
+async function loadData() {
+  try {
+    const url = './companies.json';
+    const r = await fetch(url, { cache: 'no-cache' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const j = await r.json();
+    STATE.data = j;
+    render();
+  } catch (e) {
+    document.getElementById('tbody').innerHTML =
+      `<tr><td colspan="8" class="status-msg">no data yet — run the pipeline (see README)</td></tr>`;
+  }
+}
+
+function fmt(n, opts={}) {
+  if (n == null || isNaN(n)) return '—';
+  const digits = opts.digits ?? 0;
+  return Number(n).toLocaleString('en-US', { maximumFractionDigits: digits, minimumFractionDigits: digits });
+}
+function fmtPct(n) {
+  if (n == null || isNaN(n)) return '—';
+  const sign = n > 0 ? '+' : '';
+  return sign + n.toFixed(2) + '%';
+}
+function fmtMoney(n) {
+  if (n == null || isNaN(n) || n === 0) return '—';
+  if (Math.abs(n) >= 1e9) return '$' + (n/1e9).toFixed(2) + 'B';
+  if (Math.abs(n) >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
+  if (Math.abs(n) >= 1e3) return '$' + (n/1e3).toFixed(1) + 'K';
+  return '$' + n.toFixed(0);
+}
+function scoreClass(n) {
+  if (n > 0) return 'score-positive';
+  if (n < 0) return 'score-negative';
+  return 'score-zero';
+}
+function pctClass(n) {
+  if (n == null) return 'pct-zero';
+  if (n > 0.01) return 'pct-positive';
+  if (n < -0.01) return 'pct-negative';
+  return 'pct-zero';
+}
+
+function passesFilter(c) {
+  if (STATE.search) {
+    const q = STATE.search.toLowerCase();
+    if (!c.ticker.toLowerCase().includes(q) && !c.name.toLowerCase().includes(q)) return false;
+  }
+  switch (STATE.filter) {
+    case 'positive': return c.composite_score > 0;
+    case 'negative': return c.composite_score < 0;
+    case 'buys': return c.insider_buys_count > 0;
+    case 'sells': return c.insider_sells_count > 0;
+    case 'buyback': return c.share_count_pct_change != null && c.share_count_pct_change < -1;
+    case 'dilution': return c.share_count_pct_change != null && c.share_count_pct_change > 1;
+    default: return true;
+  }
+}
+
+function sortCompanies(arr) {
+  const k = STATE.sortKey;
+  const dir = STATE.sortDir === 'asc' ? 1 : -1;
+  return arr.slice().sort((a, b) => {
+    let va = a[k], vb = b[k];
+    if (va == null) va = -Infinity;
+    if (vb == null) vb = -Infinity;
+    if (typeof va === 'string') return va.localeCompare(vb) * dir;
+    return (va - vb) * dir;
+  });
+}
+
+function renderRow(c) {
+  const sc = scoreClass(c.composite_score);
+  const insc = scoreClass(c.insider_component);
+  const shc = scoreClass(c.share_count_component);
+  const pcc = pctClass(c.share_count_pct_change);
+  return `
+    <tr data-ticker="${c.ticker}">
+      <td>
+        <div class="ticker">${c.ticker}</div>
+        <div class="company-name">${c.name}</div>
+      </td>
+      <td class="score ${sc}">${c.composite_score >= 0 ? '+' : ''}${c.composite_score.toFixed(0)}</td>
+      <td class="num ${insc}">${c.insider_component >= 0 ? '+' : ''}${c.insider_component.toFixed(0)}</td>
+      <td class="num ${shc}">${c.share_count_component >= 0 ? '+' : ''}${c.share_count_component.toFixed(0)}</td>
+      <td class="num">${c.insider_buys_count > 0 ? '<span class="signal-tag buy">'+c.insider_buys_count+'</span>' : '<span class="signal-tag muted">0</span>'}</td>
+      <td class="num">${c.insider_sells_count > 0 ? '<span class="signal-tag sell">'+c.insider_sells_count+'</span>' : '<span class="signal-tag muted">0</span>'}</td>
+      <td class="num ${pcc}">${fmtPct(c.share_count_pct_change)}</td>
+      <td class="num" style="color:var(--text-faint);font-size:11px">${c.last_updated || '—'}</td>
+    </tr>
+  `;
+}
+
+function renderDrilldown(c) {
+  const buysGood = c.insider_buys_count > 0;
+  const sellsBad = c.insider_sells_count > 0;
+  const buybackGood = c.share_count_pct_change != null && c.share_count_pct_change < -1;
+  const dilutionBad = c.share_count_pct_change != null && c.share_count_pct_change > 1;
+  return `
+    <tr class="drilldown" data-ticker="${c.ticker}-dd">
+      <td colspan="8">
+        <div class="drilldown-content">
+          <div class="dd-section">
+            <h4>Insider Activity (90d)</h4>
+            <div class="dd-row"><span class="key">Discretionary buys</span><span class="val ${buysGood?'green':''}">${c.insider_buys_count}</span></div>
+            <div class="dd-row"><span class="key">Discretionary sells</span><span class="val ${sellsBad?'red':''}">${c.insider_sells_count}</span></div>
+            <div class="dd-row"><span class="key">Buy $ value</span><span class="val">${fmtMoney(c.insider_buys_value)}</span></div>
+            <div class="dd-row"><span class="key">Sell $ value</span><span class="val">${fmtMoney(c.insider_sells_value)}</span></div>
+            <div class="dd-row"><span class="key">Unique buyers</span><span class="val">${c.cluster_buyers}</span></div>
+            <div class="dd-row"><span class="key">Unique sellers</span><span class="val">${c.cluster_sellers}</span></div>
+            <div class="dd-row"><span class="key">Last buy</span><span class="val">${c.latest_buy_date || '—'}</span></div>
+            <div class="dd-row"><span class="key">Last sell</span><span class="val">${c.latest_sell_date || '—'}</span></div>
+          </div>
+          <div class="dd-section">
+            <h4>Share Count (QoQ)</h4>
+            <div class="dd-row"><span class="key">Latest period end</span><span class="val">${c.share_count_latest_period_end || '—'}</span></div>
+            <div class="dd-row"><span class="key">Latest shares out</span><span class="val">${fmt(c.share_count_latest)}</span></div>
+            <div class="dd-row"><span class="key">Prior period end</span><span class="val">${c.share_count_prior_period_end || '—'}</span></div>
+            <div class="dd-row"><span class="key">Prior shares out</span><span class="val">${fmt(c.share_count_prior)}</span></div>
+            <div class="dd-row"><span class="key">QoQ change</span><span class="val ${buybackGood?'green':(dilutionBad?'red':'')}">${fmtPct(c.share_count_pct_change)}</span></div>
+          </div>
+          <div class="dd-section">
+            <h4>Links</h4>
+            <div class="dd-links">
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=4&dateb=&owner=include&count=40" target="_blank" rel="noopener">Form 4 filings ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=10-Q&dateb=&owner=include&count=40" target="_blank" rel="noopener">10-Q filings ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=10-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">10-K filings ↗</a>
+              <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${c.cik}&type=&dateb=&owner=include&count=40" target="_blank" rel="noopener">All EDGAR filings ↗</a>
+              <a href="https://finance.yahoo.com/quote/${c.ticker}" target="_blank" rel="noopener">Yahoo Finance ↗</a>
+            </div>
+            <h4 style="margin-top:18px">Score Decomposition</h4>
+            <div class="dd-row"><span class="key">Insider component</span><span class="val ${scoreClass(c.insider_component).replace('score-','')}">${c.insider_component >= 0 ? '+' : ''}${c.insider_component.toFixed(1)}</span></div>
+            <div class="dd-row"><span class="key">Share count component</span><span class="val ${scoreClass(c.share_count_component).replace('score-','')}">${c.share_count_component >= 0 ? '+' : ''}${c.share_count_component.toFixed(1)}</span></div>
+            <div class="dd-row"><span class="key">Composite</span><span class="val ${scoreClass(c.composite_score).replace('score-','')}">${c.composite_score >= 0 ? '+' : ''}${c.composite_score.toFixed(1)}</span></div>
+          </div>
+        </div>
+      </td>
+    </tr>
+  `;
+}
+
+function render() {
+  if (!STATE.data) return;
+  const j = STATE.data;
+  document.getElementById('last-run').textContent = j.generated_at || '—';
+  document.getElementById('universe-size').textContent = j.universe_size || '—';
+
+  // Weights panel
+  const w = j.weights || {};
+  document.getElementById('weights-panel').innerHTML = `
+    <span class="w-item"><span class="k">buy</span><span class="v">${w.insider_buy >= 0 ? '+' : ''}${w.insider_buy}</span></span>
+    <span class="w-item"><span class="k">sell</span><span class="v">${w.insider_sell}</span></span>
+    <span class="w-item"><span class="k">buyback &lt;-${w.share_count_pct_threshold}%</span><span class="v">${w.share_count_decrease >= 0 ? '+' : ''}${w.share_count_decrease}</span></span>
+    <span class="w-item"><span class="k">dilution &gt;+${w.share_count_pct_threshold}%</span><span class="v">${w.share_count_increase}</span></span>
+    <span class="w-item"><span class="k">lookback</span><span class="v">${w.insider_lookback_days}d</span></span>
+  `;
+
+  // Universe changes
+  const uc = j.universe_changes || {};
+  const added = (uc.added || []).map(a => `<span class="added">+ ${a.ticker}</span>`).join(' ');
+  const removed = (uc.removed || []).map(r => `<span class="removed">− ${r.ticker}</span>`).join(' ');
+  const strip = document.getElementById('universe-strip');
+  if (added || removed) {
+    strip.style.display = 'flex';
+    strip.innerHTML = `
+      ${added ? `<div><span class="label">Added today:</span>${added}</div>` : ''}
+      ${removed ? `<div><span class="label">Removed today:</span>${removed}</div>` : ''}
+    `;
+  } else {
+    strip.style.display = 'none';
+  }
+
+  // Sort header indicators
+  document.querySelectorAll('thead th').forEach(th => {
+    th.classList.remove('sorted');
+    const arrow = th.querySelector('.arrow');
+    if (arrow) arrow.remove();
+  });
+  const activeTh = document.querySelector(`thead th[data-sort="${STATE.sortKey}"]`);
+  if (activeTh) {
+    activeTh.classList.add('sorted');
+    const arrowSpan = document.createElement('span');
+    arrowSpan.className = 'arrow';
+    arrowSpan.textContent = STATE.sortDir === 'desc' ? '↓' : '↑';
+    activeTh.appendChild(arrowSpan);
+  }
+
+  // Build rows
+  const filtered = (j.companies || []).filter(passesFilter);
+  const sorted = sortCompanies(filtered);
+  document.getElementById('row-count').textContent = sorted.length;
+  if (sorted.length === 0) {
+    document.getElementById('tbody').innerHTML =
+      `<tr><td colspan="8" class="status-msg">no matches</td></tr>`;
+    return;
+  }
+  const html = sorted.map(c => {
+    let r = renderRow(c);
+    if (STATE.expandedTicker === c.ticker) r += renderDrilldown(c);
+    return r;
+  }).join('');
+  document.getElementById('tbody').innerHTML = html;
+
+  // Wire up row clicks
+  document.querySelectorAll('tbody tr[data-ticker]').forEach(tr => {
+    if (tr.dataset.ticker.endsWith('-dd')) return;
+    tr.addEventListener('click', () => {
+      STATE.expandedTicker = STATE.expandedTicker === tr.dataset.ticker ? null : tr.dataset.ticker;
+      render();
+    });
+    if (STATE.expandedTicker === tr.dataset.ticker) tr.classList.add('expanded');
+  });
+}
+
+// Events
+document.querySelectorAll('.filter-pill').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    STATE.filter = btn.dataset.filter;
+    STATE.expandedTicker = null;
+    render();
+  });
+});
+document.getElementById('search').addEventListener('input', e => {
+  STATE.search = e.target.value;
+  render();
+});
+document.querySelectorAll('thead th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const k = th.dataset.sort;
+    if (STATE.sortKey === k) {
+      STATE.sortDir = STATE.sortDir === 'desc' ? 'asc' : 'desc';
+    } else {
+      STATE.sortKey = k;
+      STATE.sortDir = 'desc';
+    }
+    render();
+  });
+});
+
+loadData();
+</script>
+</body>
+</html>
