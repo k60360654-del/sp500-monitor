@@ -212,6 +212,8 @@
   .tx-tag.counted-sell { background: var(--red-dim); color: var(--red); }
   .tx-tag.noise { background: transparent; color: var(--text-faint); border: 1px solid var(--border); }
   .tx-tag.tenb5 { background: var(--orange-dim); color: var(--orange); }
+  .tx-tag.anomaly { background: var(--red-dim); color: var(--red); border: 1px dashed var(--red); }
+  .tx-tag.programmatic { background: var(--orange-dim); color: var(--orange); border: 1px dashed var(--orange); }
   .tx-link { color: var(--accent); }
   .tx-empty { color: var(--text-faint); font-style: italic; padding: 12px 0; }
 
@@ -418,6 +420,18 @@ function txTag(tx) {
   if (tx.is_10b5_1 && (tx.transaction_code === 'S' || tx.transaction_code === 'P')) {
     return '<span class="tx-tag tenb5">10b5-1 (filtered)</span>';
   }
+  if (tx.is_price_anomaly) {
+    return '<span class="tx-tag anomaly">price anomaly (likely option exercise)</span>';
+  }
+  if (tx.is_programmatic_buyer && tx.transaction_code === 'P') {
+    return '<span class="tx-tag programmatic">programmatic buyer (capped)</span>';
+  }
+  if (tx.transaction_code === 'P' && tx.acquired_disposed === 'A' && tx.value < 10000) {
+    return '<span class="tx-tag noise">de minimis (&lt;$10K)</span>';
+  }
+  if (tx.transaction_code === 'S' && tx.acquired_disposed === 'D' && tx.value < 10000) {
+    return '<span class="tx-tag noise">de minimis (&lt;$10K)</span>';
+  }
   return '<span class="tx-tag noise">noise (' + tx.transaction_code + ')</span>';
 }
 function txRowClass(tx) {
@@ -496,12 +510,13 @@ function renderDrilldown(c) {
         <div class="drilldown-content">
           <div class="dd-section">
             <h4>Insider Activity (90d)</h4>
-            <div class="dd-row"><span class="key">Discretionary buys</span><span class="val ${buysGood?'green':''}">${c.insider_buys_count}${c.insider_buys_filings ? ' tx / '+c.insider_buys_filings+' filings' : ''}</span></div>
-            <div class="dd-row"><span class="key">Discretionary sells</span><span class="val ${sellsBad?'red':''}">${c.insider_sells_count}${c.insider_sells_filings ? ' tx / '+c.insider_sells_filings+' filings' : ''}</span></div>
-            <div class="dd-row"><span class="key">10b5-1 buys (filtered)</span><span class="val muted">${c.excluded_10b5_buys_count || 0}</span></div>
-            <div class="dd-row"><span class="key">10b5-1 sells (filtered)</span><span class="val muted">${c.excluded_10b5_sells_count || 0}</span></div>
-            <div class="dd-row"><span class="key">Buy $ value</span><span class="val">${fmtMoney(c.insider_buys_value)}</span></div>
-            <div class="dd-row"><span class="key">Sell $ value</span><span class="val">${fmtMoney(c.insider_sells_value)}</span></div>
+            <div class="dd-row"><span class="key">Discretionary buys (counted)</span><span class="val ${buysGood?'green':''}">${c.insider_buys_count}${c.insider_buys_filings ? ' / '+c.insider_buys_filings+' filings' : ''}</span></div>
+            <div class="dd-row"><span class="key">Discretionary sells (counted)</span><span class="val ${sellsBad?'red':''}">${c.insider_sells_count}${c.insider_sells_filings ? ' / '+c.insider_sells_filings+' filings' : ''}</span></div>
+            <div class="dd-row"><span class="key">De minimis (&lt;$10K, filtered)</span><span class="val muted">${(c.de_minimis_buys_count||0)} buys / ${(c.de_minimis_sells_count||0)} sells</span></div>
+            <div class="dd-row"><span class="key">Capped (per-insider limit)</span><span class="val muted">${(c.capped_buys_count||0)} buys / ${(c.capped_sells_count||0)} sells</span></div>
+            <div class="dd-row"><span class="key">10b5-1 (filtered)</span><span class="val muted">${(c.excluded_10b5_buys_count||0)} buys / ${(c.excluded_10b5_sells_count||0)} sells</span></div>
+            <div class="dd-row"><span class="key">Buy $ value (counted)</span><span class="val">${fmtMoney(c.insider_buys_value)}</span></div>
+            <div class="dd-row"><span class="key">Sell $ value (counted)</span><span class="val">${fmtMoney(c.insider_sells_value)}</span></div>
             <div class="dd-row"><span class="key">Unique buyers / sellers</span><span class="val">${c.cluster_buyers} / ${c.cluster_sellers}</span></div>
             <div class="dd-row"><span class="key">Last buy / sell</span><span class="val">${c.latest_buy_date || '—'} / ${c.latest_sell_date || '—'}</span></div>
 
