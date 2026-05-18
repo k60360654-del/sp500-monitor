@@ -255,38 +255,161 @@ def fetch_and_parse_form4(cik: int, accession: str, filed_date: str) -> list[Tra
 
 
 def summarize_transactions(transactions: Iterable[Transaction],
-                            *, since_date: str) -> dict:
-    """Aggregate transactions since a given date into summary signals."""
-    buys = []
-    sells = []
-    excluded_10b5_buys = []
-    excluded_10b5_sells = []
+                            *, since_date: str,
+                            min_buy_value_usd: float = 10000.0,
+                            min_sell_value_usd: float = 10000.0,
+                            max_filings_per_insider: int = 3,
+                            frequent_buyer_filings_threshold: int = 10,
+                            frequent_buyer_max_filings: int = 1,
+                            price_anomaly_min_ratio: float = 0.5) -> dict:
+    """Aggregate transactions since a given date into summary signals.
+
+    Filters applied for noise control:
+      1. transactions with value < min_*_value_usd are classified as 'de minimis'
+         and excluded from scoring counts (handles small ritual buys)
+      2. transactions priced at < price_anomaly_min_ratio of the company's median
+         sell-side price are classified as 'price_anomaly' - catches option
+         exercises miscoded as "P" with strike price as transaction price
+      3. counts are computed per (insider, filing) - multiple tranches in one
+         Form 4 count as one decision
+      4. an insider with more than frequent_buyer_filings_threshold filings in
+         the window is treated as a programmatic buyer (e.g. TPL daily 1-share
+         buys by Horizon Kinetics-affiliated directors) and capped at
+         frequent_buyer_max_filings counted filings
+      5. otherwise, per insider, only the largest max_filings_per_insider
+         filings count
+    """
+    # First pass: compute median sell-side price per company (cik) for
+    # price-anomaly detection. Sell prices ≈ market because insiders sell at
+    # market; this gives us a free market-price proxy without external data.
+    sell_prices_by_cik: dict[int, list[float]] = {}
+    for tx in transactions:
+        if tx.filed_date < since_date:
+            continue
+        if (tx.transaction_code == "S" and tx.acquired_disposed == "D"
+                and tx.price_per_share > 0):
+            sell_prices_by_cik.setdefault(tx.cik, []).append(tx.price_per_share)
+    median_sell_price_by_cik: dict[int, float] = {}
+    for cik, prices in sell_prices_by_cik.items():
+        prices.sort()
+        median_sell_price_by_cik[cik] = prices[len(prices) // 2]
+
+    raw_buys: list[Transaction] = []
+    raw_sells: list[Transaction] = []
+    de_minimis_buys: list[Transaction] = []
+    de_minimis_sells: list[Transaction] = []
+    price_anomaly_buys: list[Transaction] = []
+    excluded_10b5_buys: list[Transaction] = []
+    excluded_10b5_sells: list[Transaction] = []
+
     for tx in transactions:
         if tx.filed_date < since_date:
             continue
         if tx.is_discretionary_buy:
-            buys.append(tx)
+            if tx.value < min_buy_value_usd or tx.price_per_share <= 0:
+                de_minimis_buys.append(tx)
+                continue
+            # Price-anomaly check (option exercise miscoded as P)
+            median_market = median_sell_price_by_cik.get(tx.cik)
+            if (median_market is not None
+                    and tx.price_per_share < price_anomaly_min_ratio * median_market):
+                price_anomaly_buys.append(tx)
+                continue
+            raw_buys.append(tx)
         elif tx.is_discretionary_sell:
-            sells.append(tx)
+            if tx.value < min_sell_value_usd or tx.price_per_share <= 0:
+                de_minimis_sells.append(tx)
+            else:
+                raw_sells.append(tx)
         elif tx.transaction_code == "P" and tx.acquired_disposed == "A" and tx.is_10b5_1:
             excluded_10b5_buys.append(tx)
         elif tx.transaction_code == "S" and tx.acquired_disposed == "D" and tx.is_10b5_1:
             excluded_10b5_sells.append(tx)
+
+    # Collapse to one entry per (insider, filing), apply per-insider caps
+    # (programmatic buyers get aggressive cap; others get standard cap)
+    counted_buy_keys = _collapse_and_cap(
+        raw_buys, max_filings_per_insider,
+        frequent_threshold=frequent_buyer_filings_threshold,
+        frequent_max=frequent_buyer_max_filings,
+    )
+    counted_sell_keys = _collapse_and_cap(
+        raw_sells, max_filings_per_insider,
+        frequent_threshold=frequent_buyer_filings_threshold,
+        frequent_max=frequent_buyer_max_filings,
+    )
+
+    # Resolve back to the underlying transactions for value/share totals
+    counted_buys = [tx for tx in raw_buys
+                    if (tx.insider_name, tx.accession) in counted_buy_keys]
+    counted_sells = [tx for tx in raw_sells
+                     if (tx.insider_name, tx.accession) in counted_sell_keys]
+
+    # Identify programmatic buyers (filed more than threshold times in window)
+    buy_filings_by_insider: dict[str, set] = {}
+    for tx in raw_buys:
+        buy_filings_by_insider.setdefault(tx.insider_name, set()).add(tx.accession)
+    programmatic_buyers = sorted([
+        insider for insider, accs in buy_filings_by_insider.items()
+        if len(accs) > frequent_buyer_filings_threshold
+    ])
+
     return {
-        "discretionary_buys_count": len(buys),
-        "discretionary_buys_value": sum(t.value for t in buys),
-        "discretionary_buys_shares": sum(t.shares for t in buys),
-        "discretionary_buys_filings": len({t.accession for t in buys}),
-        "discretionary_sells_count": len(sells),
-        "discretionary_sells_value": sum(t.value for t in sells),
-        "discretionary_sells_shares": sum(t.shares for t in sells),
-        "discretionary_sells_filings": len({t.accession for t in sells}),
-        "cluster_buyers": len({t.insider_name for t in buys}),
-        "cluster_sellers": len({t.insider_name for t in sells}),
-        "latest_buy_date": max((t.transaction_date for t in buys), default=None),
-        "latest_sell_date": max((t.transaction_date for t in sells), default=None),
+        # Counted (scored) signals - filings unit
+        "discretionary_buys_count": len(counted_buy_keys),
+        "discretionary_sells_count": len(counted_sell_keys),
+        "discretionary_buys_value": sum(t.value for t in counted_buys),
+        "discretionary_sells_value": sum(t.value for t in counted_sells),
+        "discretionary_buys_shares": sum(t.shares for t in counted_buys),
+        "discretionary_sells_shares": sum(t.shares for t in counted_sells),
+        "discretionary_buys_filings": len({t.accession for t in counted_buys}),
+        "discretionary_sells_filings": len({t.accession for t in counted_sells}),
+        "cluster_buyers": len({t.insider_name for t in counted_buys}),
+        "cluster_sellers": len({t.insider_name for t in counted_sells}),
+        "latest_buy_date": max((t.transaction_date for t in counted_buys), default=None),
+        "latest_sell_date": max((t.transaction_date for t in counted_sells), default=None),
+        # Transparency - filtered transactions
+        "raw_buys_count": len(raw_buys),
+        "raw_sells_count": len(raw_sells),
+        "de_minimis_buys_count": len(de_minimis_buys),
+        "de_minimis_sells_count": len(de_minimis_sells),
+        "price_anomaly_buys_count": len(price_anomaly_buys),
+        "capped_buys_count": len(raw_buys) - len(counted_buys),
+        "capped_sells_count": len(raw_sells) - len(counted_sells),
+        "programmatic_buyers": programmatic_buyers,
+        # 10b5-1
         "excluded_10b5_buys_count": len(excluded_10b5_buys),
         "excluded_10b5_sells_count": len(excluded_10b5_sells),
         "excluded_10b5_buys_filings": len({t.accession for t in excluded_10b5_buys}),
         "excluded_10b5_sells_filings": len({t.accession for t in excluded_10b5_sells}),
     }
+
+
+def _collapse_and_cap(transactions: list[Transaction], cap: int,
+                       *, frequent_threshold: int = 10,
+                       frequent_max: int = 1) -> set:
+    """Collapse to (insider, accession) pairs (one per filing per insider),
+    then for each insider keep only the top `cap` filings ranked by total
+    insider+filing value. Insiders with more than `frequent_threshold` filings
+    in the window are treated as programmatic buyers and capped at
+    `frequent_max` (default 1). Returns set of (insider_name, accession) keys.
+    """
+    # First, total value per (insider, accession) pair
+    by_pair: dict[tuple[str, str], float] = {}
+    for tx in transactions:
+        key = (tx.insider_name, tx.accession)
+        by_pair[key] = by_pair.get(key, 0.0) + tx.value
+
+    # Group filings by insider, rank by value
+    by_insider: dict[str, list[tuple[str, float]]] = {}
+    for (insider, acc), value in by_pair.items():
+        by_insider.setdefault(insider, []).append((acc, value))
+
+    keep: set = set()
+    for insider, filings in by_insider.items():
+        # Programmatic / ritual buyer detection
+        effective_cap = frequent_max if len(filings) > frequent_threshold else cap
+        filings.sort(key=lambda fv: fv[1], reverse=True)
+        for acc, _ in filings[:effective_cap]:
+            keep.add((insider, acc))
+    return keep
