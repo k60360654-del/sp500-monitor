@@ -533,7 +533,7 @@ function renderDrilldown(c) {
             <div class="dd-row"><span class="key">4.02 non-reliance</span><span class="val ${c.has_4_02?'red':'muted'}">${c.has_4_02 ? 'YES' : 'no'}</span></div>
             <div class="dd-row"><span class="key">4.01 auditor change</span><span class="val ${c.has_4_01?'red':'muted'}">${c.has_4_01 ? 'YES' : 'no'}</span></div>
             <div class="dd-row"><span class="key">Director resignations (concerning)</span><span class="val ${c.director_resignations_concerning>0?'red':'muted'}">${c.director_resignations_concerning || 0}</span></div>
-            <div class="dd-row"><span class="key">Buyback announcements</span><span class="val ${c.buyback_announcements>0?'green':'muted'}">${c.buyback_announcements || 0}</span></div>
+            <div class="dd-row"><span class="key">Buyback announcements (counted)</span><span class="val ${c.buyback_announcements>0?'green':'muted'}">${c.buyback_announcements || 0}${(c.buyback_announcements_raw && c.buyback_announcements_raw > c.buyback_announcements) ? ' <span class="muted">(capped from '+c.buyback_announcements_raw+')</span>' : ''}</span></div>
             <div class="dd-row"><span class="key">NT-10K / NT-10Q filings</span><span class="val ${c.nt_filings_count>0?'red':'muted'}">${c.nt_filings_count || 0}</span></div>
 
             <h4 class="subhead">Governance (5.07)</h4>
@@ -549,12 +549,14 @@ function renderDrilldown(c) {
           </div>
 
           <div class="dd-section">
-            <h4>Financial Signals (TTM YoY)</h4>
+            <h4>Financial Signals</h4>
             <div class="dd-row"><span class="key">DPS YoY change</span><span class="val ${c.dps_yoy_change_pct>0?'green':(c.dps_yoy_change_pct<0?'red':'')}">${fmtPct(c.dps_yoy_change_pct, 1)}</span></div>
             <div class="dd-row"><span class="key">Dividend initiation</span><span class="val ${c.dps_initiation?'green':'muted'}">${c.dps_initiation ? 'YES' : 'no'}</span></div>
             <div class="dd-row"><span class="key">Dividend cut</span><span class="val ${c.dps_cut?'red':'muted'}">${c.dps_cut ? 'YES' : 'no'}</span></div>
             <div class="dd-row"><span class="key">Gross margin YoY (bps)</span><span class="val ${c.gross_margin_yoy_change_bps>100?'green':(c.gross_margin_yoy_change_bps<-100?'red':'')}">${fmtBps(c.gross_margin_yoy_change_bps)}</span></div>
-            <div class="dd-row"><span class="key">TTM OCF YoY</span><span class="val ${c.ocf_yoy_change_pct>5?'green':(c.ocf_yoy_change_pct<-5?'red':'')}">${fmtPct(c.ocf_yoy_change_pct, 1)}</span></div>
+            <div class="dd-row"><span class="key">3-yr OCF CAGR</span><span class="val ${c.ocf_3yr_cagr_pct>=8?'green':(c.ocf_3yr_cagr_pct<=-3?'red':'')}">${fmtPct(c.ocf_3yr_cagr_pct, 1)}<span class="muted"> /yr</span></span></div>
+            <div class="dd-row"><span class="key">3-yr OCF/NI conversion</span><span class="val ${c.ocf_ni_conversion_3yr>=1.10?'green':(c.ocf_ni_conversion_3yr<=0.80?'red':'')}">${c.ocf_ni_conversion_3yr != null ? c.ocf_ni_conversion_3yr.toFixed(2)+'x' : '—'}</span></div>
+            <div class="dd-row"><span class="key">TTM OCF YoY (context)</span><span class="val muted">${fmtPct(c.ocf_yoy_change_pct, 1)}</span></div>
 
             <h4 class="subhead">Score Components</h4>
             <div class="dd-row"><span class="key">Insider</span><span class="val ${scoreClass(c.insider_component).replace('score-','')}">${fmtSigned(c.insider_component)}</span></div>
@@ -662,3 +664,4 @@ loadData();
 </script>
 </body>
 </html>
+
