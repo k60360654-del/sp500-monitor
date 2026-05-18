@@ -150,7 +150,15 @@ def run(*, max_companies=0, skip_universe_refresh=False, skip_13dg=False,
             log.warning("Financial signals failed for %s: %s", ticker, e)
             fin_signals = None
 
-        summary = form4.summarize_transactions(txs, since_date=insider_since)
+        summary = form4.summarize_transactions(
+            txs, since_date=insider_since,
+            min_buy_value_usd=weights.min_buy_value_usd,
+            min_sell_value_usd=weights.min_sell_value_usd,
+            max_filings_per_insider=weights.max_filings_per_insider,
+            frequent_buyer_filings_threshold=weights.frequent_buyer_filings_threshold,
+            frequent_buyer_max_filings=weights.frequent_buyer_max_filings,
+            price_anomaly_min_ratio=weights.price_anomaly_min_ratio,
+        )
         qoq = shares.latest_qoq_change(share_obs)
 
         cs = scoring.score_company(
@@ -161,9 +169,71 @@ def run(*, max_companies=0, skip_universe_refresh=False, skip_13dg=False,
             weights=weights,
         )
 
-        # Attach recent transactions for dashboard drill-down
+        # Attach recent transactions for dashboard drill-down. counted_as_buy/sell
+        # reflects what *actually* counted in the score (post de-minimis filter
+        # and per-insider cap), not the raw is_discretionary_* flag.
         recent = [t for t in txs if t.filed_date >= insider_since]
         recent.sort(key=lambda t: (t.transaction_date, t.filed_date), reverse=True)
+
+        # Replay the same filter logic to identify which transactions actually
+        # contribute to the score for display purposes.
+        from .form4 import _collapse_and_cap
+
+        # Median sell-side price for price-anomaly detection (same as
+        # summarize_transactions logic)
+        sell_prices = sorted([t.price_per_share for t in recent
+                              if t.transaction_code == "S"
+                              and t.acquired_disposed == "D"
+                              and t.price_per_share > 0])
+        median_market = sell_prices[len(sell_prices)//2] if sell_prices else None
+
+        def _passes_buy_filters(t):
+            if not t.is_discretionary_buy:
+                return False
+            if t.value < weights.min_buy_value_usd or t.price_per_share <= 0:
+                return False
+            if (median_market is not None
+                    and t.price_per_share < weights.price_anomaly_min_ratio * median_market):
+                return False
+            return True
+
+        raw_scored_buys = [t for t in recent if _passes_buy_filters(t)]
+        raw_scored_sells = [t for t in recent if t.is_discretionary_sell
+                             and t.value >= weights.min_sell_value_usd
+                             and t.price_per_share > 0]
+        kept_buy_keys = _collapse_and_cap(
+            raw_scored_buys, weights.max_filings_per_insider,
+            frequent_threshold=weights.frequent_buyer_filings_threshold,
+            frequent_max=weights.frequent_buyer_max_filings,
+        )
+        kept_sell_keys = _collapse_and_cap(
+            raw_scored_sells, weights.max_filings_per_insider,
+            frequent_threshold=weights.frequent_buyer_filings_threshold,
+            frequent_max=weights.frequent_buyer_max_filings,
+        )
+
+        def _is_counted_buy(t):
+            return (_passes_buy_filters(t)
+                    and (t.insider_name, t.accession) in kept_buy_keys)
+
+        def _is_counted_sell(t):
+            return (t.is_discretionary_sell
+                    and t.value >= weights.min_sell_value_usd
+                    and t.price_per_share > 0
+                    and (t.insider_name, t.accession) in kept_sell_keys)
+
+        # Tag price-anomaly transactions for the dashboard
+        def _is_price_anomaly(t):
+            if not t.is_discretionary_buy:
+                return False
+            if t.value < weights.min_buy_value_usd or t.price_per_share <= 0:
+                return False
+            return (median_market is not None
+                    and t.price_per_share < weights.price_anomaly_min_ratio * median_market)
+
+        # Tag programmatic buyers for the dashboard
+        programmatic_set = set(summary.get("programmatic_buyers", []))
+
         cs.recent_transactions = [
             {"transaction_date": t.transaction_date, "filed_date": t.filed_date,
              "accession": t.accession, "transaction_code": t.transaction_code,
@@ -173,8 +243,10 @@ def run(*, max_companies=0, skip_universe_refresh=False, skip_13dg=False,
              "is_director": t.is_director, "is_officer": t.is_officer,
              "is_ten_percent_owner": t.is_ten_percent_owner,
              "is_10b5_1": t.is_10b5_1,
-             "counted_as_buy": t.is_discretionary_buy,
-             "counted_as_sell": t.is_discretionary_sell}
+             "is_price_anomaly": _is_price_anomaly(t),
+             "is_programmatic_buyer": t.insider_name in programmatic_set,
+             "counted_as_buy": _is_counted_buy(t),
+             "counted_as_sell": _is_counted_sell(t)}
             for t in recent[:60]
         ]
         company_scores.append(cs)
