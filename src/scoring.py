@@ -65,6 +65,19 @@ class ScoreWeights:
     say_on_pay_below_50: float = -2.0
     auditor_ratification_below_95: float = -1.0
     director_withhold_above_20: float = -1.0
+    # Insider transaction noise filters
+    min_buy_value_usd: float = 10000.0
+    min_sell_value_usd: float = 10000.0
+    max_filings_per_insider: int = 3
+    # Detect programmatic / ritual buyers (e.g. Horizon Kinetics-affiliated
+    # directors at TPL doing near-daily buys). Anyone exceeding the threshold
+    # has their counted filings reduced to `frequent_buyer_max_filings`.
+    frequent_buyer_filings_threshold: int = 10
+    frequent_buyer_max_filings: int = 1
+    # Detect option exercises miscoded as "P" - filer reports strike price
+    # rather than market. If price is < this fraction of the company's median
+    # sell-side price in the window, treat as a price anomaly and exclude.
+    price_anomaly_min_ratio: float = 0.5
     thirteen_g_amendment_accumulation: float = 1.0
     thirteen_d_amendment_accumulation: float = 2.0
     dps_yoy_increase: float = 1.0
@@ -106,6 +119,12 @@ class CompanyScore:
     insider_sells_filings: int = 0
     excluded_10b5_buys_count: int = 0
     excluded_10b5_sells_count: int = 0
+    raw_buys_count: int = 0
+    raw_sells_count: int = 0
+    de_minimis_buys_count: int = 0
+    de_minimis_sells_count: int = 0
+    capped_buys_count: int = 0
+    capped_sells_count: int = 0
     cluster_buyers: int = 0
     cluster_sellers: int = 0
     share_count_pct_change: Optional[float] = None
@@ -381,6 +400,12 @@ def score_company(*, ticker, cik, name,
         insider_sells_filings=insider_summary.get("discretionary_sells_filings", 0),
         excluded_10b5_buys_count=insider_summary.get("excluded_10b5_buys_count", 0),
         excluded_10b5_sells_count=insider_summary.get("excluded_10b5_sells_count", 0),
+        raw_buys_count=insider_summary.get("raw_buys_count", 0),
+        raw_sells_count=insider_summary.get("raw_sells_count", 0),
+        de_minimis_buys_count=insider_summary.get("de_minimis_buys_count", 0),
+        de_minimis_sells_count=insider_summary.get("de_minimis_sells_count", 0),
+        capped_buys_count=insider_summary.get("capped_buys_count", 0),
+        capped_sells_count=insider_summary.get("capped_sells_count", 0),
         cluster_buyers=insider_summary["cluster_buyers"],
         cluster_sellers=insider_summary["cluster_sellers"],
         share_count_pct_change=(qoq or {}).get("pct_change"),
