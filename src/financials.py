@@ -1,6 +1,3 @@
-
-Copy
-
 """Financial metrics from XBRL companyfacts.
  
 We extract the following signals:
