@@ -1,6 +1,3 @@
-
-Copy
-
 """Composite scoring engine.
  
 Signal categories and default weights:
