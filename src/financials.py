@@ -1,43 +1,43 @@
 """Financial metrics from XBRL companyfacts.
- 
+
 We extract the following signals:
- 
+
 1. Dividend per share (DPS) growth — uses
    us-gaap:CommonStockDividendsPerShareDeclared (preferred) or
    us-gaap:CommonStockDividendsPerShareCashPaid (fallback). Trailing-twelve-
    month sums compared YoY. Initiation = $0 → positive; cut = decrease.
- 
+
 2. Gross margin YoY change in basis points — derived from
    us-gaap:Revenues (or us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax)
    and us-gaap:GrossProfit. TTM gross profit / TTM revenue, compared YoY.
- 
+
 3. **3-year OCF CAGR** (replaces the old YoY OCF signal). The previous YoY
    signal was contaminated by working-capital noise — payables stretching,
    receivables collection timing, and inventory swings can move OCF ±15% in
    a single year without any change in underlying business quality. A 3-year
    compound annual growth rate dilutes these effects. Computed as
    (TTM_now / TTM_3yr_ago)^(1/3) - 1. Requires 16 quarters of data.
- 
+
 4. **3-year OCF/Net Income conversion ratio** (new earnings-quality signal).
    When reported earnings consistently exceed operating cash flow, that's
    the classic earnings-quality red flag (aggressive revenue recognition,
    working-capital release that won't repeat, accrual-heavy income). We sum
    12 quarters of each and divide. Ratios well below 1.0 are negative,
    ratios above 1.10 are positive (conservative accounting).
- 
+
 The YoY OCF value is still computed and shown on the dashboard for context
 but no longer affects the score.
 """
 from __future__ import annotations
- 
+
 import logging
 from dataclasses import dataclass
 from typing import Optional
- 
+
 from . import edgar
- 
+
 log = logging.getLogger(__name__)
- 
+
 DPS_CONCEPTS = [
     "CommonStockDividendsPerShareDeclared",
     "CommonStockDividendsPerShareCashPaid",
@@ -58,8 +58,8 @@ NET_INCOME_CONCEPTS = [
     "ProfitLoss",
     "NetIncomeLossAvailableToCommonStockholdersBasic",
 ]
- 
- 
+
+
 @dataclass
 class FinancialSignals:
     # Dividend
@@ -83,8 +83,8 @@ class FinancialSignals:
     ocf_12q_sum: Optional[float] = None
     ni_12q_sum: Optional[float] = None
     ocf_ni_conversion_3yr: Optional[float] = None
- 
- 
+
+
 def _get_usd_series(facts: dict, concept: str) -> list[dict]:
     section = facts.get("facts", {}).get("us-gaap", {}).get(concept)
     if section is None:
@@ -94,8 +94,8 @@ def _get_usd_series(facts: dict, concept: str) -> list[dict]:
         if unit_key in units:
             return units[unit_key]
     return []
- 
- 
+
+
 def _quarterly_observations(series: list[dict]) -> list[dict]:
     """Filter to quarterly periodic observations (60-100 day windows). Falls
     back to annual (350-380 day) only if there's not enough quarterly data.
@@ -126,33 +126,31 @@ def _quarterly_observations(series: list[dict]) -> list[dict]:
     quarterly.sort(key=lambda x: x["end"])
     annual.sort(key=lambda x: x["end"])
     return quarterly if len(quarterly) >= 4 else annual
- 
- 
+
+
 def _series_first_available(facts: dict, concepts: list[str]) -> list[dict]:
     for c in concepts:
         s = _get_usd_series(facts, c)
         if s:
             return s
     return []
- 
- 
+
+
 def compute_financial_signals(cik: int) -> FinancialSignals:
     out = FinancialSignals()
     facts = edgar.fetch_json(edgar.companyfacts_url(cik), accept_404=True)
     if facts is None:
         return out
- 
+
     # --- Dividends per share ---
+    # Use _quarterly_observations to filter to actual quarterly windows.
+    # Critical: without this filter, XBRL data mixes quarterly per-share values
+    # with annual per-share values that share the same fiscal-year-end date,
+    # producing wildly inflated TTM sums and false "dividend cut" signals when
+    # only the prior year has a filed 10-K but the current year doesn't yet.
     dps_series = _series_first_available(facts, DPS_CONCEPTS)
     if dps_series:
-        by_end: dict[str, dict] = {}
-        for o in dps_series:
-            end = o.get("end")
-            if not end:
-                continue
-            if end not in by_end or o.get("filed", "") > by_end[end].get("filed", ""):
-                by_end[end] = o
-        observations = sorted(by_end.values(), key=lambda x: x["end"])
+        observations = _quarterly_observations(dps_series)
         if len(observations) >= 8:
             latest_ttm = sum(o["val"] for o in observations[-4:])
             prior_ttm = sum(o["val"] for o in observations[-8:-4])
@@ -163,9 +161,11 @@ def compute_financial_signals(cik: int) -> FinancialSignals:
                 out.dps_yoy_change_pct = 100.0
             elif prior_ttm > 0:
                 out.dps_yoy_change_pct = (latest_ttm - prior_ttm) / prior_ttm * 100.0
-                if latest_ttm < prior_ttm:
+                # Only flag a "cut" on a meaningful drop (>2%), not noise from
+                # rounding or timing of declarations.
+                if out.dps_yoy_change_pct < -2.0:
                     out.dps_cut = True
- 
+
     # --- Gross margin ---
     rev_series = _series_first_available(facts, REVENUE_CONCEPTS)
     gp_series = _series_first_available(facts, GROSS_PROFIT_CONCEPTS)
@@ -186,7 +186,7 @@ def compute_financial_signals(cik: int) -> FinancialSignals:
                 out.gross_margin_latest_bps = latest_gm
                 out.gross_margin_prior_year_bps = prior_gm
                 out.gross_margin_yoy_change_bps = latest_gm - prior_gm
- 
+
     # --- Operating cash flow ---
     ocf_series = _series_first_available(facts, OCF_CONCEPTS)
     if ocf_series:
@@ -216,17 +216,17 @@ def compute_financial_signals(cik: int) -> FinancialSignals:
                 out.ocf_3yr_cagr_pct = -100.0
             elif prior_ttm_3yr_ago <= 0 and latest_ttm > 0:
                 out.ocf_3yr_cagr_pct = 100.0
- 
+
     # --- Net Income for OCF/NI conversion ---
     ni_series = _series_first_available(facts, NET_INCOME_CONCEPTS)
     if ni_series:
         ni_q = _quarterly_observations(ni_series)
         if len(ni_q) >= 12:
             out.ni_12q_sum = sum(o["val"] for o in ni_q[-12:])
- 
+
     # OCF/NI conversion ratio - only meaningful when NI is positive over the
     # 3-year window. When NI is negative the ratio inverts and misleads.
     if out.ocf_12q_sum is not None and out.ni_12q_sum is not None and out.ni_12q_sum > 0:
         out.ocf_ni_conversion_3yr = out.ocf_12q_sum / out.ni_12q_sum
- 
+
     return out
