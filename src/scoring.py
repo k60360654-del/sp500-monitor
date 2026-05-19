@@ -1,35 +1,35 @@
 """Composite scoring engine.
- 
+
 Signal categories and default weights:
- 
+
 INSIDER (Form 4):
   Discretionary buy:                    +1 each
   Discretionary sell:                   -0.25 each  (asymmetric — buys more predictive)
- 
+
 SHARE COUNT (XBRL):
   QoQ decrease > 1%:                    +1
   QoQ decrease > 3%:                    +2  (replaces +1)
   QoQ increase > 1%:                    -1
   QoQ increase > 5%:                    -2  (replaces -1)
- 
+
 8-K EVENTS:
   Item 4.02 non-reliance:               -3 each
   Item 4.01 auditor change:             -2 each
   Director resignation w/o "no disagreement" language:  -2 each
   Buyback authorization announcement:   +1 each
- 
+
 LATE FILINGS:
   NT-10K / NT-10Q:                      -2 each
- 
+
 GOVERNANCE (8-K Item 5.07):
   Say-on-pay < 70%:                     -1
   Say-on-pay < 50%:                     -2  (replaces -1)
   Auditor ratification < 95%:           -1
- 
+
 13D / 13G:
   13G amendment with increased ownership: +1
   13D amendment with increased ownership: +2
- 
+
 FINANCIALS (XBRL TTM YoY):
   Dividend per share YoY ↑:             +1
   Dividend initiation:                  +2
@@ -40,12 +40,12 @@ FINANCIALS (XBRL TTM YoY):
   TTM OCF YoY < -5%:                    -1
 """
 from __future__ import annotations
- 
+
 from dataclasses import dataclass, field, asdict
 from datetime import date, timedelta
 from typing import Optional
- 
- 
+
+
 @dataclass
 class ScoreWeights:
     insider_buy: float = 1.0
@@ -98,16 +98,16 @@ class ScoreWeights:
     ocf_ni_red_flag: float = -1.0          # OCF/NI ≤ ocf_ni_weak (earnings > cash)
     ocf_ni_strong: float = 1.10
     ocf_ni_weak: float = 0.80
- 
- 
+
+
 @dataclass
 class SignalContribution:
     category: str
     label: str
     weight: float
     detail: str = ""
- 
- 
+
+
 @dataclass
 class CompanyScore:
     ticker: str
@@ -161,6 +161,9 @@ class CompanyScore:
     dps_yoy_change_pct: Optional[float] = None
     dps_initiation: bool = False
     dps_cut: bool = False
+    dps_split_suspected: bool = False
+    dividends_paid_yoy_change_pct: Optional[float] = None
+    dividends_paid_ttm_latest: Optional[float] = None
     gross_margin_yoy_change_bps: Optional[float] = None
     ocf_yoy_change_pct: Optional[float] = None
     # 3-year smoothed OCF signals
@@ -171,8 +174,8 @@ class CompanyScore:
     ni_12q_sum: Optional[float] = None
     recent_transactions: list = field(default_factory=list)
     last_updated: str = ""
- 
- 
+
+
 def _insider_component(summary, weights, contribs):
     buys = summary["discretionary_buys_count"]
     sells = summary["discretionary_sells_count"]
@@ -188,8 +191,8 @@ def _insider_component(summary, weights, contribs):
             sells * weights.insider_sell,
             f"across {summary.get('discretionary_sells_filings', 0)} filing(s)"))
     return total
- 
- 
+
+
 def _share_count_component(qoq, weights, contribs):
     if qoq is None:
         return 0.0
@@ -215,8 +218,8 @@ def _share_count_component(qoq, weights, contribs):
             f"Share count increased {pct:.2f}% QoQ (dilution)", w))
         return w
     return 0.0
- 
- 
+
+
 def _eightk_component(events, weights, contribs, lookback_date):
     total = 0.0
     has_4_02 = False
@@ -226,7 +229,7 @@ def _eightk_component(events, weights, contribs, lookback_date):
     gov_say = (None, None)
     gov_aud = (None, None)
     gov_withhold = (None, None)
- 
+
     for ev in events:
         if ev.filed_date < lookback_date:
             continue
@@ -264,7 +267,7 @@ def _eightk_component(events, weights, contribs, lookback_date):
             if ev.director_max_withhold_pct is not None:
                 if gov_withhold[0] is None or ev.filed_date > gov_withhold[0]:
                     gov_withhold = (ev.filed_date, ev.director_max_withhold_pct)
- 
+
     # Score buybacks with cap. Multiple reaffirmations of the same buyback
     # don't compound - the company is "in buyback mode" or it isn't.
     # XBRL share-count signal captures actual execution intensity separately.
@@ -281,7 +284,7 @@ def _eightk_component(events, weights, contribs, lookback_date):
         if buybacks_raw > buybacks_counted:
             detail += f" (capped from {buybacks_raw} announcements in window)"
         contribs.append(SignalContribution("8k", label, buyback_score, detail))
- 
+
     say_score = 0.0
     aud_score = 0.0
     withhold_score = 0.0
@@ -302,7 +305,7 @@ def _eightk_component(events, weights, contribs, lookback_date):
         withhold_score = weights.director_withhold_above_20
         contribs.append(SignalContribution("governance",
             f"Director withhold vote elevated: {gov_withhold[1]:.1f}%", withhold_score))
- 
+
     return total, {
         "has_4_02": has_4_02,
         "has_4_01": has_4_01,
@@ -314,8 +317,8 @@ def _eightk_component(events, weights, contribs, lookback_date):
         "director_max_withhold_pct": gov_withhold[1],
         "governance_total": say_score + aud_score + withhold_score,
     }
- 
- 
+
+
 def _late_filing_component(late_filings, weights, contribs):
     if not late_filings:
         return 0.0, 0
@@ -326,8 +329,8 @@ def _late_filing_component(late_filings, weights, contribs):
             weights.late_filing_nt,
             f"filed {lf.filed_date} / acc {lf.accession}"))
     return n * weights.late_filing_nt, n
- 
- 
+
+
 def _thirteendg_component(signal, weights, contribs):
     if signal is None:
         return 0.0
@@ -345,13 +348,21 @@ def _thirteendg_component(signal, weights, contribs):
             weights.thirteen_g_amendment_accumulation,
             f"+{int(signal.latest_13g_change_shares or 0):,} shares, filed {signal.latest_13g_filed_date}"))
     return total
- 
- 
+
+
 def _financial_component(fs, weights, contribs):
     if fs is None:
         return 0.0
     total = 0.0
-    if fs.dps_initiation:
+    # Skip DPS scoring entirely if a stock split was detected — both the cut
+    # and increase signals would be unreliable in that case. The flag will
+    # still surface on the dashboard for transparency.
+    if getattr(fs, "dps_split_suspected", False):
+        contribs.append(SignalContribution("financial",
+            "DPS signal suppressed (stock split suspected)",
+            0.0,
+            "per-share YoY direction conflicts with total $ paid YoY direction"))
+    elif fs.dps_initiation:
         total += weights.dps_initiation
         contribs.append(SignalContribution("financial",
             f"Dividend initiation (TTM DPS ${fs.dps_ttm_latest:.4f})",
@@ -366,7 +377,7 @@ def _financial_component(fs, weights, contribs):
         contribs.append(SignalContribution("financial",
             f"Dividend per share grew YoY ({fs.dps_yoy_change_pct:+.1f}%)",
             weights.dps_yoy_increase))
- 
+
     if fs.gross_margin_yoy_change_bps is not None:
         if fs.gross_margin_yoy_change_bps >= 100:
             total += weights.gross_margin_yoy_up_100bps
@@ -378,7 +389,7 @@ def _financial_component(fs, weights, contribs):
             contribs.append(SignalContribution("financial",
                 f"Gross margin compressed YoY ({fs.gross_margin_yoy_change_bps:.0f} bps)",
                 weights.gross_margin_yoy_down_100bps))
- 
+
     # 3-year OCF CAGR (smooths out single-year working-capital distortions)
     cagr = getattr(fs, "ocf_3yr_cagr_pct", None)
     if cagr is not None:
@@ -392,7 +403,7 @@ def _financial_component(fs, weights, contribs):
             contribs.append(SignalContribution("financial",
                 f"3-year OCF CAGR declining ({cagr:+.1f}%/yr)",
                 weights.ocf_cagr_decline))
- 
+
     # 3-year OCF/Net Income conversion (earnings quality)
     conv = getattr(fs, "ocf_ni_conversion_3yr", None)
     if conv is not None:
@@ -409,8 +420,8 @@ def _financial_component(fs, weights, contribs):
                 weights.ocf_ni_red_flag,
                 "reported earnings exceed cash flow - earnings quality red flag"))
     return total
- 
- 
+
+
 def score_company(*, ticker, cik, name,
                    insider_summary, qoq,
                    eightk_events, late_filings, thirteendg_signal, financial_signals,
@@ -419,7 +430,7 @@ def score_company(*, ticker, cik, name,
     eightk_lookback_date = (
         date.fromisoformat(today) - timedelta(days=weights.eightk_lookback_days)
     ).isoformat()
- 
+
     contribs = []
     insider_c = _insider_component(insider_summary, weights, contribs)
     share_c = _share_count_component(qoq, weights, contribs)
@@ -429,7 +440,7 @@ def score_company(*, ticker, cik, name,
     fin_c = _financial_component(financial_signals, weights, contribs)
     gov_c = eightk_stats["governance_total"]
     composite = insider_c + share_c + eightk_c + late_c + dg_c + fin_c + gov_c
- 
+
     return CompanyScore(
         ticker=ticker, cik=cik, name=name,
         composite_score=composite,
@@ -480,6 +491,9 @@ def score_company(*, ticker, cik, name,
         dps_yoy_change_pct=getattr(financial_signals, "dps_yoy_change_pct", None) if financial_signals else None,
         dps_initiation=getattr(financial_signals, "dps_initiation", False) if financial_signals else False,
         dps_cut=getattr(financial_signals, "dps_cut", False) if financial_signals else False,
+        dps_split_suspected=getattr(financial_signals, "dps_split_suspected", False) if financial_signals else False,
+        dividends_paid_yoy_change_pct=getattr(financial_signals, "dividends_paid_yoy_change_pct", None) if financial_signals else None,
+        dividends_paid_ttm_latest=getattr(financial_signals, "dividends_paid_ttm_latest", None) if financial_signals else None,
         gross_margin_yoy_change_bps=getattr(financial_signals, "gross_margin_yoy_change_bps", None) if financial_signals else None,
         ocf_yoy_change_pct=getattr(financial_signals, "ocf_yoy_change_pct", None) if financial_signals else None,
         ocf_3yr_cagr_pct=getattr(financial_signals, "ocf_3yr_cagr_pct", None) if financial_signals else None,
@@ -489,4 +503,3 @@ def score_company(*, ticker, cik, name,
         ni_12q_sum=getattr(financial_signals, "ni_12q_sum", None) if financial_signals else None,
         last_updated=today,
     )
- 
