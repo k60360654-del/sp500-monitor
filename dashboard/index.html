@@ -339,6 +339,7 @@ function getFlags(c) {
   if ((c.nt_filings_count||0) > 0) flags.push({cls:'red-flag', t:'NT FILING'});
   if ((c.director_resignations_concerning||0) > 0) flags.push({cls:'red-flag', t:'DIR RESIGN'});
   if (c.dps_cut) flags.push({cls:'red-flag', t:'DIV CUT'});
+  if (c.dps_split_suspected) flags.push({cls:'orange-flag', t:'SPLIT?'});
   if (c.has_13d_accumulation) flags.push({cls:'green-flag', t:'13D ACCUM'});
   if (c.has_13g_accumulation) flags.push({cls:'green-flag', t:'13G ACCUM'});
   if (c.dps_initiation) flags.push({cls:'green-flag', t:'DIV INIT'});
@@ -551,8 +552,10 @@ function renderDrilldown(c) {
           <div class="dd-section">
             <h4>Financial Signals</h4>
             <div class="dd-row"><span class="key">DPS YoY change</span><span class="val ${c.dps_yoy_change_pct>0?'green':(c.dps_yoy_change_pct<0?'red':'')}">${fmtPct(c.dps_yoy_change_pct, 1)}</span></div>
+            <div class="dd-row"><span class="key">Total div $ YoY change</span><span class="val ${c.dividends_paid_yoy_change_pct>0?'green':(c.dividends_paid_yoy_change_pct<0?'red':'')}">${fmtPct(c.dividends_paid_yoy_change_pct, 1)}</span></div>
             <div class="dd-row"><span class="key">Dividend initiation</span><span class="val ${c.dps_initiation?'green':'muted'}">${c.dps_initiation ? 'YES' : 'no'}</span></div>
             <div class="dd-row"><span class="key">Dividend cut</span><span class="val ${c.dps_cut?'red':'muted'}">${c.dps_cut ? 'YES' : 'no'}</span></div>
+            <div class="dd-row"><span class="key">Stock split suspected</span><span class="val ${c.dps_split_suspected?'orange':'muted'}">${c.dps_split_suspected ? 'YES (signal suppressed)' : 'no'}</span></div>
             <div class="dd-row"><span class="key">Gross margin YoY (bps)</span><span class="val ${c.gross_margin_yoy_change_bps>100?'green':(c.gross_margin_yoy_change_bps<-100?'red':'')}">${fmtBps(c.gross_margin_yoy_change_bps)}</span></div>
             <div class="dd-row"><span class="key">3-yr OCF CAGR</span><span class="val ${c.ocf_3yr_cagr_pct>=8?'green':(c.ocf_3yr_cagr_pct<=-3?'red':'')}">${fmtPct(c.ocf_3yr_cagr_pct, 1)}<span class="muted"> /yr</span></span></div>
             <div class="dd-row"><span class="key">3-yr OCF/NI conversion</span><span class="val ${c.ocf_ni_conversion_3yr>=1.10?'green':(c.ocf_ni_conversion_3yr<=0.80?'red':'')}">${c.ocf_ni_conversion_3yr != null ? c.ocf_ni_conversion_3yr.toFixed(2)+'x' : '—'}</span></div>
@@ -664,4 +667,3 @@ loadData();
 </script>
 </body>
 </html>
-
