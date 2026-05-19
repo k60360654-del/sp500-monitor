@@ -42,6 +42,13 @@ DPS_CONCEPTS = [
     "CommonStockDividendsPerShareDeclared",
     "CommonStockDividendsPerShareCashPaid",
 ]
+DIVIDENDS_PAID_CONCEPTS = [
+    "PaymentsOfDividendsCommonStock",
+    "PaymentsOfDividends",
+    "DividendsCommonStockCash",
+    "DividendsCommonStock",
+    "Dividends",
+]
 REVENUE_CONCEPTS = [
     "RevenueFromContractWithCustomerExcludingAssessedTax",
     "Revenues",
@@ -68,6 +75,12 @@ class FinancialSignals:
     dps_yoy_change_pct: Optional[float] = None
     dps_initiation: bool = False
     dps_cut: bool = False
+    # Total $ dividends paid - used as confirmation signal to suppress
+    # stock-split artifacts in per-share comparisons
+    dividends_paid_ttm_latest: Optional[float] = None
+    dividends_paid_ttm_prior_year: Optional[float] = None
+    dividends_paid_yoy_change_pct: Optional[float] = None
+    dps_split_suspected: bool = False
     # Gross margin
     gross_margin_latest_bps: Optional[float] = None
     gross_margin_prior_year_bps: Optional[float] = None
@@ -100,11 +113,12 @@ def _quarterly_observations(series: list[dict]) -> list[dict]:
     """Filter to quarterly periodic observations (60-100 day windows). Falls
     back to annual (350-380 day) only if there's not enough quarterly data.
     Sorted by end-date ascending, deduplicated by (start,end) pair preferring
-    later-filed values.
+    later-filed values (handles split-adjusted restatements: a 10-K filed
+    post-split restates the prior year's quarterly DPS at split-adjusted
+    values, and we want those rather than the original pre-split values).
     """
-    quarterly = []
-    annual = []
-    seen_periods = set()
+    # First pass: collect best (latest-filed) observation per (start, end) tuple
+    best_by_period: dict[tuple[str, str], dict] = {}
     for o in series:
         if "start" not in o or "end" not in o:
             continue
@@ -115,12 +129,25 @@ def _quarterly_observations(series: list[dict]) -> list[dict]:
         except (ValueError, TypeError):
             continue
         days = (end - start).days
-        key = (o["start"], o["end"])
-        if key in seen_periods:
+        # Only keep quarterly or annual windows
+        if not (60 <= days <= 100 or 350 <= days <= 380):
             continue
+        key = (o["start"], o["end"])
+        filed = o.get("filed", "")
+        existing = best_by_period.get(key)
+        if existing is None or filed > existing.get("filed", ""):
+            best_by_period[key] = o
+
+    # Second pass: split into quarterly vs annual buckets
+    quarterly = []
+    annual = []
+    for o in best_by_period.values():
+        from datetime import date as _d
+        start = _d.fromisoformat(o["start"])
+        end = _d.fromisoformat(o["end"])
+        days = (end - start).days
         if 60 <= days <= 100:
             quarterly.append(o)
-            seen_periods.add(key)
         elif 350 <= days <= 380:
             annual.append(o)
     quarterly.sort(key=lambda x: x["end"])
@@ -156,15 +183,65 @@ def compute_financial_signals(cik: int) -> FinancialSignals:
             prior_ttm = sum(o["val"] for o in observations[-8:-4])
             out.dps_ttm_latest = latest_ttm
             out.dps_ttm_prior_year = prior_ttm
-            if prior_ttm == 0 and latest_ttm > 0:
-                out.dps_initiation = True
-                out.dps_yoy_change_pct = 100.0
-            elif prior_ttm > 0:
+            if prior_ttm > 0:
                 out.dps_yoy_change_pct = (latest_ttm - prior_ttm) / prior_ttm * 100.0
-                # Only flag a "cut" on a meaningful drop (>2%), not noise from
-                # rounding or timing of declarations.
-                if out.dps_yoy_change_pct < -2.0:
-                    out.dps_cut = True
+            elif latest_ttm > 0:
+                out.dps_yoy_change_pct = 100.0  # initiation case
+
+    # --- Total dividends paid (cross-check to suppress split artifacts) ---
+    # A real dividend cut shows up in both per-share AND total dollars paid.
+    # A stock split shows up only in per-share — total dollars keeps rising.
+    # We use this confirmation step to gate the dps_cut/dps_initiation flags.
+    paid_series = _series_first_available(facts, DIVIDENDS_PAID_CONCEPTS)
+    if paid_series:
+        paid_obs = _quarterly_observations(paid_series)
+        if len(paid_obs) >= 8:
+            latest_paid_ttm = sum(o["val"] for o in paid_obs[-4:])
+            prior_paid_ttm = sum(o["val"] for o in paid_obs[-8:-4])
+            out.dividends_paid_ttm_latest = latest_paid_ttm
+            out.dividends_paid_ttm_prior_year = prior_paid_ttm
+            if prior_paid_ttm > 0:
+                out.dividends_paid_yoy_change_pct = (
+                    (latest_paid_ttm - prior_paid_ttm) / prior_paid_ttm * 100.0
+                )
+            elif latest_paid_ttm > 0:
+                out.dividends_paid_yoy_change_pct = 100.0
+
+    # --- Determine cut / initiation / split-suspicion ---
+    # We cross-check per-share moves against total $ paid moves. If they
+    # disagree (per-share dropped but total paid rose, or vice versa), the
+    # per-share signal is almost certainly a split artifact, not real news.
+    psh_pct = out.dps_yoy_change_pct
+    paid_pct = out.dividends_paid_yoy_change_pct
+
+    # Initiation (prior=0, latest>0) - per-share is reliable here, splits
+    # don't create false initiations
+    if out.dps_ttm_prior_year == 0 and (out.dps_ttm_latest or 0) > 0:
+        out.dps_initiation = True
+
+    # Cut detection - requires per-share down >2% AND, if total $ data is
+    # available, total $ also down. Otherwise it's split-suspected.
+    if psh_pct is not None and psh_pct < -2.0:
+        if paid_pct is None:
+            # No cross-check available - go with per-share but flag uncertainty
+            out.dps_cut = True
+        elif paid_pct < -2.0:
+            # Both directions confirm - real cut
+            out.dps_cut = True
+        else:
+            # Per-share dropped but total $ paid steady or rising = split
+            out.dps_split_suspected = True
+            out.dps_cut = False  # explicitly suppress
+
+    # Increase detection - similar cross-check for symmetry. If per-share
+    # spiked but total $ paid is stable/falling, it's a reverse-split artifact.
+    if psh_pct is not None and psh_pct > 2.0 and paid_pct is not None:
+        if paid_pct < 0:
+            # Per-share rose but total $ fell - reverse-split artifact
+            out.dps_split_suspected = True
+            # We don't have a separate "fake increase" flag; just overwrite
+            # the yoy_change to reflect the more reliable total $ measure
+            out.dps_yoy_change_pct = paid_pct
 
     # --- Gross margin ---
     rev_series = _series_first_available(facts, REVENUE_CONCEPTS)
