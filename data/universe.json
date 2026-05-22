@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21",
+  "updated_at": "2026-05-22",
   "current_members": [
     {
       "ticker": "MMM",
@@ -478,10 +478,10 @@
       "removed_date": null
     },
     {
-      "ticker": "BK",
+      "ticker": "BNY",
       "name": "BNY Mellon",
-      "cik": 1390777,
-      "added_date": "2026-05-17",
+      "cik": null,
+      "added_date": "2026-05-22",
       "removed_date": null
     },
     {
@@ -3523,5 +3523,13 @@
       "removed_date": null
     }
   ],
-  "removed_members": []
+  "removed_members": [
+    {
+      "ticker": "BK",
+      "name": "BNY Mellon",
+      "cik": 1390777,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-05-22"
+    }
+  ]
 }
