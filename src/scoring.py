@@ -159,10 +159,14 @@ class CompanyScore:
     latest_13d_filer: Optional[str] = None
     latest_13g_filer: Optional[str] = None
     dps_yoy_change_pct: Optional[float] = None
+    dps_change_vs_baseline_pct: Optional[float] = None
+    dps_latest_quarter: Optional[float] = None
+    dps_prior_baseline: Optional[float] = None
     dps_initiation: bool = False
     dps_cut: bool = False
     dps_split_suspected: bool = False
     dividends_paid_yoy_change_pct: Optional[float] = None
+    dividends_paid_change_vs_baseline_pct: Optional[float] = None
     dividends_paid_ttm_latest: Optional[float] = None
     gross_margin_yoy_change_bps: Optional[float] = None
     ocf_yoy_change_pct: Optional[float] = None
@@ -361,21 +365,23 @@ def _financial_component(fs, weights, contribs):
         contribs.append(SignalContribution("financial",
             "DPS signal suppressed (stock split suspected)",
             0.0,
-            "per-share YoY direction conflicts with total $ paid YoY direction"))
+            "per-share quarterly change conflicts with total $ paid change"))
     elif fs.dps_initiation:
         total += weights.dps_initiation
         contribs.append(SignalContribution("financial",
-            f"Dividend initiation (TTM DPS ${fs.dps_ttm_latest:.4f})",
+            f"Dividend initiation (latest quarter ${getattr(fs, 'dps_latest_quarter', 0) or 0:.4f})",
             weights.dps_initiation))
     elif fs.dps_cut:
         total += weights.dps_yoy_decrease
+        change = getattr(fs, "dps_change_vs_baseline_pct", None) or 0
         contribs.append(SignalContribution("financial",
-            f"Dividend cut YoY ({fs.dps_yoy_change_pct:+.1f}%)",
+            f"Dividend cut: latest quarter {change:+.1f}% vs prior 4q median",
             weights.dps_yoy_decrease))
-    elif fs.dps_yoy_change_pct is not None and fs.dps_yoy_change_pct > 0:
+    elif (getattr(fs, "dps_change_vs_baseline_pct", None) is not None
+            and fs.dps_change_vs_baseline_pct > 2.0):
         total += weights.dps_yoy_increase
         contribs.append(SignalContribution("financial",
-            f"Dividend per share grew YoY ({fs.dps_yoy_change_pct:+.1f}%)",
+            f"Dividend raise: latest quarter {fs.dps_change_vs_baseline_pct:+.1f}% vs prior 4q median",
             weights.dps_yoy_increase))
 
     if fs.gross_margin_yoy_change_bps is not None:
@@ -489,6 +495,10 @@ def score_company(*, ticker, cik, name,
         latest_13d_filer=getattr(thirteendg_signal, "latest_13d_filer", None) if thirteendg_signal else None,
         latest_13g_filer=getattr(thirteendg_signal, "latest_13g_filer", None) if thirteendg_signal else None,
         dps_yoy_change_pct=getattr(financial_signals, "dps_yoy_change_pct", None) if financial_signals else None,
+        dps_change_vs_baseline_pct=getattr(financial_signals, "dps_change_vs_baseline_pct", None) if financial_signals else None,
+        dps_latest_quarter=getattr(financial_signals, "dps_latest_quarter", None) if financial_signals else None,
+        dps_prior_baseline=getattr(financial_signals, "dps_prior_baseline", None) if financial_signals else None,
+        dividends_paid_change_vs_baseline_pct=getattr(financial_signals, "dividends_paid_change_vs_baseline_pct", None) if financial_signals else None,
         dps_initiation=getattr(financial_signals, "dps_initiation", False) if financial_signals else False,
         dps_cut=getattr(financial_signals, "dps_cut", False) if financial_signals else False,
         dps_split_suspected=getattr(financial_signals, "dps_split_suspected", False) if financial_signals else False,
