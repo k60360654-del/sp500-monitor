@@ -69,14 +69,18 @@ NET_INCOME_CONCEPTS = [
 
 @dataclass
 class FinancialSignals:
-    # Dividend
+    # Dividend - sequential comparison (latest q vs prior 4q median)
+    dps_latest_quarter: Optional[float] = None
+    dps_prior_baseline: Optional[float] = None
+    dps_change_vs_baseline_pct: Optional[float] = None
+    # Dividend - TTM YoY (context/display only, not scored)
     dps_ttm_latest: Optional[float] = None
     dps_ttm_prior_year: Optional[float] = None
     dps_yoy_change_pct: Optional[float] = None
     dps_initiation: bool = False
     dps_cut: bool = False
-    # Total $ dividends paid - used as confirmation signal to suppress
-    # stock-split artifacts in per-share comparisons
+    # Total $ dividends paid - cross-check for stock-split detection
+    dividends_paid_change_vs_baseline_pct: Optional[float] = None
     dividends_paid_ttm_latest: Optional[float] = None
     dividends_paid_ttm_prior_year: Optional[float] = None
     dividends_paid_yoy_change_pct: Optional[float] = None
@@ -169,15 +173,32 @@ def compute_financial_signals(cik: int) -> FinancialSignals:
     if facts is None:
         return out
 
-    # --- Dividends per share ---
-    # Use _quarterly_observations to filter to actual quarterly windows.
-    # Critical: without this filter, XBRL data mixes quarterly per-share values
-    # with annual per-share values that share the same fiscal-year-end date,
-    # producing wildly inflated TTM sums and false "dividend cut" signals when
-    # only the prior year has a filed 10-K but the current year doesn't yet.
+    # --- Dividends per share — sequential comparison vs median baseline ---
+    # We do NOT use TTM-YoY for DPS comparisons. TTM-YoY has fatal flaws:
+    #   1. It conflates real cuts (signal we want) with year-old cuts (stale noise)
+    #   2. It double-counts the transition year (a cut announced 11 months ago
+    #      still shows up as a "cut" until 12 months elapse)
+    #   3. It mixes special dividends from REITs/royalty trusts into the
+    #      averaging, creating false positives for variable-dividend payers
+    # Instead, we compare the most recent quarterly DPS to the MEDIAN of the
+    # prior 4 quarters. Median is robust to special dividends. Comparison
+    # against the immediate baseline catches cuts the quarter they happen and
+    # stops flagging them once the new lower run-rate becomes the baseline.
     dps_series = _series_first_available(facts, DPS_CONCEPTS)
     if dps_series:
         observations = _quarterly_observations(dps_series)
+        if len(observations) >= 5:
+            latest_q = observations[-1]["val"]
+            prior_quarters = [o["val"] for o in observations[-5:-1]]
+            from statistics import median
+            baseline = median(prior_quarters)
+            out.dps_latest_quarter = latest_q
+            out.dps_prior_baseline = baseline
+            if baseline > 0:
+                out.dps_change_vs_baseline_pct = (latest_q - baseline) / baseline * 100.0
+            elif latest_q > 0:
+                out.dps_change_vs_baseline_pct = 100.0  # initiation
+        # Also retain TTM-YoY for display context only (not scored)
         if len(observations) >= 8:
             latest_ttm = sum(o["val"] for o in observations[-4:])
             prior_ttm = sum(o["val"] for o in observations[-8:-4])
@@ -185,16 +206,24 @@ def compute_financial_signals(cik: int) -> FinancialSignals:
             out.dps_ttm_prior_year = prior_ttm
             if prior_ttm > 0:
                 out.dps_yoy_change_pct = (latest_ttm - prior_ttm) / prior_ttm * 100.0
-            elif latest_ttm > 0:
-                out.dps_yoy_change_pct = 100.0  # initiation case
 
-    # --- Total dividends paid (cross-check to suppress split artifacts) ---
-    # A real dividend cut shows up in both per-share AND total dollars paid.
-    # A stock split shows up only in per-share — total dollars keeps rising.
-    # We use this confirmation step to gate the dps_cut/dps_initiation flags.
+    # --- Total dividends paid (cross-check for stock-split detection) ---
+    # Same sequential comparison logic.
     paid_series = _series_first_available(facts, DIVIDENDS_PAID_CONCEPTS)
     if paid_series:
         paid_obs = _quarterly_observations(paid_series)
+        if len(paid_obs) >= 5:
+            latest_paid_q = paid_obs[-1]["val"]
+            prior_paid_qs = [o["val"] for o in paid_obs[-5:-1]]
+            from statistics import median
+            paid_baseline = median(prior_paid_qs)
+            if paid_baseline > 0:
+                out.dividends_paid_change_vs_baseline_pct = (
+                    (latest_paid_q - paid_baseline) / paid_baseline * 100.0
+                )
+            elif latest_paid_q > 0:
+                out.dividends_paid_change_vs_baseline_pct = 100.0
+        # Also retain TTM for context
         if len(paid_obs) >= 8:
             latest_paid_ttm = sum(o["val"] for o in paid_obs[-4:])
             prior_paid_ttm = sum(o["val"] for o in paid_obs[-8:-4])
@@ -204,44 +233,40 @@ def compute_financial_signals(cik: int) -> FinancialSignals:
                 out.dividends_paid_yoy_change_pct = (
                     (latest_paid_ttm - prior_paid_ttm) / prior_paid_ttm * 100.0
                 )
-            elif latest_paid_ttm > 0:
-                out.dividends_paid_yoy_change_pct = 100.0
 
-    # --- Determine cut / initiation / split-suspicion ---
-    # We cross-check per-share moves against total $ paid moves. If they
-    # disagree (per-share dropped but total paid rose, or vice versa), the
-    # per-share signal is almost certainly a split artifact, not real news.
-    psh_pct = out.dps_yoy_change_pct
-    paid_pct = out.dividends_paid_yoy_change_pct
+    # --- Determine cut / increase / initiation / split-suspicion ---
+    # Use the sequential-vs-baseline comparisons, NOT the TTM-YoY values.
+    psh_pct = out.dps_change_vs_baseline_pct
+    paid_pct = out.dividends_paid_change_vs_baseline_pct
 
-    # Initiation (prior=0, latest>0) - per-share is reliable here, splits
-    # don't create false initiations
-    if out.dps_ttm_prior_year == 0 and (out.dps_ttm_latest or 0) > 0:
+    # Initiation (baseline ~0, latest > 0) - reliable, splits don't fake it
+    if (out.dps_prior_baseline is not None
+            and out.dps_prior_baseline == 0
+            and (out.dps_latest_quarter or 0) > 0):
         out.dps_initiation = True
 
-    # Cut detection - requires per-share down >2% AND, if total $ data is
-    # available, total $ also down. Otherwise it's split-suspected.
-    if psh_pct is not None and psh_pct < -2.0:
+    # Cut detection - require latest quarter ≥20% below the prior-4q median.
+    # Real dividend cuts are almost always >25%; the 20% threshold gives a
+    # small buffer while excluding REIT special-dividend variability (where
+    # quarter-to-quarter swings of 10-15% are normal).
+    if psh_pct is not None and psh_pct < -20.0:
         if paid_pct is None:
-            # No cross-check available - go with per-share but flag uncertainty
+            # No total-$ cross-check available - go with per-share alone
             out.dps_cut = True
-        elif paid_pct < -2.0:
-            # Both directions confirm - real cut
+        elif paid_pct < -10.0:
+            # Both per-share AND total $ confirm - real cut
             out.dps_cut = True
         else:
-            # Per-share dropped but total $ paid steady or rising = split
+            # Per-share dropped sharply but total $ paid is steady/rising = split
             out.dps_split_suspected = True
-            out.dps_cut = False  # explicitly suppress
+            out.dps_cut = False
 
-    # Increase detection - similar cross-check for symmetry. If per-share
-    # spiked but total $ paid is stable/falling, it's a reverse-split artifact.
-    if psh_pct is not None and psh_pct > 2.0 and paid_pct is not None:
-        if paid_pct < 0:
-            # Per-share rose but total $ fell - reverse-split artifact
+    # Increase detection - small threshold (2%) is fine, raises are reliable
+    if psh_pct is not None and psh_pct > 2.0:
+        if paid_pct is not None and paid_pct < -2.0:
+            # Per-share rose but total $ fell = reverse-split artifact
             out.dps_split_suspected = True
-            # We don't have a separate "fake increase" flag; just overwrite
-            # the yoy_change to reflect the more reliable total $ measure
-            out.dps_yoy_change_pct = paid_pct
+        # Otherwise, real raise. dps_change_vs_baseline_pct is the value to use.
 
     # --- Gross margin ---
     rev_series = _series_first_available(facts, REVENUE_CONCEPTS)
