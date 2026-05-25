@@ -551,8 +551,11 @@ function renderDrilldown(c) {
 
           <div class="dd-section">
             <h4>Financial Signals</h4>
-            <div class="dd-row"><span class="key">DPS YoY change</span><span class="val ${c.dps_yoy_change_pct>0?'green':(c.dps_yoy_change_pct<0?'red':'')}">${fmtPct(c.dps_yoy_change_pct, 1)}</span></div>
-            <div class="dd-row"><span class="key">Total div $ YoY change</span><span class="val ${c.dividends_paid_yoy_change_pct>0?'green':(c.dividends_paid_yoy_change_pct<0?'red':'')}">${fmtPct(c.dividends_paid_yoy_change_pct, 1)}</span></div>
+            <div class="dd-row"><span class="key">Latest quarter DPS</span><span class="val">${c.dps_latest_quarter != null ? '$'+c.dps_latest_quarter.toFixed(4) : '—'}</span></div>
+            <div class="dd-row"><span class="key">Prior 4q median DPS</span><span class="val">${c.dps_prior_baseline != null ? '$'+c.dps_prior_baseline.toFixed(4) : '—'}</span></div>
+            <div class="dd-row"><span class="key">DPS vs baseline</span><span class="val ${c.dps_change_vs_baseline_pct>2?'green':(c.dps_change_vs_baseline_pct<-20?'red':'')}">${fmtPct(c.dps_change_vs_baseline_pct, 1)}</span></div>
+            <div class="dd-row"><span class="key">Total $ paid vs baseline</span><span class="val ${c.dividends_paid_change_vs_baseline_pct>2?'green':(c.dividends_paid_change_vs_baseline_pct<-10?'red':'')}">${fmtPct(c.dividends_paid_change_vs_baseline_pct, 1)}</span></div>
+            <div class="dd-row"><span class="key">DPS YoY (context)</span><span class="val muted">${fmtPct(c.dps_yoy_change_pct, 1)}</span></div>
             <div class="dd-row"><span class="key">Dividend initiation</span><span class="val ${c.dps_initiation?'green':'muted'}">${c.dps_initiation ? 'YES' : 'no'}</span></div>
             <div class="dd-row"><span class="key">Dividend cut</span><span class="val ${c.dps_cut?'red':'muted'}">${c.dps_cut ? 'YES' : 'no'}</span></div>
             <div class="dd-row"><span class="key">Stock split suspected</span><span class="val ${c.dps_split_suspected?'orange':'muted'}">${c.dps_split_suspected ? 'YES (signal suppressed)' : 'no'}</span></div>
