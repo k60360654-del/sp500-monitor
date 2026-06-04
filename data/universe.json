@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03",
+  "updated_at": "2026-06-04",
   "current_members": [
     {
       "ticker": "MMM",
@@ -1227,13 +1227,6 @@
       "removed_date": null
     },
     {
-      "ticker": "EPAM",
-      "name": "EPAM Systems",
-      "cik": 1352010,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
       "ticker": "EQT",
       "name": "EQT Corporation",
       "cik": 33213,
@@ -1385,6 +1378,13 @@
       "name": "FedEx",
       "cik": 1048911,
       "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "FDXF",
+      "name": "FedEx Freight",
+      "cik": 2082247,
+      "added_date": "2026-06-04",
       "removed_date": null
     },
     {
@@ -3530,6 +3530,13 @@
       "cik": 1390777,
       "added_date": "2026-05-17",
       "removed_date": "2026-05-22"
+    },
+    {
+      "ticker": "EPAM",
+      "name": "EPAM Systems",
+      "cik": 1352010,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-06-04"
     }
   ]
 }
