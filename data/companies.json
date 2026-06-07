@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06",
+  "generated_at": "2026-06-07",
   "weights": {
     "insider_buy": 1.0,
     "insider_sell": -0.25,
@@ -750,7 +750,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GEHC",
@@ -1259,7 +1259,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "JKHY",
@@ -1406,7 +1406,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CRM",
@@ -2553,7 +2553,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CDW",
@@ -3634,7 +3634,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CSGP",
@@ -3995,7 +3995,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "J",
@@ -4216,7 +4216,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "POOL",
@@ -4749,7 +4749,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TMUS",
@@ -4982,7 +4982,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BSX",
@@ -5431,7 +5431,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DGX",
@@ -5912,7 +5912,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CASY",
@@ -6079,7 +6079,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RSG",
@@ -6800,7 +6800,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SRE",
@@ -7227,7 +7227,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VRSK",
@@ -7788,7 +7788,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ZBRA",
@@ -8629,7 +8629,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AMT",
@@ -9464,7 +9464,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GILD",
@@ -10259,7 +10259,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GPN",
@@ -10654,7 +10654,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KR",
@@ -11943,7 +11943,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NCLH",
@@ -12478,7 +12478,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "UDR",
@@ -12572,7 +12572,7 @@
       "ocf_12q_sum": 1609043000,
       "ni_12q_sum": 879318000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VEEV",
@@ -13207,7 +13207,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WTW",
@@ -14436,7 +14436,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ES",
@@ -14597,7 +14597,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IFF",
@@ -15886,7 +15886,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PKG",
@@ -16881,7 +16881,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PAYX",
@@ -17142,7 +17142,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TROW",
@@ -17703,7 +17703,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AMP",
@@ -17884,7 +17884,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BX",
@@ -18959,7 +18959,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CCL",
@@ -19774,7 +19774,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CSX",
@@ -19975,7 +19975,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MO",
@@ -20336,7 +20336,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NI",
@@ -20737,7 +20737,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ABT",
@@ -21172,7 +21172,1048 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
+    },
+    {
+      "ticker": "ARE",
+      "cik": 1035443,
+      "name": "Alexandria Real Estate Equities",
+      "composite_score": 3.0,
+      "insider_component": 4.0,
+      "share_count_component": 0.0,
+      "eightk_component": 0.0,
+      "late_filing_component": 0.0,
+      "governance_component": -1.0,
+      "thirteendg_component": 0.0,
+      "financials_component": 0.0,
+      "contributions": [
+        {
+          "category": "insider",
+          "label": "4 discretionary insider buys",
+          "weight": 4.0,
+          "detail": "across 4 filing(s)"
+        },
+        {
+          "category": "governance",
+          "label": "Director withhold vote elevated: 21.6%",
+          "weight": -1.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "Dividend cut: latest quarter -45.5% vs prior 4q median",
+          "weight": -2.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "3-year OCF CAGR strong (+69.8%/yr)",
+          "weight": 1.0,
+          "detail": ""
+        },
+        {
+          "category": "financial",
+          "label": "3-year OCF/NI conversion strong (1.85x)",
+          "weight": 1.0,
+          "detail": "cash flow exceeds reported earnings - conservative accounting"
+        }
+      ],
+      "insider_buys_count": 4,
+      "insider_sells_count": 0,
+      "insider_buys_value": 1221673.9500000002,
+      "insider_sells_value": 0,
+      "insider_buys_filings": 4,
+      "insider_sells_filings": 0,
+      "excluded_10b5_buys_count": 0,
+      "excluded_10b5_sells_count": 1,
+      "raw_buys_count": 7,
+      "raw_sells_count": 0,
+      "de_minimis_buys_count": 0,
+      "de_minimis_sells_count": 0,
+      "capped_buys_count": 0,
+      "capped_sells_count": 0,
+      "cluster_buyers": 2,
+      "cluster_sellers": 0,
+      "share_count_pct_change": 0.5592134917710876,
+      "share_count_latest": 174269480.0,
+      "share_count_prior": 173300361.0,
+      "share_count_latest_period_end": "2026-04-15",
+      "share_count_prior_period_end": "2026-01-15",
+      "latest_buy_date": "2026-05-06",
+      "latest_sell_date": null,
+      "has_4_02": false,
+      "has_4_01": false,
+      "director_resignations_concerning": 0,
+      "buyback_announcements": 0,
+      "buyback_announcements_raw": 0,
+      "nt_filings_count": 0,
+      "say_on_pay_latest_pct": null,
+      "auditor_ratification_latest_pct": null,
+      "director_max_withhold_latest_pct": 21.628669227399,
+      "has_13d_accumulation": false,
+      "has_13g_accumulation": false,
+      "latest_13d_filer": null,
+      "latest_13g_filer": null,
+      "dps_yoy_change_pct": -8.414872798434454,
+      "dps_change_vs_baseline_pct": -45.45454545454546,
+      "dps_latest_quarter": 0.72,
+      "dps_prior_baseline": 1.32,
+      "dps_initiation": false,
+      "dps_cut": true,
+      "dps_split_suspected": false,
+      "dividends_paid_yoy_change_pct": 37.55725752871861,
+      "dividends_paid_change_vs_baseline_pct": -42.56848162801221,
+      "dividends_paid_ttm_latest": 784694000,
+      "gross_margin_yoy_change_bps": null,
+      "ocf_yoy_change_pct": 43.789937850140056,
+      "ocf_3yr_cagr_pct": 69.82302293720034,
+      "ocf_ttm_3yr_ago": 214653000,
+      "ocf_ni_conversion_3yr": 1.845388649109872,
+      "ocf_12q_sum": 2227624000,
+      "ni_12q_sum": 1207130000,
+      "recent_transactions": [
+        {
+          "transaction_date": "2026-05-29",
+          "filed_date": "2026-06-02",
+          "accession": "0001545076-26-000020",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1067.0,
+          "price": 49.68,
+          "value": 53008.56,
+          "insider_name": "Moglia Peter M",
+          "officer_title": "Chief Executive Officer",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-05-06",
+          "filed_date": "2026-05-07",
+          "accession": "0001216955-26-000017",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 3989.0,
+          "price": 45.99,
+          "value": 183454.11000000002,
+          "insider_name": "MARCUS JOEL S",
+          "officer_title": "Executive Chairman",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": true,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-05-06",
+          "filed_date": "2026-05-07",
+          "accession": "0001216955-26-000017",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 3511.0,
+          "price": 46.74,
+          "value": 164104.14,
+          "insider_name": "MARCUS JOEL S",
+          "officer_title": "Executive Chairman",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": true,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-05-05",
+          "filed_date": "2026-05-06",
+          "accession": "0001216955-26-000015",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 2062.0,
+          "price": 41.89,
+          "value": 86377.18000000001,
+          "insider_name": "MARCUS JOEL S",
+          "officer_title": "Executive Chairman",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": true,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-05-05",
+          "filed_date": "2026-05-06",
+          "accession": "0001216955-26-000015",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 3832.0,
+          "price": 42.76,
+          "value": 163856.31999999998,
+          "insider_name": "MARCUS JOEL S",
+          "officer_title": "Executive Chairman",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": true,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-05-05",
+          "filed_date": "2026-05-06",
+          "accession": "0001216955-26-000015",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 1606.0,
+          "price": 43.7,
+          "value": 70182.20000000001,
+          "insider_name": "MARCUS JOEL S",
+          "officer_title": "Executive Chairman",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": true,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-05-04",
+          "filed_date": "2026-05-05",
+          "accession": "0001216955-26-000013",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 10000.0,
+          "price": 41.02,
+          "value": 410200.00000000006,
+          "insider_name": "MARCUS JOEL S",
+          "officer_title": "Executive Chairman",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": true,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-30",
+          "filed_date": "2026-05-04",
+          "accession": "0002109703-26-000010",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 3500.0,
+          "price": 41.0,
+          "value": 143500.0,
+          "insider_name": "Thomas Gregory Calvin",
+          "officer_title": "EVP - CTO",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": true,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-30",
+          "filed_date": "2026-05-04",
+          "accession": "0001545076-26-000017",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1069.0,
+          "price": 40.51,
+          "value": 43305.189999999995,
+          "insider_name": "Moglia Peter M",
+          "officer_title": "Chief Executive Officer",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-17",
+          "filed_date": "2026-04-21",
+          "accession": "0002107635-26-000014",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 536.0,
+          "price": 48.2,
+          "value": 25835.2,
+          "insider_name": "Kuhn Hallie E.",
+          "officer_title": "EVP - Cap Market & Co-Lead -LS",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-15",
+          "filed_date": "2026-04-17",
+          "accession": "0001594073-26-000008",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 343.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Hash Steve",
+          "officer_title": "",
+          "is_director": true,
+          "is_officer": false,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-15",
+          "filed_date": "2026-04-17",
+          "accession": "0001961416-26-000006",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 129.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "McGrath Sheila K.",
+          "officer_title": "",
+          "is_director": true,
+          "is_officer": false,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-15",
+          "filed_date": "2026-04-17",
+          "accession": "0001660432-26-000004",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 145.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Cain James P",
+          "officer_title": "",
+          "is_director": true,
+          "is_officer": false,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-15",
+          "filed_date": "2026-04-17",
+          "accession": "0001711289-26-000010",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 407.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Woronoff Michael A",
+          "officer_title": "",
+          "is_director": true,
+          "is_officer": false,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-04-15",
+          "filed_date": "2026-04-17",
+          "accession": "0001274646-26-000004",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 112.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "KLEIN RICHARD HUNTER",
+          "officer_title": "",
+          "is_director": true,
+          "is_officer": false,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002107742-26-000010",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 11849.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Gossett Bret E.",
+          "officer_title": "EVP - Co-RMD",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001818090-26-000009",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 21543.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Clem Jackie B.",
+          "officer_title": "General Counsel & Secretary",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001919198-26-000009",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 16157.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Fukuzaki-Carlson Kristina",
+          "officer_title": "EVP - Business Operations",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001778861-26-000009",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 32314.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Hakman Joseph",
+          "officer_title": "Co-Chief Operating Officer",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002107802-26-000010",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 43085.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Nelson Jesse J.",
+          "officer_title": "EVP - RMD",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002105548-26-000006",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 10772.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Stevens Blake L.",
+          "officer_title": "Regional Market Director",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001919167-26-000009",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 21543.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Lee Orraparn C.",
+          "officer_title": "EVP - Accounting",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001545076-26-000015",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1067.0,
+          "price": 46.42,
+          "value": 49530.14,
+          "insider_name": "Moglia Peter M",
+          "officer_title": "Chief Executive Officer",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002107635-26-000012",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 21543.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Kuhn Hallie E.",
+          "officer_title": "EVP - Cap Market & Co-Lead -LS",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001711289-26-000008",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 915.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Woronoff Michael A",
+          "officer_title": "",
+          "is_director": true,
+          "is_officer": false,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002107603-26-000008",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 21543.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Foger Jenna R.",
+          "officer_title": "EVP - Co-Lead - Life Science",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002109703-26-000008",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 10772.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Thomas Gregory Calvin",
+          "officer_title": "EVP - CTO",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001378406-26-000007",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 32314.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Gavinet Andres",
+          "officer_title": "Chief Accounting Officer",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001818034-26-000009",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 16157.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Dean Gary D.",
+          "officer_title": "EVP, Real Estate Legal Affairs",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002105291-26-000008",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 12926.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Mitchell Joshua J.",
+          "officer_title": "Regional Market Director",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0002105218-26-000008",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 21543.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Boss Michael E.",
+          "officer_title": "Co-Regional Market Director",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-31",
+          "filed_date": "2026-04-02",
+          "accession": "0001918953-26-000009",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 16157.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Alsbrook Madeleine Thorp",
+          "officer_title": "EVP - Talent Management",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0001919198-26-000007",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1179.0,
+          "price": 48.41,
+          "value": 57075.39,
+          "insider_name": "Fukuzaki-Carlson Kristina",
+          "officer_title": "EVP - Business Operations",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0001918953-26-000007",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1087.0,
+          "price": 48.41,
+          "value": 52621.67,
+          "insider_name": "Alsbrook Madeleine Thorp",
+          "officer_title": "EVP - Talent Management",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002107742-26-000008",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 688.0,
+          "price": 48.41,
+          "value": 33306.079999999994,
+          "insider_name": "Gossett Bret E.",
+          "officer_title": "EVP - Co-RMD",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002005712-26-000008",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1289.0,
+          "price": 48.41,
+          "value": 62400.49,
+          "insider_name": "Cole John Hart",
+          "officer_title": "Co-President, & Co-RMD",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002105291-26-000006",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 586.0,
+          "price": 48.41,
+          "value": 28368.26,
+          "insider_name": "Mitchell Joshua J.",
+          "officer_title": "Regional Market Director",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002105218-26-000006",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 797.0,
+          "price": 48.41,
+          "value": 38582.77,
+          "insider_name": "Boss Michael E.",
+          "officer_title": "Co-Regional Market Director",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002107802-26-000008",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1897.0,
+          "price": 48.41,
+          "value": 91833.76999999999,
+          "insider_name": "Nelson Jesse J.",
+          "officer_title": "EVP - RMD",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0001778861-26-000007",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 2029.0,
+          "price": 48.41,
+          "value": 98223.89,
+          "insider_name": "Hakman Joseph",
+          "officer_title": "Co-Chief Operating Officer",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002109703-26-000006",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 693.0,
+          "price": 48.41,
+          "value": 33548.13,
+          "insider_name": "Thomas Gregory Calvin",
+          "officer_title": "EVP - CTO",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0001919167-26-000007",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1024.0,
+          "price": 48.41,
+          "value": 49571.84,
+          "insider_name": "Lee Orraparn C.",
+          "officer_title": "EVP - Accounting",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0001818090-26-000007",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1103.0,
+          "price": 48.41,
+          "value": 53396.229999999996,
+          "insider_name": "Clem Jackie B.",
+          "officer_title": "General Counsel & Secretary",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002105548-26-000004",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 456.0,
+          "price": 48.41,
+          "value": 22074.96,
+          "insider_name": "Stevens Blake L.",
+          "officer_title": "Regional Market Director",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002107635-26-000010",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 858.0,
+          "price": 48.41,
+          "value": 41535.78,
+          "insider_name": "Kuhn Hallie E.",
+          "officer_title": "EVP - Cap Market & Co-Lead -LS",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0002107603-26-000006",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 688.0,
+          "price": 48.41,
+          "value": 33306.079999999994,
+          "insider_name": "Foger Jenna R.",
+          "officer_title": "EVP - Co-Lead - Life Science",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-03-13",
+          "filed_date": "2026-03-17",
+          "accession": "0001818034-26-000007",
+          "transaction_code": "F",
+          "acquired_disposed": "D",
+          "shares": 1016.0,
+          "price": 48.41,
+          "value": 49184.56,
+          "insider_name": "Dean Gary D.",
+          "officer_title": "EVP, Real Estate Legal Affairs",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        }
+      ],
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ADSK",
@@ -21681,7 +22722,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BMY",
@@ -22970,7 +24011,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CPB",
@@ -23199,7 +24240,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "COF",
@@ -24288,7 +25329,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CPRT",
@@ -24491,7 +25532,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EIX",
@@ -24640,7 +25681,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EXC",
@@ -24889,7 +25930,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FRT",
@@ -25058,7 +26099,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FTNT",
@@ -26347,7 +27388,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IT",
@@ -27122,7 +28163,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HD",
@@ -27651,7 +28692,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KIM",
@@ -27739,7 +28780,7 @@
       "ocf_12q_sum": 2290929000,
       "ni_12q_sum": 1296304000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MCO",
@@ -28368,7 +29409,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "OMC",
@@ -28963,7 +30004,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PH",
@@ -29612,7 +30653,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RVTY",
@@ -30121,7 +31162,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ROP",
@@ -30570,7 +31611,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RCL",
@@ -31079,7 +32120,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SYF",
@@ -31942,7 +32983,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TKO",
@@ -32385,7 +33426,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "XEL",
@@ -32774,7 +33815,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AXP",
@@ -33069,7 +34110,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CPT",
@@ -33344,7 +34385,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EG",
@@ -33699,7 +34740,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HBAN",
@@ -34988,7 +36029,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "L",
@@ -35497,7 +36538,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MTB",
@@ -35832,7 +36873,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PTC",
@@ -36039,7 +37080,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HOOD",
@@ -37328,7 +38369,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TRGP",
@@ -37483,7 +38524,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "UNH",
@@ -38158,7 +39199,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VZ",
@@ -38273,7 +39314,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WEC",
@@ -38468,7 +39509,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "XYL",
@@ -38795,7 +39836,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ADI",
@@ -40030,7 +41071,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AAPL",
@@ -40665,7 +41706,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ELV",
@@ -41060,7 +42101,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EQIX",
@@ -42355,7 +43396,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KLAC",
@@ -42522,7 +43563,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LVS",
@@ -42817,7 +43858,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PGR",
@@ -43292,7 +44333,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PWR",
@@ -44307,7 +45348,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "O",
@@ -44642,7 +45683,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TYL",
@@ -45057,7 +46098,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ADBE",
@@ -46352,7 +47393,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ALL",
@@ -46767,7 +47808,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EQT",
@@ -47342,7 +48383,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MSFT",
@@ -47597,1060 +48638,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
-    },
-    {
-      "ticker": "ARE",
-      "cik": 1035443,
-      "name": "Alexandria Real Estate Equities",
-      "composite_score": 2.0,
-      "insider_component": 4.0,
-      "share_count_component": 0.0,
-      "eightk_component": -1.0,
-      "late_filing_component": 0.0,
-      "governance_component": -1.0,
-      "thirteendg_component": 0.0,
-      "financials_component": 0.0,
-      "contributions": [
-        {
-          "category": "insider",
-          "label": "4 discretionary insider buys",
-          "weight": 4.0,
-          "detail": "across 4 filing(s)"
-        },
-        {
-          "category": "8k",
-          "label": "Director resignation without 'no disagreement' language",
-          "weight": -2.0,
-          "detail": "filed 2025-12-08 / acc 0001104659-25-119298"
-        },
-        {
-          "category": "8k",
-          "label": "1 buyback announcement",
-          "weight": 1.0,
-          "detail": "latest filed 2025-12-08"
-        },
-        {
-          "category": "governance",
-          "label": "Director withhold vote elevated: 21.6%",
-          "weight": -1.0,
-          "detail": ""
-        },
-        {
-          "category": "financial",
-          "label": "Dividend cut: latest quarter -45.5% vs prior 4q median",
-          "weight": -2.0,
-          "detail": ""
-        },
-        {
-          "category": "financial",
-          "label": "3-year OCF CAGR strong (+69.8%/yr)",
-          "weight": 1.0,
-          "detail": ""
-        },
-        {
-          "category": "financial",
-          "label": "3-year OCF/NI conversion strong (1.85x)",
-          "weight": 1.0,
-          "detail": "cash flow exceeds reported earnings - conservative accounting"
-        }
-      ],
-      "insider_buys_count": 4,
-      "insider_sells_count": 0,
-      "insider_buys_value": 1221673.9500000002,
-      "insider_sells_value": 0,
-      "insider_buys_filings": 4,
-      "insider_sells_filings": 0,
-      "excluded_10b5_buys_count": 0,
-      "excluded_10b5_sells_count": 1,
-      "raw_buys_count": 7,
-      "raw_sells_count": 0,
-      "de_minimis_buys_count": 0,
-      "de_minimis_sells_count": 0,
-      "capped_buys_count": 0,
-      "capped_sells_count": 0,
-      "cluster_buyers": 2,
-      "cluster_sellers": 0,
-      "share_count_pct_change": 0.5592134917710876,
-      "share_count_latest": 174269480.0,
-      "share_count_prior": 173300361.0,
-      "share_count_latest_period_end": "2026-04-15",
-      "share_count_prior_period_end": "2026-01-15",
-      "latest_buy_date": "2026-05-06",
-      "latest_sell_date": null,
-      "has_4_02": false,
-      "has_4_01": false,
-      "director_resignations_concerning": 1,
-      "buyback_announcements": 1,
-      "buyback_announcements_raw": 1,
-      "nt_filings_count": 0,
-      "say_on_pay_latest_pct": null,
-      "auditor_ratification_latest_pct": null,
-      "director_max_withhold_latest_pct": 21.628669227399,
-      "has_13d_accumulation": false,
-      "has_13g_accumulation": false,
-      "latest_13d_filer": null,
-      "latest_13g_filer": null,
-      "dps_yoy_change_pct": -8.414872798434454,
-      "dps_change_vs_baseline_pct": -45.45454545454546,
-      "dps_latest_quarter": 0.72,
-      "dps_prior_baseline": 1.32,
-      "dps_initiation": false,
-      "dps_cut": true,
-      "dps_split_suspected": false,
-      "dividends_paid_yoy_change_pct": 37.55725752871861,
-      "dividends_paid_change_vs_baseline_pct": -42.56848162801221,
-      "dividends_paid_ttm_latest": 784694000,
-      "gross_margin_yoy_change_bps": null,
-      "ocf_yoy_change_pct": 43.789937850140056,
-      "ocf_3yr_cagr_pct": 69.82302293720034,
-      "ocf_ttm_3yr_ago": 214653000,
-      "ocf_ni_conversion_3yr": 1.845388649109872,
-      "ocf_12q_sum": 2227624000,
-      "ni_12q_sum": 1207130000,
-      "recent_transactions": [
-        {
-          "transaction_date": "2026-05-29",
-          "filed_date": "2026-06-02",
-          "accession": "0001545076-26-000020",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1067.0,
-          "price": 49.68,
-          "value": 53008.56,
-          "insider_name": "Moglia Peter M",
-          "officer_title": "Chief Executive Officer",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-05-06",
-          "filed_date": "2026-05-07",
-          "accession": "0001216955-26-000017",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 3989.0,
-          "price": 45.99,
-          "value": 183454.11000000002,
-          "insider_name": "MARCUS JOEL S",
-          "officer_title": "Executive Chairman",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": true,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-05-06",
-          "filed_date": "2026-05-07",
-          "accession": "0001216955-26-000017",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 3511.0,
-          "price": 46.74,
-          "value": 164104.14,
-          "insider_name": "MARCUS JOEL S",
-          "officer_title": "Executive Chairman",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": true,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-05-05",
-          "filed_date": "2026-05-06",
-          "accession": "0001216955-26-000015",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 2062.0,
-          "price": 41.89,
-          "value": 86377.18000000001,
-          "insider_name": "MARCUS JOEL S",
-          "officer_title": "Executive Chairman",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": true,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-05-05",
-          "filed_date": "2026-05-06",
-          "accession": "0001216955-26-000015",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 3832.0,
-          "price": 42.76,
-          "value": 163856.31999999998,
-          "insider_name": "MARCUS JOEL S",
-          "officer_title": "Executive Chairman",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": true,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-05-05",
-          "filed_date": "2026-05-06",
-          "accession": "0001216955-26-000015",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 1606.0,
-          "price": 43.7,
-          "value": 70182.20000000001,
-          "insider_name": "MARCUS JOEL S",
-          "officer_title": "Executive Chairman",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": true,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-05-04",
-          "filed_date": "2026-05-05",
-          "accession": "0001216955-26-000013",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 10000.0,
-          "price": 41.02,
-          "value": 410200.00000000006,
-          "insider_name": "MARCUS JOEL S",
-          "officer_title": "Executive Chairman",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": true,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-30",
-          "filed_date": "2026-05-04",
-          "accession": "0002109703-26-000010",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 3500.0,
-          "price": 41.0,
-          "value": 143500.0,
-          "insider_name": "Thomas Gregory Calvin",
-          "officer_title": "EVP - CTO",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": true,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-30",
-          "filed_date": "2026-05-04",
-          "accession": "0001545076-26-000017",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1069.0,
-          "price": 40.51,
-          "value": 43305.189999999995,
-          "insider_name": "Moglia Peter M",
-          "officer_title": "Chief Executive Officer",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-17",
-          "filed_date": "2026-04-21",
-          "accession": "0002107635-26-000014",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 536.0,
-          "price": 48.2,
-          "value": 25835.2,
-          "insider_name": "Kuhn Hallie E.",
-          "officer_title": "EVP - Cap Market & Co-Lead -LS",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-15",
-          "filed_date": "2026-04-17",
-          "accession": "0001594073-26-000008",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 343.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Hash Steve",
-          "officer_title": "",
-          "is_director": true,
-          "is_officer": false,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-15",
-          "filed_date": "2026-04-17",
-          "accession": "0001961416-26-000006",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 129.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "McGrath Sheila K.",
-          "officer_title": "",
-          "is_director": true,
-          "is_officer": false,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-15",
-          "filed_date": "2026-04-17",
-          "accession": "0001660432-26-000004",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 145.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Cain James P",
-          "officer_title": "",
-          "is_director": true,
-          "is_officer": false,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-15",
-          "filed_date": "2026-04-17",
-          "accession": "0001711289-26-000010",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 407.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Woronoff Michael A",
-          "officer_title": "",
-          "is_director": true,
-          "is_officer": false,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-15",
-          "filed_date": "2026-04-17",
-          "accession": "0001274646-26-000004",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 112.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "KLEIN RICHARD HUNTER",
-          "officer_title": "",
-          "is_director": true,
-          "is_officer": false,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002107742-26-000010",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 11849.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Gossett Bret E.",
-          "officer_title": "EVP - Co-RMD",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001818090-26-000009",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 21543.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Clem Jackie B.",
-          "officer_title": "General Counsel & Secretary",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001919198-26-000009",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 16157.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Fukuzaki-Carlson Kristina",
-          "officer_title": "EVP - Business Operations",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001778861-26-000009",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 32314.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Hakman Joseph",
-          "officer_title": "Co-Chief Operating Officer",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002107802-26-000010",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 43085.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Nelson Jesse J.",
-          "officer_title": "EVP - RMD",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002105548-26-000006",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 10772.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Stevens Blake L.",
-          "officer_title": "Regional Market Director",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001919167-26-000009",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 21543.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Lee Orraparn C.",
-          "officer_title": "EVP - Accounting",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001545076-26-000015",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1067.0,
-          "price": 46.42,
-          "value": 49530.14,
-          "insider_name": "Moglia Peter M",
-          "officer_title": "Chief Executive Officer",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002107635-26-000012",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 21543.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Kuhn Hallie E.",
-          "officer_title": "EVP - Cap Market & Co-Lead -LS",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001711289-26-000008",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 915.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Woronoff Michael A",
-          "officer_title": "",
-          "is_director": true,
-          "is_officer": false,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002107603-26-000008",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 21543.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Foger Jenna R.",
-          "officer_title": "EVP - Co-Lead - Life Science",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002109703-26-000008",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 10772.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Thomas Gregory Calvin",
-          "officer_title": "EVP - CTO",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001378406-26-000007",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 32314.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Gavinet Andres",
-          "officer_title": "Chief Accounting Officer",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001818034-26-000009",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 16157.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Dean Gary D.",
-          "officer_title": "EVP, Real Estate Legal Affairs",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002105291-26-000008",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 12926.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Mitchell Joshua J.",
-          "officer_title": "Regional Market Director",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0002105218-26-000008",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 21543.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Boss Michael E.",
-          "officer_title": "Co-Regional Market Director",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-31",
-          "filed_date": "2026-04-02",
-          "accession": "0001918953-26-000009",
-          "transaction_code": "A",
-          "acquired_disposed": "A",
-          "shares": 16157.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Alsbrook Madeleine Thorp",
-          "officer_title": "EVP - Talent Management",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0001919198-26-000007",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1179.0,
-          "price": 48.41,
-          "value": 57075.39,
-          "insider_name": "Fukuzaki-Carlson Kristina",
-          "officer_title": "EVP - Business Operations",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0001918953-26-000007",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1087.0,
-          "price": 48.41,
-          "value": 52621.67,
-          "insider_name": "Alsbrook Madeleine Thorp",
-          "officer_title": "EVP - Talent Management",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002107742-26-000008",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 688.0,
-          "price": 48.41,
-          "value": 33306.079999999994,
-          "insider_name": "Gossett Bret E.",
-          "officer_title": "EVP - Co-RMD",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002005712-26-000008",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1289.0,
-          "price": 48.41,
-          "value": 62400.49,
-          "insider_name": "Cole John Hart",
-          "officer_title": "Co-President, & Co-RMD",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002105291-26-000006",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 586.0,
-          "price": 48.41,
-          "value": 28368.26,
-          "insider_name": "Mitchell Joshua J.",
-          "officer_title": "Regional Market Director",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002105218-26-000006",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 797.0,
-          "price": 48.41,
-          "value": 38582.77,
-          "insider_name": "Boss Michael E.",
-          "officer_title": "Co-Regional Market Director",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002107802-26-000008",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1897.0,
-          "price": 48.41,
-          "value": 91833.76999999999,
-          "insider_name": "Nelson Jesse J.",
-          "officer_title": "EVP - RMD",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0001778861-26-000007",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 2029.0,
-          "price": 48.41,
-          "value": 98223.89,
-          "insider_name": "Hakman Joseph",
-          "officer_title": "Co-Chief Operating Officer",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002109703-26-000006",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 693.0,
-          "price": 48.41,
-          "value": 33548.13,
-          "insider_name": "Thomas Gregory Calvin",
-          "officer_title": "EVP - CTO",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0001919167-26-000007",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1024.0,
-          "price": 48.41,
-          "value": 49571.84,
-          "insider_name": "Lee Orraparn C.",
-          "officer_title": "EVP - Accounting",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0001818090-26-000007",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1103.0,
-          "price": 48.41,
-          "value": 53396.229999999996,
-          "insider_name": "Clem Jackie B.",
-          "officer_title": "General Counsel & Secretary",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002105548-26-000004",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 456.0,
-          "price": 48.41,
-          "value": 22074.96,
-          "insider_name": "Stevens Blake L.",
-          "officer_title": "Regional Market Director",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002107635-26-000010",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 858.0,
-          "price": 48.41,
-          "value": 41535.78,
-          "insider_name": "Kuhn Hallie E.",
-          "officer_title": "EVP - Cap Market & Co-Lead -LS",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0002107603-26-000006",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 688.0,
-          "price": 48.41,
-          "value": 33306.079999999994,
-          "insider_name": "Foger Jenna R.",
-          "officer_title": "EVP - Co-Lead - Life Science",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-03-13",
-          "filed_date": "2026-03-17",
-          "accession": "0001818034-26-000007",
-          "transaction_code": "F",
-          "acquired_disposed": "D",
-          "shares": 1016.0,
-          "price": 48.41,
-          "value": 49184.56,
-          "insider_name": "Dean Gary D.",
-          "officer_title": "EVP, Real Estate Legal Affairs",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        }
-      ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LNT",
@@ -48753,7 +48741,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AMZN",
@@ -49976,7 +49964,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AEE",
@@ -50159,7 +50147,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AEP",
@@ -50682,7 +50670,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AIG",
@@ -50837,7 +50825,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AWK",
@@ -51100,7 +51088,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "T",
@@ -51563,7 +51551,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ADP",
@@ -51738,7 +51726,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AVB",
@@ -52141,7 +52129,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BIIB",
@@ -52304,7 +52292,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CBOE",
@@ -52627,110 +52615,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
-    },
-    {
-      "ticker": "CMG",
-      "cik": 1058090,
-      "name": "Chipotle Mexican Grill",
-      "composite_score": 2.0,
-      "insider_component": 0.0,
-      "share_count_component": 1.0,
-      "eightk_component": 1.0,
-      "late_filing_component": 0.0,
-      "governance_component": 0.0,
-      "thirteendg_component": 0.0,
-      "financials_component": 0.0,
-      "contributions": [
-        {
-          "category": "share_count",
-          "label": "Share count decreased -1.51% QoQ (buyback)",
-          "weight": 1.0,
-          "detail": ""
-        },
-        {
-          "category": "8k",
-          "label": "1 buyback announcement",
-          "weight": 1.0,
-          "detail": "latest filed 2025-12-08"
-        }
-      ],
-      "insider_buys_count": 0,
-      "insider_sells_count": 0,
-      "insider_buys_value": 0,
-      "insider_sells_value": 0,
-      "insider_buys_filings": 0,
-      "insider_sells_filings": 0,
-      "excluded_10b5_buys_count": 0,
-      "excluded_10b5_sells_count": 0,
-      "raw_buys_count": 0,
-      "raw_sells_count": 0,
-      "de_minimis_buys_count": 0,
-      "de_minimis_sells_count": 0,
-      "capped_buys_count": 0,
-      "capped_sells_count": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 0,
-      "share_count_pct_change": -1.511720846453111,
-      "share_count_latest": 1282734000.0,
-      "share_count_prior": 1302423000.0,
-      "share_count_latest_period_end": "2026-04-24",
-      "share_count_prior_period_end": "2026-01-30",
-      "latest_buy_date": null,
-      "latest_sell_date": null,
-      "has_4_02": false,
-      "has_4_01": false,
-      "director_resignations_concerning": 0,
-      "buyback_announcements": 1,
-      "buyback_announcements_raw": 1,
-      "nt_filings_count": 0,
-      "say_on_pay_latest_pct": null,
-      "auditor_ratification_latest_pct": null,
-      "director_max_withhold_latest_pct": null,
-      "has_13d_accumulation": false,
-      "has_13g_accumulation": false,
-      "latest_13d_filer": null,
-      "latest_13g_filer": null,
-      "dps_yoy_change_pct": null,
-      "dps_change_vs_baseline_pct": null,
-      "dps_latest_quarter": null,
-      "dps_prior_baseline": null,
-      "dps_initiation": false,
-      "dps_cut": false,
-      "dps_split_suspected": false,
-      "dividends_paid_yoy_change_pct": null,
-      "dividends_paid_change_vs_baseline_pct": null,
-      "dividends_paid_ttm_latest": null,
-      "gross_margin_yoy_change_bps": null,
-      "ocf_yoy_change_pct": 134.1512091424784,
-      "ocf_3yr_cagr_pct": null,
-      "ocf_ttm_3yr_ago": null,
-      "ocf_ni_conversion_3yr": 0.9207485869953255,
-      "ocf_12q_sum": 3842956000,
-      "ni_12q_sum": 4173730000,
-      "recent_transactions": [
-        {
-          "transaction_date": "2026-05-20",
-          "filed_date": "2026-05-21",
-          "accession": "0001058090-26-000029",
-          "transaction_code": "G",
-          "acquired_disposed": "D",
-          "shares": 6672.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Baldocchi Albert S",
-          "officer_title": "",
-          "is_director": true,
-          "is_officer": false,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        }
-      ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CINF",
@@ -53173,7 +53058,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CSCO",
@@ -53996,7 +53881,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CME",
@@ -54797,7 +54682,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CTSH",
@@ -56092,7 +55977,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CMCSA",
@@ -56415,7 +56300,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CCI",
@@ -56696,7 +56581,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "D",
@@ -56999,7 +56884,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ETR",
@@ -57534,7 +57419,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EOG",
@@ -58609,7 +58494,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EQR",
@@ -58712,7 +58597,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EXE",
@@ -59253,7 +59138,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EXR",
@@ -59616,7 +59501,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FFIV",
@@ -60619,7 +60504,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FICO",
@@ -60782,7 +60667,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FIS",
@@ -61465,7 +61350,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HSY",
@@ -62760,7 +62645,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HUBB",
@@ -63175,7 +63060,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HUM",
@@ -63478,7 +63363,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ITW",
@@ -63833,7 +63718,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "INTU",
@@ -64680,7 +64565,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "INVH",
@@ -64943,7 +64828,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IQV",
@@ -65106,7 +64991,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IRM",
@@ -65909,7 +65794,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KMI",
@@ -66112,7 +65997,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LOW",
@@ -66575,7 +66460,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MA",
@@ -66669,7 +66554,7 @@
       "ocf_12q_sum": 19117000000,
       "ni_12q_sum": 8089000000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MKC",
@@ -67104,7 +66989,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MCD",
@@ -67367,7 +67252,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NVR",
@@ -67536,7 +67421,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "OKE",
@@ -67739,7 +67624,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PG",
@@ -67942,7 +67827,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "REGN",
@@ -68445,7 +68330,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SPGI",
@@ -68628,7 +68513,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SBUX",
@@ -69111,7 +68996,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TEL",
@@ -69374,7 +69259,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TMO",
@@ -69997,7 +69882,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TDG",
@@ -71274,7 +71159,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TSN",
@@ -71437,7 +71322,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "URI",
@@ -71844,7 +71729,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VTR",
@@ -72565,7 +72450,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VRTX",
@@ -73048,7 +72933,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WSM",
@@ -74343,7 +74228,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ZTS",
@@ -74664,7 +74549,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AES",
@@ -74885,7 +74770,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "APD",
@@ -74994,7 +74879,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ALLE",
@@ -75175,7 +75060,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AMGN",
@@ -76464,7 +76349,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CHTR",
@@ -77231,7 +77116,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CMS",
@@ -77820,7 +77705,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CRH",
@@ -78775,7 +78660,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DTE",
@@ -79090,7 +78975,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ECL",
@@ -79685,7 +79570,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ESS",
@@ -79954,7 +79839,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EXPE",
@@ -81163,7 +81048,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GL",
@@ -82190,7 +82075,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HIG",
@@ -82479,7 +82364,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IBKR",
@@ -82788,7 +82673,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MAA",
@@ -83377,7 +83262,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TAP",
@@ -84018,7 +83903,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MSCI",
@@ -84699,7 +84584,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NEM",
@@ -85254,7 +85139,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ORLY",
@@ -85669,7 +85554,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "OTIS",
@@ -85818,7 +85703,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PNW",
@@ -86447,7 +86332,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RF",
@@ -87608,7 +87493,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ROK",
@@ -88277,7 +88162,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "STE",
@@ -89086,7 +88971,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WMB",
@@ -89701,7 +89586,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SCHW",
@@ -90596,7 +90481,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CVS",
@@ -91385,7 +91270,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DAL",
@@ -91800,7 +91685,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DVN",
@@ -92709,7 +92594,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DUK",
@@ -93058,7 +92943,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "XOM",
@@ -93187,7 +93072,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FITB",
@@ -93796,7 +93681,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GRMN",
@@ -94565,7 +94450,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "JCI",
@@ -94874,7 +94759,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ODFL",
@@ -95323,7 +95208,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PANW",
@@ -95964,7 +95849,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PHM",
@@ -96265,7 +96150,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WAB",
@@ -97406,7 +97291,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WST",
@@ -97867,7 +97752,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ZBH",
@@ -98628,7 +98513,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AKAM",
@@ -99037,7 +98922,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "C",
@@ -99566,7 +99451,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LYV",
@@ -100235,7 +100120,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SNDK",
@@ -100764,7 +100649,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TRV",
@@ -101339,7 +101224,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MMM",
@@ -101842,7 +101727,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AOS",
@@ -102031,7 +101916,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ABBV",
@@ -102328,7 +102213,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ACN",
@@ -103337,7 +103222,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ALGN",
@@ -103626,7 +103511,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AON",
@@ -103975,7 +103860,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AMAT",
@@ -104436,7 +104321,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ATO",
@@ -104845,7 +104730,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AVY",
@@ -105594,7 +105479,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BKR",
@@ -106111,7 +105996,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BA",
@@ -106220,7 +106105,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BRO",
@@ -106569,7 +106454,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CNC",
@@ -107038,7 +106923,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CNP",
@@ -107341,7 +107226,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CRL",
@@ -108478,7 +108363,104 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
+    },
+    {
+      "ticker": "CMG",
+      "cik": 1058090,
+      "name": "Chipotle Mexican Grill",
+      "composite_score": 1.0,
+      "insider_component": 0.0,
+      "share_count_component": 1.0,
+      "eightk_component": 0.0,
+      "late_filing_component": 0.0,
+      "governance_component": 0.0,
+      "thirteendg_component": 0.0,
+      "financials_component": 0.0,
+      "contributions": [
+        {
+          "category": "share_count",
+          "label": "Share count decreased -1.51% QoQ (buyback)",
+          "weight": 1.0,
+          "detail": ""
+        }
+      ],
+      "insider_buys_count": 0,
+      "insider_sells_count": 0,
+      "insider_buys_value": 0,
+      "insider_sells_value": 0,
+      "insider_buys_filings": 0,
+      "insider_sells_filings": 0,
+      "excluded_10b5_buys_count": 0,
+      "excluded_10b5_sells_count": 0,
+      "raw_buys_count": 0,
+      "raw_sells_count": 0,
+      "de_minimis_buys_count": 0,
+      "de_minimis_sells_count": 0,
+      "capped_buys_count": 0,
+      "capped_sells_count": 0,
+      "cluster_buyers": 0,
+      "cluster_sellers": 0,
+      "share_count_pct_change": -1.511720846453111,
+      "share_count_latest": 1282734000.0,
+      "share_count_prior": 1302423000.0,
+      "share_count_latest_period_end": "2026-04-24",
+      "share_count_prior_period_end": "2026-01-30",
+      "latest_buy_date": null,
+      "latest_sell_date": null,
+      "has_4_02": false,
+      "has_4_01": false,
+      "director_resignations_concerning": 0,
+      "buyback_announcements": 0,
+      "buyback_announcements_raw": 0,
+      "nt_filings_count": 0,
+      "say_on_pay_latest_pct": null,
+      "auditor_ratification_latest_pct": null,
+      "director_max_withhold_latest_pct": null,
+      "has_13d_accumulation": false,
+      "has_13g_accumulation": false,
+      "latest_13d_filer": null,
+      "latest_13g_filer": null,
+      "dps_yoy_change_pct": null,
+      "dps_change_vs_baseline_pct": null,
+      "dps_latest_quarter": null,
+      "dps_prior_baseline": null,
+      "dps_initiation": false,
+      "dps_cut": false,
+      "dps_split_suspected": false,
+      "dividends_paid_yoy_change_pct": null,
+      "dividends_paid_change_vs_baseline_pct": null,
+      "dividends_paid_ttm_latest": null,
+      "gross_margin_yoy_change_bps": null,
+      "ocf_yoy_change_pct": 134.1512091424784,
+      "ocf_3yr_cagr_pct": null,
+      "ocf_ttm_3yr_ago": null,
+      "ocf_ni_conversion_3yr": 0.9207485869953255,
+      "ocf_12q_sum": 3842956000,
+      "ni_12q_sum": 4173730000,
+      "recent_transactions": [
+        {
+          "transaction_date": "2026-05-20",
+          "filed_date": "2026-05-21",
+          "accession": "0001058090-26-000029",
+          "transaction_code": "G",
+          "acquired_disposed": "D",
+          "shares": 6672.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Baldocchi Albert S",
+          "officer_title": "",
+          "is_director": true,
+          "is_officer": false,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        }
+      ],
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CB",
@@ -109547,7 +109529,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CI",
@@ -110184,7 +110166,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CLX",
@@ -110353,7 +110335,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "COIN",
@@ -111430,7 +111412,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CTVA",
@@ -111827,7 +111809,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DRI",
@@ -112036,7 +112018,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DVA",
@@ -113151,7 +113133,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DECK",
@@ -113580,7 +113562,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DLTR",
@@ -114197,7 +114179,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DPZ",
@@ -115486,7 +115468,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DOV",
@@ -115943,7 +115925,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DHI",
@@ -116944,7 +116926,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EFX",
@@ -117413,7 +117395,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EXPD",
@@ -118708,7 +118690,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FDS",
@@ -118817,7 +118799,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "F",
@@ -119234,7 +119216,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GM",
@@ -119711,7 +119693,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GPC",
@@ -120660,7 +120642,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HCA",
@@ -120943,7 +120925,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IBM",
@@ -121052,7 +121034,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ICE",
@@ -121629,7 +121611,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IP",
@@ -121972,7 +121954,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LEN",
@@ -122521,7 +122503,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MLM",
@@ -122870,7 +122852,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MRK",
@@ -123559,7 +123541,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MU",
@@ -124848,7 +124830,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NFLX",
@@ -125957,7 +125939,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NWSA",
@@ -126434,7 +126416,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NWS",
@@ -126911,7 +126893,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ORCL",
@@ -127268,7 +127250,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PPG",
@@ -127437,7 +127419,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PPL",
@@ -127626,7 +127608,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PLD",
@@ -127983,7 +127965,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PEG",
@@ -128180,7 +128162,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "QCOM",
@@ -129475,7 +129457,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RMD",
@@ -129744,7 +129726,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SYY",
@@ -129993,7 +129975,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TSCO",
@@ -130302,7 +130284,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VMC",
@@ -130390,7 +130372,7 @@
       "ocf_12q_sum": 1725841000,
       "ni_12q_sum": 2678700000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WRB",
@@ -130673,7 +130655,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WMT",
@@ -131956,7 +131938,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WFC",
@@ -132613,7 +132595,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WELL",
@@ -132782,7 +132764,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "APH",
@@ -133157,7 +133139,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AZO",
@@ -133480,7 +133462,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BAC",
@@ -134467,7 +134449,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TECH",
@@ -134950,7 +134932,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BR",
@@ -135485,7 +135467,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BLDR",
@@ -136672,7 +136654,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CARR",
@@ -136855,7 +136837,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CTAS",
@@ -137050,7 +137032,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CPAY",
@@ -137379,7 +137361,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DHR",
@@ -137682,7 +137664,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EBAY",
@@ -138965,7 +138947,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DOC",
@@ -139448,7 +139430,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HPE",
@@ -140131,7 +140113,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PODD",
@@ -140536,7 +140518,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "JBHT",
@@ -141731,7 +141713,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LRCX",
@@ -141926,7 +141908,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LLY",
@@ -142301,7 +142283,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LULU",
@@ -142960,7 +142942,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MET",
@@ -143521,7 +143503,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NTAP",
@@ -144364,7 +144346,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PLTR",
@@ -145487,7 +145469,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PCG",
@@ -145976,7 +145958,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PRU",
@@ -146277,7 +146259,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RJF",
@@ -146392,7 +146374,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SNA",
@@ -146775,7 +146757,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SO",
@@ -147098,7 +147080,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BLK",
@@ -147561,7 +147543,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CHD",
@@ -148284,7 +148266,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "STZ",
@@ -148867,7 +148849,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "COST",
@@ -149036,7 +149018,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EMR",
@@ -149231,7 +149213,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GEV",
@@ -149654,7 +149636,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HST",
@@ -149857,7 +149839,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LIN",
@@ -151140,7 +151122,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MAR",
@@ -151715,7 +151697,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MGM",
@@ -151978,7 +151960,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TTWO",
@@ -153261,7 +153243,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "UAL",
@@ -153484,7 +153466,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "V",
@@ -153659,7 +153641,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AMD",
@@ -154842,7 +154824,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "COHR",
@@ -155297,7 +155279,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PSX",
@@ -155698,7 +155680,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "REG",
@@ -156421,7 +156403,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "UNP",
@@ -157104,7 +157086,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ABNB",
@@ -158374,7 +158356,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AMCR",
@@ -158443,7 +158425,7 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": 2135000000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ARES",
@@ -158546,7 +158528,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BALL",
@@ -158723,7 +158705,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BF-B",
@@ -159286,7 +159268,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CAG",
@@ -159661,7 +159643,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CEG",
@@ -159950,7 +159932,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "COO",
@@ -160199,7 +160181,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DLR",
@@ -160382,7 +160364,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DG",
@@ -161311,7 +161293,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ETN",
@@ -161926,7 +161908,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EL",
@@ -162008,7 +161990,7 @@
       "ocf_12q_sum": -2184400000,
       "ni_12q_sum": 1107000000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EVRG",
@@ -162351,7 +162333,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FISV",
@@ -162621,7 +162603,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FOXA",
@@ -163151,7 +163133,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FOX",
@@ -163681,7 +163663,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FCX",
@@ -163991,7 +163973,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GEN",
@@ -164366,7 +164348,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HRL",
@@ -164629,7 +164611,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IDXX",
@@ -164924,7 +164906,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ISRG",
@@ -165479,7 +165461,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IVZ",
@@ -166042,7 +166024,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KHC",
@@ -166405,7 +166387,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LMT",
@@ -166668,7 +166650,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MCK",
@@ -167963,7 +167945,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "META",
@@ -169233,7 +169215,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MTD",
@@ -169436,7 +169418,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MDLZ",
@@ -169831,7 +169813,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MNST",
@@ -171126,7 +171108,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MS",
@@ -172181,7 +172163,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MOS",
@@ -172844,7 +172826,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NDAQ",
@@ -173647,7 +173629,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NEE",
@@ -174036,7 +174018,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "OXY",
@@ -174605,7 +174587,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PYPL",
@@ -175648,7 +175630,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PM",
@@ -175943,7 +175925,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PFG",
@@ -176906,7 +176888,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PSA",
@@ -177249,7 +177231,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SBAC",
@@ -178532,7 +178514,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SHW",
@@ -178695,7 +178677,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SOLV",
@@ -179798,7 +179780,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TDY",
@@ -180081,7 +180063,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TPL",
@@ -181358,7 +181340,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TT",
@@ -181561,7 +181543,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TRMB",
@@ -182844,7 +182826,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TFC",
@@ -183227,7 +183209,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VRT",
@@ -183877,7 +183859,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VICI",
@@ -184207,7 +184189,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WAT",
@@ -184410,7 +184392,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WY",
@@ -184853,7 +184835,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WYNN",
@@ -185116,7 +185098,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ACGL",
@@ -185697,7 +185679,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BRK-B",
@@ -185966,7 +185948,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CRWD",
@@ -187249,7 +187231,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EME",
@@ -187764,7 +187746,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ERIE",
@@ -188253,7 +188235,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GD",
@@ -189148,7 +189130,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HWM",
@@ -189457,7 +189439,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IEX",
@@ -189792,7 +189774,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KVUE",
@@ -190249,7 +190231,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LDOS",
@@ -191538,7 +191520,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MRSH",
@@ -191867,7 +191849,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MAS",
@@ -192196,7 +192178,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MRNA",
@@ -192913,7 +192895,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PNC",
@@ -193122,7 +193104,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SJM",
@@ -193359,7 +193341,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TPR",
@@ -193700,7 +193682,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TXT",
@@ -194009,7 +193991,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ULTA",
@@ -194298,7 +194280,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "UHS",
@@ -195599,7 +195581,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VLTO",
@@ -195716,7 +195698,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "YUM",
@@ -196325,7 +196307,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ALB",
@@ -196700,7 +196682,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "APA",
@@ -197057,7 +197039,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "APO",
@@ -197394,7 +197376,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CL",
@@ -197751,7 +197733,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SATS",
@@ -197988,7 +197970,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EA",
@@ -199265,7 +199247,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HSIC",
@@ -200114,7 +200096,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NDSN",
@@ -200443,7 +200425,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ROST",
@@ -201398,7 +201380,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "USB",
@@ -201773,7 +201755,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VST",
@@ -202350,7 +202332,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AJG",
@@ -203639,7 +203621,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KO",
@@ -203860,7 +203842,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "COP",
@@ -204329,7 +204311,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GS",
@@ -205612,7 +205594,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HII",
@@ -206261,7 +206243,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MPC",
@@ -206696,7 +206678,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NTRS",
@@ -207637,7 +207619,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "STX",
@@ -208938,7 +208920,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NOW",
@@ -210245,7 +210227,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TJX",
@@ -210994,7 +210976,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GWW",
@@ -212283,7 +212265,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "APP",
@@ -213560,7 +213542,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "APTV",
@@ -214349,7 +214331,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "XYZ",
@@ -215172,7 +215154,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BG",
@@ -216449,7 +216431,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CBRE",
@@ -217486,7 +217468,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "COR",
@@ -218061,7 +218043,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CF",
@@ -218770,7 +218752,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CIEN",
@@ -220059,7 +220041,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CMI",
@@ -220862,7 +220844,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DE",
@@ -220959,7 +220941,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FAST",
@@ -221062,7 +221044,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GE",
@@ -221631,7 +221613,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GNRC",
@@ -221946,7 +221928,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HLT",
@@ -222423,7 +222405,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "INCY",
@@ -222960,7 +222942,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "JPM",
@@ -223989,7 +223971,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LHX",
@@ -224398,7 +224380,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LH",
@@ -225095,7 +225077,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MDT",
@@ -225732,7 +225714,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MSI",
@@ -227027,7 +227009,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NSC",
@@ -227150,7 +227132,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NOC",
@@ -227687,7 +227669,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NXPI",
@@ -227924,7 +227906,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PCAR",
@@ -228241,7 +228223,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PNR",
@@ -228376,7 +228358,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PEP",
@@ -228645,7 +228627,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RTX",
@@ -228727,7 +228709,7 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": 14921000000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SWKS",
@@ -228970,7 +228952,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LUV",
@@ -229473,7 +229455,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "STT",
@@ -230074,7 +230056,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "STLD",
@@ -231015,7 +230997,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "UPS",
@@ -231390,7 +231372,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DIS",
@@ -231733,7 +231715,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WDAY",
@@ -233028,7 +233010,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AFL",
@@ -234323,7 +234305,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "A",
@@ -234804,7 +234786,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AME",
@@ -235927,7 +235909,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ED",
@@ -236282,7 +236264,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FDX",
@@ -237329,7 +237311,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LII",
@@ -237892,7 +237874,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MCHP",
@@ -239181,7 +239163,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TSLA",
@@ -240064,7 +240046,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BXP",
@@ -240345,7 +240327,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CVX",
@@ -240960,7 +240942,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CFG",
@@ -241535,7 +241517,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "INTC",
@@ -241964,7 +241946,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KEY",
@@ -242505,7 +242487,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KEYS",
@@ -242942,7 +242924,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "RL",
@@ -243663,7 +243645,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SYK",
@@ -244758,7 +244740,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "UBER",
@@ -246059,7 +246041,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FIX",
@@ -247260,7 +247242,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DASH",
@@ -248537,7 +248519,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FE",
@@ -248752,7 +248734,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KMB",
@@ -250035,7 +250017,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SLB",
@@ -250758,7 +250740,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ANET",
@@ -252041,7 +252023,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AIZ",
@@ -253102,7 +253084,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BDX",
@@ -253403,7 +253385,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BKNG",
@@ -254480,7 +254462,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CHRW",
@@ -254609,7 +254591,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CDNS",
@@ -255898,7 +255880,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CAH",
@@ -256001,7 +255983,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DXCM",
@@ -256922,7 +256904,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FDXF",
@@ -257419,7 +257401,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HAS",
@@ -257936,7 +257918,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HON",
@@ -258359,7 +258341,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "IR",
@@ -258496,7 +258478,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "JNJ",
@@ -258619,7 +258601,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NKE",
@@ -258854,7 +258836,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PFE",
@@ -258936,7 +258918,7 @@
       "ocf_12q_sum": 29217000000,
       "ni_12q_sum": 43728000000,
       "recent_transactions": [],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SW",
@@ -260225,7 +260207,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SWK",
@@ -260728,7 +260710,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TER",
@@ -261431,7 +261413,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WDC",
@@ -262738,7 +262720,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GOOGL",
@@ -264033,7 +264015,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GOOG",
@@ -265328,7 +265310,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CVNA",
@@ -266611,7 +266593,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DD",
@@ -267094,7 +267076,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BEN",
@@ -267261,7 +267243,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ON",
@@ -267596,7 +267578,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "Q",
@@ -268019,7 +268001,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VRSN",
@@ -268694,7 +268676,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WBD",
@@ -269077,7 +269059,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GDDY",
@@ -269526,7 +269508,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VLO",
@@ -270007,7 +269989,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ADM",
@@ -270276,7 +270258,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GLW",
@@ -271499,7 +271481,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NVDA",
@@ -272754,7 +272736,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KDP",
@@ -272929,7 +272911,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "ROL",
@@ -273252,7 +273234,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SMCI",
@@ -273827,7 +273809,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AXON",
@@ -275116,7 +275098,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "AVGO",
@@ -276405,7 +276387,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "CAT",
@@ -277366,7 +277348,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "EW",
@@ -278655,7 +278637,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FTV",
@@ -278804,7 +278786,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HAL",
@@ -279099,7 +279081,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "KKR",
@@ -279328,7 +279310,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DDOG",
@@ -280611,7 +280593,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "GIS",
@@ -280840,7 +280822,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LITE",
@@ -281909,7 +281891,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "JBL",
@@ -282398,7 +282380,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NUE",
@@ -283681,7 +283663,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BBY",
@@ -284210,7 +284192,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "NRG",
@@ -284843,7 +284825,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "PSKY",
@@ -285126,7 +285108,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "WM",
@@ -285687,7 +285669,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "HPQ",
@@ -285928,7 +285910,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "VTRS",
@@ -287083,7 +287065,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "LYB",
@@ -287910,7 +287892,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "MPWR",
@@ -289199,7 +289181,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TXN",
@@ -290488,7 +290470,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DOW",
@@ -290797,7 +290779,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "SNPS",
@@ -291338,7 +291320,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TGT",
@@ -292613,7 +292595,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "BAX",
@@ -293028,7 +293010,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "DELL",
@@ -294317,7 +294299,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FANG",
@@ -295606,7 +295588,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "TTD",
@@ -296553,7 +296535,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     },
     {
       "ticker": "FSLR",
@@ -297842,7 +297824,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-06-06"
+      "last_updated": "2026-06-07"
     }
   ],
   "universe_changes": {
