@@ -274586,25 +274586,7 @@
     }
   ],
   "universe_changes": {
-    "added": [
-      {
-        "ticker": "FLEX",
-        "name": "Flex Ltd."
-      },
-      {
-        "ticker": "MRVL",
-        "name": "Marvell Technology"
-      }
-    ],
-    "removed": [
-      {
-        "ticker": "CPB",
-        "name": "Campbell's Company (The)"
-      },
-      {
-        "ticker": "POOL",
-        "name": "Pool Corporation"
-      }
-    ]
+    "added": [],
+    "removed": []
   }
 }
