@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19",
+  "updated_at": "2026-06-20",
   "current_members": [
     {
       "ticker": "MMM",
@@ -579,13 +579,6 @@
       "ticker": "CPT",
       "name": "Camden Property Trust",
       "cik": 906345,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
-      "ticker": "CPB",
-      "name": "Campbell's Company (The)",
-      "cik": 16732,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -1423,6 +1416,13 @@
       "removed_date": null
     },
     {
+      "ticker": "FLEX",
+      "name": "Flex Ltd.",
+      "cik": 866374,
+      "added_date": "2026-06-20",
+      "removed_date": null
+    },
+    {
       "ticker": "F",
       "name": "Ford Motor Company",
       "cik": 37996,
@@ -2116,6 +2116,13 @@
       "removed_date": null
     },
     {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "cik": 1835632,
+      "added_date": "2026-06-20",
+      "removed_date": null
+    },
+    {
       "ticker": "MAS",
       "name": "Masco",
       "cik": 62996,
@@ -2588,13 +2595,6 @@
       "ticker": "PNC",
       "name": "PNC Financial Services",
       "cik": 713676,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
-      "ticker": "POOL",
-      "name": "Pool Corporation",
-      "cik": 945841,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -3537,6 +3537,20 @@
       "cik": 1352010,
       "added_date": "2026-05-17",
       "removed_date": "2026-06-04"
+    },
+    {
+      "ticker": "CPB",
+      "name": "Campbell's Company (The)",
+      "cik": 16732,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-06-20"
+    },
+    {
+      "ticker": "POOL",
+      "name": "Pool Corporation",
+      "cik": 945841,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-06-20"
     }
   ]
 }
