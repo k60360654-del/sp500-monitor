@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24",
+  "updated_at": "2026-06-25",
   "current_members": [
     {
       "ticker": "MMM",
@@ -1150,10 +1150,10 @@
       "removed_date": null
     },
     {
-      "ticker": "SATS",
+      "ticker": "ECHO",
       "name": "EchoStar",
-      "cik": 1415404,
-      "added_date": "2026-05-17",
+      "cik": null,
+      "added_date": "2026-06-25",
       "removed_date": null
     },
     {
@@ -3551,6 +3551,13 @@
       "cik": 945841,
       "added_date": "2026-05-17",
       "removed_date": "2026-06-20"
+    },
+    {
+      "ticker": "SATS",
+      "name": "EchoStar",
+      "cik": 1415404,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-06-25"
     }
   ]
 }
