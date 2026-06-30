@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29",
+  "updated_at": "2026-06-30",
   "current_members": [
     {
       "ticker": "MMM",
@@ -849,13 +849,6 @@
       "removed_date": null
     },
     {
-      "ticker": "CAG",
-      "name": "Conagra Brands",
-      "cik": 23217,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
       "ticker": "COP",
       "name": "ConocoPhillips",
       "cik": 1163165,
@@ -1651,6 +1644,13 @@
       "name": "Home Depot (The)",
       "cik": 354950,
       "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "HONA",
+      "name": "Honeywell Aerospace",
+      "cik": 2089271,
+      "added_date": "2026-06-30",
       "removed_date": null
     },
     {
@@ -3558,6 +3558,13 @@
       "cik": 1415404,
       "added_date": "2026-05-17",
       "removed_date": "2026-06-25"
+    },
+    {
+      "ticker": "CAG",
+      "name": "Conagra Brands",
+      "cik": 23217,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-06-30"
     }
   ]
 }
