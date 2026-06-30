@@ -200129,7 +200129,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-06-29 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-06-30 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -200612,7 +200612,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-06-29 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-06-30 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -251563,11 +251563,11 @@
       "capped_sells_count": 0,
       "cluster_buyers": 0,
       "cluster_sellers": 8,
-      "share_count_pct_change": -0.08773593990723089,
-      "share_count_latest": 105502622.0,
-      "share_count_prior": 105595267.0,
-      "share_count_latest_period_end": "2026-04-01",
-      "share_count_prior_period_end": "2026-01-02",
+      "share_count_pct_change": -0.6782134760593912,
+      "share_count_latest": 104787089.0,
+      "share_count_prior": 105502622.0,
+      "share_count_latest_period_end": "2026-06-24",
+      "share_count_prior_period_end": "2026-04-01",
       "latest_buy_date": null,
       "latest_sell_date": "2026-04-30",
       "has_4_02": false,
@@ -251593,13 +251593,13 @@
       "dividends_paid_yoy_change_pct": -21.79029133116479,
       "dividends_paid_change_vs_baseline_pct": -16.666666666666664,
       "dividends_paid_ttm_latest": 44000000,
-      "gross_margin_yoy_change_bps": -24.402935861985725,
+      "gross_margin_yoy_change_bps": 15.693199764483552,
       "ocf_yoy_change_pct": 2513.5732091441378,
       "ocf_3yr_cagr_pct": 60.61096080788184,
       "ocf_ttm_3yr_ago": 301465000,
-      "ocf_ni_conversion_3yr": 0.3518673018033345,
+      "ocf_ni_conversion_3yr": 0.3451728971962617,
       "ocf_12q_sum": 1034138000,
-      "ni_12q_sum": 2939000000,
+      "ni_12q_sum": 2996000000,
       "recent_transactions": [
         {
           "transaction_date": "2026-04-30",
@@ -269060,17 +269060,7 @@
     }
   ],
   "universe_changes": {
-    "added": [
-      {
-        "ticker": "HONA",
-        "name": "Honeywell Aerospace"
-      }
-    ],
-    "removed": [
-      {
-        "ticker": "CAG",
-        "name": "Conagra Brands"
-      }
-    ]
+    "added": [],
+    "removed": []
   }
 }
