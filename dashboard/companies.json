@@ -164263,6 +164263,26 @@
       "ni_12q_sum": null,
       "recent_transactions": [
         {
+          "transaction_date": "2026-07-06",
+          "filed_date": "2026-07-08",
+          "accession": "0002140283-26-000004",
+          "transaction_code": "A",
+          "acquired_disposed": "A",
+          "shares": 1474.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "ALLOUCHE ARNAUD",
+          "officer_title": "SVP",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
           "transaction_date": "2026-06-30",
           "filed_date": "2026-07-02",
           "accession": "0001621346-26-000004",
@@ -195495,7 +195515,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-07 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-08 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -195978,7 +195998,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-07 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-08 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
