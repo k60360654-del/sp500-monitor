@@ -153068,7 +153068,7 @@
       "excluded_10b5_sells_count": 3,
       "raw_buys_count": 0,
       "raw_sells_count": 0,
-      "de_minimis_buys_count": 60,
+      "de_minimis_buys_count": 61,
       "de_minimis_sells_count": 0,
       "capped_buys_count": 0,
       "capped_sells_count": 0,
@@ -153112,6 +153112,26 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": 1377798000,
       "recent_transactions": [
+        {
+          "transaction_date": "2026-07-10",
+          "filed_date": "2026-07-13",
+          "accession": "0001437749-26-023390",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 1.0,
+          "price": 385.84,
+          "value": 385.84,
+          "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "officer_title": "",
+          "is_director": false,
+          "is_officer": false,
+          "is_ten_percent_owner": true,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
         {
           "transaction_date": "2026-07-09",
           "filed_date": "2026-07-10",
@@ -154281,26 +154301,6 @@
           "shares": 1.0,
           "price": 437.87,
           "value": 437.87,
-          "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "officer_title": "",
-          "is_director": false,
-          "is_officer": false,
-          "is_ten_percent_owner": true,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-04-21",
-          "filed_date": "2026-04-22",
-          "accession": "0001437749-26-012989",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 1.0,
-          "price": 441.84,
-          "value": 441.84,
           "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
           "officer_title": "",
           "is_director": false,
@@ -194025,7 +194025,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-10 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-13 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -194308,7 +194308,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-10 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-13 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
