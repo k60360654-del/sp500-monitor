@@ -191803,7 +191803,7 @@
         },
         {
           "category": "financial",
-          "label": "3-year OCF/NI conversion weak (0.35x)",
+          "label": "3-year OCF/NI conversion weak (0.44x)",
           "weight": -1.0,
           "detail": "reported earnings exceed cash flow - earnings quality red flag"
         }
@@ -191824,11 +191824,11 @@
       "capped_sells_count": 0,
       "cluster_buyers": 0,
       "cluster_sellers": 0,
-      "share_count_pct_change": -0.5221496877368903,
-      "share_count_latest": 1043337235.0,
-      "share_count_prior": 1048813612.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2026-01-15",
+      "share_count_pct_change": -0.5534856618052167,
+      "share_count_latest": 1037562513.0,
+      "share_count_prior": 1043337235.0,
+      "share_count_latest_period_end": "2026-06-30",
+      "share_count_prior_period_end": "2026-03-31",
       "latest_buy_date": null,
       "latest_sell_date": null,
       "has_4_02": false,
@@ -191844,7 +191844,7 @@
       "has_13g_accumulation": false,
       "latest_13d_filer": null,
       "latest_13g_filer": null,
-      "dps_yoy_change_pct": 38.39285714285711,
+      "dps_yoy_change_pct": 12.162162162162158,
       "dps_change_vs_baseline_pct": 30.555555555555554,
       "dps_latest_quarter": 0.47,
       "dps_prior_baseline": 0.36,
@@ -191858,9 +191858,9 @@
       "ocf_yoy_change_pct": 254.8743335872049,
       "ocf_3yr_cagr_pct": -44.455570424207444,
       "ocf_ttm_3yr_ago": 23733000000,
-      "ocf_ni_conversion_3yr": 0.34868284588259696,
+      "ocf_ni_conversion_3yr": 0.44313808193177623,
       "ocf_12q_sum": 8405000000,
-      "ni_12q_sum": 24105000000,
+      "ni_12q_sum": 18967000000,
       "recent_transactions": [
         {
           "transaction_date": "2026-06-24",
@@ -195487,7 +195487,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-15 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-16 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -195770,7 +195770,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-15 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-16 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
