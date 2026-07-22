@@ -129130,7 +129130,7 @@
         },
         {
           "category": "financial",
-          "label": "Gross margin expanded YoY (+383 bps)",
+          "label": "Gross margin expanded YoY (+319 bps)",
           "weight": 1.0,
           "detail": ""
         }
@@ -129151,11 +129151,11 @@
       "capped_sells_count": 0,
       "cluster_buyers": 0,
       "cluster_sellers": 2,
-      "share_count_pct_change": -0.30032672049538894,
-      "share_count_latest": 268719995.0,
-      "share_count_prior": 269529464.0,
-      "share_count_latest_period_end": "2026-03-31",
-      "share_count_prior_period_end": "2025-12-31",
+      "share_count_pct_change": -0.8880671495993441,
+      "share_count_latest": 266333581.0,
+      "share_count_prior": 268719995.0,
+      "share_count_latest_period_end": "2026-06-30",
+      "share_count_prior_period_end": "2026-03-31",
       "latest_buy_date": null,
       "latest_sell_date": "2026-06-01",
       "has_4_02": false,
@@ -129181,7 +129181,7 @@
       "dividends_paid_yoy_change_pct": null,
       "dividends_paid_change_vs_baseline_pct": null,
       "dividends_paid_ttm_latest": null,
-      "gross_margin_yoy_change_bps": 382.73041967943846,
+      "gross_margin_yoy_change_bps": 319.01876856114995,
       "ocf_yoy_change_pct": null,
       "ocf_3yr_cagr_pct": null,
       "ocf_ttm_3yr_ago": null,
@@ -196123,7 +196123,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-21 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-22 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -196406,7 +196406,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-21 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-22 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
