@@ -150198,13 +150198,13 @@
       "contributions": [
         {
           "category": "financial",
-          "label": "Dividend raise: latest quarter +8.9% vs prior 4q median",
+          "label": "Dividend raise: latest quarter +4.3% vs prior 4q median",
           "weight": 1.0,
           "detail": ""
         },
         {
           "category": "financial",
-          "label": "Gross margin expanded YoY (+278 bps)",
+          "label": "Gross margin expanded YoY (+254 bps)",
           "weight": 1.0,
           "detail": ""
         },
@@ -150237,11 +150237,11 @@
       "capped_sells_count": 0,
       "cluster_buyers": 0,
       "cluster_sellers": 0,
-      "share_count_pct_change": 0.12072278877116303,
-      "share_count_latest": 1558558846.0,
-      "share_count_prior": 1556679579.0,
-      "share_count_latest_period_end": "2026-04-17",
-      "share_count_prior_period_end": "2026-01-30",
+      "share_count_pct_change": 0.0035027872152605267,
+      "share_count_latest": 1558613439.0,
+      "share_count_prior": 1558558846.0,
+      "share_count_latest_period_end": "2026-07-17",
+      "share_count_prior_period_end": "2026-04-17",
       "latest_buy_date": null,
       "latest_sell_date": null,
       "has_4_02": false,
@@ -150257,23 +150257,23 @@
       "has_13g_accumulation": false,
       "latest_13d_filer": null,
       "latest_13g_filer": null,
-      "dps_yoy_change_pct": 7.4285714285714395,
-      "dps_change_vs_baseline_pct": 8.888888888888879,
+      "dps_yoy_change_pct": 8.67924528301885,
+      "dps_change_vs_baseline_pct": 4.255319148936158,
       "dps_latest_quarter": 1.47,
-      "dps_prior_baseline": 1.35,
+      "dps_prior_baseline": 1.4100000000000001,
       "dps_initiation": false,
       "dps_cut": false,
       "dps_split_suspected": false,
       "dividends_paid_yoy_change_pct": 13.550208361338889,
       "dividends_paid_change_vs_baseline_pct": 14.66202783300199,
       "dividends_paid_ttm_latest": 8447000000,
-      "gross_margin_yoy_change_bps": 278.3951096761093,
+      "gross_margin_yoy_change_bps": 254.3276456719923,
       "ocf_yoy_change_pct": -137.46478873239437,
       "ocf_3yr_cagr_pct": -100.0,
       "ocf_ttm_3yr_ago": 6371000000,
-      "ocf_ni_conversion_3yr": 0.16263946882059005,
+      "ocf_ni_conversion_3yr": 0.1594523857459231,
       "ocf_12q_sum": 4752000000,
-      "ni_12q_sum": 29218000000,
+      "ni_12q_sum": 29802000000,
       "recent_transactions": [
         {
           "transaction_date": "2026-05-06",
@@ -192299,7 +192299,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-23 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-24 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -192582,7 +192582,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-07-23 (capped from 96 announcements in window)"
+          "detail": "latest filed 2026-07-24 (capped from 96 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -207335,7 +207335,7 @@
         },
         {
           "category": "financial",
-          "label": "Gross margin expanded YoY (+205 bps)",
+          "label": "Gross margin expanded YoY (+477 bps)",
           "weight": 1.0,
           "detail": ""
         }
@@ -207356,11 +207356,11 @@
       "capped_sells_count": 0,
       "cluster_buyers": 0,
       "cluster_sellers": 2,
-      "share_count_pct_change": 0.6206206206206206,
-      "share_count_latest": 5026000000.0,
-      "share_count_prior": 4995000000.0,
-      "share_count_latest_period_end": "2026-04-17",
-      "share_count_prior_period_end": "2026-01-16",
+      "share_count_pct_change": 0.3581376840429765,
+      "share_count_latest": 5044000000.0,
+      "share_count_prior": 5026000000.0,
+      "share_count_latest_period_end": "2026-07-17",
+      "share_count_prior_period_end": "2026-04-17",
       "latest_buy_date": null,
       "latest_sell_date": "2026-05-29",
       "has_4_02": false,
@@ -207386,13 +207386,13 @@
       "dividends_paid_yoy_change_pct": -37.369075093200784,
       "dividends_paid_change_vs_baseline_pct": -100.0,
       "dividends_paid_ttm_latest": 3528000000,
-      "gross_margin_yoy_change_bps": 205.0035210752235,
+      "gross_margin_yoy_change_bps": 476.8399076074361,
       "ocf_yoy_change_pct": -104.91590624440865,
       "ocf_3yr_cagr_pct": null,
       "ocf_ttm_3yr_ago": null,
       "ocf_ni_conversion_3yr": null,
       "ocf_12q_sum": 36606000000,
-      "ni_12q_sum": -22449000000,
+      "ni_12q_sum": -33028000000,
       "recent_transactions": [
         {
           "transaction_date": "2026-06-01",
