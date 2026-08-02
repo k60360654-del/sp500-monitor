@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-08-02",
   "weights": {
     "insider_buy": 1.0,
     "insider_sell": -0.25,
@@ -910,7 +910,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "JKHY",
@@ -1077,7 +1077,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ADSK",
@@ -1646,7 +1646,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CDW",
@@ -2187,7 +2187,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "J",
@@ -2422,7 +2422,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BX",
@@ -3017,7 +3017,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BSX",
@@ -3506,7 +3506,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GEHC",
@@ -3935,7 +3935,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CRM",
@@ -4776,7 +4776,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TMUS",
@@ -5143,7 +5143,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RSG",
@@ -5804,7 +5804,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CASY",
@@ -7097,7 +7097,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VRSK",
@@ -7758,7 +7758,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FICO",
@@ -8047,7 +8047,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FISV",
@@ -8490,7 +8490,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GILD",
@@ -9305,7 +9305,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GPN",
@@ -9700,7 +9700,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DGX",
@@ -10255,7 +10255,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WTW",
@@ -10916,7 +10916,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ADBE",
@@ -12217,7 +12217,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ES",
@@ -12378,7 +12378,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PKG",
@@ -12653,7 +12653,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PTC",
@@ -12820,7 +12820,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "UDR",
@@ -12961,7 +12961,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "XYL",
@@ -13294,7 +13294,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AAPL",
@@ -13615,7 +13615,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PWR",
@@ -14516,7 +14516,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ZBRA",
@@ -15191,7 +15191,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ECL",
@@ -15846,7 +15846,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ELV",
@@ -16301,7 +16301,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NI",
@@ -16722,7 +16722,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HOOD",
@@ -18011,7 +18011,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ARE",
@@ -18452,7 +18452,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "T",
@@ -18801,7 +18801,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BMY",
@@ -19010,7 +19010,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BRO",
@@ -19385,7 +19385,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CTSH",
@@ -20686,7 +20686,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CSX",
@@ -20947,7 +20947,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DXCM",
@@ -21728,7 +21728,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EIX",
@@ -21837,7 +21837,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EQT",
@@ -22046,7 +22046,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EXC",
@@ -22134,7 +22134,7 @@
       "ocf_12q_sum": 12584000000,
       "ni_12q_sum": 6312000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FRT",
@@ -22303,7 +22303,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IT",
@@ -22978,7 +22978,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HD",
@@ -23107,7 +23107,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KIM",
@@ -23195,7 +23195,7 @@
       "ocf_12q_sum": 2290929000,
       "ni_12q_sum": 1296304000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LVS",
@@ -23544,7 +23544,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "L",
@@ -23927,7 +23927,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NDAQ",
@@ -24448,7 +24448,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "OMC",
@@ -25023,7 +25023,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PH",
@@ -25111,7 +25111,7 @@
       "ocf_12q_sum": 5036314000,
       "ni_12q_sum": 4315115000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "O",
@@ -25420,7 +25420,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RVTY",
@@ -25909,7 +25909,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TEL",
@@ -26118,7 +26118,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TKO",
@@ -27121,7 +27121,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TYL",
@@ -27370,7 +27370,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "UNH",
@@ -27999,7 +27999,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VEEV",
@@ -28468,7 +28468,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "XEL",
@@ -28857,7 +28857,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AXP",
@@ -28972,7 +28972,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AMT",
@@ -29167,7 +29167,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AMP",
@@ -29868,7 +29868,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "COF",
@@ -30343,7 +30343,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CPRT",
@@ -30592,7 +30592,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EOG",
@@ -31347,7 +31347,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ESS",
@@ -31622,7 +31622,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EG",
@@ -31837,7 +31837,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PODD",
@@ -32236,7 +32236,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PGR",
@@ -33291,7 +33291,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RCL",
@@ -33826,7 +33826,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TROW",
@@ -34461,7 +34461,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TRGP",
@@ -34636,7 +34636,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WEC",
@@ -34811,7 +34811,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MO",
@@ -35146,7 +35146,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ADI",
@@ -36441,7 +36441,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EQIX",
@@ -37736,7 +37736,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KLAC",
@@ -38183,7 +38183,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MTB",
@@ -38738,7 +38738,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PHM",
@@ -38925,7 +38925,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ROP",
@@ -39240,7 +39240,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ALL",
@@ -39695,7 +39695,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WMB",
@@ -40030,7 +40030,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ABT",
@@ -40185,7 +40185,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ACN",
@@ -41220,7 +41220,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AKAM",
@@ -41483,7 +41483,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LNT",
@@ -41565,7 +41565,7 @@
       "ocf_12q_sum": 2721900000,
       "ni_12q_sum": 2300000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AMZN",
@@ -42728,7 +42728,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AEE",
@@ -42971,7 +42971,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AEP",
@@ -43134,7 +43134,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AIG",
@@ -43269,7 +43269,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AON",
@@ -44024,7 +44024,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ADP",
@@ -44299,7 +44299,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BIIB",
@@ -44622,7 +44622,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CBOE",
@@ -44965,7 +44965,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CF",
@@ -45068,7 +45068,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CMG",
@@ -45351,7 +45351,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CSCO",
@@ -46294,7 +46294,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CMCSA",
@@ -46517,7 +46517,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CCI",
@@ -46758,7 +46758,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DAL",
@@ -47253,7 +47253,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "D",
@@ -47556,7 +47556,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EFX",
@@ -48071,7 +48071,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EXE",
@@ -48412,7 +48412,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FDS",
@@ -48527,7 +48527,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FITB",
@@ -48770,7 +48770,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "F",
@@ -49173,7 +49173,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GM",
@@ -50136,7 +50136,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HIG",
@@ -50531,7 +50531,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HUBB",
@@ -50986,7 +50986,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HUM",
@@ -51249,7 +51249,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ITW",
@@ -51604,7 +51604,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IBKR",
@@ -51847,7 +51847,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IFF",
@@ -52570,7 +52570,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "INTU",
@@ -53557,7 +53557,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IRM",
@@ -54280,7 +54280,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KMI",
@@ -54563,7 +54563,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MA",
@@ -55278,7 +55278,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MKC",
@@ -55593,7 +55593,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MCD",
@@ -55756,7 +55756,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MCO",
@@ -56359,7 +56359,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MSCI",
@@ -56954,7 +56954,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NFLX",
@@ -58089,7 +58089,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NEM",
@@ -58718,7 +58718,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NCLH",
@@ -59019,7 +59019,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "OKE",
@@ -59222,7 +59222,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PG",
@@ -59425,7 +59425,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "QCOM",
@@ -60708,7 +60708,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RMD",
@@ -60943,7 +60943,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SBUX",
@@ -61126,7 +61126,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SYF",
@@ -62003,7 +62003,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VRTX",
@@ -62586,7 +62586,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WST",
@@ -62961,7 +62961,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WSM",
@@ -63556,7 +63556,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "APD",
@@ -63665,7 +63665,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ALB",
@@ -64094,7 +64094,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AMGN",
@@ -65383,7 +65383,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CPT",
@@ -65672,7 +65672,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CCL",
@@ -66253,7 +66253,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "C",
@@ -66722,7 +66722,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "COP",
@@ -66871,7 +66871,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "STZ",
@@ -67720,7 +67720,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CRH",
@@ -68629,7 +68629,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DRI",
@@ -69924,7 +69924,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DLTR",
@@ -70193,7 +70193,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DTE",
@@ -70508,7 +70508,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ETR",
@@ -71149,7 +71149,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EXR",
@@ -71498,7 +71498,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FFIV",
@@ -72307,7 +72307,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KR",
@@ -72656,7 +72656,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MAA",
@@ -72845,7 +72845,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NTRS",
@@ -73332,7 +73332,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ORLY",
@@ -73747,7 +73747,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ODFL",
@@ -74176,7 +74176,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PAYX",
@@ -74951,7 +74951,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PNW",
@@ -75120,7 +75120,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RF",
@@ -75401,7 +75401,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ROK",
@@ -75950,7 +75950,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "STE",
@@ -76999,7 +76999,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "URI",
@@ -77340,7 +77340,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VZ",
@@ -77449,7 +77449,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ZBH",
@@ -77590,7 +77590,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ALLE",
@@ -78151,7 +78151,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CVS",
@@ -78620,7 +78620,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DUK",
@@ -78889,7 +78889,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GL",
@@ -80196,7 +80196,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SRE",
@@ -80497,7 +80497,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IQV",
@@ -80766,7 +80766,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "JCI",
@@ -81075,7 +81075,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LYV",
@@ -81784,7 +81784,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LOW",
@@ -82093,7 +82093,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MS",
@@ -82674,7 +82674,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SNDK",
@@ -83183,7 +83183,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "USB",
@@ -83372,7 +83372,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MMM",
@@ -83967,7 +83967,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AOS",
@@ -84055,7 +84055,7 @@
       "ocf_12q_sum": 657100000,
       "ni_12q_sum": 1616700000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ABBV",
@@ -84352,7 +84352,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AWK",
@@ -84621,7 +84621,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ATO",
@@ -84970,7 +84970,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AZO",
@@ -85099,7 +85099,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AVB",
@@ -85508,7 +85508,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AVY",
@@ -85817,7 +85817,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BKR",
@@ -86134,7 +86134,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BAC",
@@ -87115,7 +87115,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "XYZ",
@@ -88392,7 +88392,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BA",
@@ -88501,7 +88501,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "COR",
@@ -88756,7 +88756,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CNP",
@@ -89059,7 +89059,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CRL",
@@ -90336,7 +90336,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SCHW",
@@ -91451,7 +91451,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CB",
@@ -92540,7 +92540,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CINF",
@@ -92909,7 +92909,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CLX",
@@ -93138,7 +93138,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CTVA",
@@ -93315,7 +93315,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CSGP",
@@ -93630,7 +93630,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DVN",
@@ -94859,7 +94859,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DOV",
@@ -94935,7 +94935,7 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": 3670295000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DHI",
@@ -95035,7 +95035,7 @@
       "ocf_12q_sum": 1029600000,
       "ni_12q_sum": 11536600000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EBAY",
@@ -96312,7 +96312,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EXPD",
@@ -97607,7 +97607,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FIS",
@@ -97764,7 +97764,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FTNT",
@@ -99041,7 +99041,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GRMN",
@@ -100070,7 +100070,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HSY",
@@ -101359,7 +101359,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IBM",
@@ -101548,7 +101548,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ICE",
@@ -102185,7 +102185,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ISRG",
@@ -102734,7 +102734,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LRCX",
@@ -103783,7 +103783,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LEN",
@@ -104092,7 +104092,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LULU",
@@ -104493,7 +104493,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MRK",
@@ -104662,7 +104662,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MSFT",
@@ -105031,7 +105031,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NVR",
@@ -105194,7 +105194,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "OXY",
@@ -105669,7 +105669,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ORCL",
@@ -106146,7 +106146,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PCG",
@@ -106609,7 +106609,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PPG",
@@ -106738,7 +106738,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PPL",
@@ -106847,7 +106847,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PLD",
@@ -106964,7 +106964,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PEG",
@@ -107161,7 +107161,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "REGN",
@@ -107510,7 +107510,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ROST",
@@ -107839,7 +107839,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SPGI",
@@ -107962,7 +107962,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SHW",
@@ -108131,7 +108131,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SO",
@@ -108348,7 +108348,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SYY",
@@ -108577,7 +108577,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TMO",
@@ -108906,7 +108906,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TSCO",
@@ -109235,7 +109235,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TT",
@@ -109784,7 +109784,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TDG",
@@ -111067,7 +111067,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VTR",
@@ -111788,7 +111788,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WMT",
@@ -113071,7 +113071,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WFC",
@@ -113288,7 +113288,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WELL",
@@ -113477,7 +113477,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WY",
@@ -113926,7 +113926,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ZTS",
@@ -114161,7 +114161,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "APH",
@@ -114536,7 +114536,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TECH",
@@ -114979,7 +114979,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CARR",
@@ -115122,7 +115122,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CHTR",
@@ -115383,7 +115383,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CI",
@@ -115866,7 +115866,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CMS",
@@ -116201,7 +116201,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "COHR",
@@ -116476,7 +116476,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "COST",
@@ -116605,7 +116605,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DHR",
@@ -117020,7 +117020,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DVA",
@@ -117555,7 +117555,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EMR",
@@ -117670,7 +117670,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FAST",
@@ -117793,7 +117793,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FDX",
@@ -118234,7 +118234,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DOC",
@@ -118717,7 +118717,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HPE",
@@ -119360,7 +119360,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IEX",
@@ -119695,7 +119695,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "JBHT",
@@ -119970,7 +119970,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LLY",
@@ -120365,7 +120365,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LIN",
@@ -120528,7 +120528,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MET",
@@ -121089,7 +121089,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MGM",
@@ -121332,7 +121332,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TAP",
@@ -121887,7 +121887,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NTAP",
@@ -122770,7 +122770,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "OTIS",
@@ -122913,7 +122913,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PLTR",
@@ -124136,7 +124136,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VMC",
@@ -124291,7 +124291,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WAB",
@@ -125272,7 +125272,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "YUM",
@@ -125787,7 +125787,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AMD",
@@ -127070,7 +127070,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ACGL",
@@ -127591,7 +127591,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AIZ",
@@ -127946,7 +127946,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BLK",
@@ -128369,7 +128369,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CTAS",
@@ -128604,7 +128604,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CME",
@@ -129311,7 +129311,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EXPE",
@@ -130466,7 +130466,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GEV",
@@ -130769,7 +130769,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GD",
@@ -131244,7 +131244,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HST",
@@ -131447,7 +131447,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MAR",
@@ -132042,7 +132042,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PFG",
@@ -133025,7 +133025,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RL",
@@ -133740,7 +133740,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RJF",
@@ -133875,7 +133875,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SNA",
@@ -134538,7 +134538,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "V",
@@ -134853,7 +134853,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EVRG",
@@ -135156,7 +135156,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MU",
@@ -136451,7 +136451,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "REG",
@@ -137094,7 +137094,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "STLD",
@@ -137709,7 +137709,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ABNB",
@@ -138979,7 +138979,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AMCR",
@@ -139048,7 +139048,7 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": 2135000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ARES",
@@ -139211,7 +139211,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BALL",
@@ -139287,7 +139287,7 @@
       "ocf_12q_sum": -6124000000,
       "ni_12q_sum": null,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BDX",
@@ -139622,7 +139622,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CBRE",
@@ -140165,7 +140165,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CIEN",
@@ -141340,7 +141340,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CEG",
@@ -141428,7 +141428,7 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": 7735000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "COO",
@@ -141516,7 +141516,7 @@
       "ocf_12q_sum": 1589941000,
       "ni_12q_sum": 926100000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CPAY",
@@ -142005,7 +142005,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DECK",
@@ -142408,7 +142408,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DLR",
@@ -142551,7 +142551,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DG",
@@ -142920,7 +142920,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ETN",
@@ -143535,7 +143535,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EL",
@@ -143617,7 +143617,7 @@
       "ocf_12q_sum": -2184400000,
       "ni_12q_sum": 1107000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FOXA",
@@ -143727,7 +143727,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FOX",
@@ -143837,7 +143837,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FCX",
@@ -144127,7 +144127,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GPC",
@@ -145090,7 +145090,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HCA",
@@ -145207,7 +145207,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HSIC",
@@ -145370,7 +145370,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HLT",
@@ -145833,7 +145833,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IDXX",
@@ -146128,7 +146128,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IVZ",
@@ -146731,7 +146731,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "INVH",
@@ -146981,7 +146981,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LMT",
@@ -147084,7 +147084,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MLM",
@@ -147439,7 +147439,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MAS",
@@ -147702,7 +147702,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MCK",
@@ -148997,7 +148997,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "META",
@@ -150267,7 +150267,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MTD",
@@ -150470,7 +150470,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MDLZ",
@@ -150845,7 +150845,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MNST",
@@ -151480,7 +151480,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MOS",
@@ -151783,7 +151783,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NEE",
@@ -151892,7 +151892,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NDSN",
@@ -152055,7 +152055,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NOC",
@@ -152598,7 +152598,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NXPI",
@@ -153081,7 +153081,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PYPL",
@@ -153984,7 +153984,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PM",
@@ -154259,7 +154259,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SBAC",
@@ -155122,7 +155122,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SWKS",
@@ -155371,7 +155371,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SWK",
@@ -155946,7 +155946,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TDY",
@@ -156028,7 +156028,7 @@
       "ocf_12q_sum": 1255800000,
       "ni_12q_sum": 2459300000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TPL",
@@ -157305,7 +157305,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TRMB",
@@ -157548,7 +157548,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TSN",
@@ -157757,7 +157757,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "UHS",
@@ -158312,7 +158312,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VRT",
@@ -158642,7 +158642,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WRB",
@@ -158931,7 +158931,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WYNN",
@@ -159154,7 +159154,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AES",
@@ -159301,7 +159301,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "APA",
@@ -159618,7 +159618,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AJG",
@@ -160027,7 +160027,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BRK-B",
@@ -160396,7 +160396,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BR",
@@ -160885,7 +160885,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CHD",
@@ -161528,7 +161528,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DPZ",
@@ -162277,7 +162277,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ERIE",
@@ -162626,7 +162626,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "XOM",
@@ -162741,7 +162741,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GEN",
@@ -163142,7 +163142,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HRL",
@@ -163291,7 +163291,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HWM",
@@ -163580,7 +163580,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HBAN",
@@ -164869,7 +164869,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KEYS",
@@ -165066,7 +165066,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KHC",
@@ -165455,7 +165455,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LDOS",
@@ -166004,7 +166004,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MRVL",
@@ -167293,7 +167293,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PSX",
@@ -167594,7 +167594,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SLB",
@@ -167723,7 +167723,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TTWO",
@@ -169006,7 +169006,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TPR",
@@ -169327,7 +169327,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TXT",
@@ -169436,7 +169436,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "UBER",
@@ -170743,7 +170743,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "UNP",
@@ -171240,7 +171240,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VLTO",
@@ -171697,7 +171697,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "APO",
@@ -172234,7 +172234,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AMAT",
@@ -173115,7 +173115,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KO",
@@ -173836,7 +173836,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CL",
@@ -174213,7 +174213,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EA",
@@ -175490,7 +175490,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EME",
@@ -175885,7 +175885,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GDDY",
@@ -176340,7 +176340,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GS",
@@ -176943,7 +176943,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "JBL",
@@ -177272,7 +177272,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KVUE",
@@ -177429,7 +177429,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MPC",
@@ -177804,7 +177804,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PANW",
@@ -178639,7 +178639,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PRU",
@@ -178974,7 +178974,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "Q",
@@ -179431,7 +179431,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TRV",
@@ -180100,7 +180100,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TFC",
@@ -180289,7 +180289,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "UAL",
@@ -180992,7 +180992,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VST",
@@ -181429,7 +181429,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NVDA",
@@ -182038,7 +182038,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TXN",
@@ -182541,7 +182541,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VLO",
@@ -183008,7 +183008,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GWW",
@@ -183437,7 +183437,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ALGN",
@@ -183732,7 +183732,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AME",
@@ -183869,7 +183869,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "APP",
@@ -185146,7 +185146,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "APTV",
@@ -185315,7 +185315,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BF-B",
@@ -185884,7 +185884,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BG",
@@ -186761,7 +186761,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ED",
@@ -187130,7 +187130,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CRWD",
@@ -188413,7 +188413,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CMI",
@@ -189196,7 +189196,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DE",
@@ -189293,7 +189293,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EQR",
@@ -189488,7 +189488,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FE",
@@ -189617,7 +189617,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GNRC",
@@ -190172,7 +190172,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "INCY",
@@ -191209,7 +191209,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IR",
@@ -191306,7 +191306,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "IP",
@@ -191523,7 +191523,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "JPM",
@@ -191992,7 +191992,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LHX",
@@ -192401,7 +192401,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LH",
@@ -192638,7 +192638,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MSI",
@@ -192913,7 +192913,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NWSA",
@@ -193196,7 +193196,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NWS",
@@ -193479,7 +193479,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NSC",
@@ -193561,7 +193561,7 @@
       "ocf_12q_sum": 10124000000,
       "ni_12q_sum": 7657000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PCAR",
@@ -193884,7 +193884,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SOLV",
@@ -194241,7 +194241,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "UPS",
@@ -194616,7 +194616,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VICI",
@@ -194833,7 +194833,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DIS",
@@ -195576,7 +195576,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WBD",
@@ -196013,7 +196013,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WDAY",
@@ -197308,7 +197308,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AFL",
@@ -198603,7 +198603,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "A",
@@ -198804,7 +198804,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AVGO",
@@ -200099,7 +200099,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BLDR",
@@ -200754,7 +200754,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CAT",
@@ -201869,7 +201869,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CNC",
@@ -202310,7 +202310,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HII",
@@ -202833,7 +202833,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KKR",
@@ -203056,7 +203056,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LII",
@@ -203359,7 +203359,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MDT",
@@ -203762,7 +203762,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PNC",
@@ -204011,7 +204011,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SJM",
@@ -204568,7 +204568,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VRSN",
@@ -205869,7 +205869,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CVX",
@@ -206404,7 +206404,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CFG",
@@ -206819,7 +206819,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FIX",
@@ -207320,7 +207320,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GE",
@@ -208095,7 +208095,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GIS",
@@ -209384,7 +209384,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "INTC",
@@ -209813,7 +209813,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "JNJ",
@@ -210036,7 +210036,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KMB",
@@ -210919,7 +210919,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MRSH",
@@ -211248,7 +211248,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MCHP",
@@ -212537,7 +212537,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "STT",
@@ -213132,7 +213132,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SYK",
@@ -213807,7 +213807,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TJX",
@@ -214196,7 +214196,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BXP",
@@ -214517,7 +214517,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KEY",
@@ -215158,7 +215158,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "RTX",
@@ -215387,7 +215387,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WDC",
@@ -216694,7 +216694,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ANET",
@@ -217977,7 +217977,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BKNG",
@@ -218474,7 +218474,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CHRW",
@@ -218643,7 +218643,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CDNS",
@@ -219932,7 +219932,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CAH",
@@ -220014,7 +220014,7 @@
       "ocf_12q_sum": 507000000,
       "ni_12q_sum": 1851000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DASH",
@@ -221291,7 +221291,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FDXF",
@@ -222308,7 +222308,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HONA",
@@ -222485,7 +222485,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HPQ",
@@ -222654,7 +222654,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NKE",
@@ -222829,7 +222829,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ON",
@@ -223078,7 +223078,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PSKY",
@@ -223575,7 +223575,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "STX",
@@ -224876,7 +224876,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SW",
@@ -225885,7 +225885,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LUV",
@@ -226194,7 +226194,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TER",
@@ -226897,7 +226897,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WAT",
@@ -227054,7 +227054,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DD",
@@ -227537,7 +227537,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HON",
@@ -228258,7 +228258,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MRNA",
@@ -229221,7 +229221,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PEP",
@@ -229562,7 +229562,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PFE",
@@ -229671,7 +229671,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PSA",
@@ -229866,7 +229866,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ULTA",
@@ -230121,7 +230121,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NOW",
@@ -231416,7 +231416,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GOOGL",
@@ -232711,7 +232711,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GOOG",
@@ -234006,7 +234006,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BBY",
@@ -234735,7 +234735,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "GLW",
@@ -235178,7 +235178,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DOW",
@@ -235281,7 +235281,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HAL",
@@ -235450,7 +235450,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "HAS",
@@ -235953,7 +235953,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "KDP",
@@ -236128,7 +236128,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "PNR",
@@ -236269,7 +236269,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ROL",
@@ -236412,7 +236412,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SMCI",
@@ -237707,7 +237707,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "AXON",
@@ -238996,7 +238996,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "CVNA",
@@ -240285,7 +240285,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DELL",
@@ -241580,7 +241580,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FSLR",
@@ -242863,7 +242863,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FTV",
@@ -243252,7 +243252,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BEN",
@@ -243453,7 +243453,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TSLA",
@@ -244022,7 +244022,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LITE",
@@ -245311,7 +245311,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NUE",
@@ -246594,7 +246594,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "DDOG",
@@ -247877,7 +247877,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "ADM",
@@ -247965,7 +247965,7 @@
       "ocf_12q_sum": -9693000000,
       "ni_12q_sum": 6655000000,
       "recent_transactions": [],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "COIN",
@@ -249248,7 +249248,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "EW",
@@ -250537,7 +250537,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "NRG",
@@ -251350,7 +251350,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "VTRS",
@@ -251459,7 +251459,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "LYB",
@@ -252106,7 +252106,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "WM",
@@ -252473,7 +252473,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FLEX",
@@ -253762,7 +253762,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "MPWR",
@@ -255051,7 +255051,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "FANG",
@@ -255860,7 +255860,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TGT",
@@ -256075,7 +256075,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "SNPS",
@@ -256636,7 +256636,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "BAX",
@@ -256951,7 +256951,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     },
     {
       "ticker": "TTD",
@@ -257738,7 +257738,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-08-01"
+      "last_updated": "2026-08-02"
     }
   ],
   "universe_changes": {
