@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05",
+  "updated_at": "2026-08-06",
   "current_members": [
     {
       "ticker": "MMM",
@@ -1171,13 +1171,6 @@
       "removed_date": null
     },
     {
-      "ticker": "EA",
-      "name": "Electronic Arts",
-      "cik": 712515,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
       "ticker": "ELV",
       "name": "Elevance Health",
       "cik": 1156039,
@@ -1371,6 +1364,13 @@
       "name": "FedEx Freight",
       "cik": 2082247,
       "added_date": "2026-06-04",
+      "removed_date": null
+    },
+    {
+      "ticker": "FERG",
+      "name": "Ferguson Enterprises",
+      "cik": 2011641,
+      "added_date": "2026-08-06",
       "removed_date": null
     },
     {
@@ -3565,6 +3565,13 @@
       "cik": 23217,
       "added_date": "2026-05-17",
       "removed_date": "2026-06-30"
+    },
+    {
+      "ticker": "EA",
+      "name": "Electronic Arts",
+      "cik": 712515,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-08-06"
     }
   ]
 }
