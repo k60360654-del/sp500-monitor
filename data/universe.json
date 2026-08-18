@@ -373,13 +373,6 @@
       "removed_date": null
     },
     {
-      "ticker": "AVB",
-      "name": "AvalonBay Communities",
-      "cik": 915912,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
       "ticker": "AVY",
       "name": "Avery Dennison",
       "cik": 8818,
@@ -1223,13 +1216,6 @@
       "ticker": "EQIX",
       "name": "Equinix",
       "cik": 1101239,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
-      "ticker": "EQR",
-      "name": "Equity Residential",
-      "cik": 906107,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -2718,6 +2704,13 @@
       "removed_date": null
     },
     {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "cik": 1713445,
+      "added_date": "2026-08-18",
+      "removed_date": null
+    },
+    {
       "ticker": "RTX",
       "name": "RTX Corporation",
       "cik": 101829,
@@ -3341,6 +3334,13 @@
       "removed_date": null
     },
     {
+      "ticker": "VMRK",
+      "name": "Vivmark Residential",
+      "cik": null,
+      "added_date": "2026-08-18",
+      "removed_date": null
+    },
+    {
       "ticker": "VMC",
       "name": "Vulcan Materials Company",
       "cik": 1396009,
@@ -3572,6 +3572,20 @@
       "cik": 712515,
       "added_date": "2026-05-17",
       "removed_date": "2026-08-06"
+    },
+    {
+      "ticker": "AVB",
+      "name": "AvalonBay Communities",
+      "cik": 915912,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-08-18"
+    },
+    {
+      "ticker": "EQR",
+      "name": "Equity Residential",
+      "cik": 906107,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-08-18"
     }
   ]
 }
