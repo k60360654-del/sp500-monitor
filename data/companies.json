@@ -86206,7 +86206,7 @@
       "insider_buys_filings": 0,
       "insider_sells_filings": 1,
       "excluded_10b5_buys_count": 0,
-      "excluded_10b5_sells_count": 49,
+      "excluded_10b5_sells_count": 51,
       "raw_buys_count": 0,
       "raw_sells_count": 2,
       "de_minimis_buys_count": 0,
@@ -86253,6 +86253,46 @@
       "ocf_12q_sum": 14666000000,
       "ni_12q_sum": 13824000000,
       "recent_transactions": [
+        {
+          "transaction_date": "2026-09-11",
+          "filed_date": "2026-09-15",
+          "accession": "0001104659-26-107732",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 13173.0,
+          "price": 115.12,
+          "value": 1516475.76,
+          "insider_name": "Japan Post Holdings Co., Ltd.",
+          "officer_title": "",
+          "is_director": false,
+          "is_officer": false,
+          "is_ten_percent_owner": true,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-11",
+          "filed_date": "2026-09-15",
+          "accession": "0001104659-26-107732",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 827.0,
+          "price": 115.41,
+          "value": 95444.06999999999,
+          "insider_name": "Japan Post Holdings Co., Ltd.",
+          "officer_title": "",
+          "is_director": false,
+          "is_officer": false,
+          "is_ten_percent_owner": true,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
         {
           "transaction_date": "2026-09-10",
           "filed_date": "2026-09-14",
@@ -190941,7 +190981,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-09-14 (capped from 97 announcements in window)"
+          "detail": "latest filed 2026-09-15 (capped from 97 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -192230,7 +192270,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-09-14 (capped from 97 announcements in window)"
+          "detail": "latest filed 2026-09-15 (capped from 97 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
