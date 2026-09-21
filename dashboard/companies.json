@@ -83059,7 +83059,7 @@
       "excluded_10b5_sells_count": 0,
       "raw_buys_count": 0,
       "raw_sells_count": 0,
-      "de_minimis_buys_count": 63,
+      "de_minimis_buys_count": 64,
       "de_minimis_sells_count": 0,
       "capped_buys_count": 0,
       "capped_sells_count": 0,
@@ -83103,6 +83103,26 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": 1412834000,
       "recent_transactions": [
+        {
+          "transaction_date": "2026-09-18",
+          "filed_date": "2026-09-21",
+          "accession": "0001437749-26-030789",
+          "transaction_code": "P",
+          "acquired_disposed": "A",
+          "shares": 1.0,
+          "price": 351.34,
+          "value": 351.34,
+          "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
+          "officer_title": "",
+          "is_director": false,
+          "is_officer": false,
+          "is_ten_percent_owner": true,
+          "is_10b5_1": false,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
         {
           "transaction_date": "2026-09-17",
           "filed_date": "2026-09-18",
@@ -84272,26 +84292,6 @@
           "shares": 1.0,
           "price": 397.48,
           "value": 397.48,
-          "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
-          "officer_title": "",
-          "is_director": false,
-          "is_officer": false,
-          "is_ten_percent_owner": true,
-          "is_10b5_1": false,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-06-25",
-          "filed_date": "2026-06-26",
-          "accession": "0001437749-26-021781",
-          "transaction_code": "P",
-          "acquired_disposed": "A",
-          "shares": 1.0,
-          "price": 388.58,
-          "value": 388.58,
           "insider_name": "HORIZON KINETICS ASSET MANAGEMENT LLC",
           "officer_title": "",
           "is_director": false,
@@ -100186,7 +100186,7 @@
       "insider_buys_filings": 0,
       "insider_sells_filings": 2,
       "excluded_10b5_buys_count": 0,
-      "excluded_10b5_sells_count": 51,
+      "excluded_10b5_sells_count": 53,
       "raw_buys_count": 0,
       "raw_sells_count": 4,
       "de_minimis_buys_count": 0,
@@ -100233,6 +100233,46 @@
       "ocf_12q_sum": 14666000000,
       "ni_12q_sum": 13824000000,
       "recent_transactions": [
+        {
+          "transaction_date": "2026-09-17",
+          "filed_date": "2026-09-21",
+          "accession": "0001104659-26-109135",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 11745.0,
+          "price": 116.54,
+          "value": 1368762.3,
+          "insider_name": "Japan Post Holdings Co., Ltd.",
+          "officer_title": "",
+          "is_director": false,
+          "is_officer": false,
+          "is_ten_percent_owner": true,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-17",
+          "filed_date": "2026-09-21",
+          "accession": "0001104659-26-109135",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1155.0,
+          "price": 116.97,
+          "value": 135100.35,
+          "insider_name": "Japan Post Holdings Co., Ltd.",
+          "officer_title": "",
+          "is_director": false,
+          "is_officer": false,
+          "is_ten_percent_owner": true,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
         {
           "transaction_date": "2026-09-16",
           "filed_date": "2026-09-18",
@@ -191232,7 +191272,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-09-18 (capped from 97 announcements in window)"
+          "detail": "latest filed 2026-09-21 (capped from 97 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -192521,7 +192561,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-09-18 (capped from 97 announcements in window)"
+          "detail": "latest filed 2026-09-21 (capped from 97 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -218337,33 +218377,7 @@
     }
   ],
   "universe_changes": {
-    "added": [
-      {
-        "ticker": "BE",
-        "name": "Bloom Energy"
-      },
-      {
-        "ticker": "P",
-        "name": "Everpure"
-      },
-      {
-        "ticker": "ILMN",
-        "name": "Illumina, Inc."
-      }
-    ],
-    "removed": [
-      {
-        "ticker": "BLDR",
-        "name": "Builders FirstSource"
-      },
-      {
-        "ticker": "TAP",
-        "name": "Molson Coors Beverage Company"
-      },
-      {
-        "ticker": "TTD",
-        "name": "Trade Desk (The)"
-      }
-    ]
+    "added": [],
+    "removed": []
   }
 }
