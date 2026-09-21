@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20",
+  "updated_at": "2026-09-21",
   "current_members": [
     {
       "ticker": "MMM",
@@ -471,6 +471,13 @@
       "removed_date": null
     },
     {
+      "ticker": "BE",
+      "name": "Bloom Energy",
+      "cik": 1664703,
+      "added_date": "2026-09-21",
+      "removed_date": null
+    },
+    {
       "ticker": "BNY",
       "name": "BNY Mellon",
       "cik": null,
@@ -530,13 +537,6 @@
       "ticker": "BF-B",
       "name": "Brown\u2013Forman",
       "cik": 14693,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource",
-      "cik": 1316835,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -1255,6 +1255,13 @@
       "removed_date": null
     },
     {
+      "ticker": "P",
+      "name": "Everpure",
+      "cik": 1474432,
+      "added_date": "2026-09-21",
+      "removed_date": null
+    },
+    {
       "ticker": "ES",
       "name": "Eversource Energy",
       "cik": 72741,
@@ -1728,6 +1735,13 @@
       "name": "Illinois Tool Works",
       "cik": 49826,
       "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "cik": 1110803,
+      "added_date": "2026-09-21",
       "removed_date": null
     },
     {
@@ -2217,13 +2231,6 @@
       "ticker": "MRNA",
       "name": "Moderna",
       "cik": 1682852,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
-      "ticker": "TAP",
-      "name": "Molson Coors Beverage Company",
-      "cik": 24545,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -3110,13 +3117,6 @@
       "removed_date": null
     },
     {
-      "ticker": "TTD",
-      "name": "Trade Desk (The)",
-      "cik": 1671933,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
       "ticker": "TSCO",
       "name": "Tractor Supply",
       "cik": 916365,
@@ -3586,6 +3586,27 @@
       "cik": 906107,
       "added_date": "2026-05-17",
       "removed_date": "2026-08-18"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "cik": 1316835,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-09-21"
+    },
+    {
+      "ticker": "TAP",
+      "name": "Molson Coors Beverage Company",
+      "cik": 24545,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-09-21"
+    },
+    {
+      "ticker": "TTD",
+      "name": "Trade Desk (The)",
+      "cik": 1671933,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-09-21"
     }
   ]
 }
