@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03",
+  "generated_at": "2026-10-04",
   "weights": {
     "insider_buy": 1.0,
     "insider_sell": -0.25,
@@ -424,7 +424,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BSX",
@@ -759,7 +759,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "COO",
@@ -966,7 +966,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GPN",
@@ -1141,7 +1141,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "JKHY",
@@ -2262,7 +2262,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CDW",
@@ -2829,7 +2829,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MO",
@@ -2944,7 +2944,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AAPL",
@@ -3239,7 +3239,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CASY",
@@ -4026,7 +4026,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CEG",
@@ -4161,7 +4161,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ELV",
@@ -4370,7 +4370,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EG",
@@ -4458,7 +4458,7 @@
       "ocf_12q_sum": 7432456000,
       "ni_12q_sum": 5717000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FICO",
@@ -4707,7 +4707,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GILD",
@@ -5782,7 +5782,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LEN",
@@ -6677,7 +6677,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PTC",
@@ -6878,7 +6878,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TMUS",
@@ -7133,7 +7133,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "UDR",
@@ -7248,7 +7248,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AMT",
@@ -7429,7 +7429,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PFE",
@@ -7604,7 +7604,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VRSK",
@@ -8019,7 +8019,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ALL",
@@ -8360,7 +8360,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "COF",
@@ -8861,7 +8861,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CSX",
@@ -9062,7 +9062,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EOG",
@@ -9603,7 +9603,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GL",
@@ -10190,7 +10190,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KR",
@@ -10685,7 +10685,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "UNH",
@@ -11346,7 +11346,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AKAM",
@@ -11555,7 +11555,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ADI",
@@ -12844,7 +12844,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AON",
@@ -13245,7 +13245,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "APTV",
@@ -13500,7 +13500,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "T",
@@ -13869,7 +13869,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CCL",
@@ -13998,7 +13998,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CF",
@@ -14086,7 +14086,7 @@
       "ocf_12q_sum": 6696200000,
       "ni_12q_sum": 2267500000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DXCM",
@@ -14627,7 +14627,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EIX",
@@ -14736,7 +14736,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EQT",
@@ -14905,7 +14905,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ESS",
@@ -14993,7 +14993,7 @@
       "ocf_12q_sum": 2968757000,
       "ni_12q_sum": 780701000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EXC",
@@ -15081,7 +15081,7 @@
       "ocf_12q_sum": 12584000000,
       "ni_12q_sum": 6312000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KIM",
@@ -15169,7 +15169,7 @@
       "ocf_12q_sum": 2290929000,
       "ni_12q_sum": 1569099000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LVS",
@@ -15298,7 +15298,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MCD",
@@ -15447,7 +15447,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PGR",
@@ -16316,7 +16316,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PHM",
@@ -16457,7 +16457,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DGX",
@@ -16846,7 +16846,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RSG",
@@ -18135,7 +18135,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RVTY",
@@ -18444,7 +18444,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SNDK",
@@ -19733,7 +19733,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TEL",
@@ -19821,7 +19821,7 @@
       "ocf_12q_sum": 6362000000,
       "ni_12q_sum": 7807000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TDG",
@@ -21104,7 +21104,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "XEL",
@@ -21333,7 +21333,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AXP",
@@ -21468,7 +21468,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AMP",
@@ -22249,7 +22249,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CINF",
@@ -22396,7 +22396,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DG",
@@ -22511,7 +22511,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ES",
@@ -22646,7 +22646,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FFIV",
@@ -23621,7 +23621,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FRT",
@@ -23936,7 +23936,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IT",
@@ -24363,7 +24363,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "J",
@@ -24518,7 +24518,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NI",
@@ -24659,7 +24659,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CRM",
@@ -25520,7 +25520,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TROW",
@@ -25835,7 +25835,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WEC",
@@ -25970,7 +25970,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WMB",
@@ -26265,7 +26265,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ADBE",
@@ -27560,7 +27560,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BMY",
@@ -27815,7 +27815,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "COP",
@@ -27950,7 +27950,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EQIX",
@@ -28185,7 +28185,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ROP",
@@ -28400,7 +28400,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TYL",
@@ -28595,7 +28595,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ALLE",
@@ -29002,7 +29002,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ETR",
@@ -29469,7 +29469,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ILMN",
@@ -30764,7 +30764,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NFLX",
@@ -31759,7 +31759,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ORLY",
@@ -31934,7 +31934,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PKG",
@@ -32109,7 +32109,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PAYX",
@@ -32784,7 +32784,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TRGP",
@@ -33239,7 +33239,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "APD",
@@ -33342,7 +33342,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ALB",
@@ -33805,7 +33805,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LNT",
@@ -33908,7 +33908,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AMZN",
@@ -34871,7 +34871,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AEP",
@@ -35034,7 +35034,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AIG",
@@ -35249,7 +35249,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ADSK",
@@ -35331,7 +35331,7 @@
       "ocf_12q_sum": 4271700000,
       "ni_12q_sum": 3422000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ADP",
@@ -36626,7 +36626,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BIIB",
@@ -36749,7 +36749,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BKNG",
@@ -37246,7 +37246,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BR",
@@ -37801,7 +37801,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CPT",
@@ -37904,7 +37904,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CBOE",
@@ -38007,7 +38007,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CNP",
@@ -38176,7 +38176,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CI",
@@ -38379,7 +38379,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CSCO",
@@ -39302,7 +39302,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "C",
@@ -39745,7 +39745,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CMS",
@@ -39860,7 +39860,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CTSH",
@@ -41135,7 +41135,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CMCSA",
@@ -41378,7 +41378,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "STZ",
@@ -41741,7 +41741,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CRH",
@@ -41823,7 +41823,7 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": null,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CVS",
@@ -41905,7 +41905,7 @@
       "ocf_12q_sum": 43165000000,
       "ni_12q_sum": 10609000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "D",
@@ -41987,7 +41987,7 @@
       "ocf_12q_sum": 16440000000,
       "ni_12q_sum": 6712000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DHI",
@@ -42174,7 +42174,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DUK",
@@ -42256,7 +42256,7 @@
       "ocf_12q_sum": 20081000000,
       "ni_12q_sum": 12818000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DD",
@@ -42479,7 +42479,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EFX",
@@ -42774,7 +42774,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EVRG",
@@ -42997,7 +42997,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EXE",
@@ -43091,7 +43091,7 @@
       "ocf_12q_sum": 8625000000,
       "ni_12q_sum": 5365000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EXR",
@@ -43214,7 +43214,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FDS",
@@ -43329,7 +43329,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FIS",
@@ -43432,7 +43432,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FITB",
@@ -43715,7 +43715,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GM",
@@ -44178,7 +44178,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GS",
@@ -44953,7 +44953,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HIG",
@@ -45308,7 +45308,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HD",
@@ -45683,7 +45683,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HUM",
@@ -45826,7 +45826,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IBKR",
@@ -45969,7 +45969,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IRM",
@@ -46352,7 +46352,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "JBHT",
@@ -46440,7 +46440,7 @@
       "ocf_12q_sum": 3975355000,
       "ni_12q_sum": 1999365000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KMI",
@@ -47003,7 +47003,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LIN",
@@ -47106,7 +47106,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LOW",
@@ -47289,7 +47289,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MA",
@@ -48424,7 +48424,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MET",
@@ -48785,7 +48785,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MCO",
@@ -49328,7 +49328,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MSCI",
@@ -49503,7 +49503,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "OKE",
@@ -49786,7 +49786,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PYPL",
@@ -50563,7 +50563,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PCG",
@@ -50772,7 +50772,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PWR",
@@ -50872,7 +50872,7 @@
       "ocf_12q_sum": 2403264000,
       "ni_12q_sum": 2674375000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "QCOM",
@@ -51735,7 +51735,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SRE",
@@ -51829,7 +51829,7 @@
       "ocf_12q_sum": 15907000000,
       "ni_12q_sum": 7800000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SBUX",
@@ -52012,7 +52012,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SYF",
@@ -52909,7 +52909,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TSCO",
@@ -53270,7 +53270,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TRMB",
@@ -53413,7 +53413,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VZ",
@@ -53636,7 +53636,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VRTX",
@@ -53879,7 +53879,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VST",
@@ -54096,7 +54096,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WFC",
@@ -54239,7 +54239,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WELL",
@@ -54454,7 +54454,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WSM",
@@ -55009,7 +55009,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WDAY",
@@ -56304,7 +56304,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "XYL",
@@ -56479,7 +56479,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ACN",
@@ -57540,7 +57540,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CMG",
@@ -57809,7 +57809,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CCI",
@@ -57996,7 +57996,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DTE",
@@ -58111,7 +58111,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HUBB",
@@ -58292,7 +58292,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KEY",
@@ -58573,7 +58573,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LYV",
@@ -58782,7 +58782,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NDAQ",
@@ -59077,7 +59077,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NTAP",
@@ -59906,7 +59906,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NEM",
@@ -60341,7 +60341,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ODFL",
@@ -60470,7 +60470,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "OMC",
@@ -60925,7 +60925,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "O",
@@ -61046,7 +61046,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ROK",
@@ -61335,7 +61335,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RCL",
@@ -61464,7 +61464,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "STE",
@@ -61593,7 +61593,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "URI",
@@ -61754,7 +61754,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WST",
@@ -62175,7 +62175,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WTW",
@@ -62496,7 +62496,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AEE",
@@ -62745,7 +62745,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AMAT",
@@ -62926,7 +62926,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BX",
@@ -63841,7 +63841,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CB",
@@ -63990,7 +63990,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CIEN",
@@ -65291,7 +65291,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DAL",
@@ -65586,7 +65586,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DLTR",
@@ -65875,7 +65875,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EMR",
@@ -66044,7 +66044,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HST",
@@ -66213,7 +66213,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ITW",
@@ -66514,7 +66514,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "JCI",
@@ -66743,7 +66743,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MSFT",
@@ -67672,7 +67672,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PNW",
@@ -67801,7 +67801,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PRU",
@@ -68010,7 +68010,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ZBH",
@@ -68191,7 +68191,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AMGN",
@@ -68580,7 +68580,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "COHR",
@@ -69149,7 +69149,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DRI",
@@ -70444,7 +70444,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GRMN",
@@ -71233,7 +71233,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IFF",
@@ -71382,7 +71382,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MTB",
@@ -71731,7 +71731,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MAR",
@@ -72032,7 +72032,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MS",
@@ -72313,7 +72313,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AOS",
@@ -72401,7 +72401,7 @@
       "ocf_12q_sum": 657100000,
       "ni_12q_sum": 1616700000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AWK",
@@ -72489,7 +72489,7 @@
       "ocf_12q_sum": 2923493000,
       "ni_12q_sum": 3209000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ATO",
@@ -72630,7 +72630,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BKR",
@@ -72747,7 +72747,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TECH",
@@ -73264,7 +73264,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "XYZ",
@@ -74541,7 +74541,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CARR",
@@ -74658,7 +74658,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CTVA",
@@ -74835,7 +74835,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DOV",
@@ -74932,7 +74932,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EME",
@@ -75101,7 +75101,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FDX",
@@ -75316,7 +75316,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FTNT",
@@ -76213,7 +76213,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GIS",
@@ -76930,7 +76930,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DOC",
@@ -77006,7 +77006,7 @@
       "ocf_12q_sum": 2325306000,
       "ni_12q_sum": 684018000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HWM",
@@ -77115,7 +77115,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HPQ",
@@ -77444,7 +77444,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ISRG",
@@ -78013,7 +78013,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LLY",
@@ -78522,7 +78522,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "L",
@@ -78799,7 +78799,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MPC",
@@ -79140,7 +79140,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MGM",
@@ -79297,7 +79297,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MAA",
@@ -79373,7 +79373,7 @@
       "ocf_12q_sum": 1530646000,
       "ni_12q_sum": 1599937000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MNST",
@@ -79522,7 +79522,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MSI",
@@ -80083,7 +80083,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NVR",
@@ -80212,7 +80212,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "OTIS",
@@ -80369,7 +80369,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PLTR",
@@ -81406,7 +81406,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PPG",
@@ -81535,7 +81535,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PPL",
@@ -81664,7 +81664,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PFG",
@@ -82321,7 +82321,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PLD",
@@ -82478,7 +82478,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "Q",
@@ -82635,7 +82635,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "REG",
@@ -82792,7 +82792,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "REGN",
@@ -83141,7 +83141,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RF",
@@ -83250,7 +83250,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SOLV",
@@ -83367,7 +83367,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "STLD",
@@ -83616,7 +83616,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TPL",
@@ -84893,7 +84893,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TKO",
@@ -85770,7 +85770,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TSN",
@@ -85925,7 +85925,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WY",
@@ -86013,7 +86013,7 @@
       "ocf_12q_sum": 2404000000,
       "ni_12q_sum": 1813000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MMM",
@@ -86308,7 +86308,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ABBV",
@@ -86431,7 +86431,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AMD",
@@ -87726,7 +87726,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AFL",
@@ -89021,7 +89021,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AIZ",
@@ -89156,7 +89156,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CPRT",
@@ -89399,7 +89399,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CMI",
@@ -89502,7 +89502,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DHR",
@@ -89857,7 +89857,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EBAY",
@@ -91140,7 +91140,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FERG",
@@ -91383,7 +91383,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FLEX",
@@ -91978,7 +91978,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FOXA",
@@ -92821,7 +92821,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FOX",
@@ -93664,7 +93664,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HPE",
@@ -94287,7 +94287,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IBM",
@@ -94402,7 +94402,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IEX",
@@ -94617,7 +94617,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ICE",
@@ -95220,7 +95220,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "JBL",
@@ -95555,7 +95555,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LRCX",
@@ -95950,7 +95950,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MCK",
@@ -96171,7 +96171,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MCHP",
@@ -97454,7 +97454,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NTRS",
@@ -97881,7 +97881,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ORCL",
@@ -98736,7 +98736,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PEG",
@@ -98919,7 +98919,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SNA",
@@ -99642,7 +99642,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SO",
@@ -99845,7 +99845,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TPR",
@@ -100892,7 +100892,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TXN",
@@ -101055,7 +101055,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WAB",
@@ -101856,7 +101856,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ABT",
@@ -102151,7 +102151,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ARE",
@@ -102678,7 +102678,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AVY",
@@ -102873,7 +102873,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BLK",
@@ -103276,7 +103276,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CTAS",
@@ -103751,7 +103751,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CME",
@@ -105018,7 +105018,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GLW",
@@ -105141,7 +105141,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CSGP",
@@ -105362,7 +105362,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "COST",
@@ -105791,7 +105791,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ETN",
@@ -106146,7 +106146,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IQV",
@@ -106515,7 +106515,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LH",
@@ -106850,7 +106850,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PH",
@@ -107385,7 +107385,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SHW",
@@ -107660,7 +107660,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TTWO",
@@ -108343,7 +108343,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "V",
@@ -108838,7 +108838,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VMC",
@@ -109233,7 +109233,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AVGO",
@@ -109776,7 +109776,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ECL",
@@ -110331,7 +110331,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MRK",
@@ -110920,7 +110920,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MU",
@@ -112215,7 +112215,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NVDA",
@@ -113050,7 +113050,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RJF",
@@ -113265,7 +113265,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SJM",
@@ -113548,7 +113548,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TMO",
@@ -114843,7 +114843,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TFC",
@@ -115038,7 +115038,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "USB",
@@ -115241,7 +115241,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AES",
@@ -115329,7 +115329,7 @@
       "ocf_12q_sum": 6731000000,
       "ni_12q_sum": 2155000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ABNB",
@@ -116599,7 +116599,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "APH",
@@ -116994,7 +116994,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "APA",
@@ -117244,7 +117244,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "APP",
@@ -117734,7 +117734,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BA",
@@ -117897,7 +117897,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BG",
@@ -118380,7 +118380,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BXP",
@@ -118468,7 +118468,7 @@
       "ocf_12q_sum": 2568147000,
       "ni_12q_sum": 873048000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CBRE",
@@ -118611,7 +118611,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CLX",
@@ -118874,7 +118874,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DECK",
@@ -119557,7 +119557,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EXPD",
@@ -119660,7 +119660,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "XOM",
@@ -119748,7 +119748,7 @@
       "ocf_12q_sum": 140898000000,
       "ni_12q_sum": 118486000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FAST",
@@ -120091,7 +120091,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "F",
@@ -120321,7 +120321,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GEHC",
@@ -120844,7 +120844,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GPC",
@@ -121007,7 +121007,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GDDY",
@@ -121382,7 +121382,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HCA",
@@ -121479,7 +121479,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HSIC",
@@ -121602,7 +121602,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HONA",
@@ -121951,7 +121951,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IR",
@@ -122374,7 +122374,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PODD",
@@ -122555,7 +122555,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "INTC",
@@ -122704,7 +122704,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "INVH",
@@ -122794,7 +122794,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KVUE",
@@ -122964,7 +122964,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KMB",
@@ -123154,7 +123154,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KLAC",
@@ -124455,7 +124455,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LULU",
@@ -124549,7 +124549,7 @@
       "ocf_12q_sum": 171524000,
       "ni_12q_sum": 3718988000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MLM",
@@ -124764,7 +124764,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MRVL",
@@ -125707,7 +125707,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MAS",
@@ -125789,7 +125789,7 @@
       "ocf_12q_sum": -1263000000,
       "ni_12q_sum": 2711000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MDLZ",
@@ -125964,7 +125964,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NEE",
@@ -126073,7 +126073,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NOC",
@@ -126396,7 +126396,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NXPI",
@@ -126499,7 +126499,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "OXY",
@@ -126648,7 +126648,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PM",
@@ -126742,7 +126742,7 @@
       "ocf_12q_sum": 4752000000,
       "ni_12q_sum": 29802000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RMD",
@@ -127083,7 +127083,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HOOD",
@@ -128353,7 +128353,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SLB",
@@ -128516,7 +128516,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SWKS",
@@ -128645,7 +128645,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SW",
@@ -129208,7 +129208,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LUV",
@@ -129491,7 +129491,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SYY",
@@ -130694,7 +130694,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TXT",
@@ -130776,7 +130776,7 @@
       "ocf_12q_sum": -746000000,
       "ni_12q_sum": 2785000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TJX",
@@ -130858,7 +130858,7 @@
       "ocf_12q_sum": 770315000,
       "ni_12q_sum": 14173000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "UNP",
@@ -131268,7 +131268,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "UHS",
@@ -131362,7 +131362,7 @@
       "ocf_12q_sum": 4539446000,
       "ni_12q_sum": 3243915000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VLO",
@@ -131523,7 +131523,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VTR",
@@ -131958,7 +131958,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VLTO",
@@ -132388,7 +132388,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VRT",
@@ -132878,7 +132878,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WRB",
@@ -133127,7 +133127,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GWW",
@@ -133230,7 +133230,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WMT",
@@ -133967,7 +133967,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WYNN",
@@ -134070,7 +134070,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AME",
@@ -134219,7 +134219,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "APO",
@@ -134568,7 +134568,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ARES",
@@ -134817,7 +134817,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AZO",
@@ -135006,7 +135006,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BAC",
@@ -136027,7 +136027,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BDX",
@@ -136336,7 +136336,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CAT",
@@ -136745,7 +136745,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CHD",
@@ -137068,7 +137068,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DVA",
@@ -137357,7 +137357,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DVN",
@@ -137532,7 +137532,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DLR",
@@ -137661,7 +137661,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DPZ",
@@ -138250,7 +138250,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GD",
@@ -139245,7 +139245,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HRL",
@@ -139454,7 +139454,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IDXX",
@@ -139655,7 +139655,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "INTU",
@@ -140956,7 +140956,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KKR",
@@ -141225,7 +141225,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LMT",
@@ -141514,7 +141514,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MKC",
@@ -141781,7 +141781,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SBAC",
@@ -141930,7 +141930,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SWK",
@@ -142271,7 +142271,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TT",
@@ -142420,7 +142420,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TRV",
@@ -143029,7 +143029,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VEEV",
@@ -143684,7 +143684,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DIS",
@@ -144401,7 +144401,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WM",
@@ -144616,7 +144616,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WAT",
@@ -144773,7 +144773,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BALL",
@@ -144996,7 +144996,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BRK-B",
@@ -145905,7 +145905,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BE",
@@ -146314,7 +146314,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HLT",
@@ -146683,7 +146683,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LDOS",
@@ -147012,7 +147012,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "META",
@@ -148289,7 +148289,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PNC",
@@ -148438,7 +148438,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RL",
@@ -149379,7 +149379,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TDY",
@@ -149568,7 +149568,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "UAL",
@@ -150171,7 +150171,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ZBRA",
@@ -150320,7 +150320,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GOOGL",
@@ -151609,7 +151609,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GOOG",
@@ -152898,7 +152898,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CRL",
@@ -153595,7 +153595,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CL",
@@ -154472,7 +154472,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FIX",
@@ -154653,7 +154653,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "P",
@@ -155930,7 +155930,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SYK",
@@ -156711,7 +156711,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AJG",
@@ -157100,7 +157100,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BRO",
@@ -157235,7 +157235,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BF-B",
@@ -157323,7 +157323,7 @@
       "ocf_12q_sum": 1300600000,
       "ni_12q_sum": 2645000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SCHW",
@@ -158612,7 +158612,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ED",
@@ -158781,7 +158781,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DE",
@@ -159538,7 +159538,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ERIE",
@@ -159835,7 +159835,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EL",
@@ -160164,7 +160164,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FE",
@@ -160273,7 +160273,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GEV",
@@ -160355,7 +160355,7 @@
       "ocf_12q_sum": null,
       "ni_12q_sum": null,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GNRC",
@@ -161070,7 +161070,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HSY",
@@ -162365,7 +162365,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "INCY",
@@ -163642,7 +163642,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IVZ",
@@ -164351,7 +164351,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "JPM",
@@ -164600,7 +164600,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KHC",
@@ -164676,7 +164676,7 @@
       "ocf_12q_sum": 4349000000,
       "ni_12q_sum": -8016000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LII",
@@ -164773,7 +164773,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MPWR",
@@ -165642,7 +165642,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NDSN",
@@ -165911,7 +165911,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NSC",
@@ -166034,7 +166034,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NCLH",
@@ -166116,7 +166116,7 @@
       "ocf_12q_sum": 3132347000,
       "ni_12q_sum": 1369201000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SPGI",
@@ -166233,7 +166233,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "UPS",
@@ -166327,7 +166327,7 @@
       "ocf_12q_sum": 33780000000,
       "ni_12q_sum": 18535000000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VICI",
@@ -166424,7 +166424,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "YUM",
@@ -166859,7 +166859,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ZTS",
@@ -167014,7 +167014,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ACGL",
@@ -167155,7 +167155,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CFG",
@@ -167590,7 +167590,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KO",
@@ -168171,7 +168171,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EXPE",
@@ -168860,7 +168860,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FSLR",
@@ -169383,7 +169383,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BEN",
@@ -169718,7 +169718,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FCX",
@@ -169975,7 +169975,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GEN",
@@ -170544,7 +170544,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HBAN",
@@ -171607,7 +171607,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HII",
@@ -172150,7 +172150,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KEYS",
@@ -172407,7 +172407,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MDT",
@@ -172890,7 +172890,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MTD",
@@ -173199,7 +173199,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MOS",
@@ -173322,7 +173322,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PANW",
@@ -174031,7 +174031,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "STT",
@@ -174346,7 +174346,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VRSN",
@@ -175647,7 +175647,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "COR",
@@ -175908,7 +175908,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CNC",
@@ -176209,7 +176209,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DASH",
@@ -177486,7 +177486,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "IP",
@@ -177609,7 +177609,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PG",
@@ -178358,7 +178358,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ROST",
@@ -178559,7 +178559,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WDC",
@@ -179866,7 +179866,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "GE",
@@ -180201,7 +180201,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "UBER",
@@ -181496,7 +181496,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ALGN",
@@ -181590,7 +181590,7 @@
       "ocf_12q_sum": 1008231000,
       "ni_12q_sum": 1206950000,
       "recent_transactions": [],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AMCR",
@@ -182307,7 +182307,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ANET",
@@ -183590,7 +183590,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "AXON",
@@ -184873,7 +184873,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CHRW",
@@ -184982,7 +184982,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CDNS",
@@ -185871,7 +185871,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CHTR",
@@ -186166,7 +186166,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FDXF",
@@ -186263,7 +186263,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MRSH",
@@ -186552,7 +186552,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "MRNA",
@@ -187469,7 +187469,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NUE",
@@ -187752,7 +187752,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ON",
@@ -187881,7 +187881,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PCAR",
@@ -188310,7 +188310,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PSKY",
@@ -188767,7 +188767,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RTX",
@@ -189056,7 +189056,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TER",
@@ -189459,7 +189459,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "VTRS",
@@ -189628,7 +189628,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "A",
@@ -189763,7 +189763,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CVNA",
@@ -190998,7 +190998,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HON",
@@ -191919,7 +191919,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NWSA",
@@ -193208,7 +193208,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NWS",
@@ -194497,7 +194497,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PEP",
@@ -194758,7 +194758,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PSX",
@@ -195353,7 +195353,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PSA",
@@ -195508,7 +195508,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "RDDT",
@@ -196791,7 +196791,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BBY",
@@ -197260,7 +197260,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CVX",
@@ -197955,7 +197955,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "JNJ",
@@ -198378,7 +198378,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "KDP",
@@ -198685,7 +198685,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NOW",
@@ -199980,7 +199980,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CAH",
@@ -201175,7 +201175,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "CPAY",
@@ -202238,1296 +202238,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
-    },
-    {
-      "ticker": "CRWD",
-      "cik": 1535527,
-      "name": "CrowdStrike",
-      "composite_score": -2.75,
-      "insider_component": -1.75,
-      "share_count_component": -2.0,
-      "eightk_component": 1.0,
-      "late_filing_component": 0.0,
-      "governance_component": 0.0,
-      "thirteendg_component": 0.0,
-      "financials_component": 0.0,
-      "contributions": [
-        {
-          "category": "insider",
-          "label": "7 discretionary insider sells",
-          "weight": -1.75,
-          "detail": "across 7 filing(s)"
-        },
-        {
-          "category": "share_count",
-          "label": "Share count increased 302.23% QoQ (major dilution)",
-          "weight": -2.0,
-          "detail": ""
-        },
-        {
-          "category": "8k",
-          "label": "1 buyback announcement",
-          "weight": 1.0,
-          "detail": "latest filed 2026-04-06"
-        }
-      ],
-      "insider_buys_count": 0,
-      "insider_sells_count": 7,
-      "insider_buys_value": 0,
-      "insider_sells_value": 44695901.45,
-      "insider_buys_filings": 0,
-      "insider_sells_filings": 7,
-      "excluded_10b5_buys_count": 0,
-      "excluded_10b5_sells_count": 670,
-      "raw_buys_count": 0,
-      "raw_sells_count": 14,
-      "de_minimis_buys_count": 0,
-      "de_minimis_sells_count": 4,
-      "capped_buys_count": 0,
-      "capped_sells_count": 0,
-      "cluster_buyers": 0,
-      "cluster_sellers": 6,
-      "share_count_pct_change": 302.2295154530779,
-      "share_count_latest": 1023934842.0,
-      "share_count_prior": 254564820.0,
-      "share_count_latest_period_end": "2026-08-20",
-      "share_count_prior_period_end": "2026-05-28",
-      "latest_buy_date": null,
-      "latest_sell_date": "2026-09-21",
-      "has_4_02": false,
-      "has_4_01": false,
-      "director_resignations_concerning": 0,
-      "buyback_announcements": 1,
-      "buyback_announcements_raw": 1,
-      "nt_filings_count": 0,
-      "say_on_pay_latest_pct": null,
-      "auditor_ratification_latest_pct": null,
-      "director_max_withhold_latest_pct": null,
-      "has_13d_accumulation": false,
-      "has_13g_accumulation": false,
-      "latest_13d_filer": null,
-      "latest_13g_filer": null,
-      "dps_yoy_change_pct": null,
-      "dps_change_vs_baseline_pct": null,
-      "dps_latest_quarter": null,
-      "dps_prior_baseline": null,
-      "dps_initiation": false,
-      "dps_cut": false,
-      "dps_split_suspected": false,
-      "dividends_paid_yoy_change_pct": null,
-      "dividends_paid_change_vs_baseline_pct": null,
-      "dividends_paid_ttm_latest": null,
-      "gross_margin_yoy_change_bps": null,
-      "ocf_yoy_change_pct": 258.752124407004,
-      "ocf_3yr_cagr_pct": null,
-      "ocf_ttm_3yr_ago": null,
-      "ocf_ni_conversion_3yr": null,
-      "ocf_12q_sum": null,
-      "ni_12q_sum": -121651000,
-      "recent_transactions": [
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 403.0,
-          "price": 261.16,
-          "value": 105247.48000000001,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 168.0,
-          "price": 262.29,
-          "value": 44064.72,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 672.0,
-          "price": 263.4,
-          "value": 177004.8,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 2050.0,
-          "price": 264.34,
-          "value": 541897.0,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 3046.0,
-          "price": 265.33,
-          "value": 808195.1799999999,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 2411.0,
-          "price": 266.25,
-          "value": 641928.75,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 935.0,
-          "price": 267.39,
-          "value": 250009.65,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-10-01",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 315.0,
-          "price": 268.13,
-          "value": 84460.95,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "M",
-          "acquired_disposed": "A",
-          "shares": 12920.0,
-          "price": 0.0,
-          "value": 0.0,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 13274.0,
-          "price": 262.71,
-          "value": 3487212.5399999996,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 30933.0,
-          "price": 263.5,
-          "value": 8150845.5,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 40573.0,
-          "price": 264.39,
-          "value": 10727095.469999999,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 53539.0,
-          "price": 265.39,
-          "value": 14208715.209999999,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 61611.0,
-          "price": 266.53,
-          "value": 16421179.829999998,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 41974.0,
-          "price": 267.29,
-          "value": 11219230.46,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015176",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 40.0,
-          "price": 267.96,
-          "value": 10718.4,
-          "insider_name": "Sentonas Michael",
-          "officer_title": "PRESIDENT",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 533.0,
-          "price": 263.09,
-          "value": 140226.97,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1328.0,
-          "price": 264.23,
-          "value": 350897.44,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 4066.0,
-          "price": 265.21,
-          "value": 1078343.8599999999,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 2049.0,
-          "price": 266.2,
-          "value": 545443.7999999999,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1432.0,
-          "price": 267.2,
-          "value": 382630.39999999997,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 506.0,
-          "price": 268.05,
-          "value": 135633.30000000002,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-30",
-          "filed_date": "2026-10-02",
-          "accession": "0000950103-26-015151",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 86.0,
-          "price": 268.81,
-          "value": 23117.66,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-29",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 315.0,
-          "price": 256.42,
-          "value": 80772.3,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-29",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 645.0,
-          "price": 257.35,
-          "value": 165990.75000000003,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-29",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1440.0,
-          "price": 258.63,
-          "value": 372427.2,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-29",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 3355.0,
-          "price": 259.5,
-          "value": 870622.5,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-29",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 2163.0,
-          "price": 260.41,
-          "value": 563266.8300000001,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-29",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 842.0,
-          "price": 261.49,
-          "value": 220174.58000000002,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-29",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1240.0,
-          "price": 262.42,
-          "value": 325400.80000000005,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 204.0,
-          "price": 248.24,
-          "value": 50640.96,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 382.0,
-          "price": 249.81,
-          "value": 95427.42,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 460.0,
-          "price": 251.76,
-          "value": 115809.59999999999,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1146.0,
-          "price": 252.56,
-          "value": 289433.76,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1234.0,
-          "price": 253.71,
-          "value": 313078.14,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 459.0,
-          "price": 254.79,
-          "value": 116948.61,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 293.0,
-          "price": 255.99,
-          "value": 75005.07,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 256.0,
-          "price": 256.99,
-          "value": 65789.44,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 565.0,
-          "price": 258.01,
-          "value": 145775.65,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 3530.0,
-          "price": 259.26,
-          "value": 915187.7999999999,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-28",
-          "filed_date": "2026-09-30",
-          "accession": "0001778564-26-000175",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1471.0,
-          "price": 259.88,
-          "value": 382283.48,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1600.0,
-          "price": 252.15,
-          "value": 403440.0,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 560.0,
-          "price": 253.3,
-          "value": 141848.0,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 960.0,
-          "price": 254.2,
-          "value": 244032.0,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 3424.0,
-          "price": 255.22,
-          "value": 873873.28,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1856.0,
-          "price": 256.14,
-          "value": 475395.83999999997,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1040.0,
-          "price": 257.11,
-          "value": 267394.4,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 400.0,
-          "price": 258.06,
-          "value": 103224.0,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-25",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 160.0,
-          "price": 259.05,
-          "value": 41448.0,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 2344.0,
-          "price": 259.47,
-          "value": 608197.68,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1474.0,
-          "price": 260.3,
-          "value": 383682.2,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 2424.0,
-          "price": 261.26,
-          "value": 633294.24,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 2758.0,
-          "price": 262.25,
-          "value": 723285.5,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-28",
-          "accession": "0001778564-26-000173",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 1000.0,
-          "price": 263.24,
-          "value": 263240.0,
-          "insider_name": "Kurtz George",
-          "officer_title": "PRESIDENT AND CEO",
-          "is_director": true,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-25",
-          "accession": "0001778610-26-000024",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 74007.0,
-          "price": 259.35,
-          "value": 19193715.450000003,
-          "insider_name": "Podbere Burt W.",
-          "officer_title": "CHIEF FINANCIAL OFFICER",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-25",
-          "accession": "0001778610-26-000024",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 62156.0,
-          "price": 260.25,
-          "value": 16176099.0,
-          "insider_name": "Podbere Burt W.",
-          "officer_title": "CHIEF FINANCIAL OFFICER",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-25",
-          "accession": "0001778610-26-000024",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 114668.0,
-          "price": 261.19,
-          "value": 29950134.919999998,
-          "insider_name": "Podbere Burt W.",
-          "officer_title": "CHIEF FINANCIAL OFFICER",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-25",
-          "accession": "0001778610-26-000024",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 69169.0,
-          "price": 262.29,
-          "value": 18142337.01,
-          "insider_name": "Podbere Burt W.",
-          "officer_title": "CHIEF FINANCIAL OFFICER",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-25",
-          "accession": "0001778610-26-000024",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 62000.0,
-          "price": 262.25,
-          "value": 16259500.0,
-          "insider_name": "Podbere Burt W.",
-          "officer_title": "CHIEF FINANCIAL OFFICER",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        },
-        {
-          "transaction_date": "2026-09-24",
-          "filed_date": "2026-09-25",
-          "accession": "0001778610-26-000024",
-          "transaction_code": "S",
-          "acquired_disposed": "D",
-          "shares": 62000.0,
-          "price": 262.72,
-          "value": 16288640.000000002,
-          "insider_name": "Podbere Burt W.",
-          "officer_title": "CHIEF FINANCIAL OFFICER",
-          "is_director": false,
-          "is_officer": true,
-          "is_ten_percent_owner": false,
-          "is_10b5_1": true,
-          "is_price_anomaly": false,
-          "is_programmatic_buyer": false,
-          "counted_as_buy": false,
-          "counted_as_sell": false
-        }
-      ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TGT",
@@ -203756,7 +202467,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "WBD",
@@ -204413,7 +203124,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ADM",
@@ -204556,7 +203267,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DELL",
@@ -205857,7 +204568,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DOW",
@@ -205960,7 +204671,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FISV",
@@ -206109,7 +204820,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HAL",
@@ -206278,7 +204989,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LHX",
@@ -206433,7 +205144,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LITE",
@@ -207716,7 +206427,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NKE",
@@ -208625,7 +207336,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "PNR",
@@ -208826,7 +207537,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ROL",
@@ -209069,7 +207780,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "STX",
@@ -210370,7 +209081,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SMCI",
@@ -211385,7 +210096,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "DDOG",
@@ -212668,7 +211379,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FTV",
@@ -212837,7 +211548,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "TSLA",
@@ -212966,7 +211677,1290 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
+    },
+    {
+      "ticker": "CRWD",
+      "cik": 1535527,
+      "name": "CrowdStrike",
+      "composite_score": -3.75,
+      "insider_component": -1.75,
+      "share_count_component": -2.0,
+      "eightk_component": 0.0,
+      "late_filing_component": 0.0,
+      "governance_component": 0.0,
+      "thirteendg_component": 0.0,
+      "financials_component": 0.0,
+      "contributions": [
+        {
+          "category": "insider",
+          "label": "7 discretionary insider sells",
+          "weight": -1.75,
+          "detail": "across 7 filing(s)"
+        },
+        {
+          "category": "share_count",
+          "label": "Share count increased 302.23% QoQ (major dilution)",
+          "weight": -2.0,
+          "detail": ""
+        }
+      ],
+      "insider_buys_count": 0,
+      "insider_sells_count": 7,
+      "insider_buys_value": 0,
+      "insider_sells_value": 44695901.45,
+      "insider_buys_filings": 0,
+      "insider_sells_filings": 7,
+      "excluded_10b5_buys_count": 0,
+      "excluded_10b5_sells_count": 670,
+      "raw_buys_count": 0,
+      "raw_sells_count": 14,
+      "de_minimis_buys_count": 0,
+      "de_minimis_sells_count": 4,
+      "capped_buys_count": 0,
+      "capped_sells_count": 0,
+      "cluster_buyers": 0,
+      "cluster_sellers": 6,
+      "share_count_pct_change": 302.2295154530779,
+      "share_count_latest": 1023934842.0,
+      "share_count_prior": 254564820.0,
+      "share_count_latest_period_end": "2026-08-20",
+      "share_count_prior_period_end": "2026-05-28",
+      "latest_buy_date": null,
+      "latest_sell_date": "2026-09-21",
+      "has_4_02": false,
+      "has_4_01": false,
+      "director_resignations_concerning": 0,
+      "buyback_announcements": 0,
+      "buyback_announcements_raw": 0,
+      "nt_filings_count": 0,
+      "say_on_pay_latest_pct": null,
+      "auditor_ratification_latest_pct": null,
+      "director_max_withhold_latest_pct": null,
+      "has_13d_accumulation": false,
+      "has_13g_accumulation": false,
+      "latest_13d_filer": null,
+      "latest_13g_filer": null,
+      "dps_yoy_change_pct": null,
+      "dps_change_vs_baseline_pct": null,
+      "dps_latest_quarter": null,
+      "dps_prior_baseline": null,
+      "dps_initiation": false,
+      "dps_cut": false,
+      "dps_split_suspected": false,
+      "dividends_paid_yoy_change_pct": null,
+      "dividends_paid_change_vs_baseline_pct": null,
+      "dividends_paid_ttm_latest": null,
+      "gross_margin_yoy_change_bps": null,
+      "ocf_yoy_change_pct": 258.752124407004,
+      "ocf_3yr_cagr_pct": null,
+      "ocf_ttm_3yr_ago": null,
+      "ocf_ni_conversion_3yr": null,
+      "ocf_12q_sum": null,
+      "ni_12q_sum": -121651000,
+      "recent_transactions": [
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 403.0,
+          "price": 261.16,
+          "value": 105247.48000000001,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 168.0,
+          "price": 262.29,
+          "value": 44064.72,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 672.0,
+          "price": 263.4,
+          "value": 177004.8,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 2050.0,
+          "price": 264.34,
+          "value": 541897.0,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 3046.0,
+          "price": 265.33,
+          "value": 808195.1799999999,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 2411.0,
+          "price": 266.25,
+          "value": 641928.75,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 935.0,
+          "price": 267.39,
+          "value": 250009.65,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-10-01",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 315.0,
+          "price": 268.13,
+          "value": 84460.95,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "M",
+          "acquired_disposed": "A",
+          "shares": 12920.0,
+          "price": 0.0,
+          "value": 0.0,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 13274.0,
+          "price": 262.71,
+          "value": 3487212.5399999996,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 30933.0,
+          "price": 263.5,
+          "value": 8150845.5,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 40573.0,
+          "price": 264.39,
+          "value": 10727095.469999999,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 53539.0,
+          "price": 265.39,
+          "value": 14208715.209999999,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 61611.0,
+          "price": 266.53,
+          "value": 16421179.829999998,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 41974.0,
+          "price": 267.29,
+          "value": 11219230.46,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015176",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 40.0,
+          "price": 267.96,
+          "value": 10718.4,
+          "insider_name": "Sentonas Michael",
+          "officer_title": "PRESIDENT",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 533.0,
+          "price": 263.09,
+          "value": 140226.97,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1328.0,
+          "price": 264.23,
+          "value": 350897.44,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 4066.0,
+          "price": 265.21,
+          "value": 1078343.8599999999,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 2049.0,
+          "price": 266.2,
+          "value": 545443.7999999999,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1432.0,
+          "price": 267.2,
+          "value": 382630.39999999997,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 506.0,
+          "price": 268.05,
+          "value": 135633.30000000002,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-30",
+          "filed_date": "2026-10-02",
+          "accession": "0000950103-26-015151",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 86.0,
+          "price": 268.81,
+          "value": 23117.66,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-29",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 315.0,
+          "price": 256.42,
+          "value": 80772.3,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-29",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 645.0,
+          "price": 257.35,
+          "value": 165990.75000000003,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-29",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1440.0,
+          "price": 258.63,
+          "value": 372427.2,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-29",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 3355.0,
+          "price": 259.5,
+          "value": 870622.5,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-29",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 2163.0,
+          "price": 260.41,
+          "value": 563266.8300000001,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-29",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 842.0,
+          "price": 261.49,
+          "value": 220174.58000000002,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-29",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1240.0,
+          "price": 262.42,
+          "value": 325400.80000000005,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 204.0,
+          "price": 248.24,
+          "value": 50640.96,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 382.0,
+          "price": 249.81,
+          "value": 95427.42,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 460.0,
+          "price": 251.76,
+          "value": 115809.59999999999,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1146.0,
+          "price": 252.56,
+          "value": 289433.76,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1234.0,
+          "price": 253.71,
+          "value": 313078.14,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 459.0,
+          "price": 254.79,
+          "value": 116948.61,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 293.0,
+          "price": 255.99,
+          "value": 75005.07,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 256.0,
+          "price": 256.99,
+          "value": 65789.44,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 565.0,
+          "price": 258.01,
+          "value": 145775.65,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 3530.0,
+          "price": 259.26,
+          "value": 915187.7999999999,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-28",
+          "filed_date": "2026-09-30",
+          "accession": "0001778564-26-000175",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1471.0,
+          "price": 259.88,
+          "value": 382283.48,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1600.0,
+          "price": 252.15,
+          "value": 403440.0,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 560.0,
+          "price": 253.3,
+          "value": 141848.0,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 960.0,
+          "price": 254.2,
+          "value": 244032.0,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 3424.0,
+          "price": 255.22,
+          "value": 873873.28,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1856.0,
+          "price": 256.14,
+          "value": 475395.83999999997,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1040.0,
+          "price": 257.11,
+          "value": 267394.4,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 400.0,
+          "price": 258.06,
+          "value": 103224.0,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-25",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 160.0,
+          "price": 259.05,
+          "value": 41448.0,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 2344.0,
+          "price": 259.47,
+          "value": 608197.68,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1474.0,
+          "price": 260.3,
+          "value": 383682.2,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 2424.0,
+          "price": 261.26,
+          "value": 633294.24,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 2758.0,
+          "price": 262.25,
+          "value": 723285.5,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-28",
+          "accession": "0001778564-26-000173",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 1000.0,
+          "price": 263.24,
+          "value": 263240.0,
+          "insider_name": "Kurtz George",
+          "officer_title": "PRESIDENT AND CEO",
+          "is_director": true,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-25",
+          "accession": "0001778610-26-000024",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 74007.0,
+          "price": 259.35,
+          "value": 19193715.450000003,
+          "insider_name": "Podbere Burt W.",
+          "officer_title": "CHIEF FINANCIAL OFFICER",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-25",
+          "accession": "0001778610-26-000024",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 62156.0,
+          "price": 260.25,
+          "value": 16176099.0,
+          "insider_name": "Podbere Burt W.",
+          "officer_title": "CHIEF FINANCIAL OFFICER",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-25",
+          "accession": "0001778610-26-000024",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 114668.0,
+          "price": 261.19,
+          "value": 29950134.919999998,
+          "insider_name": "Podbere Burt W.",
+          "officer_title": "CHIEF FINANCIAL OFFICER",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-25",
+          "accession": "0001778610-26-000024",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 69169.0,
+          "price": 262.29,
+          "value": 18142337.01,
+          "insider_name": "Podbere Burt W.",
+          "officer_title": "CHIEF FINANCIAL OFFICER",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-25",
+          "accession": "0001778610-26-000024",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 62000.0,
+          "price": 262.25,
+          "value": 16259500.0,
+          "insider_name": "Podbere Burt W.",
+          "officer_title": "CHIEF FINANCIAL OFFICER",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        },
+        {
+          "transaction_date": "2026-09-24",
+          "filed_date": "2026-09-25",
+          "accession": "0001778610-26-000024",
+          "transaction_code": "S",
+          "acquired_disposed": "D",
+          "shares": 62000.0,
+          "price": 262.72,
+          "value": 16288640.000000002,
+          "insider_name": "Podbere Burt W.",
+          "officer_title": "CHIEF FINANCIAL OFFICER",
+          "is_director": false,
+          "is_officer": true,
+          "is_ten_percent_owner": false,
+          "is_10b5_1": true,
+          "is_price_anomaly": false,
+          "is_programmatic_buyer": false,
+          "counted_as_buy": false,
+          "counted_as_sell": false
+        }
+      ],
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "EW",
@@ -213575,7 +213569,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "BAX",
@@ -213724,7 +213718,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "HAS",
@@ -214187,7 +214181,7 @@
           "counted_as_sell": true
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "LYB",
@@ -214368,7 +214362,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "NRG",
@@ -214843,7 +214837,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "FANG",
@@ -215412,7 +215406,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "ULTA",
@@ -215587,7 +215581,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "COIN",
@@ -216856,7 +216850,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     },
     {
       "ticker": "SNPS",
@@ -217311,7 +217305,7 @@
           "counted_as_sell": false
         }
       ],
-      "last_updated": "2026-10-03"
+      "last_updated": "2026-10-04"
     }
   ],
   "universe_changes": {
