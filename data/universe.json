@@ -2501,13 +2501,6 @@
       "removed_date": null
     },
     {
-      "ticker": "SKYD",
-      "name": "Paramount Skydance Corporation",
-      "cik": null,
-      "added_date": "2026-10-08",
-      "removed_date": null
-    },
-    {
       "ticker": "PH",
       "name": "Parker Hannifin",
       "cik": 76334,
@@ -2876,6 +2869,13 @@
       "name": "Simon Property Group",
       "cik": 1063761,
       "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "SKYD",
+      "name": "Paramount Skydance Corporation",
+      "cik": null,
+      "added_date": "2026-10-08",
       "removed_date": null
     },
     {
