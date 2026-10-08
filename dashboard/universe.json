@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "current_members": [
     {
       "ticker": "MMM",
@@ -894,13 +894,6 @@
       "ticker": "CPAY",
       "name": "Corpay",
       "cik": 1175454,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
-      "ticker": "CTVA",
-      "name": "Corteva",
-      "cik": 1755672,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -2508,10 +2501,10 @@
       "removed_date": null
     },
     {
-      "ticker": "PSKY",
+      "ticker": "SKYD",
       "name": "Paramount Skydance Corporation",
-      "cik": 2041610,
-      "added_date": "2026-05-17",
+      "cik": null,
+      "added_date": "2026-10-08",
       "removed_date": null
     },
     {
@@ -3159,6 +3152,13 @@
       "removed_date": null
     },
     {
+      "ticker": "TWLO",
+      "name": "Twilio",
+      "cik": 1447669,
+      "added_date": "2026-10-08",
+      "removed_date": null
+    },
+    {
       "ticker": "TYL",
       "name": "Tyler Technologies",
       "cik": 860731,
@@ -3348,6 +3348,13 @@
       "removed_date": null
     },
     {
+      "ticker": "VYLR",
+      "name": "Vylor",
+      "cik": 2128626,
+      "added_date": "2026-10-08",
+      "removed_date": null
+    },
+    {
       "ticker": "WRB",
       "name": "W. R. Berkley Corporation",
       "cik": 11544,
@@ -3379,13 +3386,6 @@
       "ticker": "DIS",
       "name": "Walt Disney Company (The)",
       "cik": 1744489,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
-      "ticker": "WBD",
-      "name": "Warner Bros. Discovery",
-      "cik": 1437107,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -3607,6 +3607,27 @@
       "cik": 1671933,
       "added_date": "2026-05-17",
       "removed_date": "2026-09-21"
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "cik": 1755672,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-10-08"
+    },
+    {
+      "ticker": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "cik": 2041610,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-10-08"
+    },
+    {
+      "ticker": "WBD",
+      "name": "Warner Bros. Discovery",
+      "cik": 1437107,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-10-08"
     }
   ]
 }
