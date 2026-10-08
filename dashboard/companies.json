@@ -192856,7 +192856,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-10-07 (capped from 98 announcements in window)"
+          "detail": "latest filed 2026-10-08 (capped from 98 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -194145,7 +194145,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-10-07 (capped from 98 announcements in window)"
+          "detail": "latest filed 2026-10-08 (capped from 98 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -195432,7 +195432,7 @@
         },
         {
           "category": "financial",
-          "label": "Gross margin compressed YoY (-113 bps)",
+          "label": "Gross margin compressed YoY (-111 bps)",
           "weight": -1.0,
           "detail": ""
         },
@@ -195465,11 +195465,11 @@
       "capped_sells_count": 0,
       "cluster_buyers": 0,
       "cluster_sellers": 1,
-      "share_count_pct_change": -0.13731346998631586,
-      "share_count_latest": 1364891558.0,
-      "share_count_prior": 1366768315.0,
-      "share_count_latest_period_end": "2026-07-02",
-      "share_count_prior_period_end": "2026-04-09",
+      "share_count_pct_change": -0.15755581367585836,
+      "share_count_latest": 1362741092.0,
+      "share_count_prior": 1364891558.0,
+      "share_count_latest_period_end": "2026-10-01",
+      "share_count_prior_period_end": "2026-07-02",
       "latest_buy_date": null,
       "latest_sell_date": "2026-07-27",
       "has_4_02": false,
@@ -195485,7 +195485,7 @@
       "has_13g_accumulation": false,
       "latest_13d_filer": null,
       "latest_13g_filer": null,
-      "dps_yoy_change_pct": 7.833020637898695,
+      "dps_yoy_change_pct": 5.785876993166285,
       "dps_change_vs_baseline_pct": 4.042179261862909,
       "dps_latest_quarter": 1.48,
       "dps_prior_baseline": 1.4225,
@@ -195495,13 +195495,13 @@
       "dividends_paid_yoy_change_pct": 28.637577916295637,
       "dividends_paid_change_vs_baseline_pct": 16.503703703703703,
       "dividends_paid_ttm_latest": 7223000000,
-      "gross_margin_yoy_change_bps": -112.64033494505838,
+      "gross_margin_yoy_change_bps": -110.98559999528516,
       "ocf_yoy_change_pct": -19.02365374937091,
       "ocf_3yr_cagr_pct": -100.0,
       "ocf_ttm_3yr_ago": 573000000,
-      "ocf_ni_conversion_3yr": -0.1787249889968514,
+      "ocf_ni_conversion_3yr": -0.1766556235987016,
       "ocf_12q_sum": -5279000000,
-      "ni_12q_sum": 29537000000,
+      "ni_12q_sum": 29883000000,
       "recent_transactions": [
         {
           "transaction_date": "2026-10-01",
@@ -219827,33 +219827,7 @@
     }
   ],
   "universe_changes": {
-    "added": [
-      {
-        "ticker": "SKYD",
-        "name": "Paramount Skydance Corporation"
-      },
-      {
-        "ticker": "TWLO",
-        "name": "Twilio"
-      },
-      {
-        "ticker": "VYLR",
-        "name": "Vylor"
-      }
-    ],
-    "removed": [
-      {
-        "ticker": "CTVA",
-        "name": "Corteva"
-      },
-      {
-        "ticker": "PSKY",
-        "name": "Paramount Skydance Corporation"
-      },
-      {
-        "ticker": "WBD",
-        "name": "Warner Bros. Discovery"
-      }
-    ]
+    "added": [],
+    "removed": []
   }
 }
