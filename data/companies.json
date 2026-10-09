@@ -112930,11 +112930,11 @@
       "capped_sells_count": 0,
       "cluster_buyers": 0,
       "cluster_sellers": 3,
-      "share_count_pct_change": 0.14711801940615518,
-      "share_count_latest": 1129393151.0,
-      "share_count_prior": 1127734051.0,
-      "share_count_latest_period_end": "2026-06-17",
-      "share_count_prior_period_end": "2026-03-11",
+      "share_count_pct_change": 0.17974794678031475,
+      "share_count_latest": 1131423212.0,
+      "share_count_prior": 1129393151.0,
+      "share_count_latest_period_end": "2026-10-02",
+      "share_count_prior_period_end": "2026-06-17",
       "latest_buy_date": null,
       "latest_sell_date": "2026-08-18",
       "has_4_02": false,
@@ -193303,7 +193303,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-10-08 (capped from 98 announcements in window)"
+          "detail": "latest filed 2026-10-09 (capped from 98 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
@@ -194592,7 +194592,7 @@
           "category": "8k",
           "label": "1 buyback announcement",
           "weight": 1.0,
-          "detail": "latest filed 2026-10-08 (capped from 98 announcements in window)"
+          "detail": "latest filed 2026-10-09 (capped from 98 announcements in window)"
         }
       ],
       "insider_buys_count": 0,
