@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "current_members": [
     {
       "ticker": "MMM",
@@ -2655,9 +2655,9 @@
       "removed_date": null
     },
     {
-      "ticker": "PWR",
-      "name": "Quanta Services",
-      "cik": 1050915,
+      "ticker": "Q",
+      "name": "Qnity Electronics",
+      "cik": 2058873,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -2669,16 +2669,16 @@
       "removed_date": null
     },
     {
-      "ticker": "DGX",
-      "name": "Quest Diagnostics",
-      "cik": 1022079,
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "cik": 1050915,
       "added_date": "2026-05-17",
       "removed_date": null
     },
     {
-      "ticker": "Q",
-      "name": "Qnity Electronics",
-      "cik": 2058873,
+      "ticker": "DGX",
+      "name": "Quest Diagnostics",
+      "cik": 1022079,
       "added_date": "2026-05-17",
       "removed_date": null
     },
@@ -2701,13 +2701,6 @@
       "name": "Reddit",
       "cik": 1713445,
       "added_date": "2026-08-18",
-      "removed_date": null
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX Corporation",
-      "cik": 101829,
-      "added_date": "2026-05-17",
       "removed_date": null
     },
     {
@@ -2798,6 +2791,13 @@
       "ticker": "RCL",
       "name": "Royal Caribbean Group",
       "cik": 884887,
+      "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "cik": 101829,
       "added_date": "2026-05-17",
       "removed_date": null
     },
