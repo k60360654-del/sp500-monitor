@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-05",
   "current_members": [
     {
       "ticker": "MMM",
@@ -1885,13 +1885,6 @@
       "removed_date": null
     },
     {
-      "ticker": "KVUE",
-      "name": "Kenvue",
-      "cik": 1944048,
-      "added_date": "2026-05-17",
-      "removed_date": null
-    },
-    {
       "ticker": "KDP",
       "name": "Keurig Dr Pepper",
       "cik": 1418135,
@@ -2428,6 +2421,13 @@
       "name": "Occidental Petroleum",
       "cik": 797468,
       "added_date": "2026-05-17",
+      "removed_date": null
+    },
+    {
+      "ticker": "OKTA",
+      "name": "Okta, Inc.",
+      "cik": 1660134,
+      "added_date": "2026-11-05",
       "removed_date": null
     },
     {
@@ -3628,6 +3628,13 @@
       "cik": 1437107,
       "added_date": "2026-05-17",
       "removed_date": "2026-10-08"
+    },
+    {
+      "ticker": "KVUE",
+      "name": "Kenvue",
+      "cik": 1944048,
+      "added_date": "2026-05-17",
+      "removed_date": "2026-11-05"
     }
   ]
 }
