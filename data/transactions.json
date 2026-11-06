@@ -1230363,6 +1230363,44 @@
       "officer_title": "EVP, Chief Operations Officer",
       "is_discretionary_buy": false,
       "is_discretionary_sell": false
+    },
+    {
+      "cik": 1413447,
+      "accession": "0001831914-26-000009",
+      "filed_date": "2026-11-06",
+      "transaction_date": "2026-11-04",
+      "transaction_code": "G",
+      "shares": 188.0,
+      "price_per_share": 0.0,
+      "value": 0.0,
+      "acquired_disposed": "D",
+      "is_10b5_1": false,
+      "insider_name": "Foxx Anthony R",
+      "is_director": true,
+      "is_officer": false,
+      "is_ten_percent_owner": false,
+      "officer_title": "",
+      "is_discretionary_buy": false,
+      "is_discretionary_sell": false
+    },
+    {
+      "cik": 1413447,
+      "accession": "0001831914-26-000009",
+      "filed_date": "2026-11-06",
+      "transaction_date": "2026-11-04",
+      "transaction_code": "S",
+      "shares": 400.0,
+      "price_per_share": 263.6,
+      "value": 105440.00000000001,
+      "acquired_disposed": "D",
+      "is_10b5_1": false,
+      "insider_name": "Foxx Anthony R",
+      "is_director": true,
+      "is_officer": false,
+      "is_ten_percent_owner": false,
+      "officer_title": "",
+      "is_discretionary_buy": false,
+      "is_discretionary_sell": true
     }
   ],
   "898173": [
@@ -1248089,6 +1248127,25 @@
       "officer_title": "CHIEF EXECUTIVE OFFICER",
       "is_discretionary_buy": false,
       "is_discretionary_sell": false
+    },
+    {
+      "cik": 75362,
+      "accession": "0001225208-26-008740",
+      "filed_date": "2026-11-06",
+      "transaction_date": "2026-11-04",
+      "transaction_code": "S",
+      "shares": 0.434,
+      "price_per_share": 106.13,
+      "value": 46.06042,
+      "acquired_disposed": "D",
+      "is_10b5_1": false,
+      "insider_name": "PIGOTT MARK C",
+      "is_director": true,
+      "is_officer": true,
+      "is_ten_percent_owner": false,
+      "officer_title": "Executive Chairman",
+      "is_discretionary_buy": false,
+      "is_discretionary_sell": true
     }
   ],
   "75677": [
