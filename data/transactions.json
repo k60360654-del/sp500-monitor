@@ -38642,6 +38642,44 @@
       "officer_title": "",
       "is_discretionary_buy": false,
       "is_discretionary_sell": false
+    },
+    {
+      "cik": 4977,
+      "accession": "0001104659-26-130427",
+      "filed_date": "2026-11-20",
+      "transaction_date": "2026-11-18",
+      "transaction_code": "S",
+      "shares": 13650.0,
+      "price_per_share": 125.54,
+      "value": 1713621.0,
+      "acquired_disposed": "D",
+      "is_10b5_1": true,
+      "insider_name": "Japan Post Holdings Co., Ltd.",
+      "is_director": false,
+      "is_officer": false,
+      "is_ten_percent_owner": true,
+      "officer_title": "",
+      "is_discretionary_buy": false,
+      "is_discretionary_sell": false
+    },
+    {
+      "cik": 4977,
+      "accession": "0001104659-26-130427",
+      "filed_date": "2026-11-20",
+      "transaction_date": "2026-11-18",
+      "transaction_code": "S",
+      "shares": 1350.0,
+      "price_per_share": 126.38,
+      "value": 170613.0,
+      "acquired_disposed": "D",
+      "is_10b5_1": true,
+      "insider_name": "Japan Post Holdings Co., Ltd.",
+      "is_director": false,
+      "is_officer": false,
+      "is_ten_percent_owner": true,
+      "officer_title": "",
+      "is_discretionary_buy": false,
+      "is_discretionary_sell": false
     }
   ],
   "1090872": [
@@ -734345,6 +734383,25 @@
       "officer_title": "EVP & Chief Digital Info Ofr",
       "is_discretionary_buy": false,
       "is_discretionary_sell": true
+    },
+    {
+      "cik": 1156039,
+      "accession": "0001192045-26-000006",
+      "filed_date": "2026-11-20",
+      "transaction_date": "2026-11-19",
+      "transaction_code": "P",
+      "shares": 1000.0,
+      "price_per_share": 383.86,
+      "value": 383860.0,
+      "acquired_disposed": "A",
+      "is_10b5_1": false,
+      "insider_name": "PERU RAMIRO G",
+      "is_director": true,
+      "is_officer": false,
+      "is_ten_percent_owner": false,
+      "officer_title": "",
+      "is_discretionary_buy": true,
+      "is_discretionary_sell": false
     }
   ],
   "105634": [
